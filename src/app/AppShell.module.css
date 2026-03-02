@@ -1,0 +1,208 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(8px);
+  background: color-mix(in srgb, var(--color-bg) 84%, white);
+  border-bottom: 1px solid var(--color-outline);
+}
+
+:global(:root[data-preset='restaurant']) .header {
+  background: rgba(10, 13, 19, 0.88);
+  border-bottom-color: #2e3744;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 76px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brandMark {
+  width: 2.45rem;
+  height: 2.45rem;
+  border-radius: 0.8rem;
+  background: linear-gradient(160deg, var(--color-accent), var(--color-accent-strong));
+  color: white;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+:global(:root[data-preset='restaurant']) .brandMark {
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff6335, #c1382d);
+}
+
+.brandText {
+  display: grid;
+  gap: 0.08rem;
+}
+
+.brandText strong {
+  font-size: 0.96rem;
+  color: var(--color-text);
+}
+
+:global(:root[data-preset='restaurant']) .brandText strong {
+  color: #f5f8ff;
+}
+
+.brandText small {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+:global(:root[data-preset='restaurant']) .brandText small {
+  color: #b8c2d2;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.25rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-outline);
+  background: var(--color-surface);
+}
+
+:global(:root[data-preset='restaurant']) .nav {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: #2f3846;
+}
+
+.navLink {
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+:global(:root[data-preset='restaurant']) .navLink {
+  color: #d5dceb;
+}
+
+.active {
+  color: var(--color-accent-strong);
+  background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+}
+
+:global(:root[data-preset='restaurant']) .active {
+  color: #fff;
+  background: linear-gradient(140deg, #ff6335, #d44832);
+}
+
+.callPill {
+  border: 1px solid color-mix(in srgb, var(--color-accent) 42%, transparent);
+  background: color-mix(in srgb, var(--color-accent) 10%, white);
+  color: var(--color-accent-strong);
+  padding: 0.48rem 0.85rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+:global(:root[data-preset='restaurant']) .callPill {
+  border-color: #fe7244;
+  background: linear-gradient(140deg, #ff6335, #d44832);
+  color: #fff;
+}
+
+.main {
+  padding: clamp(1.15rem, 2.3vw, 2.1rem) 0 4rem;
+  display: grid;
+  gap: 1.4rem;
+}
+
+.footer {
+  border-top: 1px solid var(--color-outline);
+  margin-top: 2rem;
+  padding: 1.2rem 0 2.2rem;
+}
+
+:global(:root[data-preset='restaurant']) .footer {
+  border-top-color: #2f3948;
+  background: #0e131c;
+}
+
+.footerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footerLead {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+:global(:root[data-preset='restaurant']) .footerLead {
+  color: #edf1fa;
+}
+
+.footerMuted {
+  font-size: 0.9rem;
+}
+
+:global(:root[data-preset='restaurant']) .footerMuted {
+  color: #afbbcd;
+}
+
+.footerMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+:global(:root[data-preset='restaurant']) .footerMeta {
+  color: #d9e0ee;
+}
+
+@media (max-width: 920px) {
+  .headerInner {
+    flex-wrap: wrap;
+    padding: 0.7rem 0;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .callPill {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav {
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .footerInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footerMeta {
+    align-items: flex-start;
+  }
+}
