@@ -427,16 +427,109 @@ export function buildMarkdownDigest({
   return [...header, ...body].join('\n').trimEnd() + '\n';
 }
 
+function normalizeRepoUrl(value) {
+  return value.replace(/\.git$/u, '').replace(/\/$/u, '');
+}
+
+function buildRepoFileUrl(repoUrl, repoBranch, filePath) {
+  const normalizedRepoUrl = normalizeRepoUrl(repoUrl);
+  const encodedSegments = filePath.split('/').map((segment) => encodeURIComponent(segment)).join('/');
+  return `${normalizedRepoUrl}/blob/${encodeURIComponent(repoBranch)}/${encodedSegments}`;
+}
+
+export function buildTelegramReplyMarkup({
+  generatedAt,
+  articles,
+  repoUrl = '',
+  repoBranch = 'main',
+}) {
+  if (!repoUrl) {
+    return null;
+  }
+
+  const dateSlug = generatedAt.slice(0, 10);
+  const lead = articles[0];
+  const backup = articles[1];
+
+  const keyboard = [
+    [
+      {
+        text: 'Open Brief',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-daily-posting-brief.md`),
+      },
+      {
+        text: 'Open QA',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-quality-report.md`),
+      },
+    ],
+    [
+      {
+        text: 'Open Reel',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-instagram-reel.md`),
+      },
+      {
+        text: 'Open Newsletter',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-newsletter.md`),
+      },
+    ],
+  ];
+
+  if (lead || backup) {
+    keyboard.unshift(
+      [
+        ...(lead
+          ? [
+              {
+                text: 'Lead Story',
+                url: lead.link,
+              },
+            ]
+          : []),
+        ...(backup
+          ? [
+              {
+                text: 'Backup Story',
+                url: backup.link,
+              },
+            ]
+          : []),
+      ],
+    );
+  }
+
+  return {
+    inline_keyboard: keyboard,
+  };
+}
+
 export function buildTelegramNotification({
   generatedAt,
   articles,
   voice = DEFAULT_VOICE,
+  repoUrl = '',
+  repoBranch = 'main',
 }) {
   const voiceProfile = resolveVoiceProfile(voice);
   const lead = articles[0];
   const backup = articles[1];
-  const topLinks = articles.slice(0, 3);
+  const topLinks = articles.slice(0, 2);
   const dateLabel = generatedAt.slice(0, 10);
+  const packLinks = repoUrl
+    ? [
+        {
+          label: 'Brief',
+          url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-daily-posting-brief.md`),
+        },
+        {
+          label: 'QA',
+          url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-quality-report.md`),
+        },
+        {
+          label: 'Reel',
+          url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-instagram-reel.md`),
+        },
+      ]
+    : [];
 
   if (!lead) {
     return `<b>AI Morning Pack Ready</b>\n${dateLabel}\n\nNo lead story was available this morning.`;
@@ -457,6 +550,15 @@ export function buildTelegramNotification({
     '2. Reel / short video',
     '3. LinkedIn or Instagram carousel',
     '',
+    ...(packLinks.length
+      ? [
+          '<b>Open pack</b>',
+          packLinks
+            .map((entry) => `<a href="${escapeHtml(entry.url)}">${escapeHtml(entry.label)}</a>`)
+            .join(' • '),
+          '',
+        ]
+      : []),
     '<b>Quick check</b>',
     '• Verify the lead source',
     '• Use alternate hooks or CTA options if the opener feels weak',
@@ -476,6 +578,7 @@ export async function sendTelegramNotification({
   botToken,
   chatId,
   message,
+  replyMarkup = null,
   silent = false,
   fetchImpl = fetch,
 }) {
@@ -492,6 +595,7 @@ export async function sendTelegramNotification({
       link_preview_options: {
         is_disabled: true,
       },
+      ...(replyMarkup ? { reply_markup: replyMarkup } : {}),
     }),
   });
 
@@ -1848,6 +1952,11 @@ export async function recordAiNews({
   telegramBotToken = envValue('AI_TELEGRAM_BOT_TOKEN', ''),
   telegramChatId = envValue('AI_TELEGRAM_CHAT_ID', ''),
   telegramSilent = parseBoolean(envValue('AI_TELEGRAM_SILENT', 'false')),
+  telegramRepoUrl = envValue(
+    'AI_TELEGRAM_REPO_URL',
+    process.env.GITHUB_REPOSITORY ? `${envValue('GITHUB_SERVER_URL', 'https://github.com')}/${process.env.GITHUB_REPOSITORY}` : '',
+  ),
+  telegramRepoBranch = envValue('AI_TELEGRAM_REPO_BRANCH', envValue('GITHUB_REF_NAME', 'main')),
   preferredSources = new Set(
     parseCsv(envValue('AI_NEWS_PREFERRED_SOURCES', 'Reuters,The Verge,TechCrunch,MIT Technology Review,The Information')).map(
       normalizeSource,
@@ -1906,7 +2015,16 @@ export async function recordAiNews({
   const videoScriptsPath = path.join(outputDir, `${dateSlug}-video-scripts.md`);
   const socialPostsPath = path.join(outputDir, `${dateSlug}-social-posts.md`);
   const latestJsonPath = path.join(outputDir, 'latest.json');
-  const telegramMessage = buildTelegramNotification(payload);
+  const telegramMessage = buildTelegramNotification({
+    ...payload,
+    repoUrl: telegramRepoUrl,
+    repoBranch: telegramRepoBranch,
+  });
+  const telegramReplyMarkup = buildTelegramReplyMarkup({
+    ...payload,
+    repoUrl: telegramRepoUrl,
+    repoBranch: telegramRepoBranch,
+  });
 
   await Promise.all([
     fs.writeFile(markdownPath, buildMarkdownDigest(payload), 'utf8'),
@@ -1937,6 +2055,7 @@ export async function recordAiNews({
       botToken: telegramBotToken,
       chatId: telegramChatId,
       message: telegramMessage,
+      replyMarkup: telegramReplyMarkup,
       silent: telegramSilent,
       fetchImpl,
     });

@@ -113,8 +113,10 @@ Optional environment variables for the recorder:
 - `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for morning notifications
 - `AI_TELEGRAM_CHAT_ID`: optional Telegram chat id for the notification target
 - `AI_TELEGRAM_SILENT`: optional `true` or `false` for silent sends
+- `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
+- `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
 
-If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, post order, and quick checks. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
+If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, post order, quick checks, direct file links, and inline buttons. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
 
 Workflow notes for the AI news niche live in [docs/AI_CONTENT_WORKFLOW.md](docs/AI_CONTENT_WORKFLOW.md).
 Content strategy and platform research notes live in [docs/CONTENT_MANAGER_PLAYBOOK.md](docs/CONTENT_MANAGER_PLAYBOOK.md).

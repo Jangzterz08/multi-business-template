@@ -13,6 +13,7 @@ import {
   buildPublishingChecklist,
   buildSocialPostPack,
   buildTelegramNotification,
+  buildTelegramReplyMarkup,
   buildTalkingHeadScript30s,
   buildVideoScriptPack,
   buildXThread,
@@ -238,6 +239,33 @@ describe('record-ai-news helpers', () => {
     const telegramMessage = buildTelegramNotification({
       generatedAt: '2026-03-14T10:00:00.000Z',
       voice: 'operator',
+      repoUrl: 'https://github.com/example-org/multi-business-template',
+      repoBranch: 'main',
+      articles: [
+        {
+          title: 'OpenAI launches a new reasoning model',
+          link: 'https://example.com/openai-reasoning',
+          source: 'The Verge',
+          pubDate: 'Fri, 14 Mar 2026 08:00:00 GMT',
+          score: 61,
+          whyItMatters: 'Ranked highly because it is very recent and keyword signals: launch, model.',
+          description: 'The release focuses on agents and reasoning.',
+        },
+        {
+          title: 'Anthropic raises funding for robotics push',
+          link: 'https://example.com/anthropic-funding',
+          source: 'Reuters',
+          pubDate: 'Fri, 14 Mar 2026 06:30:00 GMT',
+          score: 50,
+          whyItMatters: 'Ranked highly because it is very recent and keyword signals: Anthropic, funding, robotics.',
+          description: 'Fresh AI funding and robotics expansion plans.',
+        },
+      ],
+    });
+    const telegramReplyMarkup = buildTelegramReplyMarkup({
+      generatedAt: '2026-03-14T10:00:00.000Z',
+      repoUrl: 'https://github.com/example-org/multi-business-template',
+      repoBranch: 'main',
       articles: [
         {
           title: 'OpenAI launches a new reasoning model',
@@ -263,7 +291,37 @@ describe('record-ai-news helpers', () => {
     expect(telegramMessage).toContain('<b>AI Morning Pack Ready</b>');
     expect(telegramMessage).toContain('<b>Lead</b>: <a href="https://example.com/openai-reasoning">OpenAI launches a new reasoning model</a>');
     expect(telegramMessage).toContain('<b>Post now</b>');
+    expect(telegramMessage).toContain('<b>Open pack</b>');
+    expect(telegramMessage).toContain('https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md');
     expect(telegramMessage).toContain('Use alternate hooks or CTA options if the opener feels weak');
+    expect(telegramReplyMarkup).toEqual({
+      inline_keyboard: [
+        [
+          { text: 'Lead Story', url: 'https://example.com/openai-reasoning' },
+          { text: 'Backup Story', url: 'https://example.com/anthropic-funding' },
+        ],
+        [
+          {
+            text: 'Open Brief',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md',
+          },
+          {
+            text: 'Open QA',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-quality-report.md',
+          },
+        ],
+        [
+          {
+            text: 'Open Reel',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-instagram-reel.md',
+          },
+          {
+            text: 'Open Newsletter',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-newsletter.md',
+          },
+        ],
+      ],
+    });
   });
 
   it('classifies policy-heavy stories as policy signals even when launch language appears', () => {

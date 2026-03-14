@@ -117,8 +117,10 @@ Optional environment variables:
 - `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for phone notifications
 - `AI_TELEGRAM_CHAT_ID`: optional Telegram chat id that receives the message
 - `AI_TELEGRAM_SILENT`: optional `true` or `false` for silent sends
+- `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
+- `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
 
-If you configure Telegram, each run also sends a short phone-friendly morning message. In GitHub Actions, store the bot token in `Secrets` and the chat id in `Variables`.
+If you configure Telegram, each run also sends a short phone-friendly morning message with direct file links and inline buttons. In GitHub Actions, store the bot token in `Secrets` and the chat id in `Variables`.
 
 ## Common mistakes to avoid
 
