@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T09:20:43.381Z",
+  "generatedAt": "2026-03-14T16:58:10.944Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,18 +14,18 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "AI firm Anthropic rejects unrestricted US military use",
-      "rawTitle": "AI firm Anthropic rejects unrestricted US military use - DW.com",
-      "description": "AI firm Anthropic rejects unrestricted US military use &nbsp;&nbsp; DW.com",
-      "source": "DW.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3I3T3c0aVNodjNIb3NZa2hEejNMQmdNaUUyLTJpdGRyamlBeFl0NDF2SElOUDliOEdUdEFHaVV0VGV5WXpnd0NGak9HUTdtbmxCWjh3a3pIZ2VjRTV0NFJ2N2N2aEYwM0s5Rl9ONG9zbGdoblBxaWQyN1dQRktnbkRWaFZNZjItZVd0NGE0VkXSAZABQVVfeXFMT0kyLWZjYmQ5NDlweG1OSzJBMmFpZGpqNFZOMVJFMVBGMWt3UlhYU0J4dXFEa0VRbGlxV2NTYzJIMjczY3B4cWloUkxNbGtpV3N1aFlBcFRvN2hHN3BVNjgyUXh1SUVnRnk4WURqc0NpbTJMdHhfS21qWG51eHNDdmFST2dCb2thSnRtbmFoWUI5?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 00:41:47 GMT",
+      "title": "Claude A.I. Versus the Pentagon",
+      "rawTitle": "Claude A.I. Versus the Pentagon - The New Yorker",
+      "description": "Claude A.I. Versus the Pentagon &nbsp;&nbsp; The New Yorker",
+      "source": "The New Yorker",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
       "score": 42,
-      "ageHours": 8.648994722222222,
+      "ageHours": 6.969706666666666,
       "matchedLabels": [
-        "Anthropic"
+        "Claude"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Claude."
     },
     {
       "title": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
@@ -35,7 +35,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
       "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
       "score": 39,
-      "ageHours": 77.44538361111111,
+      "ageHours": 85.06970666666666,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -52,7 +52,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
       "pubDate": "Wed, 11 Mar 2026 04:52:00 GMT",
       "score": 39,
-      "ageHours": 76.47871694444444,
+      "ageHours": 84.10304,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -69,7 +69,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
       "pubDate": "Mon, 09 Mar 2026 21:15:17 GMT",
       "score": 38,
-      "ageHours": 108.09066138888889,
+      "ageHours": 115.71498444444444,
       "matchedLabels": [
         "OpenAI",
         "Anthropic",
@@ -79,18 +79,19 @@
       "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, Google."
     },
     {
-      "title": "FedEx Is Planning an AI Agent Workforce",
-      "rawTitle": "FedEx Is Planning an AI Agent Workforce - WSJ",
-      "description": "FedEx Is Planning an AI Agent Workforce &nbsp;&nbsp; WSJ",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPU252R2t5bFFETnpSMS1QMGFuOV9reE1ncWxxS1RHSjRwUGthUnlIc2NicF9halphUXBoaGRjR2p2a29aLUtYRVdneG9DaHZJTFo0SEV5ZWlUbnRyVUplMkhSUFREcnNROE5uRXhhcjhjbV9pWGRkOUV5ZHJKQXh5RU9YLXlZVkRsbUY3QXE0bzI3a0pmYldlVWg4ZHZjQnhhSlB1QzRoUC1sNmRlZFF5OS12TmNZWW5QTTIwTEZZekJLYjZZQXhDY2R1a3VZdUkwdHB0ZFNFRmw1akRMWEhkOG9NMkVKNDVCWUFKaXJGZDFrcmRwam5fV29MVDNyeXltOUVyNWVQNjNuLWs3Qm1tWHFmaEFTc0NnR0IyeGVsTjhPOXZiOENSUElCLUM3aEJsV0hrMTZOelJOV3k4SUpmVmpMSUhZQktCdlp6bW9Pa3k1NUxlN2RXQzBaN01yRmlydUdWcEdYdHhOaUYxZTJCQ1Q0Rlk4aXVuNV95WnVkYXJsajI0ZXUtMTJPOHM?oc=5",
-      "pubDate": "Fri, 13 Mar 2026 11:00:00 GMT",
-      "score": 36,
-      "ageHours": 22.34538361111111,
+      "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
+      "rawTitle": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
+      "description": "Meta Delays Rollout of New A.I. Model After Performance Concerns &nbsp;&nbsp; The New York Times",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
+      "score": 35,
+      "ageHours": 41.36248444444445,
       "matchedLabels": [
-        "agents"
+        "model",
+        "Meta"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: model, Meta."
     }
   ]
 }

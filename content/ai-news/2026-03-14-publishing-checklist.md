@@ -22,6 +22,6 @@ Voice: Operator
 
 ## Today's lead
 
-- Lead story: AI firm Anthropic rejects unrestricted US military use
-- Source: DW.com
+- Lead story: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
 - Originality reminder: Add one original takeaway that goes beyond the headline.

@@ -6,12 +6,12 @@ These are first-draft posts for X, LinkedIn, or threads. Tighten them to match y
 
 ## Social Post 1
 
-The AI story I would watch first this morning: AI firm Anthropic rejects unrestricted US military use
+The AI story I would watch first this morning: Claude A.I. Versus the Pentagon
 
-AI firm Anthropic rejects unrestricted US military use looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Anthropic. Add one original takeaway that goes beyond the headline.
+Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Claude. Add one original takeaway that goes beyond the headline.
 
-Source: DW.com
-Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3I3T3c0aVNodjNIb3NZa2hEejNMQmdNaUUyLTJpdGRyamlBeFl0NDF2SElOUDliOEdUdEFHaVV0VGV5WXpnd0NGak9HUTdtbmxCWjh3a3pIZ2VjRTV0NFJ2N2N2aEYwM0s5Rl9ONG9zbGdoblBxaWQyN1dQRktnbkRWaFZNZjItZVd0NGE0VkXSAZABQVVfeXFMT0kyLWZjYmQ5NDlweG1OSzJBMmFpZGpqNFZOMVJFMVBGMWt3UlhYU0J4dXFEa0VRbGlxV2NTYzJIMjczY3B4cWloUkxNbGtpV3N1aFlBcFRvN2hHN3BVNjgyUXh1SUVnRnk4WURqc0NpbTJMdHhfS21qWG51eHNDdmFST2dCb2thSnRtbmFoWUI5?oc=5
+Source: The New Yorker
+Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5
 Recommended LinkedIn format: native image, video, or document with 3-5 relevant hashtags.
 
 ## Social Post 2
@@ -46,10 +46,10 @@ Recommended LinkedIn format: native image, video, or document with 3-5 relevant 
 
 ## Social Post 5
 
-AI story 5 worth your time today: FedEx Is Planning an AI Agent Workforce
+AI story 5 worth your time today: Meta Delays Rollout of New A.I. Model After Performance Concerns
 
-FedEx Is Planning an AI Agent Workforce looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: agents. Add one original takeaway that goes beyond the headline.
+Meta Delays Rollout of New A.I. Model After Performance Concerns points to a product shift worth watching, especially for teams building with AI right now. Ranked highly because it is recent and keyword signals: model, Meta. Add one original takeaway about who benefits if this product shift sticks.
 
-Source: WSJ
-Link: https://news.google.com/rss/articles/CBMijANBVV95cUxPU252R2t5bFFETnpSMS1QMGFuOV9reE1ncWxxS1RHSjRwUGthUnlIc2NicF9halphUXBoaGRjR2p2a29aLUtYRVdneG9DaHZJTFo0SEV5ZWlUbnRyVUplMkhSUFREcnNROE5uRXhhcjhjbV9pWGRkOUV5ZHJKQXh5RU9YLXlZVkRsbUY3QXE0bzI3a0pmYldlVWg4ZHZjQnhhSlB1QzRoUC1sNmRlZFF5OS12TmNZWW5QTTIwTEZZekJLYjZZQXhDY2R1a3VZdUkwdHB0ZFNFRmw1akRMWEhkOG9NMkVKNDVCWUFKaXJGZDFrcmRwam5fV29MVDNyeXltOUVyNWVQNjNuLWs3Qm1tWHFmaEFTc0NnR0IyeGVsTjhPOXZiOENSUElCLUM3aEJsV0hrMTZOelJOV3k4SUpmVmpMSUhZQktCdlp6bW9Pa3k1NUxlN2RXQzBaN01yRmlydUdWcEdYdHhOaUYxZTJCQ1Q0Rlk4aXVuNV95WnVkYXJsajI0ZXUtMTJPOHM?oc=5
+Source: The New York Times
+Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
 Recommended LinkedIn format: native image, video, or document with 3-5 relevant hashtags.

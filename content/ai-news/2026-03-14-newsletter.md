@@ -1,8 +1,8 @@
 # AI Morning Newsletter Draft for 2026-03-14
 
-Subject line 1: AI Brief 03-14: AI firm Anthropic rejects unrestr…
-Subject line 2: 5 AI stories today: DW.com to The Information
-Preview text: AI firm Anthropic rejects unrestricted US military use leads today's AI brief, plus OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift.
+Subject line 1: AI Brief 03-14: Claude A.I. Versus the Pentagon
+Subject line 2: 5 AI stories today: The New Yorker to The Informa…
+Preview text: Claude A.I. Versus the Pentagon leads today's AI brief, plus OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift.
 Voice: Operator
 
 ## Anti-flop notes
@@ -13,15 +13,15 @@ Voice: Operator
 
 ## Opening
 
-This morning's AI brief pulls the five stories most worth your attention and focuses on what builders, operators, and decision-makers should do with the signal. This edition is curated across DW.com, The Information, Reuters.
+This morning's AI brief pulls the five stories most worth your attention and focuses on what builders, operators, and decision-makers should do with the signal. This edition is curated across The New Yorker, The Information, Reuters.
 
-## 1. AI firm Anthropic rejects unrestricted US military use
+## 1. Claude A.I. Versus the Pentagon
 
-The lead story this morning is AI firm Anthropic rejects unrestricted US military use. AI firm Anthropic rejects unrestricted US military use looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Anthropic. Source: DW.com.
+The lead story this morning is Claude A.I. Versus the Pentagon. Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Claude. Source: The New Yorker.
 
-- Source: DW.com
-- Published: Sat, 14 Mar 2026 00:41:47 GMT
-- Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3I3T3c0aVNodjNIb3NZa2hEejNMQmdNaUUyLTJpdGRyamlBeFl0NDF2SElOUDliOEdUdEFHaVV0VGV5WXpnd0NGak9HUTdtbmxCWjh3a3pIZ2VjRTV0NFJ2N2N2aEYwM0s5Rl9ONG9zbGdoblBxaWQyN1dQRktnbkRWaFZNZjItZVd0NGE0VkXSAZABQVVfeXFMT0kyLWZjYmQ5NDlweG1OSzJBMmFpZGpqNFZOMVJFMVBGMWt3UlhYU0J4dXFEa0VRbGlxV2NTYzJIMjczY3B4cWloUkxNbGtpV3N1aFlBcFRvN2hHN3BVNjgyUXh1SUVnRnk4WURqc0NpbTJMdHhfS21qWG51eHNDdmFST2dCb2thSnRtbmFoWUI5?oc=5
+- Source: The New Yorker
+- Published: Sat, 14 Mar 2026 10:00:00 GMT
+- Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5
 
 ## 2. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 
@@ -47,13 +47,13 @@ Story 4 in the mix is OpenAI and Google employees rush to Anthropic’s defense 
 - Published: Mon, 09 Mar 2026 21:15:17 GMT
 - Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
 
-## 5. FedEx Is Planning an AI Agent Workforce
+## 5. Meta Delays Rollout of New A.I. Model After Performance Concerns
 
-Story 5 in the mix is FedEx Is Planning an AI Agent Workforce. FedEx Is Planning an AI Agent Workforce looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: agents. Source: WSJ.
+Story 5 in the mix is Meta Delays Rollout of New A.I. Model After Performance Concerns. Meta Delays Rollout of New A.I. Model After Performance Concerns points to a product shift worth watching, especially for teams building with AI right now. Ranked highly because it is recent and keyword signals: model, Meta. Source: The New York Times.
 
-- Source: WSJ
-- Published: Fri, 13 Mar 2026 11:00:00 GMT
-- Link: https://news.google.com/rss/articles/CBMijANBVV95cUxPU252R2t5bFFETnpSMS1QMGFuOV9reE1ncWxxS1RHSjRwUGthUnlIc2NicF9halphUXBoaGRjR2p2a29aLUtYRVdneG9DaHZJTFo0SEV5ZWlUbnRyVUplMkhSUFREcnNROE5uRXhhcjhjbV9pWGRkOUV5ZHJKQXh5RU9YLXlZVkRsbUY3QXE0bzI3a0pmYldlVWg4ZHZjQnhhSlB1QzRoUC1sNmRlZFF5OS12TmNZWW5QTTIwTEZZekJLYjZZQXhDY2R1a3VZdUkwdHB0ZFNFRmw1akRMWEhkOG9NMkVKNDVCWUFKaXJGZDFrcmRwam5fV29MVDNyeXltOUVyNWVQNjNuLWs3Qm1tWHFmaEFTc0NnR0IyeGVsTjhPOXZiOENSUElCLUM3aEJsV0hrMTZOelJOV3k4SUpmVmpMSUhZQktCdlp6bW9Pa3k1NUxlN2RXQzBaN01yRmlydUdWcEdYdHhOaUYxZTJCQ1Q0Rlk4aXVuNV95WnVkYXJsajI0ZXUtMTJPOHM?oc=5
+- Source: The New York Times
+- Published: Thu, 12 Mar 2026 23:36:26 GMT
+- Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
 
 ## Closing
 

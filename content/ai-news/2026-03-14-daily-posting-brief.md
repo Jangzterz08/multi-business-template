@@ -4,8 +4,8 @@ Voice: Operator
 
 ## Start here
 
-- Lead story: AI firm Anthropic rejects unrestricted US military use
-- Lead source: DW.com
+- Lead story: Claude A.I. Versus the Pentagon
+- Lead source: The New Yorker
 - First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.
 - Original angle required: Add one original takeaway that goes beyond the headline.
 

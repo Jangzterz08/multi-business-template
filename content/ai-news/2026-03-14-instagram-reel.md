@@ -2,13 +2,13 @@
 
 Voice: Operator
 
-Lead story: AI firm Anthropic rejects unrestricted US military use
+Lead story: Claude A.I. Versus the Pentagon
 
 ## Reel script
 
-Hook: The biggest AI story this morning is AI firm Anthropic rejects unrestricted US military use.
-Body: AI firm Anthropic rejects unrestricted US military use looks like a broader industry shift that is worth keeping on the radar this morning.
-Why it matters: Ranked highly because it is very recent and keyword signals: Anthropic.
+Hook: The biggest AI story this morning is Claude A.I. Versus the Pentagon.
+Body: Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning.
+Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
 Close: Suggested angle: explain how this changes the market, product decisions, or day-to-day work. Save this if you care about AI workflows, and comment on the part people are missing.
 
 ## Caption
@@ -17,7 +17,7 @@ If you want the signal instead of the noise in AI, start with this story. Sugges
 
 ## Alternate hooks
 
-1. AI firm Anthropic rejects unrestricted US military use is the headline. Here is the real signal.
+1. Claude A.I. Versus the Pentagon is the headline. Here is the real signal.
 2. Before the feed moves on, here is what this changes for AI workflows.
 3. Most people will repost the headline. This is the part worth paying attention to.
 

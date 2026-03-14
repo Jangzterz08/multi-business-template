@@ -20,34 +20,34 @@
 ## Lead story
 
 - Voice: Operator
-- Title: AI firm Anthropic rejects unrestricted US military use
-- Source: DW.com
+- Title: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
 - Positioning: If you want the signal instead of the noise in AI, start with this story.
 
 ## Newsletter package
 
-- Subject line 1: AI Brief 03-14: AI firm Anthropic rejects unrestr…
-- Subject line 2: 5 AI stories today: DW.com to The Information
-- Intro: This morning's AI brief pulls the five stories most worth your attention and focuses on what builders, operators, and decision-makers should do with the signal. This edition is curated across DW.com, The Information, Reuters.
+- Subject line 1: AI Brief 03-14: Claude A.I. Versus the Pentagon
+- Subject line 2: 5 AI stories today: The New Yorker to The Informa…
+- Intro: This morning's AI brief pulls the five stories most worth your attention and focuses on what builders, operators, and decision-makers should do with the signal. This edition is curated across The New Yorker, The Information, Reuters.
 
 ## Short-form package
 
 - Recommended format: 9:16 vertical clips, about 15 to 45 seconds each.
 - Hook ideas:
-- The AI headline everyone will talk about today: AI firm Anthropic rejects unrestricted US military use
+- The AI headline everyone will talk about today: Claude A.I. Versus the Pentagon
 - AI creators should watch this one: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 - AI creators should watch this one: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
 
 ## Story breakdowns
 
-### Story 1: AI firm Anthropic rejects unrestricted US military use
-- Source: DW.com
-- Published: Sat, 14 Mar 2026 00:41:47 GMT
+### Story 1: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
+- Published: Sat, 14 Mar 2026 10:00:00 GMT
 - Angle: industry shift
-- Why it matters: Ranked highly because it is very recent and keyword signals: Anthropic.
+- Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
 - Original take to add: Add one original takeaway that goes beyond the headline.
 - Hook: If you want the signal instead of the noise in AI, start with this story.
-- Suggested short-form script: Here is the biggest AI story this morning. AI firm Anthropic rejects unrestricted US military use. Source: DW.com. Ranked highly because it is very recent and keyword signals: Anthropic. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Suggested short-form script: Here is the biggest AI story this morning. Claude A.I. Versus the Pentagon. Source: The New Yorker. Ranked highly because it is very recent and keyword signals: Claude. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ### Story 2: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 - Source: The Information
@@ -76,14 +76,14 @@
 - Hook: If you create or ship AI products, this policy update matters more than the headline suggests.
 - Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Use this as a policy signal clip in a 15 to 45 second vertical video.
 
-### Story 5: FedEx Is Planning an AI Agent Workforce
-- Source: WSJ
-- Published: Fri, 13 Mar 2026 11:00:00 GMT
-- Angle: industry shift
-- Why it matters: Ranked highly because it is very recent and keyword signals: agents.
-- Original take to add: Add one original takeaway that goes beyond the headline.
-- Hook: If you want the signal instead of the noise in AI, start with this story.
-- Suggested short-form script: Here is another AI story you should not skip today. FedEx Is Planning an AI Agent Workforce. Source: WSJ. Ranked highly because it is very recent and keyword signals: agents. Use this as a industry shift clip in a 15 to 45 second vertical video.
+### Story 5: Meta Delays Rollout of New A.I. Model After Performance Concerns
+- Source: The New York Times
+- Published: Thu, 12 Mar 2026 23:36:26 GMT
+- Angle: product update
+- Why it matters: Ranked highly because it is recent and keyword signals: model, Meta.
+- Original take to add: Add one original takeaway about who benefits if this product shift sticks.
+- Hook: If you build with AI tools, this The New York Times story is the one to watch this morning.
+- Suggested short-form script: Here is another AI story you should not skip today. Meta Delays Rollout of New A.I. Model After Performance Concerns. Source: The New York Times. Ranked highly because it is recent and keyword signals: model, Meta. Use this as a product update clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

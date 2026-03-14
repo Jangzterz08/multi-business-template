@@ -2,14 +2,14 @@
 
 Voice: Operator
 
-Lead story: AI firm Anthropic rejects unrestricted US military use
-Source: DW.com
+Lead story: Claude A.I. Versus the Pentagon
+Source: The New Yorker
 
 ## Carousel slides
 
-1. Hook slide: AI firm Anthropic rejects unrestricted US military use
-2. Why it matters: AI firm Anthropic rejects unrestricted US military use looks like a broader industry shift that is worth keeping on the radar this morning.
-3. What changed: Ranked highly because it is very recent and keyword signals: Anthropic.
+1. Hook slide: Claude A.I. Versus the Pentagon
+2. Why it matters: Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning.
+3. What changed: Ranked highly because it is very recent and keyword signals: Claude.
 4. Original angle: Suggested angle: explain how this changes the market, product decisions, or day-to-day work.
 5. Save-worthy takeaway: explain what people should watch, test, or do next.
 6. CTA: ask people to comment with their take or save the post for later.

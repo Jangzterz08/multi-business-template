@@ -4,8 +4,8 @@ Voice: Operator
 
 ## Scorecard
 
-- Overall score: 91/100
-- Hook strength: 22/25
+- Overall score: 94/100
+- Hook strength: 25/25
 - Originality: 25/25
 - Channel fit: 25/25
 - CTA strength: 15/15
@@ -13,7 +13,8 @@ Voice: Operator
 
 ## Strong signals
 
-- The lead subject line stays compact at 50 characters, which is mobile-friendly.
+- The lead subject line stays compact at 47 characters, which is mobile-friendly.
+- The Reel and talking-head hook state the lead story immediately instead of burying the news.
 - The X opener is audience-aware instead of reading like a generic headline repost.
 - The suggested angle adds a real thesis beyond the headline.
 - The originality prompt is specific enough to force an actual takeaway, not just a rewrite.
@@ -28,7 +29,6 @@ Voice: Operator
 
 ## Watchouts before posting
 
-- The video hook is slightly long. Trim the first line so the promise lands faster.
 - These assets reuse the same opening line: Instagram carousel cover, LinkedIn carousel cover; Instagram Reel hook, Talking-head hook. Rewrite at least one opener so the morning stack does not feel copy-pasted.
 - The same suggested angle appears across Instagram, LinkedIn, talking-head, and X drafts. Keep the thesis, but rewrite the phrasing per channel before publishing.
 
@@ -48,10 +48,10 @@ Voice: Operator
 - LinkedIn carousel cover option 1: The AI story operators should not ignore today
 - LinkedIn carousel cover option 2: What this AI move changes for AI workflows
 - LinkedIn carousel cover option 3: The real takeaway behind today's AI headline
-- Instagram Reel hook option 1: AI firm Anthropic rejects unrestricted US military use is the headline. Here is the real signal.
+- Instagram Reel hook option 1: Claude A.I. Versus the Pentagon is the headline. Here is the real signal.
 - Instagram Reel hook option 2: Before the feed moves on, here is what this changes for AI workflows.
 - Instagram Reel hook option 3: Most people will repost the headline. This is the part worth paying attention to.
-- Talking-head hook option 1: The headline is AI firm Anthropic rejects unrestricted US military use. The real story is what it changes next.
+- Talking-head hook option 1: The headline is Claude A.I. Versus the Pentagon. The real story is what it changes next.
 - Talking-head hook option 2: Everyone will quote the headline. I care more about AI workflows.
 - Talking-head hook option 3: If you build, buy, or ship AI, this is the part of today's news worth watching.
 

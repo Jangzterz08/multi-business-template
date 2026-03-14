@@ -5,15 +5,15 @@ Voice: Operator
 ## Publishing order
 
 1. Publish the newsletter lead first.
-   Story: AI firm Anthropic rejects unrestricted US military use
-   Reason: Lead with this because it has the highest score and should anchor the day: Ranked highly because it is very recent and keyword signals: Anthropic.
+   Story: Claude A.I. Versus the Pentagon
+   Reason: Lead with this because it has the highest score and should anchor the day: Ranked highly because it is very recent and keyword signals: Claude.
 
 2. Publish one short-form video from the same lead story.
-   Story: AI firm Anthropic rejects unrestricted US military use
+   Story: Claude A.I. Versus the Pentagon
    Reason: Reuse the strongest story while the topic is still fresh and keep the message consistent across formats.
 
 3. Publish one LinkedIn post from the lead story.
-   Story: AI firm Anthropic rejects unrestricted US military use
+   Story: Claude A.I. Versus the Pentagon
    Reason: Turn the same signal into a conversation-first native post with your original angle.
 
 4. Use the second story as the next post or backup topic.

@@ -6,13 +6,13 @@ Use these as first-draft scripts for morning video posts.
 
 ## Video Script 1
 
-- Story: AI firm Anthropic rejects unrestricted US military use
-- Source: DW.com
+- Story: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
 - Format: 9:16 vertical, 15 to 45 seconds
 
 ### Script
 
-The biggest AI story this morning is AI firm Anthropic rejects unrestricted US military use. AI firm Anthropic rejects unrestricted US military use looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Anthropic. Source: DW.com. Watch this one if you want the signal, not just the noise.
+The biggest AI story this morning is Claude A.I. Versus the Pentagon. Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent and keyword signals: Claude. Source: The New Yorker. Watch this one if you want the signal, not just the noise.
 
 ### Production notes
 
