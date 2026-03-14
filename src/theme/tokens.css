@@ -51,6 +51,14 @@ body {
     linear-gradient(180deg, #0f141d 0 38%, #ece9e2 38% 100%);
 }
 
+:root[data-preset='education'] body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 184, 107, 0.32), transparent 30%),
+    radial-gradient(circle at 85% 12%, rgba(116, 197, 255, 0.24), transparent 28%),
+    radial-gradient(circle at 50% 100%, rgba(122, 222, 188, 0.2), transparent 26%),
+    linear-gradient(180deg, #fff3d8 0 28%, #f7fbff 100%);
+}
+
 img {
   max-width: 100%;
 }
@@ -123,6 +131,11 @@ a {
   background: rgba(255, 255, 255, 0.04);
   border-color: #3a4558;
   color: #f5f9ff;
+}
+
+:root[data-preset='education'] .buttonSecondary {
+  background: #fff7ef;
+  border-color: #ffd4a6;
 }
 
 .sectionGrid {

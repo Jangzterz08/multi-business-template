@@ -29,6 +29,7 @@ export function ContactForm({ preset }: ContactFormProps) {
   const [errors, setErrors] = useState<LeadFieldErrors>({});
   const [notice, setNotice] = useState<Notice>({ tone: 'idle', text: '' });
   const [submitting, setSubmitting] = useState(false);
+  const formCopy = preset.pageCopy?.form;
 
   const serviceOptions = useMemo(() => preset.services.map((service) => service.name), [preset.services]);
 
@@ -59,7 +60,7 @@ export function ContactForm({ preset }: ContactFormProps) {
     const validation = validateLead(form);
     if (hasLeadErrors(validation)) {
       setErrors(validation);
-      setNotice({ tone: 'error', text: 'Please fix the highlighted fields.' });
+      setNotice({ tone: 'error', text: 'Please review the highlighted fields and try again.' });
       return;
     }
 
@@ -80,27 +81,27 @@ export function ContactForm({ preset }: ContactFormProps) {
     <form className={styles.form} onSubmit={handleSubmit} noValidate>
       <div className={styles.grid}>
         <label>
-          Full name
+          {formCopy?.nameLabel ?? 'Full name'}
           <input name="name" value={form.name} onChange={handleChange} autoComplete="name" />
           {errors.name ? <span className={styles.error}>{errors.name}</span> : null}
         </label>
 
         <label>
-          Email
+          {formCopy?.emailLabel ?? 'Email'}
           <input name="email" type="email" value={form.email} onChange={handleChange} autoComplete="email" />
           {errors.email ? <span className={styles.error}>{errors.email}</span> : null}
         </label>
 
         <label>
-          Phone
+          {formCopy?.phoneLabel ?? 'Phone'}
           <input name="phone" value={form.phone} onChange={handleChange} autoComplete="tel" />
           {errors.phone ? <span className={styles.error}>{errors.phone}</span> : null}
         </label>
 
         <label>
-          Service interest
+          {formCopy?.serviceLabel ?? 'Service interest'}
           <select name="service" value={form.service} onChange={handleChange}>
-            <option value="">Select a service</option>
+            <option value="">{formCopy?.servicePlaceholder ?? 'Select an option'}</option>
             {serviceOptions.map((option) => (
               <option key={option} value={option}>
                 {option}
@@ -111,13 +112,15 @@ export function ContactForm({ preset }: ContactFormProps) {
         </label>
 
         <label className={styles.fullWidth}>
-          Message
+          {formCopy?.messageLabel ?? 'Message'}
           <textarea
             name="message"
             rows={5}
             value={form.message}
             onChange={handleChange}
-            placeholder="Tell us your goals, schedule, and preferred contact method."
+            placeholder={
+              formCopy?.messagePlaceholder ?? 'Tell us your goals, timing, and preferred contact method.'
+            }
           />
           {errors.message ? <span className={styles.error}>{errors.message}</span> : null}
         </label>
@@ -125,12 +128,12 @@ export function ContactForm({ preset }: ContactFormProps) {
 
       <label className={styles.checkbox}>
         <input name="consent" type="checkbox" checked={form.consent} onChange={handleChange} />
-        <span>I consent to being contacted about this request.</span>
+        <span>{formCopy?.consentLabel ?? 'I consent to being contacted about this request.'}</span>
       </label>
       {errors.consent ? <span className={styles.error}>{errors.consent}</span> : null}
 
       <button className="button buttonPrimary" type="submit" disabled={submitting}>
-        {submitting ? 'Submitting...' : 'Send request'}
+        {submitting ? formCopy?.submittingLabel ?? 'Submitting...' : formCopy?.submitLabel ?? 'Send request'}
       </button>
 
       {notice.tone !== 'idle' ? (

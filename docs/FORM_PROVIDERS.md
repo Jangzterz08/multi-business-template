@@ -2,6 +2,8 @@
 
 Contact form submissions run through a provider adapter selected in each preset config.
 
+Field labels, placeholders, and submit button text can be customized from `preset.pageCopy.form`.
+
 ## Supported adapters
 
 - `formspree`
@@ -78,7 +80,7 @@ Frontend validation checks:
 - Name
 - Email format
 - Phone format
-- Service selection
+- Option selection
 - Message length
 - Consent checkbox
 

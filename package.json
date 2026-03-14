@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:education": "VITE_PRESET=education vite --host --port 4175",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
+    "news:record": "node scripts/record-ai-news.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ext ts,tsx --max-warnings 0",
     "test": "vitest run",

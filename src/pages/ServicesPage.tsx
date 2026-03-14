@@ -6,16 +6,22 @@ import styles from './Page.module.css';
 
 export function ServicesPage() {
   const preset = usePreset();
+  const servicesCopy = preset.pageCopy?.services;
+  const journeySteps =
+    servicesCopy?.journeySteps && servicesCopy.journeySteps.length > 0
+      ? servicesCopy.journeySteps
+      : [
+          'Tell us what you need and what timing works best for you.',
+          'We reply with the best-fit option and any helpful prep details.',
+          'Choose your next step and move forward with confidence.'
+        ];
 
   return (
     <>
       <section data-testid="route-services" className={`${styles.section} panel motionReveal`}>
-        <span className="pill">Service Menu</span>
-        <h1>{preset.businessName} services</h1>
-        <p>
-          Every card below is generated from the preset configuration. Update names, blurbs, and pricing hints from
-          one file.
-        </p>
+        <span className="pill">{servicesCopy?.badge ?? 'Services'}</span>
+        <h1>{servicesCopy?.title ?? `${preset.businessName} services`}</h1>
+        <p>{servicesCopy?.intro ?? 'Choose the option that best fits your goals, timing, and budget.'}</p>
       </section>
 
       <section
@@ -29,14 +35,14 @@ export function ServicesPage() {
         className={`${styles.section} panel motionReveal`}
         style={{ '--reveal-delay': '150ms' } as CSSProperties}
       >
-        <h2>Booking flow</h2>
+        <h2>{servicesCopy?.journeyTitle ?? 'How it works'}</h2>
         <ul>
-          <li>Share your goals and timing through the contact form.</li>
-          <li>Get a response with availability and prep guidance.</li>
-          <li>Confirm your appointment and receive a reminder.</li>
+          {journeySteps.map((step) => (
+            <li key={step}>{step}</li>
+          ))}
         </ul>
         <Link className="button buttonPrimary" to="/contact">
-          Start your request
+          {servicesCopy?.ctaLabel ?? 'Start your request'}
         </Link>
       </section>
     </>

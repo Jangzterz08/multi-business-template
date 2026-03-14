@@ -4,11 +4,19 @@ import styles from './Page.module.css';
 
 export function AboutPage() {
   const preset = usePreset();
+  const aboutCopy = preset.pageCopy?.about;
+  const featureParagraphs =
+    aboutCopy?.featureParagraphs && aboutCopy.featureParagraphs.length > 0
+      ? aboutCopy.featureParagraphs
+      : [
+          `Led by ${preset.about.founder}, our team focuses on practical plans and consistent outcomes for every client.`,
+          `We are ${preset.about.yearsInBusiness} years in and still optimize each step for clarity, comfort, and quality.`
+        ];
 
   return (
     <>
       <section data-testid="route-about" className={`${styles.section} panel motionReveal`}>
-        <span className="pill">About</span>
+        <span className="pill">{aboutCopy?.badge ?? 'About'}</span>
         <h1>{preset.about.headline}</h1>
         <p>{preset.about.story}</p>
       </section>
@@ -18,20 +26,15 @@ export function AboutPage() {
         style={{ '--reveal-delay': '90ms' } as CSSProperties}
       >
         <article className={styles.section}>
-          <h2>Founder perspective</h2>
-          <p>
-            Led by {preset.about.founder}, our team focuses on practical plans and consistent outcomes for every
-            client.
-          </p>
-          <p>
-            We are {preset.about.yearsInBusiness} years in and still optimize each step for clarity, comfort, and
-            quality.
-          </p>
+          <h2>{aboutCopy?.featureTitle ?? 'Founder perspective'}</h2>
+          {featureParagraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </article>
 
         <aside className={styles.sideStack}>
           <div className={styles.listCard}>
-            <h3>Core values</h3>
+            <h3>{aboutCopy?.valuesTitle ?? 'Core values'}</h3>
             <ul>
               {preset.about.values.map((value) => (
                 <li key={value}>{value}</li>
@@ -40,7 +43,7 @@ export function AboutPage() {
           </div>
 
           <div className={styles.listCard}>
-            <h3>Service area</h3>
+            <h3>{aboutCopy?.serviceAreaTitle ?? 'Service area'}</h3>
             <p>{preset.contact.serviceArea}</p>
           </div>
         </aside>

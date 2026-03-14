@@ -18,7 +18,7 @@ Use this checklist for every version.
 
 ## Preset QA matrix
 
-For each preset (`restaurant`, `dental`, `salon`, `gym`):
+For each preset (`education`, `restaurant`, `dental`, `salon`, `gym`):
 
 - [ ] Home page loads and CTA links are correct
 - [ ] Services page cards match config

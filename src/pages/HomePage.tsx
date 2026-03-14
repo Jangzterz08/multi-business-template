@@ -8,6 +8,16 @@ import styles from './Page.module.css';
 
 export function HomePage() {
   const preset = usePreset();
+  const homeCopy = preset.pageCopy?.home;
+  const metrics =
+    homeCopy?.metrics && homeCopy.metrics.length > 0
+      ? homeCopy.metrics
+      : [
+          { value: `${preset.about.yearsInBusiness}+ years`, label: 'Serving local clients' },
+          { value: `${preset.services.length} focused services`, label: 'Clear options for different needs' },
+          { value: preset.contact.hours[0], label: 'Fast response windows' }
+        ];
+
   if (preset.id === 'restaurant') {
     return <RestaurantHome preset={preset} />;
   }
@@ -29,18 +39,12 @@ export function HomePage() {
         </div>
 
         <div className={styles.metricRow}>
-          <article className={styles.metric}>
-            <strong>{preset.about.yearsInBusiness}+ years</strong>
-            <p>Serving local clients</p>
-          </article>
-          <article className={styles.metric}>
-            <strong>{preset.services.length} focused services</strong>
-            <p>Structured options with clear scope</p>
-          </article>
-          <article className={styles.metric}>
-            <strong>{preset.contact.hours[0]}</strong>
-            <p>Fast response windows</p>
-          </article>
+          {metrics.map((item) => (
+            <article key={`${item.value}-${item.label}`} className={styles.metric}>
+              <strong>{item.value}</strong>
+              <p>{item.label}</p>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -49,12 +53,12 @@ export function HomePage() {
         style={{ '--reveal-delay': '90ms' } as CSSProperties}
       >
         <div className={styles.sectionHeading}>
-          <h2>Featured services</h2>
-          <p>Pre-built cards are connected to preset config. Swap content in one place.</p>
+          <h2>{homeCopy?.featuredTitle ?? 'Featured offers'}</h2>
+          <p>{homeCopy?.featuredDescription ?? 'Start with the options people ask about most often.'}</p>
         </div>
         <ServiceGrid services={preset.services.slice(0, 3)} />
         <Link to="/services" className="button buttonSecondary">
-          View full service menu
+          {homeCopy?.featuredCtaLabel ?? 'View everything'}
         </Link>
       </section>
 
@@ -63,8 +67,8 @@ export function HomePage() {
         style={{ '--reveal-delay': '150ms' } as CSSProperties}
       >
         <div className={styles.sectionHeading}>
-          <h2>Client voice</h2>
-          <p>Use these placeholders or replace from `preset.testimonials`.</p>
+          <h2>{homeCopy?.testimonialsTitle ?? 'What people say'}</h2>
+          <p>{homeCopy?.testimonialsDescription ?? 'Recent feedback from the people we serve.'}</p>
         </div>
         <TestimonialGrid testimonials={preset.testimonials} />
       </section>

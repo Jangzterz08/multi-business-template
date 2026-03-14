@@ -33,6 +33,7 @@ Exclude:
 - Clear install steps
 - Fast preview run (`npm install` + `npm run dev`)
 - Reusable components, no hard-coded one-off logic
+- Presets that cover both service businesses and product/app use cases
 - Form integration instructions without shipping private keys
 - Responsive behavior verified on mobile and desktop
 

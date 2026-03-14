@@ -43,6 +43,7 @@ Ask buyer for:
 - Missing env values for form adapter
 - Invalid preset key
 - Broken config typing after field deletion
+- Incomplete `pageCopy` overrides after changing business model
 - CSS token typo causing visual regressions
 
 ## Recommended response SLA

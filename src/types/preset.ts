@@ -53,6 +53,11 @@ export interface HeroContent {
   secondaryCta: string;
 }
 
+export interface HeroMetric {
+  value: string;
+  label: string;
+}
+
 export interface AboutContent {
   headline: string;
   story: string;
@@ -65,6 +70,63 @@ export interface SeoContent {
   title: string;
   description: string;
   keywords: string[];
+}
+
+export interface HomePageCopy {
+  metrics?: HeroMetric[];
+  featuredTitle?: string;
+  featuredDescription?: string;
+  featuredCtaLabel?: string;
+  testimonialsTitle?: string;
+  testimonialsDescription?: string;
+}
+
+export interface ServicesPageCopy {
+  badge?: string;
+  title?: string;
+  intro?: string;
+  journeyTitle?: string;
+  journeySteps?: string[];
+  ctaLabel?: string;
+}
+
+export interface AboutPageCopy {
+  badge?: string;
+  featureTitle?: string;
+  featureParagraphs?: string[];
+  valuesTitle?: string;
+  serviceAreaTitle?: string;
+}
+
+export interface ContactPageCopy {
+  badge?: string;
+  title?: string;
+  intro?: string;
+  formTitle?: string;
+  formDescription?: string;
+  directTitle?: string;
+  hoursTitle?: string;
+}
+
+export interface FormCopy {
+  nameLabel?: string;
+  emailLabel?: string;
+  phoneLabel?: string;
+  serviceLabel?: string;
+  servicePlaceholder?: string;
+  messageLabel?: string;
+  messagePlaceholder?: string;
+  consentLabel?: string;
+  submitLabel?: string;
+  submittingLabel?: string;
+}
+
+export interface PresetPageCopy {
+  home?: HomePageCopy;
+  services?: ServicesPageCopy;
+  about?: AboutPageCopy;
+  contact?: ContactPageCopy;
+  form?: FormCopy;
 }
 
 export interface SharedFormProviderFields {
@@ -102,4 +164,5 @@ export interface PresetConfig {
   seo: SeoContent;
   designTokens: DesignTokens;
   formProvider: FormProviderConfig;
+  pageCopy?: PresetPageCopy;
 }

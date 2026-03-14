@@ -7,7 +7,7 @@ export function validateLead(payload: LeadPayload): LeadFieldErrors {
   const errors: LeadFieldErrors = {};
 
   if (payload.name.trim().length < 2) {
-    errors.name = 'Please enter your full name.';
+    errors.name = 'Please enter your name.';
   }
 
   if (!emailPattern.test(payload.email.trim())) {
@@ -19,11 +19,11 @@ export function validateLead(payload: LeadPayload): LeadFieldErrors {
   }
 
   if (payload.service.trim().length < 2) {
-    errors.service = 'Select a service interest.';
+    errors.service = 'Select an option.';
   }
 
   if (payload.message.trim().length < 12) {
-    errors.message = 'Add a short message so we can prepare before we reply.';
+    errors.message = 'Add a short message so we know how to help.';
   }
 
   if (!payload.consent) {

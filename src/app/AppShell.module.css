@@ -12,6 +12,11 @@
   border-bottom-color: #2e3744;
 }
 
+:global(:root[data-preset='education']) .header {
+  background: rgba(255, 251, 242, 0.9);
+  border-bottom-color: #dce8fb;
+}
+
 .headerInner {
   display: flex;
   align-items: center;
@@ -42,6 +47,16 @@
 :global(:root[data-preset='restaurant']) .brandMark {
   border-radius: 999px;
   background: linear-gradient(135deg, #ff6335, #c1382d);
+}
+
+:global(:root[data-preset='education']) .brandMark {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 1rem;
+  background:
+    radial-gradient(circle at 28% 28%, #fff7cf 0 18%, transparent 19%),
+    linear-gradient(135deg, #ffb547, #ff6b57 55%, #6dc7ff);
+  box-shadow: 0 10px 22px rgba(255, 133, 87, 0.24);
 }
 
 .brandText {
@@ -82,6 +97,11 @@
   border-color: #2f3846;
 }
 
+:global(:root[data-preset='education']) .nav {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: #dce8fb;
+}
+
 .navLink {
   border-radius: 999px;
   padding: 0.45rem 0.85rem;
@@ -104,6 +124,11 @@
   background: linear-gradient(140deg, #ff6335, #d44832);
 }
 
+:global(:root[data-preset='education']) .active {
+  color: #fff;
+  background: linear-gradient(140deg, #ff9f45, #ff6b57);
+}
+
 .callPill {
   border: 1px solid color-mix(in srgb, var(--color-accent) 42%, transparent);
   background: color-mix(in srgb, var(--color-accent) 10%, white);
@@ -118,6 +143,12 @@
   border-color: #fe7244;
   background: linear-gradient(140deg, #ff6335, #d44832);
   color: #fff;
+}
+
+:global(:root[data-preset='education']) .callPill {
+  border-color: #ffd4a6;
+  background: #fff1dd;
+  color: #e35d4d;
 }
 
 .main {
@@ -135,6 +166,11 @@
 :global(:root[data-preset='restaurant']) .footer {
   border-top-color: #2f3948;
   background: #0e131c;
+}
+
+:global(:root[data-preset='education']) .footer {
+  border-top-color: #dce8fb;
+  background: rgba(255, 255, 255, 0.52);
 }
 
 .footerInner {
