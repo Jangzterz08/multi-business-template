@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T23:30:05.413Z",
+  "generatedAt": "2026-03-14T23:34:08.815Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -21,7 +21,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
       "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
       "score": 39,
-      "ageHours": 91.60150361111111,
+      "ageHours": 91.66911527777778,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -38,7 +38,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
       "pubDate": "Wed, 11 Mar 2026 04:52:00 GMT",
       "score": 39,
-      "ageHours": 90.63483694444444,
+      "ageHours": 90.70244861111111,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -48,23 +48,6 @@
       "whyItMatters": "Ranked highly because it is keyword signals: launch, OpenAI, video."
     },
     {
-      "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
-      "rawTitle": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit - TechCrunch",
-      "description": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit &nbsp;&nbsp; TechCrunch",
-      "source": "TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 21:15:17 GMT",
-      "score": 38,
-      "ageHours": 122.24678138888889,
-      "matchedLabels": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "preferred-source"
-      ],
-      "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, Google."
-    },
-    {
       "title": "Claude A.I. Versus the Pentagon",
       "rawTitle": "Claude A.I. Versus the Pentagon - The New Yorker",
       "description": "Claude A.I. Versus the Pentagon &nbsp;&nbsp; The New Yorker",
@@ -72,7 +55,7 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
       "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
       "score": 35,
-      "ageHours": 13.501503611111112,
+      "ageHours": 13.569115277777778,
       "matchedLabels": [
         "Claude"
       ],
@@ -86,12 +69,27 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
       "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
       "score": 35,
-      "ageHours": 47.89428138888889,
+      "ageHours": 47.96189305555556,
       "matchedLabels": [
         "model",
         "Meta"
       ],
       "whyItMatters": "Ranked highly because it is recent and keyword signals: model, Meta."
+    },
+    {
+      "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
+      "rawTitle": "Anthropic doesn’t trust the Pentagon, and neither should you - The Verge",
+      "description": "Anthropic doesn’t trust the Pentagon, and neither should you &nbsp;&nbsp; The Verge",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 14:00:00 GMT",
+      "score": 31,
+      "ageHours": 57.569115277777776,
+      "matchedLabels": [
+        "Anthropic",
+        "preferred-source"
+      ],
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
     }
   ]
 }
