@@ -92,15 +92,16 @@ npm run smoke
 Use the built-in recorder when you want a reusable "top 5 AI news" content input without adding backend code.
 
 1. Run `npm run news:record` locally, or let `.github/workflows/ai-news-content.yml` run every morning at `07:00 UTC`
-2. Open `content/ai-news/YYYY-MM-DD-daily-posting-brief.md` first for the one-file morning summary
-3. Review `content/ai-news/YYYY-MM-DD-quality-report.md` to catch weak hooks, weak CTAs, and repeated angles before posting, then use its auto-fix options if needed
-4. Open `content/ai-news/YYYY-MM-DD-publishing-queue.md` for the exact posting order
-5. Review the generated digest in `content/ai-news/YYYY-MM-DD.md`
-6. Start from `content/ai-news/YYYY-MM-DD-content-plan.md` when you want hooks, newsletter angles, and short-form scripts
-7. Use `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, and `content/ai-news/YYYY-MM-DD-x-thread.md` for platform-specific finals, backup hooks, and CTA variants
-8. Use `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md` for publish-ready first drafts
-9. Review `content/ai-news/YYYY-MM-DD-publishing-checklist.md` before posting so you keep originality, hooks, and measurement tight
-10. Use `content/ai-news/latest.json` if you want to pipe the stories into another content step
+2. Open `content/ai-news/YYYY-MM-DD-ready-to-post.md` first when you want copy-paste-ready platform content
+3. Open `content/ai-news/YYYY-MM-DD-daily-posting-brief.md` for the one-file morning summary
+4. Review `content/ai-news/YYYY-MM-DD-quality-report.md` to catch weak hooks, weak CTAs, and repeated angles before posting, then use its auto-fix options if needed
+5. Open `content/ai-news/YYYY-MM-DD-publishing-queue.md` for the exact posting order
+6. Review the generated digest in `content/ai-news/YYYY-MM-DD.md`
+7. Start from `content/ai-news/YYYY-MM-DD-content-plan.md` when you want hooks, newsletter angles, and short-form scripts
+8. Use `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, and `content/ai-news/YYYY-MM-DD-x-thread.md` for platform-specific finals, backup hooks, and CTA variants
+9. Use `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md` for publish-ready first drafts
+10. Review `content/ai-news/YYYY-MM-DD-publishing-checklist.md` before posting so you keep originality, hooks, and measurement tight
+11. Use `content/ai-news/latest.json` if you want to pipe the stories into another content step
 
 If you want the shortest possible morning routine, use [docs/DAILY_OPERATOR_CHECKLIST.md](./DAILY_OPERATOR_CHECKLIST.md).
 

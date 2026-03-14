@@ -11,6 +11,7 @@ import {
   buildMarkdownDigest,
   buildNewsletterDraft,
   buildPublishingChecklist,
+  buildReadyToPostPack,
   buildSocialPostPack,
   buildTelegramNotification,
   buildTelegramReplyMarkup,
@@ -175,6 +176,7 @@ describe('record-ai-news helpers', () => {
     };
 
     const newsletter = buildNewsletterDraft(payload);
+    const readyToPost = buildReadyToPostPack(payload);
     const brief = buildDailyPostingBrief(payload);
     const qualityReport = buildContentQualityReport(payload);
     const instagramCarousel = buildInstagramCarousel(payload);
@@ -192,8 +194,14 @@ describe('record-ai-news helpers', () => {
     expect(newsletter).toContain('## Anti-flop notes');
     expect(newsletter).toContain('Subject line 1:');
     expect(newsletter).toContain('## 1. OpenAI launches a new reasoning model');
+    expect(readyToPost).toContain('# AI Ready-to-Post Pack for 2026-03-14');
+    expect(readyToPost).toContain('## LinkedIn Post');
+    expect(readyToPost).toContain('## Instagram Reel');
+    expect(readyToPost).toContain('## X Thread');
+    expect(readyToPost).toContain('```text');
     expect(brief).toContain('# AI Daily Posting Brief for 2026-03-14');
     expect(brief).toContain('## Start here');
+    expect(brief).toContain('Ready-to-post pack: content/ai-news/2026-03-14-ready-to-post.md');
     expect(brief).toContain('Instagram carousel: content/ai-news/2026-03-14-instagram-carousel.md');
     expect(brief).toContain('Publishing queue: content/ai-news/2026-03-14-publishing-queue.md');
     expect(brief).toContain('LinkedIn carousel: content/ai-news/2026-03-14-linkedin-carousel.md');
@@ -302,22 +310,22 @@ describe('record-ai-news helpers', () => {
         ],
         [
           {
-            text: 'Open Brief',
-            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md',
+            text: 'Ready Pack',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-ready-to-post.md',
           },
           {
-            text: 'Open QA',
-            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-quality-report.md',
+            text: 'Open Brief',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md',
           },
         ],
         [
           {
-            text: 'Open Reel',
-            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-instagram-reel.md',
+            text: 'Open QA',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-quality-report.md',
           },
           {
-            text: 'Open Newsletter',
-            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-newsletter.md',
+            text: 'Open Reel',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-instagram-reel.md',
           },
         ],
       ],

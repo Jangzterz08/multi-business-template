@@ -454,22 +454,22 @@ export function buildTelegramReplyMarkup({
   const keyboard = [
     [
       {
-        text: 'Open Brief',
-        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-daily-posting-brief.md`),
+        text: 'Ready Pack',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-ready-to-post.md`),
       },
       {
-        text: 'Open QA',
-        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-quality-report.md`),
+        text: 'Open Brief',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-daily-posting-brief.md`),
       },
     ],
     [
       {
-        text: 'Open Reel',
-        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-instagram-reel.md`),
+        text: 'Open QA',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-quality-report.md`),
       },
       {
-        text: 'Open Newsletter',
-        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-newsletter.md`),
+        text: 'Open Reel',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-instagram-reel.md`),
       },
     ],
   ];
@@ -516,6 +516,10 @@ export function buildTelegramNotification({
   const dateLabel = generatedAt.slice(0, 10);
   const packLinks = repoUrl
     ? [
+        {
+          label: 'Ready Pack',
+          url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-ready-to-post.md`),
+        },
         {
           label: 'Brief',
           url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-daily-posting-brief.md`),
@@ -1532,6 +1536,292 @@ function buildSocialPost(
   ].join('\n');
 }
 
+function stripSuggestedPrefix(value) {
+  const cleaned = value.replace(/^Suggested angle:\s*/u, '').trim();
+  return cleaned ? `${cleaned.slice(0, 1).toUpperCase()}${cleaned.slice(1)}` : cleaned;
+}
+
+function buildPlatformHashtags(article) {
+  const angle = buildStoryAngle(article);
+
+  if (angle === 'product update') {
+    return '#AI #OpenAI #ProductStrategy #AITools #TechNews';
+  }
+
+  if (angle === 'business move') {
+    return '#AI #Startups #BusinessStrategy #TechNews #MarketSignals';
+  }
+
+  if (angle === 'policy signal') {
+    return '#AI #AIPolicy #TechRegulation #AIGovernance #TechNews';
+  }
+
+  if (angle === 'research milestone') {
+    return '#AI #Research #MachineLearning #AICapabilities #TechNews';
+  }
+
+  return '#AI #TechNews #FutureOfWork #AIAgents #BusinessStrategy';
+}
+
+function buildNewsletterCta(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const angle = buildStoryAngle(article);
+
+  if (angle === 'policy signal') {
+    return 'Reply with the policy or governance shift you think AI teams are still underestimating.';
+  }
+
+  if (voiceProfile.key === 'founder') {
+    return 'Reply with the move you think changes leverage next.';
+  }
+
+  return 'Reply with the implication you think most operators should be paying attention to next.';
+}
+
+function buildCommentQuestion(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const angle = buildStoryAngle(article);
+
+  if (angle === 'product update') {
+    return 'What changes first if this product shift sticks: distribution, workflow, or pricing?';
+  }
+
+  if (angle === 'business move') {
+    return voiceProfile.key === 'founder'
+      ? 'Who gains the most leverage if this move works?'
+      : 'Who gains the most momentum if this move works?';
+  }
+
+  if (angle === 'policy signal') {
+    return 'Do you think more AI companies will have to define their red lines in public?';
+  }
+
+  if (angle === 'research milestone') {
+    return 'What product change do you think this unlocks next?';
+  }
+
+  return 'What is the real implication here that most people will miss on first read?';
+}
+
+function buildInstagramCarouselSlides(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const angle = stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile));
+
+  return [
+    article.title,
+    buildStorySummary(article, voiceProfile),
+    article.whyItMatters,
+    angle,
+    'Watch what changes in workflows, distribution, or risk over the next few weeks.',
+    buildCommentQuestion(article, voiceProfile),
+  ];
+}
+
+function buildLinkedInBody(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  return [
+    buildAudienceHook(article, voiceProfile),
+    '',
+    buildStorySummary(article, voiceProfile),
+    '',
+    `Why it matters now: ${article.whyItMatters}`,
+    '',
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    '',
+    buildCommentQuestion(article, voiceProfile),
+    '',
+    `Source: ${article.source}`,
+  ].join('\n');
+}
+
+function buildInstagramCaption(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE], cta) {
+  return [
+    buildAudienceHook(article, voiceProfile),
+    '',
+    buildStorySummary(article, voiceProfile),
+    '',
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    '',
+    cta,
+    '',
+    `Source: ${article.source}`,
+    buildPlatformHashtags(article),
+  ].join('\n');
+}
+
+function buildReelSpokenScript(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  return [
+    buildVideoHook(article, 0),
+    buildStorySummary(article, voiceProfile),
+    `Why it matters: ${article.whyItMatters}`,
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    buildDirectChannelCta(article, voiceProfile, 'instagram-reel'),
+  ].join(' ');
+}
+
+function buildTalkingHeadSpokenScript(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  return [
+    buildAlternateHooks(article, voiceProfile, 'talking-head')[0] ?? buildVideoHook(article, 0),
+    buildStorySummary(article, voiceProfile),
+    `Why it matters now: ${article.whyItMatters}`,
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    buildDirectChannelCta(article, voiceProfile, 'talking-head'),
+  ].join(' ');
+}
+
+function buildXSinglePost(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  return [
+    buildAudienceHook(article, voiceProfile),
+    buildStorySummary(article, voiceProfile),
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    buildCommentQuestion(article, voiceProfile),
+    `Source: ${article.source}`,
+  ].join(' ');
+}
+
+export function buildReadyToPostPack({
+  generatedAt,
+  articles,
+  voice = DEFAULT_VOICE,
+}) {
+  const voiceProfile = resolveVoiceProfile(voice);
+  const lead = articles[0];
+  const dateSlug = generatedAt.slice(0, 10);
+  const subjectLines = buildSubjectLines(articles, generatedAt);
+
+  if (!lead) {
+    return [
+      `# AI Ready-to-Post Pack for ${dateSlug}`,
+      '',
+      `Voice: ${voiceProfile.label}`,
+      '',
+      'No lead story was available, so the copy-paste pack could not be generated.',
+      '',
+    ].join('\n');
+  }
+
+  const previewText =
+    articles.length >= 2
+      ? `${lead.title} leads today's AI brief, plus ${articles[1].title}.`
+      : `${lead.title} leads today's AI brief.`;
+  const newsletterBody = [
+    buildNewsletterIntro(articles, voiceProfile),
+    '',
+    `${lead.title}. ${buildStorySummary(lead, voiceProfile)} ${lead.whyItMatters}`,
+    '',
+    stripSuggestedPrefix(buildSuggestedAngle(lead, voiceProfile)),
+    '',
+    buildNewsletterCta(lead, voiceProfile),
+  ].join('\n');
+  const linkedinCta = buildCommentQuestion(lead, voiceProfile);
+  const instagramCarouselCta = 'Save this post if you want the morning AI signal fast, and comment with the angle people are missing.';
+  const instagramReelCta = buildDirectChannelCta(lead, voiceProfile, 'instagram-reel');
+  const talkingHeadCta = buildDirectChannelCta(lead, voiceProfile, 'talking-head');
+  const xQuestion = buildCommentQuestion(lead, voiceProfile);
+  const carouselSlides = buildInstagramCarouselSlides(lead, voiceProfile);
+  const xThreadPosts = [
+    buildAudienceHook(lead, voiceProfile),
+    buildStorySummary(lead, voiceProfile),
+    `Why it matters now: ${lead.whyItMatters}`,
+    stripSuggestedPrefix(buildSuggestedAngle(lead, voiceProfile)),
+    `${xQuestion} Source: ${lead.source} ${lead.link}`,
+  ];
+
+  return [
+    `# AI Ready-to-Post Pack for ${dateSlug}`,
+    '',
+    `Voice: ${voiceProfile.label}`,
+    '',
+    'Use this file when you want copy-paste-ready text without reading the rest of the morning pack.',
+    '',
+    '## Newsletter',
+    '',
+    `Title: ${subjectLines[0]}`,
+    `Preview text: ${previewText}`,
+    `CTA: ${buildNewsletterCta(lead, voiceProfile)}`,
+    '',
+    '```text',
+    newsletterBody,
+    '```',
+    '',
+    '## LinkedIn Post',
+    '',
+    `Title: ${buildAlternateHooks(lead, voiceProfile, 'linkedin-carousel')[0] ?? lead.title}`,
+    `CTA: ${linkedinCta}`,
+    '',
+    '```text',
+    buildLinkedInBody(lead, voiceProfile),
+    '```',
+    '',
+    '## Instagram Carousel',
+    '',
+    `Title: ${buildAlternateHooks(lead, voiceProfile, 'instagram-carousel')[0] ?? lead.title}`,
+    `CTA: ${instagramCarouselCta}`,
+    '',
+    ...carouselSlides.map((slide, index) => [
+      `Slide ${index + 1}:`,
+      '```text',
+      slide,
+      '```',
+      '',
+    ]).flat(),
+    'Caption:',
+    '```text',
+    buildInstagramCaption(lead, voiceProfile, instagramCarouselCta),
+    '```',
+    '',
+    '## Instagram Reel',
+    '',
+    `Title: ${buildAlternateHooks(lead, voiceProfile, 'instagram-reel')[0] ?? buildVideoHook(lead, 0)}`,
+    `CTA: ${instagramReelCta}`,
+    '',
+    'Hook:',
+    '```text',
+    buildAlternateHooks(lead, voiceProfile, 'instagram-reel')[0] ?? buildVideoHook(lead, 0),
+    '```',
+    'Body:',
+    '```text',
+    buildReelSpokenScript(lead, voiceProfile),
+    '```',
+    'Caption:',
+    '```text',
+    buildInstagramCaption(lead, voiceProfile, instagramReelCta),
+    '```',
+    '',
+    '## X Post',
+    '',
+    `Title: ${lead.title}`,
+    `CTA: ${xQuestion}`,
+    '',
+    '```text',
+    buildXSinglePost(lead, voiceProfile),
+    '```',
+    '',
+    '## X Thread',
+    '',
+    `Title: ${lead.title}`,
+    `CTA: ${xQuestion}`,
+    '',
+    ...xThreadPosts.map((post, index) => [
+      `Post ${index + 1}:`,
+      '```text',
+      post,
+      '```',
+      '',
+    ]).flat(),
+    '## Talking-Head Video',
+    '',
+    `Title: ${buildAlternateHooks(lead, voiceProfile, 'talking-head')[0] ?? lead.title}`,
+    `CTA: ${talkingHeadCta}`,
+    '',
+    'Hook:',
+    '```text',
+    buildAlternateHooks(lead, voiceProfile, 'talking-head')[0] ?? buildVideoHook(lead, 0),
+    '```',
+    'Body:',
+    '```text',
+    buildTalkingHeadSpokenScript(lead, voiceProfile),
+    '```',
+    '',
+  ].join('\n');
+}
+
 export function buildSocialPostPack({
   generatedAt,
   articles,
@@ -1677,6 +1967,7 @@ export function buildDailyPostingBrief({
     '',
     '## Open these files',
     '',
+    `- Ready-to-post pack: content/ai-news/${dateSlug}-ready-to-post.md`,
     `- Publishing queue: content/ai-news/${dateSlug}-publishing-queue.md`,
     `- Newsletter draft: content/ai-news/${dateSlug}-newsletter.md`,
     `- Instagram carousel: content/ai-news/${dateSlug}-instagram-carousel.md`,
@@ -2003,6 +2294,7 @@ export async function recordAiNews({
   const markdownPath = path.join(outputDir, `${dateSlug}.md`);
   const contentPlanPath = path.join(outputDir, `${dateSlug}-content-plan.md`);
   const newsletterPath = path.join(outputDir, `${dateSlug}-newsletter.md`);
+  const readyToPostPath = path.join(outputDir, `${dateSlug}-ready-to-post.md`);
   const postingBriefPath = path.join(outputDir, `${dateSlug}-daily-posting-brief.md`);
   const instagramCarouselPath = path.join(outputDir, `${dateSlug}-instagram-carousel.md`);
   const instagramReelPath = path.join(outputDir, `${dateSlug}-instagram-reel.md`);
@@ -2030,6 +2322,7 @@ export async function recordAiNews({
     fs.writeFile(markdownPath, buildMarkdownDigest(payload), 'utf8'),
     fs.writeFile(contentPlanPath, buildContentPlan(payload), 'utf8'),
     fs.writeFile(newsletterPath, buildNewsletterDraft(payload), 'utf8'),
+    fs.writeFile(readyToPostPath, buildReadyToPostPack(payload), 'utf8'),
     fs.writeFile(postingBriefPath, buildDailyPostingBrief(payload), 'utf8'),
     fs.writeFile(instagramCarouselPath, buildInstagramCarousel(payload), 'utf8'),
     fs.writeFile(instagramReelPath, buildInstagramReel(payload), 'utf8'),
@@ -2066,6 +2359,7 @@ export async function recordAiNews({
     markdownPath,
     contentPlanPath,
     newsletterPath,
+    readyToPostPath,
     postingBriefPath,
     instagramCarouselPath,
     instagramReelPath,
@@ -2091,7 +2385,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === currentFilePath) {
     .then(() => recordAiNews())
     .then((result) => {
       console.log(
-        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.postingBriefPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, and ${result.latestJsonPath}.`,
+        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.readyToPostPath}, ${result.postingBriefPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, and ${result.latestJsonPath}.`,
       );
       console.log(`Feed used: ${result.feedUrl}`);
       if (result.telegramNotificationSent) {

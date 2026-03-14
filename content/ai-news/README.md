@@ -10,6 +10,7 @@ Generated digests land here.
 - `YYYY-MM-DD-instagram-reel.md`: Instagram Reel script, caption pack, alternate hooks, and CTA options
 - `YYYY-MM-DD-linkedin-carousel.md`: slide outline, caption, and alternate cover options for a LinkedIn carousel
 - `YYYY-MM-DD-newsletter.md`: first-draft morning newsletter
+- `YYYY-MM-DD-ready-to-post.md`: copy-paste-ready text for each platform with title, body, and CTA
 - `YYYY-MM-DD-quality-report.md`: publishing QA scorecard with hook, CTA, and redundancy checks plus auto-fix options when a draft is weak
 - `YYYY-MM-DD-publishing-queue.md`: the exact morning posting order
 - `YYYY-MM-DD-publishing-checklist.md`: preflight and success-metric checklist

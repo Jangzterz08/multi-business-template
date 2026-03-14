@@ -11,6 +11,7 @@ Voice: Operator
 
 ## Open these files
 
+- Ready-to-post pack: content/ai-news/2026-03-14-ready-to-post.md
 - Publishing queue: content/ai-news/2026-03-14-publishing-queue.md
 - Newsletter draft: content/ai-news/2026-03-14-newsletter.md
 - Instagram carousel: content/ai-news/2026-03-14-instagram-carousel.md

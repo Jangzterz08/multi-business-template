@@ -20,6 +20,7 @@ The recorder keeps the daily brief to five stories and now creates a full mornin
 - `content/ai-news/YYYY-MM-DD-instagram-reel.md`: an Instagram Reel pack from the lead story, plus alternate hooks and CTA options
 - `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`: a LinkedIn carousel outline built from the lead story, plus alternate cover options
 - `content/ai-news/YYYY-MM-DD-newsletter.md`: first-draft newsletter copy
+- `content/ai-news/YYYY-MM-DD-ready-to-post.md`: copy-paste-ready platform content with title, body, and CTA sections
 - `content/ai-news/YYYY-MM-DD-quality-report.md`: a QA report that flags weak hooks, soft CTAs, and repeated angles before publishing, then gives auto-fix options
 - `content/ai-news/YYYY-MM-DD-publishing-queue.md`: the exact order for the morning posts
 - `content/ai-news/YYYY-MM-DD-publishing-checklist.md`: preflight and KPI checklist
@@ -47,11 +48,12 @@ Ranking is designed to reflect the niche:
 ## Recommended morning routine
 
 1. Let the workflow run in the morning
-2. Open the daily posting brief and quality report first
-3. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
-4. Pick one lead story for a short video or carousel
-5. Turn the full top five into a newsletter or morning post
-6. Verify any surprising claim on the original article before publishing
+2. Open the ready-to-post pack first if you want immediate copy-paste text
+3. Open the daily posting brief and quality report for direction and QA
+4. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
+5. Pick one lead story for a short video or carousel
+6. Turn the full top five into a newsletter or morning post
+7. Verify any surprising claim on the original article before publishing
 
 ## Suggested repo settings
 

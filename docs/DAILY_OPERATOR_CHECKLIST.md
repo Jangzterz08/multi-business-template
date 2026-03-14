@@ -6,11 +6,12 @@ Need the phone version instead? Use [POST_THIS_NOW_CHECKLIST.md](./POST_THIS_NOW
 
 ## 5-minute routine
 
-1. Open `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`
-2. Open `content/ai-news/YYYY-MM-DD-quality-report.md`
-3. Verify the lead story on the original source if it is sensitive, surprising, or unclear
-4. Fix any weak hook, repeated opener, or weak CTA using the built-in alternate hooks and CTA options
-5. Decide whether to keep the lead story or switch to a stronger backup story
+1. Open `content/ai-news/YYYY-MM-DD-ready-to-post.md`
+2. Open `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`
+3. Open `content/ai-news/YYYY-MM-DD-quality-report.md`
+4. Verify the lead story on the original source if it is sensitive, surprising, or unclear
+5. Fix any weak hook, repeated opener, or weak CTA using the built-in alternate hooks and CTA options
+6. Decide whether to keep the lead story or switch to a stronger backup story
 
 ## Publish order
 

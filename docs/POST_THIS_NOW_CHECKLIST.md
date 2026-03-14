@@ -2,7 +2,7 @@
 
 ## Open first
 
-1. `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`
+1. `content/ai-news/YYYY-MM-DD-ready-to-post.md`
 2. `content/ai-news/YYYY-MM-DD-quality-report.md`
 
 ## Quick check
