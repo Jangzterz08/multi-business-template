@@ -46,10 +46,10 @@ Recommended LinkedIn format: native image, video, or document with 3-5 relevant 
 
 ## Social Post 5
 
-AI story 5 worth your time today: Meta Delays Rollout of New A.I. Model After Performance Concerns
+AI story 5 worth your time today: AI (artificial intelligence)
 
-Meta Delays Rollout of New A.I. Model After Performance Concerns points to a product shift worth watching, especially for teams building with AI right now. Ranked highly because it is recent and keyword signals: model, Meta. Add one original takeaway about who benefits if this product shift sticks.
+AI (artificial intelligence) looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent. Add one original takeaway that goes beyond the headline.
 
-Source: The New York Times
-Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
+Source: The Guardian
+Link: https://news.google.com/rss/articles/CBMicEFVX3lxTE1ITEpPcjJTZG1IZVJXYTVWanhKNHZ6QmZ0QngyS1d5T1VzdFVmQ2lrUzJ2U3RQeWZHY3ExbU1DX3dJRFhFRGJoV2tyZmVuYkYzekRrTnZNOFg3Q2hPS3ZzbVlNQVgzcWJONnBIb3h2SW4?oc=5
 Recommended LinkedIn format: native image, video, or document with 3-5 relevant hashtags.

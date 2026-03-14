@@ -47,13 +47,13 @@ Story 4 in the mix is OpenAI and Google employees rush to Anthropic’s defense 
 - Published: Mon, 09 Mar 2026 21:15:17 GMT
 - Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
 
-## 5. Meta Delays Rollout of New A.I. Model After Performance Concerns
+## 5. AI (artificial intelligence)
 
-Story 5 in the mix is Meta Delays Rollout of New A.I. Model After Performance Concerns. Meta Delays Rollout of New A.I. Model After Performance Concerns points to a product shift worth watching, especially for teams building with AI right now. Ranked highly because it is recent and keyword signals: model, Meta. Source: The New York Times.
+Story 5 in the mix is AI (artificial intelligence). AI (artificial intelligence) looks like a broader industry shift that is worth keeping on the radar this morning. Ranked highly because it is very recent. Source: The Guardian.
 
-- Source: The New York Times
-- Published: Thu, 12 Mar 2026 23:36:26 GMT
-- Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
+- Source: The Guardian
+- Published: Sat, 14 Mar 2026 16:33:22 GMT
+- Link: https://news.google.com/rss/articles/CBMicEFVX3lxTE1ITEpPcjJTZG1IZVJXYTVWanhKNHZ6QmZ0QngyS1d5T1VzdFVmQ2lrUzJ2U3RQeWZHY3ExbU1DX3dJRFhFRGJoV2tyZmVuYkYzekRrTnZNOFg3Q2hPS3ZzbVlNQVgzcWJONnBIb3h2SW4?oc=5
 
 ## Closing
 

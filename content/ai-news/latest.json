@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T17:40:29.453Z",
+  "generatedAt": "2026-03-14T17:57:13.019Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -21,7 +21,7 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
       "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
       "score": 42,
-      "ageHours": 7.674848055555556,
+      "ageHours": 7.953616388888889,
       "matchedLabels": [
         "Claude"
       ],
@@ -35,7 +35,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
       "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
       "score": 39,
-      "ageHours": 85.77484805555555,
+      "ageHours": 86.05361638888888,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -52,7 +52,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
       "pubDate": "Wed, 11 Mar 2026 04:52:00 GMT",
       "score": 39,
-      "ageHours": 84.80818138888888,
+      "ageHours": 85.08694972222223,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -69,7 +69,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
       "pubDate": "Mon, 09 Mar 2026 21:15:17 GMT",
       "score": 38,
-      "ageHours": 116.42012583333333,
+      "ageHours": 116.69889416666666,
       "matchedLabels": [
         "OpenAI",
         "Anthropic",
@@ -79,19 +79,16 @@
       "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, Google."
     },
     {
-      "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
-      "rawTitle": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
-      "description": "Meta Delays Rollout of New A.I. Model After Performance Concerns &nbsp;&nbsp; The New York Times",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
-      "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
+      "title": "AI (artificial intelligence)",
+      "rawTitle": "AI (artificial intelligence) - The Guardian",
+      "description": "AI (artificial intelligence) &nbsp;&nbsp; The Guardian",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ITEpPcjJTZG1IZVJXYTVWanhKNHZ6QmZ0QngyS1d5T1VzdFVmQ2lrUzJ2U3RQeWZHY3ExbU1DX3dJRFhFRGJoV2tyZmVuYkYzekRrTnZNOFg3Q2hPS3ZzbVlNQVgzcWJONnBIb3h2SW4?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 16:33:22 GMT",
       "score": 35,
-      "ageHours": 42.06762583333333,
-      "matchedLabels": [
-        "model",
-        "Meta"
-      ],
-      "whyItMatters": "Ranked highly because it is recent and keyword signals: model, Meta."
+      "ageHours": 1.3975052777777779,
+      "matchedLabels": [],
+      "whyItMatters": "Ranked highly because it is very recent."
     }
   ]
 }
