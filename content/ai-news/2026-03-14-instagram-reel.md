@@ -1,30 +1,30 @@
 # AI Instagram Reel Pack for 2026-03-14
 
-Voice: Operator
+Voice: Creator
 
-Lead story: Claude A.I. Versus the Pentagon
+Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 
 ## Reel script
 
-Hook: The biggest AI story this morning is Claude A.I. Versus the Pentagon.
-Body: Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning.
-Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
-Close: Suggested angle: explain how this changes the market, product decisions, or day-to-day work. Save this if you care about AI workflows, and comment on the part people are missing.
+Hook: The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift.
+Body: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore.
+Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
+Close: Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best. Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
 
 ## Caption
 
-If you want the signal instead of the noise in AI, start with this story. Suggested angle: explain how this changes the market, product decisions, or day-to-day work.
+This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary. Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.
 
 ## Alternate hooks
 
-1. Claude A.I. Versus the Pentagon is the headline. Here is the real signal.
-2. Before the feed moves on, here is what this changes for AI workflows.
-3. Most people will repost the headline. This is the part worth paying attention to.
+1. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is the headline. Here is the part that matters.
+2. This is what the headline changes for builder workflows.
+3. Most people will repost this. Here is the actual signal.
 
 ## CTA options
 
-1. Save this if you care about AI workflows, and comment on the part people are missing.
-2. Share this with someone tracking AI workflows, then tell me what part of the story people are underestimating.
+1. Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
+2. Share this with someone tracking builder workflows, then tell me what part of the story people are underestimating.
 3. Follow for the next AI story that changes workflow, not just headlines.
 
 ## Reel notes

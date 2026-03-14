@@ -1,33 +1,33 @@
 # AI Talking Head Script 30s for 2026-03-14
 
-Voice: Operator
+Voice: Creator
 
-Lead story: Claude A.I. Versus the Pentagon
+Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 
 ## Beat timing
 
 0-5s: Hook
-The biggest AI story this morning is Claude A.I. Versus the Pentagon.
+The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift.
 
 5-15s: What changed
-Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning.
+OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore.
 
 15-24s: Why it matters
-Ranked highly because it is very recent and keyword signals: Claude.
+Ranked highly because it is keyword signals: launch, OpenAI, video.
 
 24-30s: Original angle + close
-Suggested angle: explain how this changes the market, product decisions, or day-to-day work. Comment if you think this changes AI workflows, and tell me why.
+Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best. Tell me whether this changes builder workflows, and what part matters most.
 
 ## Alternate hooks
 
-1. The headline is Claude A.I. Versus the Pentagon. The real story is what it changes next.
-2. Everyone will quote the headline. I care more about AI workflows.
-3. If you build, buy, or ship AI, this is the part of today's news worth watching.
+1. The headline is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. The real story is what it changes.
+2. Everyone will quote the headline. I care more about the shift in builder workflows.
+3. If you work in AI, this is the part of today's news worth paying attention to.
 
 ## CTA options
 
-1. Comment if you think this changes AI workflows, and tell me why.
-2. Tell me whether this changes how you think about AI workflows.
+1. Tell me whether this changes builder workflows, and what part matters most.
+2. Tell me whether this changes how you think about builder workflows.
 3. Follow if you want the daily AI signal without the headline fluff.
 
 ## Production notes

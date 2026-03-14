@@ -1,13 +1,13 @@
 # AI Daily Posting Brief for 2026-03-14
 
-Voice: Operator
+Voice: Creator
 
 ## Start here
 
-- Lead story: Claude A.I. Versus the Pentagon
-- Lead source: The New Yorker
+- Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+- Lead source: The Information
 - First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.
-- Original angle required: Add one original takeaway that goes beyond the headline.
+- Original angle required: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 
 ## Open these files
 

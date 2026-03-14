@@ -110,14 +110,14 @@ Optional environment variables for the recorder:
 - `AI_NEWS_LANGUAGE`: locale, default `en-US`
 - `AI_NEWS_REGION`: region, default `US`
 - `AI_NEWS_OUTPUT_DIR`: output folder, default `content/ai-news`
-- `AI_CONTENT_VOICE`: `operator`, `founder`, `educator`, or `newsroom`
+- `AI_CONTENT_VOICE`: `creator`, `operator`, `founder`, `educator`, or `newsroom`
 - `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for morning notifications
 - `AI_TELEGRAM_CHAT_ID`: optional Telegram chat id for the notification target
 - `AI_TELEGRAM_SILENT`: optional `true` or `false` for silent sends
 - `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
 - `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
 
-If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, post order, quick checks, direct file links, and inline buttons. The Telegram links now open the ready-to-post pack first. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
+If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, post order, quick checks, direct file links, inline buttons, and a compact `Copy now` section for the newsletter title, newsletter body, reel hook, and a post caption. The Telegram links now open the ready-to-post pack first. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
 
 Workflow notes for the AI news niche live in [docs/AI_CONTENT_WORKFLOW.md](docs/AI_CONTENT_WORKFLOW.md).
 Content strategy and platform research notes live in [docs/CONTENT_MANAGER_PLAYBOOK.md](docs/CONTENT_MANAGER_PLAYBOOK.md).

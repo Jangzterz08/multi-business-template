@@ -40,8 +40,9 @@ Build an audience that trusts us to filter AI news, explain what matters, and ad
 
 ## Brand voice modes
 
-The generator supports four voice modes through `AI_CONTENT_VOICE`:
+The generator supports five voice modes through `AI_CONTENT_VOICE`:
 
+- `creator`: sharper, more human, more publish-ready by default
 - `operator`: practical, strategic, decision-useful
 - `founder`: sharper, market-aware, advantage-focused
 - `educator`: clearer, more explanatory, lower hype

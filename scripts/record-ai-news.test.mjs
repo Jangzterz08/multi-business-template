@@ -299,8 +299,13 @@ describe('record-ai-news helpers', () => {
     expect(telegramMessage).toContain('<b>AI Morning Pack Ready</b>');
     expect(telegramMessage).toContain('<b>Lead</b>: <a href="https://example.com/openai-reasoning">OpenAI launches a new reasoning model</a>');
     expect(telegramMessage).toContain('<b>Post now</b>');
+    expect(telegramMessage).toContain('<b>Copy now</b>');
+    expect(telegramMessage).toContain('<b>Newsletter title</b>');
+    expect(telegramMessage).toContain('<pre>AI Brief 03-14: OpenAI launches a new reasoning model</pre>');
+    expect(telegramMessage).toContain('<b>Post caption</b>');
     expect(telegramMessage).toContain('<b>Open pack</b>');
     expect(telegramMessage).toContain('https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md');
+    expect(telegramMessage).toContain('Use Ready Pack for the full newsletter, carousel, thread, and talking-head copy.');
     expect(telegramMessage).toContain('Use alternate hooks or CTA options if the opener feels weak');
     expect(telegramReplyMarkup).toEqual({
       inline_keyboard: [
@@ -330,6 +335,27 @@ describe('record-ai-news helpers', () => {
         ],
       ],
     });
+  });
+
+  it('uses the creator voice as the sharper default output', () => {
+    const readyToPost = buildReadyToPostPack({
+      generatedAt: '2026-03-14T10:00:00.000Z',
+      articles: [
+        {
+          title: 'OpenAI launches a new reasoning model',
+          link: 'https://example.com/openai-reasoning',
+          source: 'The Verge',
+          pubDate: 'Fri, 14 Mar 2026 08:00:00 GMT',
+          score: 61,
+          whyItMatters: 'Ranked highly because it is very recent and keyword signals: launch, model.',
+          description: 'The release focuses on agents and reasoning.',
+        },
+      ],
+    });
+
+    expect(readyToPost).toContain('Voice: Creator');
+    expect(readyToPost).toContain('Most people will repost the headline.');
+    expect(readyToPost).toContain('what it changes');
   });
 
   it('classifies policy-heavy stories as policy signals even when launch language appears', () => {

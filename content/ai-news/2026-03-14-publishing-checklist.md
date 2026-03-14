@@ -1,6 +1,6 @@
 # AI Publishing Checklist for 2026-03-14
 
-Voice: Operator
+Voice: Creator
 
 ## Before publishing
 
@@ -22,6 +22,6 @@ Voice: Operator
 
 ## Today's lead
 
-- Lead story: Claude A.I. Versus the Pentagon
-- Source: The New Yorker
-- Originality reminder: Add one original takeaway that goes beyond the headline.
+- Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+- Source: The Information
+- Originality reminder: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.

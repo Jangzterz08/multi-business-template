@@ -19,71 +19,71 @@
 
 ## Lead story
 
-- Voice: Operator
-- Title: Claude A.I. Versus the Pentagon
-- Source: The New Yorker
-- Positioning: If you want the signal instead of the noise in AI, start with this story.
+- Voice: Creator
+- Title: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+- Source: The Information
+- Positioning: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
 
 ## Newsletter package
 
-- Subject line 1: AI Brief 03-14: Claude A.I. Versus the Pentagon
-- Subject line 2: 5 AI stories today: The New Yorker to The Informa…
-- Intro: This morning's AI brief pulls the five stories most worth your attention and focuses on what builders, operators, and decision-makers should do with the signal. This edition is curated across The New Yorker, The Information, Reuters.
+- Subject line 1: AI Brief 03-14: OpenAI Plans to Launch Sora Video…
+- Subject line 2: 5 AI stories today: The Information to Reuters
+- Intro: This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across The Information, Reuters, TechCrunch.
 
 ## Short-form package
 
 - Recommended format: 9:16 vertical clips, about 15 to 45 seconds each.
 - Hook ideas:
-- The AI headline everyone will talk about today: Claude A.I. Versus the Pentagon
-- AI creators should watch this one: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+- The AI headline everyone will talk about today: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 - AI creators should watch this one: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
+- AI creators should watch this one: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
 
 ## Story breakdowns
 
-### Story 1: Claude A.I. Versus the Pentagon
-- Source: The New Yorker
-- Published: Sat, 14 Mar 2026 10:00:00 GMT
-- Angle: industry shift
-- Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
-- Original take to add: Add one original takeaway that goes beyond the headline.
-- Hook: If you want the signal instead of the noise in AI, start with this story.
-- Suggested short-form script: Here is the biggest AI story this morning. Claude A.I. Versus the Pentagon. Source: The New Yorker. Ranked highly because it is very recent and keyword signals: Claude. Use this as a industry shift clip in a 15 to 45 second vertical video.
-
-### Story 2: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+### Story 1: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 - Source: The Information
 - Published: Wed, 11 Mar 2026 03:54:00 GMT
 - Angle: product update
 - Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
-- Original take to add: Add one original takeaway about who benefits if this product shift sticks.
-- Hook: If you build with AI tools, this The Information story is the one to watch this morning.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Source: The Information. Ranked highly because it is keyword signals: launch, OpenAI, video. Use this as a product update clip in a 15 to 45 second vertical video.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
+- Suggested short-form script: Here is the biggest AI story this morning. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Source: The Information. Ranked highly because it is keyword signals: launch, OpenAI, video. Use this as a product update clip in a 15 to 45 second vertical video.
 
-### Story 3: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
+### Story 2: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
 - Source: Reuters
 - Published: Wed, 11 Mar 2026 04:52:00 GMT
 - Angle: product update
 - Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
-- Original take to add: Add one original takeaway about who benefits if this product shift sticks.
-- Hook: If you build with AI tools, this Reuters story is the one to watch this morning.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
 - Suggested short-form script: Here is another AI story you should not skip today. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. Source: Reuters. Ranked highly because it is keyword signals: launch, OpenAI, video. Use this as a product update clip in a 15 to 45 second vertical video.
 
-### Story 4: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
+### Story 3: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
 - Source: TechCrunch
 - Published: Mon, 09 Mar 2026 21:15:17 GMT
 - Angle: policy signal
 - Why it matters: Ranked highly because it is keyword signals: OpenAI, Anthropic, Google.
-- Original take to add: Add one original takeaway about compliance, product shipping, or platform risk.
-- Hook: If you create or ship AI products, this policy update matters more than the headline suggests.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.
 - Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Use this as a policy signal clip in a 15 to 45 second vertical video.
 
-### Story 5: AI (artificial intelligence)
-- Source: The Guardian
-- Published: Sat, 14 Mar 2026 16:33:22 GMT
+### Story 4: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
+- Published: Sat, 14 Mar 2026 10:00:00 GMT
 - Angle: industry shift
-- Why it matters: Ranked highly because it is very recent.
-- Original take to add: Add one original takeaway that goes beyond the headline.
-- Hook: If you want the signal instead of the noise in AI, start with this story.
-- Suggested short-form script: Here is another AI story you should not skip today. AI (artificial intelligence). Source: The Guardian. Ranked highly because it is very recent. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. Claude A.I. Versus the Pentagon. Source: The New Yorker. Ranked highly because it is very recent and keyword signals: Claude. Use this as a industry shift clip in a 15 to 45 second vertical video.
+
+### Story 5: Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times
+- Source: The New York Times
+- Published: Thu, 12 Mar 2026 23:36:26 GMT
+- Angle: product update
+- Why it matters: Ranked highly because it is recent and keyword signals: model, Meta.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
+- Suggested short-form script: Here is another AI story you should not skip today. Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times. Source: The New York Times. Ranked highly because it is recent and keyword signals: model, Meta. Use this as a product update clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

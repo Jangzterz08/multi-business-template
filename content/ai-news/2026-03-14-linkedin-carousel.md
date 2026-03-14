@@ -1,28 +1,28 @@
 # AI LinkedIn Carousel for 2026-03-14
 
-Voice: Operator
+Voice: Creator
 
-Lead story: Claude A.I. Versus the Pentagon
-Source: The New Yorker
+Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+Source: The Information
 
 ## Slide outline
 
-1. Cover: Claude A.I. Versus the Pentagon
-2. Why this matters: Claude A.I. Versus the Pentagon looks like a broader industry shift that is worth keeping on the radar this morning.
-3. What changed: Ranked highly because it is very recent and keyword signals: Claude.
-4. Original take: Suggested angle: explain how this changes the market, product decisions, or day-to-day work.
+1. Cover: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+2. Why this matters: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore.
+3. What changed: Ranked highly because it is keyword signals: launch, OpenAI, video.
+4. Original take: Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.
 5. So what: explain who should care and what they should watch next.
 6. CTA: ask a simple opinion question to invite comments.
 
 ## Caption
 
-If you want the signal instead of the noise in AI, start with this story. Suggested angle: explain how this changes the market, product decisions, or day-to-day work.
+This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary. Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.
 
 ## Cover options
 
-1. The AI story operators should not ignore today
-2. What this AI move changes for AI workflows
-3. The real takeaway behind today's AI headline
+1. The AI headline everyone will repost today
+2. The real change behind this move in builder workflows
+3. What this AI story actually means for operators
 
 ## Format notes
 

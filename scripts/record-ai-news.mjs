@@ -8,10 +8,22 @@ const DEFAULT_QUERY =
 const DEFAULT_LIMIT = 5;
 const DEFAULT_OUTPUT_DIR = 'content/ai-news';
 const DEFAULT_MAX_PER_SOURCE = 1;
-const DEFAULT_VOICE = 'operator';
+const DEFAULT_VOICE = 'creator';
 const GOOGLE_NEWS_HOST = 'https://news.google.com';
 
 const VOICE_PROFILES = {
+  creator: {
+    key: 'creator',
+    label: 'Creator',
+    intro:
+      "This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on.",
+    closing:
+      'Close with a clear point of view, make the implication concrete, and leave the audience with one strong next thought.',
+    originalityPrefix:
+      'Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.',
+    socialFormatNote:
+      'Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.',
+  },
   operator: {
     key: 'operator',
     label: 'Operator',
@@ -437,6 +449,45 @@ function buildRepoFileUrl(repoUrl, repoBranch, filePath) {
   return `${normalizedRepoUrl}/blob/${encodeURIComponent(repoBranch)}/${encodedSegments}`;
 }
 
+function compactWhitespace(value) {
+  return value.replace(/\s+/gu, ' ').trim();
+}
+
+function compactTelegramCopy(value, maxLength) {
+  return truncate(compactWhitespace(value), maxLength);
+}
+
+function buildTelegramCopyBlocks(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE], generatedAt = '') {
+  if (!article) {
+    return [];
+  }
+
+  const subjectLines = buildSubjectLines([article], generatedAt || new Date().toISOString());
+  const newsletterBody = compactTelegramCopy([
+    `${article.title}.`,
+    buildStorySummary(article, voiceProfile),
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    buildNewsletterCta(article, voiceProfile),
+  ].join(' '), 320);
+  const reelHook = compactTelegramCopy(
+    buildAlternateHooks(article, voiceProfile, 'instagram-reel')[0] ?? buildVideoHook(article, 0),
+    180,
+  );
+  const socialCaption = compactTelegramCopy([
+    buildAudienceHook(article, voiceProfile),
+    buildStorySummary(article, voiceProfile),
+    stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
+    buildCommentQuestion(article, voiceProfile),
+  ].join(' '), 360);
+
+  return [
+    { label: 'Newsletter title', value: subjectLines[0] },
+    { label: 'Newsletter body', value: newsletterBody },
+    { label: 'Reel hook', value: reelHook },
+    { label: 'Post caption', value: socialCaption },
+  ];
+}
+
 export function buildTelegramReplyMarkup({
   generatedAt,
   articles,
@@ -514,6 +565,7 @@ export function buildTelegramNotification({
   const backup = articles[1];
   const topLinks = articles.slice(0, 2);
   const dateLabel = generatedAt.slice(0, 10);
+  const copyBlocks = buildTelegramCopyBlocks(lead, voiceProfile, generatedAt);
   const packLinks = repoUrl
     ? [
         {
@@ -554,12 +606,23 @@ export function buildTelegramNotification({
     '2. Reel / short video',
     '3. LinkedIn or Instagram carousel',
     '',
+    ...(copyBlocks.length
+      ? [
+          '<b>Copy now</b>',
+          ...copyBlocks.flatMap((block) => [
+            `<b>${escapeHtml(block.label)}</b>`,
+            `<pre>${escapeHtml(block.value)}</pre>`,
+          ]),
+          '',
+        ]
+      : []),
     ...(packLinks.length
       ? [
           '<b>Open pack</b>',
           packLinks
             .map((entry) => `<a href="${escapeHtml(entry.url)}">${escapeHtml(entry.label)}</a>`)
             .join(' • '),
+          'Use Ready Pack for the full newsletter, carousel, thread, and talking-head copy.',
           '',
         ]
       : []),
@@ -642,27 +705,47 @@ function buildAudienceHook(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
+    if (voiceProfile.key === 'creator') {
+      return 'This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.';
+    }
+
     return voiceProfile.key === 'educator'
       ? `If you want one clear product story to understand this morning, start with this ${article.source} update.`
       : `If you build with AI tools, this ${article.source} story is the one to watch this morning.`;
   }
 
   if (angle === 'business move') {
+    if (voiceProfile.key === 'creator') {
+      return 'This looks like business news on the surface, but it is really a signal about where leverage is moving.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'If you follow where market power is moving in AI, this is the business story to watch first.'
       : `If you follow the AI market, this move could change who wins attention and money next.`;
   }
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return 'This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.';
+    }
+
     return voiceProfile.key === 'newsroom'
       ? 'If you ship AI products, this policy development deserves closer attention than the headline alone suggests.'
       : `If you create or ship AI products, this policy update matters more than the headline suggests.`;
   }
 
   if (angle === 'research milestone') {
+    if (voiceProfile.key === 'creator') {
+      return 'This is the research story to watch because these capability shifts usually hit products faster than most people expect.';
+    }
+
     return voiceProfile.key === 'educator'
       ? 'If you want to understand where AI capability may be heading next, begin with this research story.'
       : `If you care where AI is heading next, this research story is the one worth opening with.`;
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return 'Most people will repost the headline. This is the part of the story actually worth paying attention to.';
   }
 
   return voiceProfile.key === 'founder'
@@ -806,6 +889,10 @@ function buildStorySummary(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
+    if (voiceProfile.key === 'creator') {
+      return `${article.title} is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore.`;
+    }
+
     if (voiceProfile.key === 'educator') {
       return `${article.title} is a product shift worth understanding because it changes what AI users and builders may be able to do next.`;
     }
@@ -814,21 +901,37 @@ function buildStorySummary(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]
   }
 
   if (angle === 'business move') {
+    if (voiceProfile.key === 'creator') {
+      return `${article.title} is a business signal about who may gain distribution, capital, or staying power after the headline fades.`;
+    }
+
     return voiceProfile.key === 'founder'
       ? `${article.title} signals a business move that could reshape leverage, capital flow, or distribution in the AI market.`
       : `${article.title} signals a business move that could affect momentum, distribution, or funding in the AI market.`;
   }
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return `${article.title} is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next.`;
+    }
+
     return voiceProfile.key === 'newsroom'
       ? `${article.title} is a policy development with direct implications for how AI products may be governed or distributed.`
       : `${article.title} is a policy development that could shape how AI products are built, distributed, or governed.`;
   }
 
   if (angle === 'research milestone') {
+    if (voiceProfile.key === 'creator') {
+      return `${article.title} is a research signal, but the real question is how fast it shows up in products people actually use.`;
+    }
+
     return voiceProfile.key === 'educator'
       ? `${article.title} stands out as a research milestone that may help explain where the next wave of AI capability is coming from.`
       : `${article.title} stands out as a research milestone that may influence the next wave of AI product capabilities.`;
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return `${article.title} is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.`;
   }
 
   return voiceProfile.key === 'founder'
@@ -839,10 +942,10 @@ function buildStorySummary(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]
 function buildNewsletterBodyParagraph(article, index, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
   const opener =
     index === 0
-      ? 'The lead story this morning'
-      : `Story ${index + 1} in the mix`;
+      ? `Start with ${article.title}.`
+      : `Then watch ${article.title}.`;
 
-  return `${opener} is ${article.title}. ${buildStorySummary(article, voiceProfile)} ${article.whyItMatters} Source: ${article.source}.`;
+  return `${opener} ${buildStorySummary(article, voiceProfile)} ${article.whyItMatters} Source: ${article.source}.`;
 }
 
 export function buildNewsletterDraft({
@@ -905,23 +1008,43 @@ function buildVideoCta(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
+    if (voiceProfile.key === 'creator') {
+      return 'Watch this one if you care about which workflow changes first, not just who ships the feature.';
+    }
+
     return voiceProfile.key === 'educator'
       ? 'Watch this one if you want a clearer read on how AI tools are changing.'
       : 'Watch this one if you build with AI tools every week.';
   }
 
   if (angle === 'business move') {
+    if (voiceProfile.key === 'creator') {
+      return 'Watch this one if you care where AI leverage is actually moving next.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Watch this one if you care who is gaining strategic leverage in AI.'
       : 'Watch this one if you track who is gaining leverage in AI.';
   }
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return 'Watch this one if you want to know what this could slow down, block, or force companies to answer for.';
+    }
+
     return 'Watch this one if you care about how AI rules could change the market.';
   }
 
   if (angle === 'research milestone') {
+    if (voiceProfile.key === 'creator') {
+      return 'Watch this one if you care about which product change this research unlocks first.';
+    }
+
     return 'Watch this one if you care where AI capability is heading next.';
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return 'Watch this one if you want the useful signal before the feed turns it into noise.';
   }
 
   return 'Watch this one if you want the signal, not just the noise.';
@@ -932,6 +1055,10 @@ function buildOriginalityPrompt(
   voiceProfile = VOICE_PROFILES[DEFAULT_VOICE],
 ) {
   const angle = buildStoryAngle(article);
+
+  if (voiceProfile.key === 'creator') {
+    return voiceProfile.originalityPrefix;
+  }
 
   if (voiceProfile.key === 'founder') {
     return voiceProfile.originalityPrefix;
@@ -971,27 +1098,47 @@ function buildSuggestedAngle(
   const angle = buildStoryAngle(article);
 
   if (angle === 'research milestone') {
+    if (voiceProfile.key === 'creator') {
+      return 'Suggested angle: the market usually notices research late; the real edge goes to the teams that turn new capability into product behavior first.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Suggested angle: if reasoning improvements keep compounding, the edge moves from raw model access to who can turn capability into distribution and workflow advantage fastest.'
       : 'Suggested angle: this matters because research advances tend to become product changes faster than most teams expect.';
   }
 
   if (angle === 'product update') {
+    if (voiceProfile.key === 'creator') {
+      return 'Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Suggested angle: the winner will not be the team that notices the feature first, but the one that ships the best workflow on top of it.'
       : 'Suggested angle: product changes matter most when they make real workflows faster, cheaper, or easier.';
   }
 
   if (angle === 'business move') {
+    if (voiceProfile.key === 'creator') {
+      return 'Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Suggested angle: funding and partnership moves matter because they reshape who gets distribution, talent, and staying power next.'
       : 'Suggested angle: business news matters when it changes who can build faster or reach users sooner.';
   }
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return 'Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Suggested angle: policy shifts matter when they start changing launch speed, compliance cost, and platform risk.'
       : 'Suggested angle: policy stories matter because rules can become product constraints very quickly.';
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return 'Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today.';
   }
 
   return voiceProfile.key === 'founder'
@@ -1041,30 +1188,44 @@ function buildDirectChannelCta(
     }
 
     if (angle === 'business move') {
-      return 'Save this and comment on who you think gains leverage next.';
+      return voiceProfile.key === 'creator'
+        ? 'Save this and tell me who comes out stronger if this move sticks.'
+        : 'Save this and comment on who you think gains leverage next.';
     }
 
     if (angle === 'research milestone') {
-      return 'Save this if you track where AI capability is moving, and comment on what it unlocks next.';
+      return voiceProfile.key === 'creator'
+        ? 'Save this if you track where AI capability is going, and tell me what product shows up first.'
+        : 'Save this if you track where AI capability is moving, and comment on what it unlocks next.';
     }
 
-    return `Save this if you care about ${payoff}, and comment on the part people are missing.`;
+    return voiceProfile.key === 'creator'
+      ? `Save this if you care about ${payoff}, and tell me what part of the story people still are not seeing.`
+      : `Save this if you care about ${payoff}, and comment on the part people are missing.`;
   }
 
   if (channel === 'talking-head') {
     if (angle === 'policy signal') {
-      return 'Comment if you think more AI companies will have to define their red lines in public.';
+      return voiceProfile.key === 'creator'
+        ? 'Tell me if this becomes the new line every major AI company has to draw.'
+        : 'Comment if you think more AI companies will have to define their red lines in public.';
     }
 
     if (angle === 'business move') {
-      return 'Tell me who you think gains leverage next, and why.';
+      return voiceProfile.key === 'creator'
+        ? 'Tell me who comes out stronger here, and why.'
+        : 'Tell me who you think gains leverage next, and why.';
     }
 
     if (angle === 'research milestone') {
-      return 'Comment on the product shift you think this unlocks next.';
+      return voiceProfile.key === 'creator'
+        ? 'Tell me which product shift this unlocks first.'
+        : 'Comment on the product shift you think this unlocks next.';
     }
 
-    return `Comment if you think this changes ${payoff}, and tell me why.`;
+    return voiceProfile.key === 'creator'
+      ? `Tell me whether this changes ${payoff}, and what part matters most.`
+      : `Comment if you think this changes ${payoff}, and tell me why.`;
   }
 
   return 'Comment with the implication you think most people are missing.';
@@ -1079,6 +1240,14 @@ function buildAlternateHooks(
   const compactTitle = truncate(article.title, 72);
 
   if (channel === 'instagram-carousel') {
+    if (voiceProfile.key === 'creator') {
+      return [
+        'Most people will miss what this AI story changes',
+        `The headline is not the point. The shift in ${payoff} is.`,
+        'What this AI headline actually changes next',
+      ];
+    }
+
     return [
       'The AI story people will miss today',
       `What this headline actually changes for ${payoff}`,
@@ -1087,6 +1256,14 @@ function buildAlternateHooks(
   }
 
   if (channel === 'linkedin-carousel') {
+    if (voiceProfile.key === 'creator') {
+      return [
+        'The AI headline everyone will repost today',
+        `The real change behind this move in ${payoff}`,
+        'What this AI story actually means for operators',
+      ];
+    }
+
     return [
       'The AI story operators should not ignore today',
       `What this AI move changes for ${payoff}`,
@@ -1095,6 +1272,14 @@ function buildAlternateHooks(
   }
 
   if (channel === 'instagram-reel') {
+    if (voiceProfile.key === 'creator') {
+      return [
+        `${compactTitle} is the headline. Here is the part that matters.`,
+        `This is what the headline changes for ${payoff}.`,
+        'Most people will repost this. Here is the actual signal.',
+      ];
+    }
+
     return [
       `${compactTitle} is the headline. Here is the real signal.`,
       `Before the feed moves on, here is what this changes for ${payoff}.`,
@@ -1103,10 +1288,26 @@ function buildAlternateHooks(
   }
 
   if (channel === 'talking-head') {
+    if (voiceProfile.key === 'creator') {
+      return [
+        `The headline is ${compactTitle}. The real story is what it changes.`,
+        `Everyone will quote the headline. I care more about the shift in ${payoff}.`,
+        "If you work in AI, this is the part of today's news worth paying attention to.",
+      ];
+    }
+
     return [
       `The headline is ${compactTitle}. The real story is what it changes next.`,
       `Everyone will quote the headline. I care more about ${payoff}.`,
       'If you build, buy, or ship AI, this is the part of today\'s news worth watching.',
+    ];
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return [
+      `The real signal in ${compactTitle} is what it changes next.`,
+      `The story is not the headline. It is the shift in ${payoff}.`,
+      'The useful part of this story starts after the announcement itself.',
     ];
   }
 
@@ -1567,7 +1768,15 @@ function buildNewsletterCta(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE
   const angle = buildStoryAngle(article);
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return 'Reply with the policy line you think AI companies will be forced to define next.';
+    }
+
     return 'Reply with the policy or governance shift you think AI teams are still underestimating.';
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return 'Reply with the implication you think actually matters after the headline fades.';
   }
 
   if (voiceProfile.key === 'founder') {
@@ -1581,21 +1790,41 @@ function buildCommentQuestion(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOI
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
+    if (voiceProfile.key === 'creator') {
+      return 'If this sticks, which workflow changes first?';
+    }
+
     return 'What changes first if this product shift sticks: distribution, workflow, or pricing?';
   }
 
   if (angle === 'business move') {
+    if (voiceProfile.key === 'creator') {
+      return 'Who comes out stronger if this move works?';
+    }
+
     return voiceProfile.key === 'founder'
       ? 'Who gains the most leverage if this move works?'
       : 'Who gains the most momentum if this move works?';
   }
 
   if (angle === 'policy signal') {
+    if (voiceProfile.key === 'creator') {
+      return 'Does this become the new line every major AI company has to draw?';
+    }
+
     return 'Do you think more AI companies will have to define their red lines in public?';
   }
 
   if (angle === 'research milestone') {
+    if (voiceProfile.key === 'creator') {
+      return 'What product shows up first if this capability lands?';
+    }
+
     return 'What product change do you think this unlocks next?';
+  }
+
+  if (voiceProfile.key === 'creator') {
+    return 'What is the part of this story most people are still missing?';
   }
 
   return 'What is the real implication here that most people will miss on first read?';

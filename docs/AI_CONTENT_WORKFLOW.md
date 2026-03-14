@@ -72,7 +72,7 @@ Set these in your local `.env` or GitHub Actions variables if needed:
 - `AI_TELEGRAM_REPO_URL`
 - `AI_TELEGRAM_REPO_BRANCH`
 
-When Telegram is configured, the workflow also sends a compact morning notification with the lead story, backup story, post order, quick checks, direct file links, and inline buttons so the operator can act from a phone.
+When Telegram is configured, the workflow also sends a compact morning notification with the lead story, backup story, post order, quick checks, direct file links, inline buttons, and compact `Copy now` snippets so the operator can act from a phone without opening the full pack first.
 
 ## Research sources
 
