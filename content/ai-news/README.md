@@ -3,9 +3,12 @@
 Generated digests land here.
 
 - `latest.json`: machine-readable snapshot of the newest run
+- `performance-memory.json`: persistent memory of completed-day results and reusable performance patterns
 - `YYYY-MM-DD.md`: daily markdown digest of the top five AI stories
 - `YYYY-MM-DD-content-plan.md`: ready-to-create brief with hooks, subject lines, scripts, and verification steps
 - `YYYY-MM-DD-daily-posting-brief.md`: one-file morning briefing with what to open and publish first
+- `YYYY-MM-DD-publish-decision.md`: lead-vs-backup recommendation with confidence scoring and next actions
+- `YYYY-MM-DD-performance-review.md`: after-post instructions for logging metrics and outcomes back into memory
 - `YYYY-MM-DD-instagram-carousel.md`: Instagram carousel outline, caption, and alternate cover options
 - `YYYY-MM-DD-instagram-reel.md`: Instagram Reel script, caption pack, alternate hooks, and CTA options
 - `YYYY-MM-DD-linkedin-carousel.md`: slide outline, caption, and alternate cover options for a LinkedIn carousel

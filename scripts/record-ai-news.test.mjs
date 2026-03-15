@@ -10,6 +10,7 @@ import {
   buildLinkedInCarouselOutline,
   buildMarkdownDigest,
   buildNewsletterDraft,
+  buildPublishDecisionReport,
   buildPublishingChecklist,
   buildReadyToPostPack,
   buildSocialPostPack,
@@ -202,6 +203,8 @@ describe('record-ai-news helpers', () => {
     expect(brief).toContain('# AI Daily Posting Brief for 2026-03-14');
     expect(brief).toContain('## Start here');
     expect(brief).toContain('Ready-to-post pack: content/ai-news/2026-03-14-ready-to-post.md');
+    expect(brief).toContain('Publish decision: content/ai-news/2026-03-14-publish-decision.md');
+    expect(brief).toContain('Performance review: content/ai-news/2026-03-14-performance-review.md');
     expect(brief).toContain('Instagram carousel: content/ai-news/2026-03-14-instagram-carousel.md');
     expect(brief).toContain('Publishing queue: content/ai-news/2026-03-14-publishing-queue.md');
     expect(brief).toContain('LinkedIn carousel: content/ai-news/2026-03-14-linkedin-carousel.md');
@@ -329,12 +332,80 @@ describe('record-ai-news helpers', () => {
             url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-quality-report.md',
           },
           {
+            text: 'Decision',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-publish-decision.md',
+          },
+        ],
+        [
+          {
             text: 'Open Reel',
             url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-instagram-reel.md',
+          },
+          {
+            text: 'Review',
+            url: 'https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-performance-review.md',
           },
         ],
       ],
     });
+  });
+
+  it('creates a publish decision report using memory and editorial heuristics', () => {
+    const report = buildPublishDecisionReport({
+      generatedAt: '2026-03-14T10:00:00.000Z',
+      voice: 'creator',
+      preferredSources: ['reuters', 'the verge'],
+      performanceMemory: {
+        version: 1,
+        updatedAt: '2026-03-13T10:00:00.000Z',
+        history: [
+          {
+            date: '2026-03-13',
+            leadSource: 'Reuters',
+            leadAngle: 'product update',
+            metrics: { newsletterClicks: 42 },
+            operatorReview: { status: 'published', winningPlatform: 'LinkedIn', winningAngle: 'product update', notes: '' },
+          },
+        ],
+        insights: {
+          completedEntryCount: 1,
+          winningAngles: [{ label: 'product update', count: 1 }],
+          winningPlatforms: [{ label: 'LinkedIn', count: 1 }],
+          winningSources: [{ label: 'Reuters', count: 1 }],
+          summary: 'Performance memory from 1 completed day(s): product update stories have won 1 time(s).',
+        },
+      },
+      articles: [
+        {
+          title: 'OpenAI launches a new reasoning model',
+          link: 'https://example.com/openai-reasoning',
+          source: 'Reuters',
+          pubDate: 'Fri, 14 Mar 2026 08:00:00 GMT',
+          score: 61,
+          ageHours: 2,
+          matchedLabels: ['launch', 'model', 'OpenAI'],
+          whyItMatters: 'Ranked highly because it is very recent and keyword signals: launch, model.',
+          description: 'The release focuses on agents and reasoning.',
+        },
+        {
+          title: 'Anthropic raises funding for robotics push',
+          link: 'https://example.com/anthropic-funding',
+          source: 'The Verge',
+          pubDate: 'Fri, 14 Mar 2026 06:30:00 GMT',
+          score: 50,
+          ageHours: 3.5,
+          matchedLabels: ['Anthropic', 'funding', 'robotics'],
+          whyItMatters: 'Ranked highly because it is very recent and keyword signals: Anthropic, funding, robotics.',
+          description: 'Fresh AI funding and robotics expansion plans.',
+        },
+      ],
+    });
+
+    expect(report).toContain('# AI Publish Decision for 2026-03-14');
+    expect(report).toContain('Decision:');
+    expect(report).toContain('Lead score:');
+    expect(report).toContain('Performance memory');
+    expect(report).toContain('What to do now');
   });
 
   it('uses the creator voice as the sharper default output', () => {

@@ -7,9 +7,24 @@ const DEFAULT_QUERY =
   'AI OR "artificial intelligence" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d';
 const DEFAULT_LIMIT = 5;
 const DEFAULT_OUTPUT_DIR = 'content/ai-news';
+const DEFAULT_MEMORY_FILE = 'performance-memory.json';
 const DEFAULT_MAX_PER_SOURCE = 1;
 const DEFAULT_VOICE = 'creator';
 const GOOGLE_NEWS_HOST = 'https://news.google.com';
+const TRUSTED_SOURCE_FALLBACKS = new Set([
+  'reuters',
+  'the verge',
+  'techcrunch',
+  'mit technology review',
+  'the information',
+  'the new york times',
+  'bloomberg',
+  'financial times',
+  'associated press',
+  'ap news',
+  'wall street journal',
+  'wired',
+]);
 
 const VOICE_PROFILES = {
   creator: {
@@ -188,6 +203,19 @@ export async function readDotEnvFile(filePath) {
     if (error instanceof Error && 'code' in error && error.code === 'ENOENT') {
       return null;
     }
+    throw error;
+  }
+}
+
+async function readJsonFile(filePath, fallback) {
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      return fallback;
+    }
+
     throw error;
   }
 }
@@ -519,8 +547,18 @@ export function buildTelegramReplyMarkup({
         url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-quality-report.md`),
       },
       {
+        text: 'Decision',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-publish-decision.md`),
+      },
+    ],
+    [
+      {
         text: 'Open Reel',
         url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-instagram-reel.md`),
+      },
+      {
+        text: 'Review',
+        url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateSlug}-performance-review.md`),
       },
     ],
   ];
@@ -559,6 +597,7 @@ export function buildTelegramNotification({
   voice = DEFAULT_VOICE,
   repoUrl = '',
   repoBranch = 'main',
+  publishDecision = null,
 }) {
   const voiceProfile = resolveVoiceProfile(voice);
   const lead = articles[0];
@@ -581,6 +620,10 @@ export function buildTelegramNotification({
           url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-quality-report.md`),
         },
         {
+          label: 'Decision',
+          url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-publish-decision.md`),
+        },
+        {
           label: 'Reel',
           url: buildRepoFileUrl(repoUrl, repoBranch, `content/ai-news/${dateLabel}-instagram-reel.md`),
         },
@@ -597,6 +640,9 @@ export function buildTelegramNotification({
     '',
     `<b>Lead</b>: <a href="${escapeHtml(lead.link)}">${escapeHtml(lead.title)}</a>`,
     `${escapeHtml(lead.source)}`,
+    ...(publishDecision
+      ? [`<b>Decision</b>: ${escapeHtml(`${publishDecision.recommendation} (${publishDecision.leadScore}/100)` )}`]
+      : []),
     backup
       ? `<b>Backup</b>: <a href="${escapeHtml(backup.link)}">${escapeHtml(backup.title)}</a>`
       : '<b>Backup</b>: none',
@@ -1346,6 +1392,446 @@ function buildChannelCtaOptions(
     'Invite a save, share, or reply based on the platform.',
     'Close on one action, not a vague sign-off.',
   ];
+}
+
+function normalizeScore(value) {
+  if (value === null || value === undefined || value === '') {
+    return null;
+  }
+
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function hasManualPerformanceData(entry) {
+  if (!entry || typeof entry !== 'object') {
+    return false;
+  }
+
+  const metricValues = Object.values(entry.metrics ?? {});
+  if (metricValues.some((value) => normalizeScore(value) !== null)) {
+    return true;
+  }
+
+  const review = entry.operatorReview ?? {};
+  return Boolean(
+    (typeof review.status === 'string' && review.status !== 'pending') ||
+      (typeof review.winningPlatform === 'string' && review.winningPlatform.trim()) ||
+      (typeof review.notes === 'string' && review.notes.trim()),
+  );
+}
+
+function createDefaultPerformanceMemory() {
+  return {
+    version: 1,
+    updatedAt: '',
+    history: [],
+    insights: {
+      completedEntryCount: 0,
+      winningAngles: [],
+      winningPlatforms: [],
+      winningSources: [],
+      summary: 'No completed performance history yet. Using editorial heuristics for now.',
+    },
+  };
+}
+
+function buildPerformanceMemoryEntry(payload, publishDecision) {
+  const lead = payload.articles[0];
+  const backup = payload.articles[1];
+
+  return {
+    date: payload.generatedAt.slice(0, 10),
+    generatedAt: payload.generatedAt,
+    voice: payload.voice,
+    leadTitle: lead?.title ?? '',
+    leadSource: lead?.source ?? '',
+    leadAngle: lead ? buildStoryAngle(lead) : '',
+    backupTitle: backup?.title ?? '',
+    backupSource: backup?.source ?? '',
+    publishDecision: publishDecision
+      ? {
+          recommendation: publishDecision.recommendation,
+          score: publishDecision.leadScore,
+          backupScore: publishDecision.backupScore,
+          summary: publishDecision.summary,
+        }
+      : null,
+    metrics: {
+      newsletterClicks: null,
+      newsletterReplies: null,
+      reelHoldRate3s: null,
+      reelCompletionRate: null,
+      instagramSaves: null,
+      linkedinComments: null,
+      xBookmarks: null,
+    },
+    operatorReview: {
+      status: 'pending',
+      winningPlatform: '',
+      winningAngle: lead ? buildStoryAngle(lead) : '',
+      notes: '',
+    },
+  };
+}
+
+function mergePerformanceMemoryEntry(previousEntry, nextEntry) {
+  if (!previousEntry) {
+    return nextEntry;
+  }
+
+  return {
+    ...nextEntry,
+    metrics: {
+      ...nextEntry.metrics,
+      ...(previousEntry.metrics ?? {}),
+    },
+    operatorReview: {
+      ...nextEntry.operatorReview,
+      ...(previousEntry.operatorReview ?? {}),
+    },
+  };
+}
+
+function summarizeWinningCounts(counter) {
+  return [...counter.entries()]
+    .sort((left, right) => right[1] - left[1])
+    .slice(0, 3)
+    .map(([label, count]) => ({ label, count }));
+}
+
+function buildPerformanceInsights(memory) {
+  const completedEntries = (memory.history ?? []).filter((entry) => hasManualPerformanceData(entry));
+
+  if (!completedEntries.length) {
+    return {
+      completedEntryCount: 0,
+      winningAngles: [],
+      winningPlatforms: [],
+      winningSources: [],
+      summary: 'No completed performance history yet. Using editorial heuristics for now.',
+    };
+  }
+
+  const angleCounter = new Map();
+  const platformCounter = new Map();
+  const sourceCounter = new Map();
+
+  completedEntries.forEach((entry) => {
+    const winningAngle = entry.operatorReview?.winningAngle || entry.leadAngle;
+    const winningPlatform = entry.operatorReview?.winningPlatform;
+    const source = entry.leadSource;
+
+    if (winningAngle) {
+      angleCounter.set(winningAngle, (angleCounter.get(winningAngle) ?? 0) + 1);
+    }
+
+    if (winningPlatform) {
+      platformCounter.set(winningPlatform, (platformCounter.get(winningPlatform) ?? 0) + 1);
+    }
+
+    if (source) {
+      sourceCounter.set(source, (sourceCounter.get(source) ?? 0) + 1);
+    }
+  });
+
+  const winningAngles = summarizeWinningCounts(angleCounter);
+  const winningPlatforms = summarizeWinningCounts(platformCounter);
+  const winningSources = summarizeWinningCounts(sourceCounter);
+  const summaryParts = [];
+
+  if (winningAngles[0]) {
+    summaryParts.push(`${winningAngles[0].label} stories have won ${winningAngles[0].count} time(s)`);
+  }
+
+  if (winningPlatforms[0]) {
+    summaryParts.push(`${winningPlatforms[0].label} is the strongest channel ${winningPlatforms[0].count} time(s)`);
+  }
+
+  if (winningSources[0]) {
+    summaryParts.push(`${winningSources[0].label} has been the lead source ${winningSources[0].count} time(s)`);
+  }
+
+  return {
+    completedEntryCount: completedEntries.length,
+    winningAngles,
+    winningPlatforms,
+    winningSources,
+    summary: summaryParts.length
+      ? `Performance memory from ${completedEntries.length} completed day(s): ${summaryParts.join('; ')}.`
+      : `Performance memory is available from ${completedEntries.length} completed day(s), but it is still too sparse for a strong pattern.`,
+  };
+}
+
+function isTrustedSource(source, preferredSources = []) {
+  const normalized = normalizeSource(source);
+  return preferredSources.includes(normalized) || TRUSTED_SOURCE_FALLBACKS.has(normalized);
+}
+
+function looksInterpretiveHeadline(article) {
+  return /\bopinion|analysis|versus|should you|why\b/iu.test(`${article.title} ${article.description ?? ''}`);
+}
+
+function buildLeadConfidenceBreakdown(article, context = {}) {
+  const preferredSources = context.preferredSources ?? [];
+  const insights = context.performanceInsights ?? createDefaultPerformanceMemory().insights;
+  const score = {
+    value: 50,
+    strengths: [],
+    risks: [],
+  };
+  const angle = buildStoryAngle(article);
+  const overlapWithBackup = context.backupArticle
+    ? tokenOverlapRatio(`${article.title} ${article.description ?? ''}`, `${context.backupArticle.title} ${context.backupArticle.description ?? ''}`)
+    : 0;
+
+  if (isTrustedSource(article.source, preferredSources)) {
+    score.value += preferredSources.includes(normalizeSource(article.source)) ? 12 : 8;
+    score.strengths.push(`${article.source} is treated as a trusted source for the morning stack.`);
+  } else {
+    score.value -= 8;
+    score.risks.push(`${article.source} is not on the trusted-source list, so the lead needs stronger verification.`);
+  }
+
+  if (article.ageHours <= 24) {
+    score.value += 12;
+    score.strengths.push('The story is still fresh enough for a morning-led publish.');
+  } else if (article.ageHours <= 72) {
+    score.value += 6;
+    score.strengths.push('The story is recent enough to stay usable today.');
+  } else if (article.ageHours <= 120) {
+    score.value -= 4;
+    score.risks.push('The story is aging out of the ideal morning-news window.');
+  } else {
+    score.value -= 10;
+    score.risks.push('The story is old for a morning news lead and may already feel stale.');
+  }
+
+  if (article.matchedLabels?.length >= 3) {
+    score.value += 8;
+    score.strengths.push('The headline has enough AI-specific signal to support strong downstream content.');
+  } else if (article.matchedLabels?.length >= 2) {
+    score.value += 4;
+    score.strengths.push('The story has multiple AI-specific signals, not just one loose keyword.');
+  } else {
+    score.value -= 3;
+    score.risks.push('The headline has thin keyword signal, which makes generic copy more likely.');
+  }
+
+  if (angle !== 'industry shift') {
+    score.value += 5;
+    score.strengths.push(`${angle} stories are easier to explain clearly than broad industry-shift headlines.`);
+  } else {
+    score.value -= 5;
+    score.risks.push('The story still reads like a broad industry shift, which can lead to vague content if not tightened.');
+  }
+
+  if (looksInterpretiveHeadline(article)) {
+    score.value -= 8;
+    score.risks.push('The headline reads like commentary or interpretation, so it needs source verification before becoming the lead.');
+  }
+
+  if (overlapWithBackup >= 0.4) {
+    score.risks.push('The backup story overlaps heavily with this lead, which means there may be a stronger version of the same story available.');
+    if (
+      context.backupArticle &&
+      isTrustedSource(context.backupArticle.source, preferredSources) &&
+      context.backupArticle.score >= article.score - 1
+    ) {
+      score.value -= 7;
+    }
+  }
+
+  const winningAngle = insights.winningAngles?.find((entry) => entry.label === angle);
+  if (winningAngle) {
+    score.value += Math.min(8, winningAngle.count * 2);
+    score.strengths.push(`Past completed days suggest ${angle} stories have worked ${winningAngle.count} time(s).`);
+  }
+
+  const winningSource = insights.winningSources?.find((entry) => entry.label === article.source);
+  if (winningSource) {
+    score.value += Math.min(6, winningSource.count * 2);
+    score.strengths.push(`${article.source} has already led successful days ${winningSource.count} time(s).`);
+  }
+
+  return {
+    angle,
+    score: clampScore(score.value, 100),
+    strengths: score.strengths,
+    risks: score.risks,
+  };
+}
+
+function buildPublishDecision(payload, performanceMemory) {
+  const lead = payload.articles[0];
+  const backup = payload.articles[1];
+  const preferredSources = payload.preferredSources ?? [];
+  const performanceInsights = performanceMemory?.insights ?? createDefaultPerformanceMemory().insights;
+  const leadBreakdown = lead
+    ? buildLeadConfidenceBreakdown(lead, {
+        preferredSources,
+        performanceInsights,
+        backupArticle: backup,
+      })
+    : null;
+  const backupBreakdown = backup
+    ? buildLeadConfidenceBreakdown(backup, {
+        preferredSources,
+        performanceInsights,
+        backupArticle: lead,
+      })
+    : null;
+
+  if (!leadBreakdown) {
+    return null;
+  }
+
+  let recommendation = 'Publish lead';
+  let summary = 'The lead is strong enough to publish as the main story.';
+
+  if (backupBreakdown && backupBreakdown.score >= leadBreakdown.score + 7) {
+    recommendation = 'Switch to backup';
+    summary = `${backup.title} looks like the stronger lead today.`;
+  } else if (leadBreakdown.score < 70) {
+    recommendation = 'Verify before publishing';
+    summary = 'The lead is usable, but it needs verification or tightening before it becomes the main post.';
+  } else if (leadBreakdown.score < 80 || looksInterpretiveHeadline(lead)) {
+    recommendation = 'Publish with verification';
+    summary = 'The lead can work, but verify the source and angle before posting it first.';
+  }
+
+  return {
+    recommendation,
+    summary,
+    leadScore: leadBreakdown.score,
+    backupScore: backupBreakdown?.score ?? null,
+    leadAngle: leadBreakdown.angle,
+    backupAngle: backupBreakdown?.angle ?? null,
+    leadStrengths: leadBreakdown.strengths,
+    leadRisks: leadBreakdown.risks,
+    backupStrengths: backupBreakdown?.strengths ?? [],
+    backupRisks: backupBreakdown?.risks ?? [],
+  };
+}
+
+export function buildPublishDecisionReport({
+  generatedAt,
+  articles,
+  voice = DEFAULT_VOICE,
+  preferredSources = [],
+  performanceMemory = createDefaultPerformanceMemory(),
+  publishDecision = null,
+}) {
+  const voiceProfile = resolveVoiceProfile(voice);
+  const payload = { generatedAt, articles, voice, preferredSources };
+  const decision = publishDecision ?? buildPublishDecision(payload, performanceMemory);
+  const lead = articles[0];
+  const backup = articles[1];
+
+  if (!decision || !lead) {
+    return [
+      `# AI Publish Decision for ${generatedAt.slice(0, 10)}`,
+      '',
+      `Voice: ${voiceProfile.label}`,
+      '',
+      'No lead story was available, so the publish decision report could not be generated.',
+      '',
+    ].join('\n');
+  }
+
+  return [
+    `# AI Publish Decision for ${generatedAt.slice(0, 10)}`,
+    '',
+    `Voice: ${voiceProfile.label}`,
+    '',
+    '## Recommendation',
+    '',
+    `- Decision: ${decision.recommendation}`,
+    `- Lead score: ${decision.leadScore}/100`,
+    `- Backup score: ${decision.backupScore === null ? 'n/a' : `${decision.backupScore}/100`}`,
+    `- Summary: ${decision.summary}`,
+    '',
+    '## Lead review',
+    '',
+    `- Lead story: ${lead.title}`,
+    `- Lead angle: ${decision.leadAngle}`,
+    ...decision.leadStrengths.map((item) => `- Strength: ${item}`),
+    ...decision.leadRisks.map((item) => `- Risk: ${item}`),
+    '',
+    ...(backup
+      ? [
+          '## Backup review',
+          '',
+          `- Backup story: ${backup.title}`,
+          `- Backup angle: ${decision.backupAngle ?? buildStoryAngle(backup)}`,
+          ...decision.backupStrengths.map((item) => `- Strength: ${item}`),
+          ...decision.backupRisks.map((item) => `- Risk: ${item}`),
+          '',
+        ]
+      : []),
+    '## Performance memory',
+    '',
+    `- ${performanceMemory.insights?.summary ?? 'No performance memory summary available yet.'}`,
+    '',
+    '## What to do now',
+    '',
+    ...(decision.recommendation === 'Switch to backup'
+      ? [
+          '- Use the backup story as the lead in the newsletter, Reel, and carousel.',
+          '- Keep the original lead as a follow-up or skip it entirely.',
+        ]
+      : decision.recommendation === 'Verify before publishing'
+        ? [
+            '- Verify the lead on the original source before posting.',
+            '- Keep the backup story open in case the lead still feels thin after verification.',
+          ]
+        : [
+            '- Publish the lead first, but keep the backup story ready if the topic cools off.',
+            '- Use the quality report to tighten hooks or CTAs before posting.',
+          ]),
+    '',
+  ].join('\n');
+}
+
+function buildPerformanceReviewTemplate({
+  generatedAt,
+  articles,
+  performanceMemory = createDefaultPerformanceMemory(),
+}) {
+  const lead = articles[0];
+  const dateSlug = generatedAt.slice(0, 10);
+  const insights = performanceMemory.insights ?? createDefaultPerformanceMemory().insights;
+
+  return [
+    `# AI Performance Review for ${dateSlug}`,
+    '',
+    `Lead story: ${lead?.title ?? 'No lead story available'}`,
+    '',
+    '## Update after posting',
+    '',
+    '- Open content/ai-news/performance-memory.json and update today\'s metrics and operatorReview fields.',
+    '- Fill only the fields you actually know. Leave the rest as null or pending.',
+    '- The next morning run will reuse the completed entries as performance memory.',
+    '',
+    '## What to capture',
+    '',
+    '- newsletterClicks',
+    '- newsletterReplies',
+    '- reelHoldRate3s',
+    '- reelCompletionRate',
+    '- instagramSaves',
+    '- linkedinComments',
+    '- xBookmarks',
+    '- operatorReview.status',
+    '- operatorReview.winningPlatform',
+    '- operatorReview.winningAngle',
+    '- operatorReview.notes',
+    '',
+    '## Current memory summary',
+    '',
+    `- ${insights.summary}`,
+    '',
+  ].join('\n');
 }
 
 function tokenizeForComparison(value) {
@@ -2177,6 +2663,7 @@ export function buildDailyPostingBrief({
   generatedAt,
   articles,
   voice = DEFAULT_VOICE,
+  publishDecision = null,
 }) {
   const voiceProfile = resolveVoiceProfile(voice);
   const lead = articles[0];
@@ -2191,12 +2678,20 @@ export function buildDailyPostingBrief({
     '',
     `- Lead story: ${lead?.title ?? 'No lead story available'}`,
     `- Lead source: ${lead?.source ?? 'Unknown source'}`,
+    ...(publishDecision
+      ? [
+          `- Publish decision: ${publishDecision.recommendation}`,
+          `- Confidence: ${publishDecision.leadScore}/100`,
+        ]
+      : []),
     `- First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.`,
     `- Original angle required: ${lead ? buildOriginalityPrompt(lead, voiceProfile) : 'Add one original takeaway before posting.'}`,
     '',
     '## Open these files',
     '',
     `- Ready-to-post pack: content/ai-news/${dateSlug}-ready-to-post.md`,
+    `- Publish decision: content/ai-news/${dateSlug}-publish-decision.md`,
+    `- Performance review: content/ai-news/${dateSlug}-performance-review.md`,
     `- Publishing queue: content/ai-news/${dateSlug}-publishing-queue.md`,
     `- Newsletter draft: content/ai-news/${dateSlug}-newsletter.md`,
     `- Instagram carousel: content/ai-news/${dateSlug}-instagram-carousel.md`,
@@ -2466,6 +2961,7 @@ export async function recordAiNews({
   limit = parseLimit(envValue('AI_NEWS_LIMIT', `${DEFAULT_LIMIT}`)),
   query = envValue('AI_NEWS_QUERY', DEFAULT_QUERY),
   outputDir = envValue('AI_NEWS_OUTPUT_DIR', DEFAULT_OUTPUT_DIR),
+  memoryFile = envValue('AI_CONTENT_MEMORY_FILE', DEFAULT_MEMORY_FILE),
   language = envValue('AI_NEWS_LANGUAGE', 'en-US'),
   region = envValue('AI_NEWS_REGION', 'US'),
   voice = envValue('AI_CONTENT_VOICE', DEFAULT_VOICE).toLowerCase(),
@@ -2509,7 +3005,16 @@ export async function recordAiNews({
 
   const generatedAt = now.toISOString();
   const dateSlug = generatedAt.slice(0, 10);
-  const payload = {
+  const memoryPath = path.isAbsolute(memoryFile) ? memoryFile : path.join(outputDir, memoryFile);
+  const existingMemory = await readJsonFile(memoryPath, createDefaultPerformanceMemory());
+  const normalizedMemory = {
+    ...createDefaultPerformanceMemory(),
+    ...existingMemory,
+    history: Array.isArray(existingMemory?.history) ? existingMemory.history : [],
+  };
+  normalizedMemory.insights = buildPerformanceInsights(normalizedMemory);
+
+  const basePayload = {
     generatedAt,
     query,
     feedUrl,
@@ -2519,12 +3024,32 @@ export async function recordAiNews({
     maxPerSource,
     articles,
   };
+  const publishDecision = buildPublishDecision(basePayload, normalizedMemory);
+  const todayMemoryEntry = mergePerformanceMemoryEntry(
+    normalizedMemory.history.find((entry) => entry.date === dateSlug),
+    buildPerformanceMemoryEntry(basePayload, publishDecision),
+  );
+  const historyWithoutToday = normalizedMemory.history.filter((entry) => entry.date !== dateSlug);
+  const nextMemory = {
+    ...normalizedMemory,
+    updatedAt: generatedAt,
+    history: [...historyWithoutToday, todayMemoryEntry].sort((left, right) => left.date.localeCompare(right.date)),
+  };
+  nextMemory.insights = buildPerformanceInsights(nextMemory);
+
+  const payload = {
+    ...basePayload,
+    publishDecision,
+    performanceMemorySummary: nextMemory.insights.summary,
+  };
 
   const markdownPath = path.join(outputDir, `${dateSlug}.md`);
   const contentPlanPath = path.join(outputDir, `${dateSlug}-content-plan.md`);
   const newsletterPath = path.join(outputDir, `${dateSlug}-newsletter.md`);
   const readyToPostPath = path.join(outputDir, `${dateSlug}-ready-to-post.md`);
   const postingBriefPath = path.join(outputDir, `${dateSlug}-daily-posting-brief.md`);
+  const publishDecisionPath = path.join(outputDir, `${dateSlug}-publish-decision.md`);
+  const performanceReviewPath = path.join(outputDir, `${dateSlug}-performance-review.md`);
   const instagramCarouselPath = path.join(outputDir, `${dateSlug}-instagram-carousel.md`);
   const instagramReelPath = path.join(outputDir, `${dateSlug}-instagram-reel.md`);
   const linkedinCarouselPath = path.join(outputDir, `${dateSlug}-linkedin-carousel.md`);
@@ -2553,6 +3078,8 @@ export async function recordAiNews({
     fs.writeFile(newsletterPath, buildNewsletterDraft(payload), 'utf8'),
     fs.writeFile(readyToPostPath, buildReadyToPostPack(payload), 'utf8'),
     fs.writeFile(postingBriefPath, buildDailyPostingBrief(payload), 'utf8'),
+    fs.writeFile(publishDecisionPath, buildPublishDecisionReport({ ...payload, performanceMemory: nextMemory, publishDecision }), 'utf8'),
+    fs.writeFile(performanceReviewPath, buildPerformanceReviewTemplate({ ...payload, performanceMemory: nextMemory }), 'utf8'),
     fs.writeFile(instagramCarouselPath, buildInstagramCarousel(payload), 'utf8'),
     fs.writeFile(instagramReelPath, buildInstagramReel(payload), 'utf8'),
     fs.writeFile(linkedinCarouselPath, buildLinkedInCarouselOutline(payload), 'utf8'),
@@ -2564,6 +3091,7 @@ export async function recordAiNews({
     fs.writeFile(videoScriptsPath, buildVideoScriptPack(payload), 'utf8'),
     fs.writeFile(socialPostsPath, buildSocialPostPack(payload), 'utf8'),
     fs.writeFile(latestJsonPath, `${JSON.stringify(payload, null, 2)}\n`, 'utf8'),
+    fs.writeFile(memoryPath, `${JSON.stringify(nextMemory, null, 2)}\n`, 'utf8'),
   ]);
 
   let telegramNotificationSent = false;
@@ -2590,6 +3118,8 @@ export async function recordAiNews({
     newsletterPath,
     readyToPostPath,
     postingBriefPath,
+    publishDecisionPath,
+    performanceReviewPath,
     instagramCarouselPath,
     instagramReelPath,
     linkedinCarouselPath,
@@ -2601,6 +3131,7 @@ export async function recordAiNews({
     videoScriptsPath,
     socialPostsPath,
     latestJsonPath,
+    memoryPath,
     articleCount: articles.length,
     feedUrl,
     telegramNotificationSent,
@@ -2614,7 +3145,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === currentFilePath) {
     .then(() => recordAiNews())
     .then((result) => {
       console.log(
-        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.readyToPostPath}, ${result.postingBriefPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, and ${result.latestJsonPath}.`,
+        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.readyToPostPath}, ${result.postingBriefPath}, ${result.publishDecisionPath}, ${result.performanceReviewPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, ${result.latestJsonPath}, and ${result.memoryPath}.`,
       );
       console.log(`Feed used: ${result.feedUrl}`);
       if (result.telegramNotificationSent) {

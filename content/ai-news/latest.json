@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T23:34:08.815Z",
+  "generatedAt": "2026-03-15T00:20:19.402Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -21,7 +21,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
       "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
       "score": 39,
-      "ageHours": 91.66911527777778,
+      "ageHours": 92.43872277777778,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -38,7 +38,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
       "pubDate": "Wed, 11 Mar 2026 04:52:00 GMT",
       "score": 39,
-      "ageHours": 90.70244861111111,
+      "ageHours": 91.47205611111112,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -55,26 +55,11 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
       "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
       "score": 35,
-      "ageHours": 13.569115277777778,
+      "ageHours": 14.338722777777777,
       "matchedLabels": [
         "Claude"
       ],
       "whyItMatters": "Ranked highly because it is very recent and keyword signals: Claude."
-    },
-    {
-      "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
-      "rawTitle": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times - The New York Times",
-      "description": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times &nbsp;&nbsp; The New York Times",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
-      "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
-      "score": 35,
-      "ageHours": 47.96189305555556,
-      "matchedLabels": [
-        "model",
-        "Meta"
-      ],
-      "whyItMatters": "Ranked highly because it is recent and keyword signals: model, Meta."
     },
     {
       "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
@@ -84,12 +69,54 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5",
       "pubDate": "Thu, 12 Mar 2026 14:00:00 GMT",
       "score": 31,
-      "ageHours": 57.569115277777776,
+      "ageHours": 58.338722777777775,
       "matchedLabels": [
         "Anthropic",
         "preferred-source"
       ],
       "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
+    },
+    {
+      "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
+      "rawTitle": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times - The New York Times",
+      "description": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times &nbsp;&nbsp; The New York Times",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
+      "score": 27,
+      "ageHours": 48.731500555555556,
+      "matchedLabels": [
+        "model",
+        "Meta"
+      ],
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: model, Meta."
     }
-  ]
+  ],
+  "publishDecision": {
+    "recommendation": "Verify before publishing",
+    "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post.",
+    "leadScore": 64,
+    "backupScore": 64,
+    "leadAngle": "product update",
+    "backupAngle": "product update",
+    "leadStrengths": [
+      "The Information is treated as a trusted source for the morning stack.",
+      "The headline has enough AI-specific signal to support strong downstream content.",
+      "product update stories are easier to explain clearly than broad industry-shift headlines."
+    ],
+    "leadRisks": [
+      "The story is aging out of the ideal morning-news window.",
+      "The backup story overlaps heavily with this lead, which means there may be a stronger version of the same story available."
+    ],
+    "backupStrengths": [
+      "Reuters is treated as a trusted source for the morning stack.",
+      "The headline has enough AI-specific signal to support strong downstream content.",
+      "product update stories are easier to explain clearly than broad industry-shift headlines."
+    ],
+    "backupRisks": [
+      "The story is aging out of the ideal morning-news window.",
+      "The backup story overlaps heavily with this lead, which means there may be a stronger version of the same story available."
+    ]
+  },
+  "performanceMemorySummary": "No completed performance history yet. Using editorial heuristics for now."
 }

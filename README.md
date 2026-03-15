@@ -96,7 +96,7 @@ This repo includes a lightweight content workflow that records the top five AI n
 
 - Local run: `npm run news:record`
 - Scheduled run: `.github/workflows/ai-news-content.yml` every morning at `07:00 UTC`
-- Output files: `content/ai-news/latest.json`, `content/ai-news/YYYY-MM-DD.md`, `content/ai-news/YYYY-MM-DD-content-plan.md`, `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`, `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-ready-to-post.md`, `content/ai-news/YYYY-MM-DD-quality-report.md`, `content/ai-news/YYYY-MM-DD-publishing-queue.md`, `content/ai-news/YYYY-MM-DD-publishing-checklist.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, `content/ai-news/YYYY-MM-DD-x-thread.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md`
+- Output files: `content/ai-news/latest.json`, `content/ai-news/performance-memory.json`, `content/ai-news/YYYY-MM-DD.md`, `content/ai-news/YYYY-MM-DD-content-plan.md`, `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`, `content/ai-news/YYYY-MM-DD-publish-decision.md`, `content/ai-news/YYYY-MM-DD-performance-review.md`, `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-ready-to-post.md`, `content/ai-news/YYYY-MM-DD-quality-report.md`, `content/ai-news/YYYY-MM-DD-publishing-queue.md`, `content/ai-news/YYYY-MM-DD-publishing-checklist.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, `content/ai-news/YYYY-MM-DD-x-thread.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md`
 
 The platform-specific lead-story files now include backup hooks and CTA variants, and the quality report includes auto-fix suggestions when it detects weak drafts.
 The ready-to-post pack now gives you copy-paste-ready titles, bodies, and CTAs for the main platforms.
@@ -110,6 +110,7 @@ Optional environment variables for the recorder:
 - `AI_NEWS_LANGUAGE`: locale, default `en-US`
 - `AI_NEWS_REGION`: region, default `US`
 - `AI_NEWS_OUTPUT_DIR`: output folder, default `content/ai-news`
+- `AI_CONTENT_MEMORY_FILE`: path to the persistent performance-memory JSON, default `content/ai-news/performance-memory.json`
 - `AI_CONTENT_VOICE`: `creator`, `operator`, `founder`, `educator`, or `newsroom`
 - `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for morning notifications
 - `AI_TELEGRAM_CHAT_ID`: optional Telegram chat id for the notification target
@@ -117,7 +118,7 @@ Optional environment variables for the recorder:
 - `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
 - `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
 
-If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, post order, quick checks, direct file links, inline buttons, and a compact `Copy now` section for the newsletter title, newsletter body, reel hook, and a post caption. The Telegram links now open the ready-to-post pack first. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
+If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, the publish decision, quick checks, direct file links, inline buttons, and a compact `Copy now` section for the newsletter title, newsletter body, reel hook, and a post caption. The Telegram links now open the ready-to-post pack first, and they now include direct links to the publish decision and performance review. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
 
 Workflow notes for the AI news niche live in [docs/AI_CONTENT_WORKFLOW.md](docs/AI_CONTENT_WORKFLOW.md).
 Content strategy and platform research notes live in [docs/CONTENT_MANAGER_PLAYBOOK.md](docs/CONTENT_MANAGER_PLAYBOOK.md).

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-15T00:20:19.402Z",
+  "history": [
+    {
+      "date": "2026-03-15",
+      "generatedAt": "2026-03-15T00:20:19.402Z",
+      "voice": "creator",
+      "leadTitle": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
+      "leadSource": "The Information",
+      "leadAngle": "product update",
+      "backupTitle": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports",
+      "backupSource": "Reuters",
+      "publishDecision": {
+        "recommendation": "Verify before publishing",
+        "score": 64,
+        "backupScore": 64,
+        "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "product update",
+        "notes": ""
+      }
+    }
+  ],
+  "insights": {
+    "completedEntryCount": 0,
+    "winningAngles": [],
+    "winningPlatforms": [],
+    "winningSources": [],
+    "summary": "No completed performance history yet. Using editorial heuristics for now."
+  }
+}

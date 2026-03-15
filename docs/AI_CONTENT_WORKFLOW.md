@@ -16,6 +16,8 @@ The recorder keeps the daily brief to five stories and now creates a full mornin
 - `content/ai-news/YYYY-MM-DD.md`: the ranked source digest
 - `content/ai-news/YYYY-MM-DD-content-plan.md`: the creation brief with subject lines, hooks, scripts, and a verification checklist
 - `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`: the one-file morning action brief
+- `content/ai-news/YYYY-MM-DD-publish-decision.md`: a lead-vs-backup recommendation with confidence scoring and what to do next
+- `content/ai-news/YYYY-MM-DD-performance-review.md`: a simple after-post checklist that tells you what to log into memory
 - `content/ai-news/YYYY-MM-DD-instagram-carousel.md`: an Instagram carousel outline from the lead story, plus alternate cover options
 - `content/ai-news/YYYY-MM-DD-instagram-reel.md`: an Instagram Reel pack from the lead story, plus alternate hooks and CTA options
 - `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`: a LinkedIn carousel outline built from the lead story, plus alternate cover options
@@ -24,6 +26,7 @@ The recorder keeps the daily brief to five stories and now creates a full mornin
 - `content/ai-news/YYYY-MM-DD-quality-report.md`: a QA report that flags weak hooks, soft CTAs, and repeated angles before publishing, then gives auto-fix options
 - `content/ai-news/YYYY-MM-DD-publishing-queue.md`: the exact order for the morning posts
 - `content/ai-news/YYYY-MM-DD-publishing-checklist.md`: preflight and KPI checklist
+- `content/ai-news/performance-memory.json`: persistent memory that stores completed-day outcomes and reusable performance patterns
 - `content/ai-news/YYYY-MM-DD-talking-head-30s.md`: a timed 30-second talking-head script
 - `content/ai-news/YYYY-MM-DD-video-scripts.md`: three vertical video scripts
 - `content/ai-news/YYYY-MM-DD-x-thread.md`: an X thread from the lead story
@@ -49,11 +52,12 @@ Ranking is designed to reflect the niche:
 
 1. Let the workflow run in the morning
 2. Open the ready-to-post pack first if you want immediate copy-paste text
-3. Open the daily posting brief and quality report for direction and QA
+3. Open the daily posting brief and publish decision report for direction
 4. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
-5. Pick one lead story for a short video or carousel
+5. Pick one lead story for a short video or carousel, or switch to backup if the decision report says the lead is weak
 6. Turn the full top five into a newsletter or morning post
 7. Verify any surprising claim on the original article before publishing
+8. After posting, log any meaningful outcomes into the performance memory so future runs can learn from them
 
 ## Suggested repo settings
 
@@ -65,6 +69,7 @@ Set these in your local `.env` or GitHub Actions variables if needed:
 - `AI_NEWS_MAX_PER_SOURCE`
 - `AI_NEWS_LANGUAGE`
 - `AI_NEWS_REGION`
+- `AI_CONTENT_MEMORY_FILE`
 - `AI_CONTENT_VOICE`
 - `AI_TELEGRAM_BOT_TOKEN`
 - `AI_TELEGRAM_CHAT_ID`
@@ -72,7 +77,7 @@ Set these in your local `.env` or GitHub Actions variables if needed:
 - `AI_TELEGRAM_REPO_URL`
 - `AI_TELEGRAM_REPO_BRANCH`
 
-When Telegram is configured, the workflow also sends a compact morning notification with the lead story, backup story, post order, quick checks, direct file links, inline buttons, and compact `Copy now` snippets so the operator can act from a phone without opening the full pack first.
+When Telegram is configured, the workflow also sends a compact morning notification with the lead story, backup story, publish decision, quick checks, direct file links, inline buttons, and compact `Copy now` snippets so the operator can act from a phone without opening the full pack first.
 
 ## Research sources
 
