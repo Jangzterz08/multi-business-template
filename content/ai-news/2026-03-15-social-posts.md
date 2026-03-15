@@ -46,9 +46,9 @@ Recommended LinkedIn format: native carousel, video, or post with a clear point 
 
 ## Social Post 5
 
-AI story 5 worth your time today: Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times
+AI story 5 worth your time today: Meta Delays Rollout of New A.I. Model After Performance Concerns
 
-Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is recent and keyword signals: model, Meta. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+Meta Delays Rollout of New A.I. Model After Performance Concerns is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is recent and keyword signals: model, Meta. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 
 Source: The New York Times
 Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5

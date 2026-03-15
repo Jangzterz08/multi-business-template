@@ -76,14 +76,14 @@
 - Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
 - Suggested short-form script: Here is another AI story you should not skip today. Anthropic doesn’t trust the Pentagon, and neither should you. Source: The Verge. Ranked highly because it is recent and keyword signals: Anthropic, preferred-source. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 5: Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times
+### Story 5: Meta Delays Rollout of New A.I. Model After Performance Concerns
 - Source: The New York Times
 - Published: Thu, 12 Mar 2026 23:36:26 GMT
 - Angle: product update
 - Why it matters: Ranked highly because it is recent and keyword signals: model, Meta.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 - Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is another AI story you should not skip today. Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times. Source: The New York Times. Ranked highly because it is recent and keyword signals: model, Meta. Use this as a product update clip in a 15 to 45 second vertical video.
+- Suggested short-form script: Here is another AI story you should not skip today. Meta Delays Rollout of New A.I. Model After Performance Concerns. Source: The New York Times. Ranked highly because it is recent and keyword signals: model, Meta. Use this as a product update clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

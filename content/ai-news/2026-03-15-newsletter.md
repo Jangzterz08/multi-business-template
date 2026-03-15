@@ -47,9 +47,9 @@ Then watch Anthropic doesn’t trust the Pentagon, and neither should you. Anthr
 - Published: Thu, 12 Mar 2026 14:00:00 GMT
 - Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5
 
-## 5. Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times
+## 5. Meta Delays Rollout of New A.I. Model After Performance Concerns
 
-Then watch Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times. Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is recent and keyword signals: model, Meta. Source: The New York Times.
+Then watch Meta Delays Rollout of New A.I. Model After Performance Concerns. Meta Delays Rollout of New A.I. Model After Performance Concerns is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is recent and keyword signals: model, Meta. Source: The New York Times.
 
 - Source: The New York Times
 - Published: Thu, 12 Mar 2026 23:36:26 GMT
