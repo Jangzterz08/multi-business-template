@@ -2,26 +2,26 @@
 
 Voice: Creator
 
-Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
-Source: SaaStr
+Lead story: AI is moving fast. Should you ditch the job you love?
+Source: Vox
 
 ## Carousel slides
 
-1. Hook slide: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
-2. Why it matters: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
-3. What changed: Why now: business moves matter when they change who gets capital, distribution, or staying power next.
-4. Original angle: Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
+1. Hook slide: AI is moving fast. Should you ditch the job you love?
+2. Why it matters: AI is moving fast. Should you ditch the job you love? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
+3. What changed: Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.
+4. Original angle: Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today.
 5. Save-worthy takeaway: explain what people should watch, test, or do next.
 6. CTA: ask people to comment with their take or save the post for later.
 
 ## Caption
 
-This looks like business news on the surface, but it is really a signal about where leverage is moving. Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
+Most people will repost the headline. This is the part of the story actually worth paying attention to. Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today.
 
 ## Cover options
 
 1. Most people will miss what this AI story changes
-2. The headline is not the point. The shift in distribution and momentum is.
+2. The headline is not the point. The shift in AI workflows is.
 3. What this AI headline actually changes next
 
 ## Format notes

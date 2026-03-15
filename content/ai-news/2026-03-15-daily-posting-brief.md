@@ -4,10 +4,10 @@ Voice: Creator
 
 ## Start here
 
-- Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
-- Lead source: SaaStr
-- Publish decision: Verify before publishing
-- Confidence: 57/100
+- Lead story: AI is moving fast. Should you ditch the job you love?
+- Lead source: Vox
+- Publish decision: Switch to backup
+- Confidence: 38/100
 - First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.
 - Original angle required: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 

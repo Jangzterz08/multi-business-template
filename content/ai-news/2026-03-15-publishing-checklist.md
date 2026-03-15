@@ -22,6 +22,6 @@ Voice: Creator
 
 ## Today's lead
 
-- Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
-- Source: SaaStr
+- Lead story: AI is moving fast. Should you ditch the job you love?
+- Source: Vox
 - Originality reminder: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.

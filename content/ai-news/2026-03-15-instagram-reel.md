@@ -2,29 +2,29 @@
 
 Voice: Creator
 
-Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+Lead story: AI is moving fast. Should you ditch the job you love?
 
 ## Reel script
 
-Hook: The biggest AI story this morning is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team.
-Body: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
-Why it matters: Why now: business moves matter when they change who gets capital, distribution, or staying power next.
-Close: Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Save this and tell me who comes out stronger if this move sticks.
+Hook: The biggest AI story this morning is AI is moving fast. Should you ditch the job you love?.
+Body: AI is moving fast. Should you ditch the job you love? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
+Why it matters: Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.
+Close: Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today. Save this if you care about AI workflows, and tell me what part of the story people still are not seeing.
 
 ## Caption
 
-This looks like business news on the surface, but it is really a signal about where leverage is moving. Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
+Most people will repost the headline. This is the part of the story actually worth paying attention to. Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today.
 
 ## Alternate hooks
 
-1. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110… is the headline. Here is the part that matters.
-2. This is what the headline changes for distribution and momentum.
+1. AI is moving fast. Should you ditch the job you love? is the headline. Here is the part that matters.
+2. This is what the headline changes for AI workflows.
 3. Most people will repost this. Here is the actual signal.
 
 ## CTA options
 
-1. Save this and tell me who comes out stronger if this move sticks.
-2. Share this with someone tracking distribution and momentum, then tell me what part of the story people are underestimating.
+1. Save this if you care about AI workflows, and tell me what part of the story people still are not seeing.
+2. Share this with someone tracking AI workflows, then tell me what part of the story people are underestimating.
 3. Follow for the next AI story that changes workflow, not just headlines.
 
 ## Reel notes

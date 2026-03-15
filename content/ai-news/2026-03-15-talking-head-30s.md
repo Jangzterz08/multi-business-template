@@ -2,32 +2,32 @@
 
 Voice: Creator
 
-Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+Lead story: AI is moving fast. Should you ditch the job you love?
 
 ## Beat timing
 
 0-5s: Hook
-The biggest AI story this morning is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team.
+The biggest AI story this morning is AI is moving fast. Should you ditch the job you love?.
 
 5-15s: What changed
-20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
+AI is moving fast. Should you ditch the job you love? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
 
 15-24s: Why it matters
-Why now: business moves matter when they change who gets capital, distribution, or staying power next.
+Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.
 
 24-30s: Original angle + close
-Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Tell me who comes out stronger here, and why.
+Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today. Tell me whether this changes AI workflows, and what part matters most.
 
 ## Alternate hooks
 
-1. The headline is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110…. The real story is what it changes.
-2. Everyone will quote the headline. I care more about the shift in distribution and momentum.
+1. The headline is AI is moving fast. Should you ditch the job you love?. The real story is what it changes.
+2. Everyone will quote the headline. I care more about the shift in AI workflows.
 3. If you work in AI, this is the part of today's news worth paying attention to.
 
 ## CTA options
 
-1. Tell me who comes out stronger here, and why.
-2. Tell me whether this changes how you think about distribution and momentum.
+1. Tell me whether this changes AI workflows, and what part matters most.
+2. Tell me whether this changes how you think about AI workflows.
 3. Follow if you want the daily AI signal without the headline fluff.
 
 ## Production notes

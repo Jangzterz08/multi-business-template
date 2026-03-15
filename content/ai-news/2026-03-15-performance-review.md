@@ -1,6 +1,6 @@
 # AI Performance Review for 2026-03-15
 
-Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+Lead story: AI is moving fast. Should you ditch the job you love?
 
 ## Update after posting
 

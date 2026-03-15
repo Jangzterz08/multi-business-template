@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-15T21:45:10.806Z",
+  "updatedAt": "2026-03-15T22:04:58.835Z",
   "history": [
     {
       "date": "2026-03-15",
-      "generatedAt": "2026-03-15T21:45:10.806Z",
+      "generatedAt": "2026-03-15T22:04:58.835Z",
       "voice": "creator",
-      "leadTitle": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
-      "leadSource": "SaaStr",
-      "leadAngle": "business move",
-      "backupTitle": "Breakingviews - What happens if OpenAI or Anthropic fail?",
-      "backupSource": "Reuters",
+      "leadTitle": "AI is moving fast. Should you ditch the job you love?",
+      "leadSource": "Vox",
+      "leadAngle": "industry shift",
+      "backupTitle": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
+      "backupSource": "The Information",
       "selectedStories": [
         {
-          "title": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
-          "description": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team &nbsp;&nbsp; SaaStr",
-          "source": "SaaStr",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUxTY1NXN2V6R0Q3Y3RWSGVNN0VlSUxleHpDSkVKdE05M3lOWjZCcmNIZ1RuRGt0OXBMUkRNbGVSNVBkSW5PeGxybUx6djFkOUc2WUUxZjdXb0NtLTJkeGlERlZUZXJhZHJpSHV5enVRdi1RbER0NXRWbWJiTEhoSWx4Wnl3YTFOeWd3ZjJmVDNUd3BnbTk4a3dmZWZxX2RZb1J5dGhoRmtnWXo0WnZIa0Utelp1SGFhX2dER2F1T1N6aFIyaDJqcFVpMlE1cTBxS2phME9TYTFldw?oc=5",
-          "key": "20vc x saastr the ai power grab anthropic blinks openai raises 110b and every ceo i know wants to cut 40 of their team::https://news.google.com/rss/articles/cbmi2gfbvv95cuxqnuxty1nxn2v6r0q3y3rwsgvnn0vlsuxlehpdskvkde05m3lowjzccmniz1rurgt0oxbmukrnbgvsnvbksw5pegxybux6djfkouc2wuuxzjdxb0ntltjkeglerlzuzxjhzhjpshv5envrdi1rber0nxrwbwjitehoswx4wnl3ytfoewd3zjjmvdnud3bnbtk4a3dmzwzxx2rzb1j5dghormtnwxo0wnzia0utelp1sgfhx2der2f1t1n6afiyadjqcfvpmle1ctbxs2phme9tytfldw"
+          "title": "AI is moving fast. Should you ditch the job you love?",
+          "description": "AI is moving fast. Should you ditch the job you love? &nbsp;&nbsp; Vox",
+          "source": "Vox",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5",
+          "key": "ai is moving fast should you ditch the job you love::https://news.google.com/rss/articles/cbmifkfvx3lxte9rzktrohvjr1dsc3vfnhzsendiwlnnqvbuntnaunlvs25syxvrs2hrevbfzm83re5pq0xlltuwv1y0uvzyrtzhx3bvnevvz0t0wmf3bknrdkwtrunslutbzkg2skyytuows01pbjrkcwnxvi1lwujgywe4skn0zw"
         },
         {
-          "title": "Breakingviews - What happens if OpenAI or Anthropic fail?",
-          "description": "Breakingviews - What happens if OpenAI or Anthropic fail? &nbsp;&nbsp; Reuters",
+          "title": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
+          "description": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift &nbsp;&nbsp; The Information",
+          "source": "The Information",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
+          "key": "openai plans to launch sora video ai in chatgpt in strategy shift::https://news.google.com/rss/articles/cbminafbvv95cuxqvgy5zlnuczd3beroyxhsenjxrvpnavgzvwtstmpqbgjssuhnamtoujnirnn5ugc4oeprdkdjd05nm3bkcxdks0jjbhhsdercehc3claznefwqnrcylqxbw53ynnncxjqdu9sz2ruow0ysddysi1fazzhx2pvmgzvaeoxrgpxdmmyaghhvwjrmkhlyxvytwv4yjnfx1q"
+        },
+        {
+          "title": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports",
+          "description": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports &nbsp;&nbsp; Reuters",
           "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnJaSWxSdXJjQTYxRk9TRXUtaUczZkViQWF2Qlk4cnBhOGNjYng2b1RadzNlRTdWMW1DbkpQeEtkOEZPelpyQnZHdEdvWl9qV2VpeFFZV3kycFRCUF8zc0pWMDg4Mjc3eWt1Z1NkdUdad0pQel85Zzd4Nms3VEltdWlycEh1WnV4bi16c1YwMk5vWmx6NGNWY2pUakVaaTN6OEJR?oc=5",
-          "key": "breakingviews what happens if openai or anthropic fail::https://news.google.com/rss/articles/cbmiowfbvv95cuxpmnjaswxsdxjjqtyxrk9trxutauczzkviqwf2qlk4cnbhognjyng2b1radznlrtdwmw1dbkpqeetkoezpelpyqnzhdedvwl9qv2vpeffzv3kycfrcuf8zc0pwmdg4mjc3ewt1z1nkdudad0pqel85zzd4nms3veltdwlyceh1wnv4bi16c1ywmk5vwmx6ngnwy2puakvaatn6oejr"
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
+          "key": "openai plans to launch its sora video tool in chatgpt the information reports::https://news.google.com/rss/articles/cbmisgfbvv95cuxoumpdmdbiuxcybzhcduxmr0joog5yc0rvx3n0mkncwvjnexb1n1e2svljzgntbtbkywl2y25fqvfwm1pdwdblnezivf9hrtngltjlsji5re5tenrzuxbjmmpsbm93snlhlxdmchrmsexhqzlcrnjmamvyazjjv0oxy2xqc2nzwdvfcvhfoxnknmtingd1uu9zmxy1tlrgng1poexim0ltuurmd2xiwwnos2jn"
         },
         {
-          "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
-          "description": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit &nbsp;&nbsp; TechCrunch",
-          "source": "TechCrunch",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
-          "key": "openai and google employees rush to anthropic s defense in dod lawsuit::https://news.google.com/rss/articles/cbmipwfbvv95cuxpaxk3mgi4skvvzmg0vkxwexqtwhlcafnmrzutuhpsbxbjtnh5dxp0sfnzq0jroxljc0hnu0ppdhrysegynuzuzm1ywgdfzs1pdnk4ctlgvujfluhwwxn0du10duzquw9pv1vvmlrlxzvhy1dknljldmfmdtk3ne1smu9vx2lfmv9tazzicffuvudrnvl3wdvbsnpjctg3sk91nmpmae1ubw"
+          "title": "An AI Agent Blackmailed a Developer. Now What?",
+          "description": "An AI Agent Blackmailed a Developer. Now What? &nbsp;&nbsp; IEEE Spectrum",
+          "source": "IEEE Spectrum",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13RUlMV2ZiZDNjV05pUzZzZHFnYkN1cVUtZ09ZUTYtWGhVN1N0QzEwcGJaVFhMWFFHZ1lPSEdoeXFwSkswcnlVZ2Jiemg0RWtjQTdBVnRULVpLZzRtbDNOeFpnYThaaHJqSjZRRUZuenjSAYQBQVVfeXFMTTZVd3pnZ0VKNHhYMXNyakVoSGtaU25ybHJRb2hJZ09IbDFRRm5PQXNfN2lKSl9uYVJBaXVMZGVBSmhNci1sWENtX01fSzFBcnF4TGlNQWRCTU9RSXNEcU9CbkZTSW5PcmtsajRSZ0xCTFE2bnR5Q2kzY01IelctZmlGaDdy?oc=5",
+          "key": "an ai agent blackmailed a developer now what::https://news.google.com/rss/articles/cbmicefvx3lxte13rulmv2zizdnjv05puzzzzhfnykn1cvutz09zutytwghvn1n0qzewcgjavfhmwffhz1lpsedoexfwskswcnlvz2jiemg0rwtjqtdbvnrulvplzzrtbdnoefpnythaahjqsjzrruzuenjsayqbqvvfexfmttzvd3pnz0vknhhymxnyakvosgtau25ybhjrb2hjz09ibdfrrm5pqxnfn2lksl9uyvjbaxvmzgvbsmhnci1swentx01fszfbcnf4tglnqwrctu9rsxnecu9cbkztsw5pcmtsajrsz0xctfe2bnr5q2kzy01ielctzmlgaddy"
         },
         {
-          "title": "'Use a gun': AI chatbots help people plan violence, report says",
-          "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
-          "source": "Mashable",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
-          "key": "use a gun ai chatbots help people plan violence report says::https://news.google.com/rss/articles/cbmiiwfbvv95cuxqy1rnq0zydlzvofbtm3llmjzglvrmdxftwwrotgx5qtrpzw1uqzlrow9sulfmrehkc3rsx0dwzm1oqvutqu5iql9nwjfqelzomehrv1jtqvbtq084ujjezxa1txc5mzexsdfzt0d5cnlqr09vql9ybtiwcletrezwedayb2zndvq2yxzv"
-        },
-        {
-          "title": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery",
-          "description": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery &nbsp;&nbsp; Scientific American",
-          "source": "Scientific American",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR28zMW1zOUpkZVRuNXQ2TDFFaWlSVVhMYWhab3E1czQ3akxyOGV4YkxGMW1vVXVJV252N0x2MzR5Ty1TZ3ZuS0Y1cjNPU195d2gwVEFqbEZjSG8weU5lX2ZjZXhxZ1V3SGpSTUF5VkFJX2hNdkVGRkJMVTdGcWRTU2N1SXJCVjZEcEdYLTJTd0dBWGRmMUwyeDh2NEFGMlp6UjRaY0lnMEs3Q0hqSjI1ZGRlSjNuY0daWnc?oc=5",
-          "key": "openai and ginkgo bioworks show how ai can accelerate scientific discovery::https://news.google.com/rss/articles/cbmiugfbvv95cuxqr28zmw1zoupkzvrunxq2tdffawlsvvhmywhab3e1czq3akxyogv4ykxgmw1vvxvjv252n0x2mzr5ty1tz3zus0y1cjnpu195d2gwvefqbezjsg8weu5lx2zjzxhxz1v3sgpstuf5vkfjx2hndkvgrkjmvtdgcwrtu2n1sxjcvjzecedyltjtd0dbwgrmmuwyedh2nefgmlp6ujray0lnmes3q0hqsji1zgrlsjnuy0dawnc"
+          "title": "Claude A.I. Versus the Pentagon",
+          "description": "Claude A.I. Versus the Pentagon &nbsp;&nbsp; The New Yorker",
+          "source": "The New Yorker",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
+          "key": "claude a i versus the pentagon::https://news.google.com/rss/articles/cbmirwfbvv95cuxqcth4q1ficvh0yjzvnhpmn0nws0vly3rlbwpca3v4ykzfvlrxq2fydxi2ymzmmtc3egzddzzzrtrgs0rqyly1ddr5rwvnqm95ete0adbkefdtyk8trhjbotbrsklmdndld2lyduvpdtdqoc1qdgzty3fyazzkvjvwuudrmfzlbkzqqvhpawlmvnhjoef5znh0uufcx19zvgrab1nxlvlws2l1bvjice5z"
         }
       ],
       "publishDecision": {
-        "recommendation": "Verify before publishing",
-        "score": 57,
-        "backupScore": 61,
-        "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post."
+        "recommendation": "Switch to backup",
+        "score": 38,
+        "backupScore": 71,
+        "summary": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift looks like the stronger lead today."
       },
       "metrics": {
         "newsletterClicks": null,
