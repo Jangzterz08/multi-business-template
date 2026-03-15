@@ -304,7 +304,7 @@ describe('record-ai-news helpers', () => {
     expect(telegramMessage).toContain('<b>Post now</b>');
     expect(telegramMessage).toContain('<b>Copy now</b>');
     expect(telegramMessage).toContain('<b>Newsletter title</b>');
-    expect(telegramMessage).toContain('<pre>AI Brief 03-14: OpenAI launches a new reasoning model</pre>');
+    expect(telegramMessage).toContain('<pre>AI Brief 03-14: OpenAI launches a new reasoning m…</pre>');
     expect(telegramMessage).toContain('<b>Post caption</b>');
     expect(telegramMessage).toContain('<b>Open pack</b>');
     expect(telegramMessage).toContain('https://github.com/example-org/multi-business-template/blob/main/content/ai-news/2026-03-14-daily-posting-brief.md');
@@ -425,8 +425,8 @@ describe('record-ai-news helpers', () => {
     });
 
     expect(readyToPost).toContain('Voice: Creator');
-    expect(readyToPost).toContain('Most people will repost the headline.');
-    expect(readyToPost).toContain('what it changes');
+    expect(readyToPost).toContain('This is not just another model release.');
+    expect(readyToPost).toContain('Reasoning improvements matter when they cut supervision');
   });
 
   it('uses story-specific language instead of ranking jargon in publish copy', () => {
