@@ -67,16 +67,7 @@
 - Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
 - Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a policy signal clip in a 15 to 45 second vertical video.
 
-### Story 4: We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About
-- Source: SaaStr
-- Published: Sun, 15 Mar 2026 00:12:14 GMT
-- Angle: industry shift
-- Why it matters: Ranked highly because it is very recent and keyword signals: agents.
-- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is another AI story you should not skip today. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About. Source: SaaStr. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
-
-### Story 5: Anthropic doesn’t trust the Pentagon, and neither should you
+### Story 4: Anthropic doesn’t trust the Pentagon, and neither should you
 - Source: The Verge
 - Published: Thu, 12 Mar 2026 14:00:00 GMT
 - Angle: industry shift
@@ -84,6 +75,15 @@
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 - Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
 - Suggested short-form script: Here is another AI story you should not skip today. Anthropic doesn’t trust the Pentagon, and neither should you. Source: The Verge. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
+
+### Story 5: Claude A.I. Versus the Pentagon
+- Source: The New Yorker
+- Published: Sat, 14 Mar 2026 10:00:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is recent and keyword signals: Claude.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
+- Suggested short-form script: Here is another AI story you should not skip today. Claude A.I. Versus the Pentagon. Source: The New Yorker. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

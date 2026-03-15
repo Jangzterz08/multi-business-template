@@ -39,21 +39,21 @@ Then watch OpenAI and Google employees rush to Anthropic’s defense in DOD laws
 - Published: Mon, 09 Mar 2026 21:15:17 GMT
 - Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
 
-## 4. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About
-
-Then watch We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: SaaStr.
-
-- Source: SaaStr
-- Published: Sun, 15 Mar 2026 00:12:14 GMT
-- Link: https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUFhMUxEQW9jaklvemVXb0JLbGkzTWc3b2pEbDVHaGRxeUlRSWp4eGUxYUFlb2RGYTZMTHE4YTA2QWFwY3RodzNveUtmWUNRVm9kRldBb240OTVzVTJ3UEZtaEdaMS1KMldibUFjdDI4dURrRU5SYlE0ejVjdTQxMzhqM1J6clpYSGhSSzVRZGU3NFBNS1BvcEhPLWZIbnBiNzRUejNR?oc=5
-
-## 5. Anthropic doesn’t trust the Pentagon, and neither should you
+## 4. Anthropic doesn’t trust the Pentagon, and neither should you
 
 Then watch Anthropic doesn’t trust the Pentagon, and neither should you. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: The Verge.
 
 - Source: The Verge
 - Published: Thu, 12 Mar 2026 14:00:00 GMT
 - Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5
+
+## 5. Claude A.I. Versus the Pentagon
+
+Then watch Claude A.I. Versus the Pentagon. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: The New Yorker.
+
+- Source: The New Yorker
+- Published: Sat, 14 Mar 2026 10:00:00 GMT
+- Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5
 
 ## Closing
 

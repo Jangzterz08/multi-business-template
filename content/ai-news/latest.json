@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T12:43:39.900Z",
+  "generatedAt": "2026-03-15T12:48:33.031Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -21,7 +21,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
       "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
       "score": 39,
-      "ageHours": 104.82775,
+      "ageHours": 104.90917527777778,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -38,7 +38,7 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
       "pubDate": "Wed, 11 Mar 2026 04:52:00 GMT",
       "score": 39,
-      "ageHours": 103.86108333333334,
+      "ageHours": 103.94250861111111,
       "matchedLabels": [
         "launch",
         "OpenAI",
@@ -55,7 +55,7 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
       "pubDate": "Mon, 09 Mar 2026 21:15:17 GMT",
       "score": 38,
-      "ageHours": 135.4730277777778,
+      "ageHours": 135.55445305555557,
       "matchedLabels": [
         "OpenAI",
         "Anthropic",
@@ -65,20 +65,6 @@
       "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, Google."
     },
     {
-      "title": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About",
-      "rawTitle": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About - SaaStr",
-      "description": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About &nbsp;&nbsp; SaaStr",
-      "source": "SaaStr",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUFhMUxEQW9jaklvemVXb0JLbGkzTWc3b2pEbDVHaGRxeUlRSWp4eGUxYUFlb2RGYTZMTHE4YTA2QWFwY3RodzNveUtmWUNRVm9kRldBb240OTVzVTJ3UEZtaEdaMS1KMldibUFjdDI4dURrRU5SYlE0ejVjdTQxMzhqM1J6clpYSGhSSzVRZGU3NFBNS1BvcEhPLWZIbnBiNzRUejNR?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 00:12:14 GMT",
-      "score": 36,
-      "ageHours": 12.523861111111112,
-      "matchedLabels": [
-        "agents"
-      ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents."
-    },
-    {
       "title": "Anthropic doesn’t trust the Pentagon, and neither should you",
       "rawTitle": "Anthropic doesn’t trust the Pentagon, and neither should you - The Verge",
       "description": "Anthropic doesn’t trust the Pentagon, and neither should you &nbsp;&nbsp; The Verge",
@@ -86,12 +72,26 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5",
       "pubDate": "Thu, 12 Mar 2026 14:00:00 GMT",
       "score": 31,
-      "ageHours": 70.72775,
+      "ageHours": 70.80917527777778,
       "matchedLabels": [
         "Anthropic",
         "preferred-source"
       ],
       "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
+    },
+    {
+      "title": "Claude A.I. Versus the Pentagon",
+      "rawTitle": "Claude A.I. Versus the Pentagon - The New Yorker",
+      "description": "Claude A.I. Versus the Pentagon &nbsp;&nbsp; The New Yorker",
+      "source": "The New Yorker",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
+      "score": 27,
+      "ageHours": 26.80917527777778,
+      "matchedLabels": [
+        "Claude"
+      ],
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: Claude."
     }
   ],
   "publishDecision": {
