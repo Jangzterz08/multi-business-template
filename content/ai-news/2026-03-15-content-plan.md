@@ -51,7 +51,7 @@
 
 ### Story 2: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
 - Source: Reuters
-- Published: Wed, 11 Mar 2026 04:52:00 GMT
+- Published: Wed, 11 Mar 2026 04:52:47 GMT
 - Angle: product update
 - Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
@@ -67,14 +67,14 @@
 - Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
 - Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a policy signal clip in a 15 to 45 second vertical video.
 
-### Story 4: Anthropic doesn’t trust the Pentagon, and neither should you
-- Source: The Verge
-- Published: Thu, 12 Mar 2026 14:00:00 GMT
+### Story 4: AI is moving fast. Should you ditch the job you love?
+- Source: Vox
+- Published: Sun, 15 Mar 2026 12:00:00 GMT
 - Angle: industry shift
-- Why it matters: Ranked highly because it is recent and keyword signals: Anthropic, preferred-source.
+- Why it matters: Ranked highly because it is very recent.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
-- Suggested short-form script: Here is another AI story you should not skip today. Anthropic doesn’t trust the Pentagon, and neither should you. Source: The Verge. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. AI is moving fast. Should you ditch the job you love?. Source: Vox. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ### Story 5: Claude A.I. Versus the Pentagon
 - Source: The New Yorker

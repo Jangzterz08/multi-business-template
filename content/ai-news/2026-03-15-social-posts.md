@@ -36,12 +36,12 @@ Recommended LinkedIn format: native carousel, video, or post with a clear point 
 
 ## Social Post 4
 
-AI story 4 worth your time today: Anthropic doesn’t trust the Pentagon, and neither should you
+AI story 4 worth your time today: AI is moving fast. Should you ditch the job you love?
 
-The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+AI is moving fast. Should you ditch the job you love? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 
-Source: The Verge
-Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5
+Source: Vox
+Link: https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5
 Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.
 
 ## Social Post 5
