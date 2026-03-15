@@ -6,16 +6,16 @@ Use this file when you want copy-paste-ready text without reading the rest of th
 
 ## Newsletter
 
-Title: AI Brief 03-15: OpenAI Plans to Launch Sora Video…
-Preview text: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift leads today's AI brief, plus OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports.
+Title: AI Brief 03-15: 20VC x SaaStr: The AI Power Grab…
+Preview text: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team leads today's AI brief, plus Breakingviews - What happens if OpenAI or Anthropic fail?.
 CTA: Reply with the implication you think actually matters after the headline fades.
 
 ```text
-This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across The Information, Reuters, TechCrunch.
+This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across SaaStr, Reuters, TechCrunch.
 
-OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades. Why now: business moves matter when they change who gets capital, distribution, or staying power next.
 
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 
 Reply with the implication you think actually matters after the headline fades.
 ```
@@ -23,20 +23,20 @@ Reply with the implication you think actually matters after the headline fades.
 ## LinkedIn Post
 
 Title: The AI headline everyone will repost today
-CTA: If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?
+CTA: Who comes out stronger if this move works?
 
 ```text
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+This looks like business news on the surface, but it is really a signal about where leverage is moving.
 
-Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
 
-Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+Why now: business moves matter when they change who gets capital, distribution, or staying power next.
 
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 
-If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?
+Who comes out stronger if this move works?
 
-Source: The Information
+Source: SaaStr
 ```
 
 ## Instagram Carousel
@@ -46,22 +46,22 @@ CTA: Save this post if you want the morning AI signal fast, and comment with the
 
 Slide 1:
 ```text
-OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
 ```
 
 Slide 2:
 ```text
-Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
 ```
 
 Slide 3:
 ```text
-Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+Why now: business moves matter when they change who gets capital, distribution, or staying power next.
 ```
 
 Slide 4:
 ```text
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 ```
 
 Slide 5:
@@ -71,99 +71,99 @@ Watch what changes in workflows, distribution, or risk over the next few weeks.
 
 Slide 6:
 ```text
-If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?
+Who comes out stronger if this move works?
 ```
 
 Caption:
 ```text
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+This looks like business news on the surface, but it is really a signal about where leverage is moving.
 
-Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
 
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 
 Save this post if you want the morning AI signal fast, and comment with the angle people are missing.
 
-Source: The Information
-#AI #OpenAI #ProductStrategy #AITools #TechNews
+Source: SaaStr
+#AI #Startups #BusinessStrategy #TechNews #MarketSignals
 ```
 
 ## Instagram Reel
 
-Title: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is the headline. Here is the part that matters.
-CTA: Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
+Title: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110… is the headline. Here is the part that matters.
+CTA: Save this and tell me who comes out stronger if this move sticks.
 
 Hook:
 ```text
-OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is the headline. Here is the part that matters.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110… is the headline. Here is the part that matters.
 ```
 Body:
 ```text
-The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation. Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
+The biggest AI story this morning is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades. Why now: business moves matter when they change who gets capital, distribution, or staying power next. Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Save this and tell me who comes out stronger if this move sticks.
 ```
 Caption:
 ```text
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+This looks like business news on the surface, but it is really a signal about where leverage is moving.
 
-Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
 
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 
-Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
+Save this and tell me who comes out stronger if this move sticks.
 
-Source: The Information
-#AI #OpenAI #ProductStrategy #AITools #TechNews
+Source: SaaStr
+#AI #Startups #BusinessStrategy #TechNews #MarketSignals
 ```
 
 ## X Post
 
-Title: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
-CTA: If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?
+Title: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+CTA: Who comes out stronger if this move works?
 
 ```text
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation. If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool? Source: The Information
+This looks like business news on the surface, but it is really a signal about where leverage is moving. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades. Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Who comes out stronger if this move works? Source: SaaStr
 ```
 
 ## X Thread
 
-Title: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
-CTA: If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?
+Title: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+CTA: Who comes out stronger if this move works?
 
 Post 1:
 ```text
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+This looks like business news on the surface, but it is really a signal about where leverage is moving.
 ```
 
 Post 2:
 ```text
-Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
 ```
 
 Post 3:
 ```text
-Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+Why now: business moves matter when they change who gets capital, distribution, or staying power next.
 ```
 
 Post 4:
 ```text
-The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 ```
 
 Post 5:
 ```text
-If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool? Source: The Information https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5
+Who comes out stronger if this move works? Source: SaaStr https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUxTY1NXN2V6R0Q3Y3RWSGVNN0VlSUxleHpDSkVKdE05M3lOWjZCcmNIZ1RuRGt0OXBMUkRNbGVSNVBkSW5PeGxybUx6djFkOUc2WUUxZjdXb0NtLTJkeGlERlZUZXJhZHJpSHV5enVRdi1RbER0NXRWbWJiTEhoSWx4Wnl3YTFOeWd3ZjJmVDNUd3BnbTk4a3dmZWZxX2RZb1J5dGhoRmtnWXo0WnZIa0Utelp1SGFhX2dER2F1T1N6aFIyaDJqcFVpMlE1cTBxS2phME9TYTFldw?oc=5
 ```
 
 ## Talking-Head Video
 
-Title: The headline is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. The real story is what it changes.
-CTA: Tell me whether this changes builder workflows, and what part matters most.
+Title: The headline is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110…. The real story is what it changes.
+CTA: Tell me who comes out stronger here, and why.
 
 Hook:
 ```text
-The headline is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. The real story is what it changes.
+The headline is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110…. The real story is what it changes.
 ```
 Body:
 ```text
-The headline is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. The real story is what it changes. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. The feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation. Tell me whether this changes builder workflows, and what part matters most.
+The headline is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110…. The real story is what it changes. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades. Why now: business moves matter when they change who gets capital, distribution, or staying power next. Follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Tell me who comes out stronger here, and why.
 ```

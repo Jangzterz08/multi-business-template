@@ -1,6 +1,6 @@
 # AI Performance Review for 2026-03-15
 
-Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
 
 ## Update after posting
 

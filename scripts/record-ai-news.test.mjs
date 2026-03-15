@@ -83,6 +83,76 @@ describe('record-ai-news helpers', () => {
     expect(ranked[0]?.score).toBeGreaterThan(ranked[1]?.score - 5);
   });
 
+  it('penalizes exact recently used stories across days', () => {
+    const items = parseRssItems(sampleFeed);
+    const ranked = rankArticles(
+      items,
+      new Date('2026-03-14T10:00:00.000Z'),
+      3,
+      new Set(['the verge', 'reuters']),
+      1,
+      {
+        exactKeys: new Set(['openai launches a new reasoning model::https://example.com/openai-reasoning']),
+        recentStories: [],
+        windowDays: 3,
+      },
+      0.45,
+    );
+
+    expect(ranked[0]?.title).toBe('Anthropic raises funding for robotics push');
+    expect(ranked.find((article) => article.title === 'OpenAI launches a new reasoning model')?.matchedLabels).toContain(
+      'recent-repeat',
+    );
+  });
+
+  it('penalizes near-duplicate topics from different outlets', () => {
+    const items = [
+      {
+        title: 'OpenAI plans to launch Sora video inside ChatGPT',
+        rawTitle: 'OpenAI plans to launch Sora video inside ChatGPT - Reuters',
+        description: 'OpenAI could add Sora video generation to ChatGPT.',
+        source: 'Reuters',
+        link: 'https://example.com/reuters-sora',
+        pubDate: 'Fri, 14 Mar 2026 08:00:00 GMT',
+      },
+      {
+        title: 'Anthropic raises funding for robotics push',
+        rawTitle: 'Anthropic raises funding for robotics push - Reuters',
+        description: 'Fresh AI funding and robotics expansion plans.',
+        source: 'Reuters',
+        link: 'https://example.com/anthropic-funding',
+        pubDate: 'Fri, 14 Mar 2026 06:30:00 GMT',
+      },
+    ];
+
+    const ranked = rankArticles(
+      items,
+      new Date('2026-03-14T10:00:00.000Z'),
+      2,
+      new Set(['reuters']),
+      2,
+      {
+        exactKeys: new Set(),
+        recentStories: [
+          {
+            title: 'OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift',
+            description: 'OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift',
+            source: 'The Information',
+            link: 'https://example.com/info-sora',
+            key: 'openai plans to launch sora video ai in chatgpt in strategy shift::https://example.com/info-sora',
+          },
+        ],
+        windowDays: 3,
+      },
+      0.4,
+    );
+
+    expect(ranked[0]?.title).toBe('Anthropic raises funding for robotics push');
+    expect(ranked.find((article) => article.title === 'OpenAI plans to launch Sora video inside ChatGPT')?.matchedLabels).toContain(
+      'topic-repeat',
+    );
+  });
+
   it('creates a markdown digest with the expected structure', () => {
     const markdown = buildMarkdownDigest({
       generatedAt: '2026-03-14T10:00:00.000Z',

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T21:11:01.467Z",
+  "generatedAt": "2026-03-15T21:45:10.806Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,38 +14,35 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
-      "rawTitle": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift - The Information",
-      "description": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift &nbsp;&nbsp; The Information",
-      "source": "The Information",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGY5ZlNuczd3bEROYXhSenJxRVpNaVgzVWtsTmpQbGJSSUhnamtoUjNiRnN5UGc4OEprdkdjd05nM3BKcXdKS0JJbHhSdERCeHc3clAzNEFwQnRCYlQxbW53YnNncXJQdU9sZ2RuOW0ySDdySi1FazZHX2pVMGZVaEoxRGpXdmMyaGhhVWJRMkhLYXVYTWV4YjNfX1Q?oc=5",
-      "pubDate": "Wed, 11 Mar 2026 03:54:00 GMT",
-      "score": 39,
-      "ageHours": 113.28374083333334,
+      "title": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
+      "rawTitle": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team - SaaStr",
+      "description": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team &nbsp;&nbsp; SaaStr",
+      "source": "SaaStr",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUxTY1NXN2V6R0Q3Y3RWSGVNN0VlSUxleHpDSkVKdE05M3lOWjZCcmNIZ1RuRGt0OXBMUkRNbGVSNVBkSW5PeGxybUx6djFkOUc2WUUxZjdXb0NtLTJkeGlERlZUZXJhZHJpSHV5enVRdi1RbER0NXRWbWJiTEhoSWx4Wnl3YTFOeWd3ZjJmVDNUd3BnbTk4a3dmZWZxX2RZb1J5dGhoRmtnWXo0WnZIa0Utelp1SGFhX2dER2F1T1N6aFIyaDJqcFVpMlE1cTBxS2phME9TYTFldw?oc=5",
+      "pubDate": "Fri, 13 Mar 2026 04:07:46 GMT",
+      "score": 26,
+      "ageHours": 65.62355722222222,
       "matchedLabels": [
-        "launch",
         "OpenAI",
-        "video",
-        "preferred-source"
+        "Anthropic"
       ],
-      "whyItMatters": "Ranked highly because it is keyword signals: launch, OpenAI, video."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: OpenAI, Anthropic."
     },
     {
-      "title": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports",
-      "rawTitle": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports - Reuters",
-      "description": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports &nbsp;&nbsp; Reuters",
+      "title": "Breakingviews - What happens if OpenAI or Anthropic fail?",
+      "rawTitle": "Breakingviews - What happens if OpenAI or Anthropic fail? - Reuters",
+      "description": "Breakingviews - What happens if OpenAI or Anthropic fail? &nbsp;&nbsp; Reuters",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmpDMDBiUXcybzhCdUxmR0JOOG5yc0RVX3N0MkNCWVJneXB1N1E2SVlJZGNtbTBKYWl2Y25fQVFwM1pDWDBlNEZiVF9HRTNGLTJLSjI5RE5tenRzUXBJMmpSbm93SnlHLXdMcHRmSExhQzlCRnJMamVyazJjV0oxY2xqc2NZWDVfcVhFOXNKNmtINGd1UU9ZMXY1TlRGNG1pOExIM0ltUURmd2xIWWNoS2Jn?oc=5",
-      "pubDate": "Wed, 11 Mar 2026 04:52:47 GMT",
-      "score": 39,
-      "ageHours": 112.3040186111111,
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnJaSWxSdXJjQTYxRk9TRXUtaUczZkViQWF2Qlk4cnBhOGNjYng2b1RadzNlRTdWMW1DbkpQeEtkOEZPelpyQnZHdEdvWl9qV2VpeFFZV3kycFRCUF8zc0pWMDg4Mjc3eWt1Z1NkdUdad0pQel85Zzd4Nms3VEltdWlycEh1WnV4bi16c1YwMk5vWmx6NGNWY2pUakVaaTN6OEJR?oc=5",
+      "pubDate": "Wed, 11 Mar 2026 05:00:36 GMT",
+      "score": 26,
+      "ageHours": 112.74300166666667,
       "matchedLabels": [
-        "launch",
         "OpenAI",
-        "video",
+        "Anthropic",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is keyword signals: launch, OpenAI, video."
+      "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, preferred-source."
     },
     {
       "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
@@ -54,67 +51,65 @@
       "source": "TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
       "pubDate": "Mon, 09 Mar 2026 21:15:17 GMT",
-      "score": 38,
-      "ageHours": 143.9290186111111,
+      "score": 24,
+      "ageHours": 144.49827944444445,
       "matchedLabels": [
         "OpenAI",
         "Anthropic",
         "Google",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Anthropic, Google."
+      "whyItMatters": "Ranked highly because it is aging out and keyword signals: OpenAI, Anthropic, Google."
     },
     {
-      "title": "AI is moving fast. Should you ditch the job you love?",
-      "rawTitle": "AI is moving fast. Should you ditch the job you love? - Vox",
-      "description": "AI is moving fast. Should you ditch the job you love? &nbsp;&nbsp; Vox",
-      "source": "Vox",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RZktrOHVJR1dSc3VfNHZsendiWlNnQVBUNTNaUnlVS25sYXVRS2hreVBFZm83RE5pQ0xlLTUwV1Y0UVZYRTZHX3BvNEVvZ0t0WmF3bkNrdkwtRUNsLUtBZkg2SkYyTUowS01PbjRKcWNxVi1lWUJGYWE4SkN0Zw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 12:00:00 GMT",
-      "score": 35,
-      "ageHours": 9.183740833333333,
+      "title": "'Use a gun': AI chatbots help people plan violence, report says",
+      "rawTitle": "'Use a gun': AI chatbots help people plan violence, report says - Mashable",
+      "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
+      "source": "Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
+      "pubDate": "Fri, 13 Mar 2026 23:28:02 GMT",
+      "score": 20,
+      "ageHours": 46.285779444444444,
       "matchedLabels": [],
-      "whyItMatters": "Ranked highly because it is very recent."
+      "whyItMatters": "Ranked highly because it is recent."
     },
     {
-      "title": "Claude A.I. Versus the Pentagon",
-      "rawTitle": "Claude A.I. Versus the Pentagon - The New Yorker",
-      "description": "Claude A.I. Versus the Pentagon &nbsp;&nbsp; The New Yorker",
-      "source": "The New Yorker",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 10:00:00 GMT",
-      "score": 27,
-      "ageHours": 35.18374083333333,
+      "title": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery",
+      "rawTitle": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery - Scientific American",
+      "description": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery &nbsp;&nbsp; Scientific American",
+      "source": "Scientific American",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR28zMW1zOUpkZVRuNXQ2TDFFaWlSVVhMYWhab3E1czQ3akxyOGV4YkxGMW1vVXVJV252N0x2MzR5Ty1TZ3ZuS0Y1cjNPU195d2gwVEFqbEZjSG8weU5lX2ZjZXhxZ1V3SGpSTUF5VkFJX2hNdkVGRkJMVTdGcWRTU2N1SXJCVjZEcEdYLTJTd0dBWGRmMUwyeDh2NEFGMlp6UjRaY0lnMEs3Q0hqSjI1ZGRlSjNuY0daWnc?oc=5",
+      "pubDate": "Fri, 13 Mar 2026 11:30:00 GMT",
+      "score": 19,
+      "ageHours": 58.25300166666667,
       "matchedLabels": [
-        "Claude"
+        "OpenAI"
       ],
-      "whyItMatters": "Ranked highly because it is recent and keyword signals: Claude."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: OpenAI."
     }
   ],
   "publishDecision": {
     "recommendation": "Verify before publishing",
     "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post.",
-    "leadScore": 64,
-    "backupScore": 64,
-    "leadAngle": "product update",
-    "backupAngle": "product update",
+    "leadScore": 57,
+    "backupScore": 61,
+    "leadAngle": "business move",
+    "backupAngle": "industry shift",
     "leadStrengths": [
-      "The Information is treated as a trusted source for the morning stack.",
-      "The headline has enough AI-specific signal to support strong downstream content.",
-      "product update stories are easier to explain clearly than broad industry-shift headlines."
+      "The story is recent enough to stay usable today.",
+      "The story has multiple AI-specific signals, not just one loose keyword.",
+      "business move stories are easier to explain clearly than broad industry-shift headlines."
     ],
     "leadRisks": [
-      "The story is aging out of the ideal morning-news window.",
-      "The backup story overlaps heavily with this lead, which means there may be a stronger version of the same story available."
+      "SaaStr is not on the trusted-source list, so the lead needs stronger verification."
     ],
     "backupStrengths": [
       "Reuters is treated as a trusted source for the morning stack.",
-      "The headline has enough AI-specific signal to support strong downstream content.",
-      "product update stories are easier to explain clearly than broad industry-shift headlines."
+      "The headline has enough AI-specific signal to support strong downstream content."
     ],
     "backupRisks": [
       "The story is aging out of the ideal morning-news window.",
-      "The backup story overlaps heavily with this lead, which means there may be a stronger version of the same story available."
+      "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
     ]
   },
   "performanceMemorySummary": "No completed performance history yet. Using editorial heuristics for now."

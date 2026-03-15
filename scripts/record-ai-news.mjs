@@ -10,6 +10,8 @@ const DEFAULT_OUTPUT_DIR = 'content/ai-news';
 const DEFAULT_MEMORY_FILE = 'performance-memory.json';
 const DEFAULT_MAX_PER_SOURCE = 1;
 const DEFAULT_VOICE = 'creator';
+const DEFAULT_RECENT_STORY_WINDOW_DAYS = 3;
+const DEFAULT_TOPIC_REPEAT_THRESHOLD = 0.45;
 const GOOGLE_NEWS_HOST = 'https://news.google.com';
 const TRUSTED_SOURCE_FALLBACKS = new Set([
   'reuters',
@@ -321,7 +323,13 @@ export function parseRssItems(xml) {
   return items;
 }
 
-export function scoreArticle(article, now = new Date(), preferredSources = new Set()) {
+export function scoreArticle(
+  article,
+  now = new Date(),
+  preferredSources = new Set(),
+  recentStoryContext = { exactKeys: new Set(), recentStories: [], windowDays: DEFAULT_RECENT_STORY_WINDOW_DAYS },
+  topicRepeatThreshold = DEFAULT_TOPIC_REPEAT_THRESHOLD,
+) {
   const publishedAt = article.pubDate ? new Date(article.pubDate) : null;
   const ageHours =
     publishedAt && !Number.isNaN(publishedAt.valueOf())
@@ -338,8 +346,10 @@ export function scoreArticle(article, now = new Date(), preferredSources = new S
     score += 20;
   } else if (ageHours <= 72) {
     score += 12;
+  } else if (ageHours <= 120) {
+    score += 0;
   } else if (ageHours <= 168) {
-    score += 6;
+    score -= 8;
   }
 
   const searchText = `${article.title} ${article.description} ${article.source}`;
@@ -357,6 +367,25 @@ export function scoreArticle(article, now = new Date(), preferredSources = new S
     matchedLabels.push('preferred-source');
   }
 
+  const key = articleKey(article);
+  if (recentStoryContext.exactKeys?.has(key)) {
+    score -= 40;
+    matchedLabels.push('recent-repeat');
+  } else {
+    const overlap = (recentStoryContext.recentStories ?? []).reduce((max, story) => {
+      const current = tokenOverlapRatio(
+        `${article.title} ${article.description} ${article.source}`,
+        `${story.title} ${story.description} ${story.source}`,
+      );
+      return Math.max(max, current);
+    }, 0);
+
+    if (overlap >= topicRepeatThreshold) {
+      score -= 18;
+      matchedLabels.push('topic-repeat');
+    }
+  }
+
   return {
     score,
     ageHours,
@@ -370,12 +399,56 @@ function articleKey(article) {
   return `${normalizedTitle}::${normalizedLink}`;
 }
 
+function serializeRecentArticle(article) {
+  return {
+    title: article.title,
+    description: article.description ?? '',
+    source: article.source,
+    link: article.link,
+    key: articleKey(article),
+  };
+}
+
+function buildRecentStoryContext(memory, now = new Date(), windowDays = DEFAULT_RECENT_STORY_WINDOW_DAYS) {
+  const recentStories = [];
+  const exactKeys = new Set();
+  const cutoff = now.valueOf() - windowDays * 24 * 36e5;
+
+  for (const entry of memory?.history ?? []) {
+    const generatedAt = entry.generatedAt ? new Date(entry.generatedAt) : null;
+    if (!generatedAt || Number.isNaN(generatedAt.valueOf()) || generatedAt.valueOf() < cutoff) {
+      continue;
+    }
+
+    const stories = Array.isArray(entry.selectedStories) ? entry.selectedStories : [];
+    for (const story of stories) {
+      const key = story.key || articleKey(story);
+      exactKeys.add(key);
+      recentStories.push({
+        title: story.title ?? '',
+        description: story.description ?? '',
+        source: story.source ?? '',
+        link: story.link ?? '',
+        key,
+      });
+    }
+  }
+
+  return {
+    exactKeys,
+    recentStories,
+    windowDays,
+  };
+}
+
 export function rankArticles(
   items,
   now = new Date(),
   limit = DEFAULT_LIMIT,
   preferredSources = new Set(),
   maxPerSource = DEFAULT_MAX_PER_SOURCE,
+  recentStoryContext = { exactKeys: new Set(), recentStories: [], windowDays: DEFAULT_RECENT_STORY_WINDOW_DAYS },
+  topicRepeatThreshold = DEFAULT_TOPIC_REPEAT_THRESHOLD,
 ) {
   const deduped = new Map();
 
@@ -389,7 +462,7 @@ export function rankArticles(
 
   const ranked = [...deduped.values()]
     .map((article) => {
-      const scoring = scoreArticle(article, now, preferredSources);
+      const scoring = scoreArticle(article, now, preferredSources, recentStoryContext, topicRepeatThreshold);
       return {
         ...article,
         ...scoring,
@@ -427,10 +500,19 @@ export function describeArticle(scoring) {
     reasons.push('very recent');
   } else if (scoring.ageHours <= 72) {
     reasons.push('recent');
+  } else if (scoring.ageHours > 120) {
+    reasons.push('aging out');
   }
 
-  if (scoring.matchedLabels.length) {
-    reasons.push(`keyword signals: ${scoring.matchedLabels.slice(0, 3).join(', ')}`);
+  const publicLabels = scoring.matchedLabels.filter((label) => !['recent-repeat', 'topic-repeat'].includes(label));
+  if (publicLabels.length) {
+    reasons.push(`keyword signals: ${publicLabels.slice(0, 3).join(', ')}`);
+  }
+
+  if (scoring.matchedLabels.includes('recent-repeat')) {
+    reasons.push('already used very recently');
+  } else if (scoring.matchedLabels.includes('topic-repeat')) {
+    reasons.push('close to a recently used topic');
   }
 
   return reasons.length
@@ -1586,6 +1668,7 @@ function buildPerformanceMemoryEntry(payload, publishDecision) {
     leadAngle: lead ? buildStoryAngle(lead) : '',
     backupTitle: backup?.title ?? '',
     backupSource: backup?.source ?? '',
+    selectedStories: payload.articles.map((article) => serializeRecentArticle(article)),
     publishDecision: publishDecision
       ? {
           recommendation: publishDecision.recommendation,
@@ -3104,6 +3187,11 @@ export async function recordAiNews({
   query = envValue('AI_NEWS_QUERY', DEFAULT_QUERY),
   outputDir = envValue('AI_NEWS_OUTPUT_DIR', DEFAULT_OUTPUT_DIR),
   memoryFile = envValue('AI_CONTENT_MEMORY_FILE', DEFAULT_MEMORY_FILE),
+  recentStoryWindowDays = parseLimit(
+    envValue('AI_NEWS_RECENT_STORY_WINDOW_DAYS', `${DEFAULT_RECENT_STORY_WINDOW_DAYS}`),
+    DEFAULT_RECENT_STORY_WINDOW_DAYS,
+  ),
+  topicRepeatThreshold = Number.parseFloat(envValue('AI_NEWS_TOPIC_REPEAT_THRESHOLD', `${DEFAULT_TOPIC_REPEAT_THRESHOLD}`)),
   language = envValue('AI_NEWS_LANGUAGE', 'en-US'),
   region = envValue('AI_NEWS_REGION', 'US'),
   voice = envValue('AI_CONTENT_VOICE', DEFAULT_VOICE).toLowerCase(),
@@ -3135,9 +3223,31 @@ export async function recordAiNews({
     throw new Error(`Failed to fetch AI news feed: ${response.status} ${response.statusText}`);
   }
 
+  const memoryPath = path.isAbsolute(memoryFile) ? memoryFile : path.join(outputDir, memoryFile);
+  const existingMemory = await readJsonFile(memoryPath, createDefaultPerformanceMemory());
+  const normalizedMemory = {
+    ...createDefaultPerformanceMemory(),
+    ...existingMemory,
+    history: Array.isArray(existingMemory?.history) ? existingMemory.history : [],
+  };
+  normalizedMemory.insights = buildPerformanceInsights(normalizedMemory);
+
   const xml = await response.text();
   const items = parseRssItems(xml);
-  const articles = rankArticles(items, now, limit, preferredSources, maxPerSource);
+  const recentStoryContext = buildRecentStoryContext(normalizedMemory, now, recentStoryWindowDays);
+  const effectiveTopicRepeatThreshold =
+    Number.isFinite(topicRepeatThreshold) && topicRepeatThreshold > 0 && topicRepeatThreshold < 1
+      ? topicRepeatThreshold
+      : DEFAULT_TOPIC_REPEAT_THRESHOLD;
+  const articles = rankArticles(
+    items,
+    now,
+    limit,
+    preferredSources,
+    maxPerSource,
+    recentStoryContext,
+    effectiveTopicRepeatThreshold,
+  );
 
   if (!articles.length) {
     throw new Error('No AI news stories were found for the current query.');
@@ -3147,14 +3257,6 @@ export async function recordAiNews({
 
   const generatedAt = now.toISOString();
   const dateSlug = generatedAt.slice(0, 10);
-  const memoryPath = path.isAbsolute(memoryFile) ? memoryFile : path.join(outputDir, memoryFile);
-  const existingMemory = await readJsonFile(memoryPath, createDefaultPerformanceMemory());
-  const normalizedMemory = {
-    ...createDefaultPerformanceMemory(),
-    ...existingMemory,
-    history: Array.isArray(existingMemory?.history) ? existingMemory.history : [],
-  };
-  normalizedMemory.insights = buildPerformanceInsights(normalizedMemory);
 
   const basePayload = {
     generatedAt,

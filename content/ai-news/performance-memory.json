@@ -1,20 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-15T21:11:01.467Z",
+  "updatedAt": "2026-03-15T21:45:10.806Z",
   "history": [
     {
       "date": "2026-03-15",
-      "generatedAt": "2026-03-15T21:11:01.467Z",
+      "generatedAt": "2026-03-15T21:45:10.806Z",
       "voice": "creator",
-      "leadTitle": "OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift",
-      "leadSource": "The Information",
-      "leadAngle": "product update",
-      "backupTitle": "OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports",
+      "leadTitle": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
+      "leadSource": "SaaStr",
+      "leadAngle": "business move",
+      "backupTitle": "Breakingviews - What happens if OpenAI or Anthropic fail?",
       "backupSource": "Reuters",
+      "selectedStories": [
+        {
+          "title": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
+          "description": "20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team &nbsp;&nbsp; SaaStr",
+          "source": "SaaStr",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUxTY1NXN2V6R0Q3Y3RWSGVNN0VlSUxleHpDSkVKdE05M3lOWjZCcmNIZ1RuRGt0OXBMUkRNbGVSNVBkSW5PeGxybUx6djFkOUc2WUUxZjdXb0NtLTJkeGlERlZUZXJhZHJpSHV5enVRdi1RbER0NXRWbWJiTEhoSWx4Wnl3YTFOeWd3ZjJmVDNUd3BnbTk4a3dmZWZxX2RZb1J5dGhoRmtnWXo0WnZIa0Utelp1SGFhX2dER2F1T1N6aFIyaDJqcFVpMlE1cTBxS2phME9TYTFldw?oc=5",
+          "key": "20vc x saastr the ai power grab anthropic blinks openai raises 110b and every ceo i know wants to cut 40 of their team::https://news.google.com/rss/articles/cbmi2gfbvv95cuxqnuxty1nxn2v6r0q3y3rwsgvnn0vlsuxlehpdskvkde05m3lowjzccmniz1rurgt0oxbmukrnbgvsnvbksw5pegxybux6djfkouc2wuuxzjdxb0ntltjkeglerlzuzxjhzhjpshv5envrdi1rber0nxrwbwjitehoswx4wnl3ytfoewd3zjjmvdnud3bnbtk4a3dmzwzxx2rzb1j5dghormtnwxo0wnzia0utelp1sgfhx2der2f1t1n6afiyadjqcfvpmle1ctbxs2phme9tytfldw"
+        },
+        {
+          "title": "Breakingviews - What happens if OpenAI or Anthropic fail?",
+          "description": "Breakingviews - What happens if OpenAI or Anthropic fail? &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnJaSWxSdXJjQTYxRk9TRXUtaUczZkViQWF2Qlk4cnBhOGNjYng2b1RadzNlRTdWMW1DbkpQeEtkOEZPelpyQnZHdEdvWl9qV2VpeFFZV3kycFRCUF8zc0pWMDg4Mjc3eWt1Z1NkdUdad0pQel85Zzd4Nms3VEltdWlycEh1WnV4bi16c1YwMk5vWmx6NGNWY2pUakVaaTN6OEJR?oc=5",
+          "key": "breakingviews what happens if openai or anthropic fail::https://news.google.com/rss/articles/cbmiowfbvv95cuxpmnjaswxsdxjjqtyxrk9trxutauczzkviqwf2qlk4cnbhognjyng2b1radznlrtdwmw1dbkpqeetkoezpelpyqnzhdedvwl9qv2vpeffzv3kycfrcuf8zc0pwmdg4mjc3ewt1z1nkdudad0pqel85zzd4nms3veltdwlyceh1wnv4bi16c1ywmk5vwmx6ngnwy2puakvaatn6oejr"
+        },
+        {
+          "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
+          "description": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit &nbsp;&nbsp; TechCrunch",
+          "source": "TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
+          "key": "openai and google employees rush to anthropic s defense in dod lawsuit::https://news.google.com/rss/articles/cbmipwfbvv95cuxpaxk3mgi4skvvzmg0vkxwexqtwhlcafnmrzutuhpsbxbjtnh5dxp0sfnzq0jroxljc0hnu0ppdhrysegynuzuzm1ywgdfzs1pdnk4ctlgvujfluhwwxn0du10duzquw9pv1vvmlrlxzvhy1dknljldmfmdtk3ne1smu9vx2lfmv9tazzicffuvudrnvl3wdvbsnpjctg3sk91nmpmae1ubw"
+        },
+        {
+          "title": "'Use a gun': AI chatbots help people plan violence, report says",
+          "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
+          "source": "Mashable",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
+          "key": "use a gun ai chatbots help people plan violence report says::https://news.google.com/rss/articles/cbmiiwfbvv95cuxqy1rnq0zydlzvofbtm3llmjzglvrmdxftwwrotgx5qtrpzw1uqzlrow9sulfmrehkc3rsx0dwzm1oqvutqu5iql9nwjfqelzomehrv1jtqvbtq084ujjezxa1txc5mzexsdfzt0d5cnlqr09vql9ybtiwcletrezwedayb2zndvq2yxzv"
+        },
+        {
+          "title": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery",
+          "description": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery &nbsp;&nbsp; Scientific American",
+          "source": "Scientific American",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR28zMW1zOUpkZVRuNXQ2TDFFaWlSVVhMYWhab3E1czQ3akxyOGV4YkxGMW1vVXVJV252N0x2MzR5Ty1TZ3ZuS0Y1cjNPU195d2gwVEFqbEZjSG8weU5lX2ZjZXhxZ1V3SGpSTUF5VkFJX2hNdkVGRkJMVTdGcWRTU2N1SXJCVjZEcEdYLTJTd0dBWGRmMUwyeDh2NEFGMlp6UjRaY0lnMEs3Q0hqSjI1ZGRlSjNuY0daWnc?oc=5",
+          "key": "openai and ginkgo bioworks show how ai can accelerate scientific discovery::https://news.google.com/rss/articles/cbmiugfbvv95cuxqr28zmw1zoupkzvrunxq2tdffawlsvvhmywhab3e1czq3akxyogv4ykxgmw1vvxvjv252n0x2mzr5ty1tz3zus0y1cjnpu195d2gwvefqbezjsg8weu5lx2zjzxhxz1v3sgpstuf5vkfjx2hndkvgrkjmvtdgcwrtu2n1sxjcvjzecedyltjtd0dbwgrmmuwyedh2nefgmlp6ujray0lnmes3q0hqsji1zgrlsjnuy0dawnc"
+        }
+      ],
       "publishDecision": {
         "recommendation": "Verify before publishing",
-        "score": 64,
-        "backupScore": 64,
+        "score": 57,
+        "backupScore": 61,
         "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post."
       },
       "metrics": {

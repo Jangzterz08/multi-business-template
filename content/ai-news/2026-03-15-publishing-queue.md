@@ -5,19 +5,19 @@ Voice: Creator
 ## Publishing order
 
 1. Publish the newsletter lead first.
-   Story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
-   Reason: Lead with this because it best anchors the day: Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+   Story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
+   Reason: Lead with this because it best anchors the day: Why now: business moves matter when they change who gets capital, distribution, or staying power next.
 
 2. Publish one short-form video from the same lead story.
-   Story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+   Story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
    Reason: Reuse the strongest story while the topic is still fresh and keep the message consistent across formats.
 
 3. Publish one LinkedIn post from the lead story.
-   Story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+   Story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
    Reason: Turn the same signal into a conversation-first native post with your original angle.
 
 4. Use the second story as the next post or backup topic.
-   Story: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
+   Story: Breakingviews - What happens if OpenAI or Anthropic fail?
    Reason: Use this next to extend the morning conversation without repeating the lead angle.
 
 5. Keep the third story ready as a reserve post if the day stays active.

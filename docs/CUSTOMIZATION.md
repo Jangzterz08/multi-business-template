@@ -116,6 +116,8 @@ Optional environment variables:
 - `AI_NEWS_LANGUAGE`: feed locale, default `en-US`
 - `AI_NEWS_REGION`: feed region, default `US`
 - `AI_NEWS_OUTPUT_DIR`: where records are written, default `content/ai-news`
+- `AI_NEWS_RECENT_STORY_WINDOW_DAYS`: recent-day window for repeat-story penalties, default `3`
+- `AI_NEWS_TOPIC_REPEAT_THRESHOLD`: overlap threshold for repeat-topic penalties, default `0.45`
 - `AI_CONTENT_MEMORY_FILE`: path to the persistent performance-memory JSON, default `content/ai-news/performance-memory.json`
 - `AI_CONTENT_VOICE`: `creator`, `operator`, `founder`, `educator`, or `newsroom`
 - `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for phone notifications

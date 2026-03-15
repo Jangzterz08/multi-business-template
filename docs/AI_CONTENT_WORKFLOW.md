@@ -48,6 +48,8 @@ Ranking is designed to reflect the niche:
 - Product, research, funding, and agent/model signals get extra weight
 - Preferred sources can be boosted with `AI_NEWS_PREFERRED_SOURCES`
 - Source diversity is enforced with `AI_NEWS_MAX_PER_SOURCE`
+- Stories already used in the last few days are penalized
+- Near-duplicate topics from different outlets are penalized so one story does not dominate the pack for a week
 
 ## Recommended morning routine
 
@@ -70,6 +72,8 @@ Set these in your local `.env` or GitHub Actions variables if needed:
 - `AI_NEWS_MAX_PER_SOURCE`
 - `AI_NEWS_LANGUAGE`
 - `AI_NEWS_REGION`
+- `AI_NEWS_RECENT_STORY_WINDOW_DAYS`
+- `AI_NEWS_TOPIC_REPEAT_THRESHOLD`
 - `AI_CONTENT_MEMORY_FILE`
 - `AI_CONTENT_VOICE`
 - `AI_TELEGRAM_BOT_TOKEN`

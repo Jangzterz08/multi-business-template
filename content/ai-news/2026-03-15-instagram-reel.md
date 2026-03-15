@@ -2,29 +2,29 @@
 
 Voice: Creator
 
-Lead story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
+Lead story: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team
 
 ## Reel script
 
-Hook: The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift.
-Body: Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
-Why it matters: Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
-Close: Suggested angle: the feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation. Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
+Hook: The biggest AI story this morning is 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team.
+Body: 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team is a business signal about who may gain distribution, capital, or staying power after the headline fades.
+Why it matters: Why now: business moves matter when they change who gets capital, distribution, or staying power next.
+Close: Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on. Save this and tell me who comes out stronger if this move sticks.
 
 ## Caption
 
-This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow. Suggested angle: the feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
+This looks like business news on the surface, but it is really a signal about where leverage is moving. Suggested angle: follow the leverage here, not just the headline, because distribution and staying power usually compound after the news cycle moves on.
 
 ## Alternate hooks
 
-1. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is the headline. Here is the part that matters.
-2. This is what the headline changes for builder workflows.
+1. 20VC x SaaStr: The AI Power Grab — Anthropic Blinks, OpenAI Raises $110… is the headline. Here is the part that matters.
+2. This is what the headline changes for distribution and momentum.
 3. Most people will repost this. Here is the actual signal.
 
 ## CTA options
 
-1. Save this if you care about builder workflows, and tell me what part of the story people still are not seeing.
-2. Share this with someone tracking builder workflows, then tell me what part of the story people are underestimating.
+1. Save this and tell me who comes out stronger if this move sticks.
+2. Share this with someone tracking distribution and momentum, then tell me what part of the story people are underestimating.
 3. Follow for the next AI story that changes workflow, not just headlines.
 
 ## Reel notes
