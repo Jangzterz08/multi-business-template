@@ -22,7 +22,7 @@
 - Voice: Creator
 - Title: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 - Source: The Information
-- Positioning: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
+- Positioning: This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
 
 ## Newsletter package
 
@@ -46,8 +46,8 @@
 - Angle: product update
 - Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is the biggest AI story this morning. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Source: The Information. Ranked highly because it is keyword signals: launch, OpenAI, video. Use this as a product update clip in a 15 to 45 second vertical video.
+- Hook: This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+- Suggested short-form script: Here is the biggest AI story this morning. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Source: The Information. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Use this as a product update clip in a 15 to 45 second vertical video.
 
 ### Story 2: OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
 - Source: Reuters
@@ -55,8 +55,8 @@
 - Angle: product update
 - Why it matters: Ranked highly because it is keyword signals: launch, OpenAI, video.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. Source: Reuters. Ranked highly because it is keyword signals: launch, OpenAI, video. Use this as a product update clip in a 15 to 45 second vertical video.
+- Hook: This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.
+- Suggested short-form script: Here is another AI story you should not skip today. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. Source: Reuters. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Use this as a product update clip in a 15 to 45 second vertical video.
 
 ### Story 3: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
 - Source: TechCrunch
@@ -64,17 +64,17 @@
 - Angle: policy signal
 - Why it matters: Ranked highly because it is keyword signals: OpenAI, Anthropic, Google.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Use this as a policy signal clip in a 15 to 45 second vertical video.
+- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
+- Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a policy signal clip in a 15 to 45 second vertical video.
 
-### Story 4: Claude A.I. Versus the Pentagon
-- Source: The New Yorker
-- Published: Sat, 14 Mar 2026 10:00:00 GMT
+### Story 4: We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About
+- Source: SaaStr
+- Published: Sun, 15 Mar 2026 00:12:14 GMT
 - Angle: industry shift
-- Why it matters: Ranked highly because it is very recent and keyword signals: Claude.
+- Why it matters: Ranked highly because it is very recent and keyword signals: agents.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 - Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is another AI story you should not skip today. Claude A.I. Versus the Pentagon. Source: The New Yorker. Ranked highly because it is very recent and keyword signals: Claude. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Suggested short-form script: Here is another AI story you should not skip today. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About. Source: SaaStr. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ### Story 5: Anthropic doesn’t trust the Pentagon, and neither should you
 - Source: The Verge
@@ -82,8 +82,8 @@
 - Angle: industry shift
 - Why it matters: Ranked highly because it is recent and keyword signals: Anthropic, preferred-source.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is another AI story you should not skip today. Anthropic doesn’t trust the Pentagon, and neither should you. Source: The Verge. Ranked highly because it is recent and keyword signals: Anthropic, preferred-source. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
+- Suggested short-form script: Here is another AI story you should not skip today. Anthropic doesn’t trust the Pentagon, and neither should you. Source: The Verge. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

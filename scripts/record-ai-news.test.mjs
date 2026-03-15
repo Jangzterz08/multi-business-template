@@ -429,6 +429,28 @@ describe('record-ai-news helpers', () => {
     expect(readyToPost).toContain('what it changes');
   });
 
+  it('uses story-specific language instead of ranking jargon in publish copy', () => {
+    const readyToPost = buildReadyToPostPack({
+      generatedAt: '2026-03-15T10:00:00.000Z',
+      voice: 'creator',
+      articles: [
+        {
+          title: 'OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift',
+          link: 'https://example.com/sora-chatgpt',
+          source: 'The Information',
+          pubDate: 'Sat, 15 Mar 2026 08:00:00 GMT',
+          score: 61,
+          whyItMatters: 'Ranked highly because it is keyword signals: launch, OpenAI, video.',
+          description: 'OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift',
+        },
+      ],
+    });
+
+    expect(readyToPost).toContain('Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.');
+    expect(readyToPost).toContain('the real shift is moving video generation into a product people already open every day');
+    expect(readyToPost).not.toContain('keyword signals');
+  });
+
   it('classifies policy-heavy stories as policy signals even when launch language appears', () => {
     const plan = buildContentPlan({
       generatedAt: '2026-03-14T10:00:00.000Z',

@@ -6,7 +6,7 @@ Voice: Creator
 
 1. Publish the newsletter lead first.
    Story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
-   Reason: Lead with this because it has the highest score and should anchor the day: Ranked highly because it is keyword signals: launch, OpenAI, video.
+   Reason: Lead with this because it best anchors the day: Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
 
 2. Publish one short-form video from the same lead story.
    Story: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift

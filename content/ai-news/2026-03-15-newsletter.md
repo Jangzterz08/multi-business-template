@@ -17,7 +17,7 @@ This morning's AI brief is for people who want the useful signal fast: what chan
 
 ## 1. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
 
-Start with OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is keyword signals: launch, OpenAI, video. Source: The Information.
+Start with OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Source: The Information.
 
 - Source: The Information
 - Published: Wed, 11 Mar 2026 03:54:00 GMT
@@ -25,7 +25,7 @@ Start with OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Op
 
 ## 2. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports
 
-Then watch OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is keyword signals: launch, OpenAI, video. Source: Reuters.
+Then watch OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Source: Reuters.
 
 - Source: Reuters
 - Published: Wed, 11 Mar 2026 04:52:00 GMT
@@ -33,23 +33,23 @@ Then watch OpenAI plans to launch its Sora video tool in ChatGPT, The Informatio
 
 ## 3. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
 
-Then watch OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Source: TechCrunch.
+Then watch OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: TechCrunch.
 
 - Source: TechCrunch
 - Published: Mon, 09 Mar 2026 21:15:17 GMT
 - Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
 
-## 4. Claude A.I. Versus the Pentagon
+## 4. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About
 
-Then watch Claude A.I. Versus the Pentagon. Claude A.I. Versus the Pentagon is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Ranked highly because it is very recent and keyword signals: Claude. Source: The New Yorker.
+Then watch We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About. We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: SaaStr.
 
-- Source: The New Yorker
-- Published: Sat, 14 Mar 2026 10:00:00 GMT
-- Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5
+- Source: SaaStr
+- Published: Sun, 15 Mar 2026 00:12:14 GMT
+- Link: https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUFhMUxEQW9jaklvemVXb0JLbGkzTWc3b2pEbDVHaGRxeUlRSWp4eGUxYUFlb2RGYTZMTHE4YTA2QWFwY3RodzNveUtmWUNRVm9kRldBb240OTVzVTJ3UEZtaEdaMS1KMldibUFjdDI4dURrRU5SYlE0ejVjdTQxMzhqM1J6clpYSGhSSzVRZGU3NFBNS1BvcEhPLWZIbnBiNzRUejNR?oc=5
 
 ## 5. Anthropic doesn’t trust the Pentagon, and neither should you
 
-Then watch Anthropic doesn’t trust the Pentagon, and neither should you. Anthropic doesn’t trust the Pentagon, and neither should you is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Ranked highly because it is recent and keyword signals: Anthropic, preferred-source. Source: The Verge.
+Then watch Anthropic doesn’t trust the Pentagon, and neither should you. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: The Verge.
 
 - Source: The Verge
 - Published: Thu, 12 Mar 2026 14:00:00 GMT

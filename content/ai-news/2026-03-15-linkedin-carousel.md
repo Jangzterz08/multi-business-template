@@ -8,15 +8,15 @@ Source: The Information
 ## Slide outline
 
 1. Cover: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift
-2. Why this matters: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore.
-3. What changed: Ranked highly because it is keyword signals: launch, OpenAI, video.
-4. Original take: Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.
+2. Why this matters: Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.
+3. What changed: Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.
+4. Original take: Suggested angle: the feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
 5. So what: explain who should care and what they should watch next.
 6. CTA: ask a simple opinion question to invite comments.
 
 ## Caption
 
-This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary. Suggested angle: the feature is not the story; the story is which workflow just got easier and who will package it best.
+This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow. Suggested angle: the feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.
 
 ## Cover options
 

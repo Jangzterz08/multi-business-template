@@ -12,7 +12,7 @@ Use these as first-draft scripts for morning video posts.
 
 ### Script
 
-The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is keyword signals: launch, OpenAI, video. Source: The Information. Watch this one if you care about which workflow changes first, not just who ships the feature.
+The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Source: The Information. Watch this one if you care about where AI creation habits actually form, not just who demos the coolest model.
 
 ### Production notes
 
@@ -29,7 +29,7 @@ The biggest AI story this morning is OpenAI Plans to Launch Sora Video AI in Cha
 
 ### Script
 
-Another AI story creators should not miss today is OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is keyword signals: launch, OpenAI, video. Source: Reuters. Watch this one if you care about which workflow changes first, not just who ships the feature.
+Another AI story creators should not miss today is OpenAI plans to launch its Sora video tool in ChatGPT, The Information reports. Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention. Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day. Source: Reuters. Watch this one if you care about where AI creation habits actually form, not just who demos the coolest model.
 
 ### Production notes
 
@@ -46,7 +46,7 @@ Another AI story creators should not miss today is OpenAI plans to launch its So
 
 ### Script
 
-Another AI story creators should not miss today is OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Source: TechCrunch. Watch this one if you want to know what this could slow down, block, or force companies to answer for.
+Another AI story creators should not miss today is OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: TechCrunch. Watch this one if you care about how AI policy pressure turns into product and brand constraints.
 
 ### Production notes
 

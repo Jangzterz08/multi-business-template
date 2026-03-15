@@ -99,7 +99,7 @@ This repo includes a lightweight content workflow that records the top five AI n
 - Output files: `content/ai-news/latest.json`, `content/ai-news/performance-memory.json`, `content/ai-news/YYYY-MM-DD.md`, `content/ai-news/YYYY-MM-DD-content-plan.md`, `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`, `content/ai-news/YYYY-MM-DD-publish-decision.md`, `content/ai-news/YYYY-MM-DD-performance-review.md`, `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-ready-to-post.md`, `content/ai-news/YYYY-MM-DD-quality-report.md`, `content/ai-news/YYYY-MM-DD-publishing-queue.md`, `content/ai-news/YYYY-MM-DD-publishing-checklist.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, `content/ai-news/YYYY-MM-DD-x-thread.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md`
 
 The platform-specific lead-story files now include backup hooks and CTA variants, and the quality report includes auto-fix suggestions when it detects weak drafts.
-The ready-to-post pack now gives you copy-paste-ready titles, bodies, and CTAs for the main platforms.
+The ready-to-post pack now gives you copy-paste-ready titles, bodies, and CTAs for the main platforms, using editorial "why now" language instead of raw ranking jargon.
 
 Optional environment variables for the recorder:
 

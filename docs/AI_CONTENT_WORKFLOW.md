@@ -40,6 +40,7 @@ The recorder keeps the daily brief to five stories and now creates a full mornin
 - Measurement: the publishing checklist focuses on clicks, replies, hold rate, completion, saves, and reposts instead of vanity metrics alone.
 - Quality control: the daily QA report now checks hook strength, originality, CTA coverage, and cross-channel repetition before anything goes live.
 - Recovery built in: when a draft is weak, the workflow now generates alternate hooks, alternate cover lines, and direct CTA options so you can fix it fast instead of improvising.
+- Publish copy should explain the concrete consequence of the story, not repeat internal ranking language like keyword or freshness signals.
 
 Ranking is designed to reflect the niche:
 

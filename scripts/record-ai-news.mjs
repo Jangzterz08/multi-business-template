@@ -747,7 +747,129 @@ function buildStoryAngle(article) {
   return 'industry shift';
 }
 
+function buildStorySpecificFrame(article) {
+  const lower = `${article.title} ${article.description ?? ''}`.toLowerCase();
+
+  if (/\bsora\b/u.test(lower) && /\bchatgpt\b/u.test(lower)) {
+    return {
+      hook:
+        'This is not just a video feature. It is OpenAI trying to pull AI video creation into the main ChatGPT workflow.',
+      summary:
+        'Putting Sora inside ChatGPT would move AI video from a standalone demo into the product where OpenAI already owns daily attention.',
+      whyNow:
+        'Why now: this is a distribution story, because the real shift is moving video generation into a product people already open every day.',
+      angle:
+        'Suggested angle: the feature is not the story; distribution is. If Sora lives inside ChatGPT, OpenAI gets a faster path from curiosity to daily creation.',
+      question:
+        'If Sora lands inside ChatGPT, does AI video become mainstream creation or stay a niche tool?',
+      videoCta:
+        'Watch this one if you care about where AI creation habits actually form, not just who demos the coolest model.',
+    };
+  }
+
+  if (/\bpentagon|military|defense\b/u.test(lower)) {
+    return {
+      hook:
+        'This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.',
+      summary:
+        'The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand.',
+      whyNow:
+        'Why now: frontier AI companies are being pushed to explain where they will and will not work with governments.',
+      angle:
+        'Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.',
+      question:
+        'Do more frontier labs now have to define their military red lines publicly?',
+      videoCta:
+        'Watch this one if you care about how AI policy pressure turns into product and brand constraints.',
+    };
+  }
+
+  if (/\bmeta\b/u.test(lower) && /\bdelay|delays|delayed\b/u.test(lower) && /\bmodel\b/u.test(lower)) {
+    return {
+      hook: 'A delay can be more revealing than a launch in the current AI race.',
+      summary:
+        'A delayed model matters because the market rewards reliable shipping and product readiness, not just ambitious benchmark narratives.',
+      whyNow:
+        'Why now: when a major lab delays a release, it changes the story around who is actually ready to ship.',
+      angle:
+        'Suggested angle: delay is strategy data. It tells you where the product, performance, or readiness gap still exists.',
+      question: 'What hurts more in AI right now: shipping late or shipping weak?',
+      videoCta:
+        'Watch this one if you care more about who can ship consistently than who can tease the boldest roadmap.',
+    };
+  }
+
+  if (/\breasoning\b/u.test(lower) && /\bmodel\b/u.test(lower)) {
+    return {
+      hook:
+        'This is not just another model release. The real question is whether it makes multi-step AI work more reliable.',
+      summary:
+        'A new reasoning model matters when it reduces how often humans have to rescue a task, review a chain of thought, or retry a workflow.',
+      whyNow:
+        'Why now: reasoning progress is where benchmark gains start turning into usable work quality.',
+      angle:
+        'Suggested angle: reasoning improvements matter when they cut supervision, not just when they look better on charts.',
+      question: 'What task gets easier first if the reasoning really improves here?',
+      videoCta:
+        'Watch this one if you care about where AI starts needing less human correction on real work.',
+    };
+  }
+
+  if (/\bfunding|raises\b/u.test(lower) && /\brobotics?\b/u.test(lower)) {
+    return {
+      hook:
+        'This is not just funding news. It is a bet that AI value will increasingly show up in physical systems, not only software.',
+      summary:
+        'Funding plus robotics is a signal that the next AI race may be about embodied execution, not just better chat interfaces.',
+      whyNow:
+        'Why now: capital allocation is one of the earliest durable signals of where labs think the next product category is.',
+      angle:
+        'Suggested angle: watch where the money is trying to leave the chat window and enter the real world.',
+      question: 'Does the next AI moat come from models, distribution, or embodied execution?',
+      videoCta:
+        'Watch this one if you care where capital thinks AI becomes defensible next.',
+    };
+  }
+
+  return null;
+}
+
+function buildEditorialWhyNow(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const specificFrame = buildStorySpecificFrame(article);
+
+  if (specificFrame?.whyNow) {
+    return specificFrame.whyNow;
+  }
+
+  const angle = buildStoryAngle(article);
+
+  if (angle === 'product update') {
+    return voiceProfile.key === 'creator'
+      ? 'Why now: product integrations matter when they move AI capability into tools people already use every day.'
+      : 'Why now: product updates matter when they change real user workflows, not just feature lists.';
+  }
+
+  if (angle === 'business move') {
+    return 'Why now: business moves matter when they change who gets capital, distribution, or staying power next.';
+  }
+
+  if (angle === 'policy signal') {
+    return 'Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend.';
+  }
+
+  if (angle === 'research milestone') {
+    return 'Why now: research stories matter when they point to capability that can soon show up in products, not just papers.';
+  }
+
+  return 'Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.';
+}
+
 function buildAudienceHook(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const specificFrame = buildStorySpecificFrame(article);
+  if (specificFrame?.hook) {
+    return specificFrame.hook;
+  }
+
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
@@ -832,7 +954,7 @@ function buildShortFormScript(article, index) {
     intro,
     `${article.title}.`,
     `Source: ${article.source}.`,
-    `${article.whyItMatters}`,
+    `${buildEditorialWhyNow(article)}`,
     `Use this as a ${angle} clip in a 15 to 45 second vertical video.`,
   ].join(' ');
 }
@@ -932,6 +1054,11 @@ export function buildContentPlan({
 }
 
 function buildStorySummary(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const specificFrame = buildStorySpecificFrame(article);
+  if (specificFrame?.summary) {
+    return specificFrame.summary;
+  }
+
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
@@ -991,7 +1118,7 @@ function buildNewsletterBodyParagraph(article, index, voiceProfile = VOICE_PROFI
       ? `Start with ${article.title}.`
       : `Then watch ${article.title}.`;
 
-  return `${opener} ${buildStorySummary(article, voiceProfile)} ${article.whyItMatters} Source: ${article.source}.`;
+  return `${opener} ${buildStorySummary(article, voiceProfile)} ${buildEditorialWhyNow(article, voiceProfile)} Source: ${article.source}.`;
 }
 
 export function buildNewsletterDraft({
@@ -1051,6 +1178,11 @@ function buildVideoHook(article, index) {
 }
 
 function buildVideoCta(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const specificFrame = buildStorySpecificFrame(article);
+  if (specificFrame?.videoCta) {
+    return specificFrame.videoCta;
+  }
+
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
@@ -1141,6 +1273,11 @@ function buildSuggestedAngle(
   article,
   voiceProfile = VOICE_PROFILES[DEFAULT_VOICE],
 ) {
+  const specificFrame = buildStorySpecificFrame(article);
+  if (specificFrame?.angle) {
+    return specificFrame.angle;
+  }
+
   const angle = buildStoryAngle(article);
 
   if (angle === 'research milestone') {
@@ -2180,7 +2317,7 @@ export function buildVideoScriptPack({
     '',
     '### Script',
     '',
-    `${buildVideoHook(article, index)} ${buildStorySummary(article, voiceProfile)} ${article.whyItMatters} Source: ${article.source}. ${buildVideoCta(article, voiceProfile)}`,
+    `${buildVideoHook(article, index)} ${buildStorySummary(article, voiceProfile)} ${buildEditorialWhyNow(article, voiceProfile)} Source: ${article.source}. ${buildVideoCta(article, voiceProfile)}`,
     '',
     '### Production notes',
     '',
@@ -2215,7 +2352,7 @@ function buildSocialPost(
   return [
     hook,
     '',
-    `${buildStorySummary(article, voiceProfile)} ${article.whyItMatters} ${buildOriginalityPrompt(article, voiceProfile)}`,
+    `${buildStorySummary(article, voiceProfile)} ${buildEditorialWhyNow(article, voiceProfile)} ${buildOriginalityPrompt(article, voiceProfile)}`,
     '',
     `Source: ${article.source}`,
     `Link: ${article.link}`,
@@ -2273,6 +2410,11 @@ function buildNewsletterCta(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE
 }
 
 function buildCommentQuestion(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]) {
+  const specificFrame = buildStorySpecificFrame(article);
+  if (specificFrame?.question) {
+    return specificFrame.question;
+  }
+
   const angle = buildStoryAngle(article);
 
   if (angle === 'product update') {
@@ -2322,7 +2464,7 @@ function buildInstagramCarouselSlides(article, voiceProfile = VOICE_PROFILES[DEF
   return [
     article.title,
     buildStorySummary(article, voiceProfile),
-    article.whyItMatters,
+    buildEditorialWhyNow(article, voiceProfile),
     angle,
     'Watch what changes in workflows, distribution, or risk over the next few weeks.',
     buildCommentQuestion(article, voiceProfile),
@@ -2335,7 +2477,7 @@ function buildLinkedInBody(article, voiceProfile = VOICE_PROFILES[DEFAULT_VOICE]
     '',
     buildStorySummary(article, voiceProfile),
     '',
-    `Why it matters now: ${article.whyItMatters}`,
+    buildEditorialWhyNow(article, voiceProfile),
     '',
     stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
     '',
@@ -2364,7 +2506,7 @@ function buildReelSpokenScript(article, voiceProfile = VOICE_PROFILES[DEFAULT_VO
   return [
     buildVideoHook(article, 0),
     buildStorySummary(article, voiceProfile),
-    `Why it matters: ${article.whyItMatters}`,
+    buildEditorialWhyNow(article, voiceProfile),
     stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
     buildDirectChannelCta(article, voiceProfile, 'instagram-reel'),
   ].join(' ');
@@ -2374,7 +2516,7 @@ function buildTalkingHeadSpokenScript(article, voiceProfile = VOICE_PROFILES[DEF
   return [
     buildAlternateHooks(article, voiceProfile, 'talking-head')[0] ?? buildVideoHook(article, 0),
     buildStorySummary(article, voiceProfile),
-    `Why it matters now: ${article.whyItMatters}`,
+    buildEditorialWhyNow(article, voiceProfile),
     stripSuggestedPrefix(buildSuggestedAngle(article, voiceProfile)),
     buildDirectChannelCta(article, voiceProfile, 'talking-head'),
   ].join(' ');
@@ -2418,7 +2560,7 @@ export function buildReadyToPostPack({
   const newsletterBody = [
     buildNewsletterIntro(articles, voiceProfile),
     '',
-    `${lead.title}. ${buildStorySummary(lead, voiceProfile)} ${lead.whyItMatters}`,
+    `${lead.title}. ${buildStorySummary(lead, voiceProfile)} ${buildEditorialWhyNow(lead, voiceProfile)}`,
     '',
     stripSuggestedPrefix(buildSuggestedAngle(lead, voiceProfile)),
     '',
@@ -2433,7 +2575,7 @@ export function buildReadyToPostPack({
   const xThreadPosts = [
     buildAudienceHook(lead, voiceProfile),
     buildStorySummary(lead, voiceProfile),
-    `Why it matters now: ${lead.whyItMatters}`,
+    buildEditorialWhyNow(lead, voiceProfile),
     stripSuggestedPrefix(buildSuggestedAngle(lead, voiceProfile)),
     `${xQuestion} Source: ${lead.source} ${lead.link}`,
   ];
@@ -2603,7 +2745,7 @@ export function buildPublishingChecklist({
 
 function buildQueueReason(index, article) {
   if (index === 0) {
-    return `Lead with this because it has the highest score and should anchor the day: ${article.whyItMatters}`;
+    return `Lead with this because it best anchors the day: ${buildEditorialWhyNow(article)}`;
   }
 
   if (index === 1) {
@@ -2744,7 +2886,7 @@ export function buildInstagramCarousel({
     '',
     `1. Hook slide: ${lead?.title ?? 'Lead AI story of the day'}`,
     `2. Why it matters: ${lead ? buildStorySummary(lead, voiceProfile) : 'Explain why this matters.'}`,
-    `3. What changed: ${lead?.whyItMatters ?? 'Summarize what changed.'}`,
+    `3. What changed: ${lead ? buildEditorialWhyNow(lead, voiceProfile) : 'Summarize what changed.'}`,
     `4. Original angle: ${lead ? buildSuggestedAngle(lead, voiceProfile) : 'Add one original angle.'}`,
     '5. Save-worthy takeaway: explain what people should watch, test, or do next.',
     '6. CTA: ask people to comment with their take or save the post for later.',
@@ -2790,7 +2932,7 @@ export function buildInstagramReel({
     '',
     `Hook: ${lead ? buildVideoHook(lead, 0) : 'Lead with the strongest story.'}`,
     `Body: ${lead ? buildStorySummary(lead, voiceProfile) : 'Explain the story simply.'}`,
-    `Why it matters: ${lead?.whyItMatters ?? 'Explain why it matters now.'}`,
+    `Why it matters: ${lead ? buildEditorialWhyNow(lead, voiceProfile) : 'Explain why it matters now.'}`,
     `Close: ${
       lead
         ? `${buildSuggestedAngle(lead, voiceProfile)} ${buildDirectChannelCta(lead, voiceProfile, 'instagram-reel')}`
@@ -2843,7 +2985,7 @@ export function buildLinkedInCarouselOutline({
     '',
     `1. Cover: ${lead?.title ?? 'Lead AI story of the day'}`,
     `2. Why this matters: ${lead ? buildStorySummary(lead, voiceProfile) : 'Explain why the story matters.'}`,
-    `3. What changed: ${lead?.whyItMatters ?? 'Summarize the change clearly.'}`,
+    `3. What changed: ${lead ? buildEditorialWhyNow(lead, voiceProfile) : 'Summarize the change clearly.'}`,
     `4. Original take: ${lead ? buildSuggestedAngle(lead, voiceProfile) : 'Add one original takeaway.'}`,
     '5. So what: explain who should care and what they should watch next.',
     '6. CTA: ask a simple opinion question to invite comments.',
@@ -2893,7 +3035,7 @@ export function buildTalkingHeadScript30s({
     `${lead ? buildStorySummary(lead, voiceProfile) : 'Explain what changed.'}`,
     '',
     '15-24s: Why it matters',
-    `${lead?.whyItMatters ?? 'Explain why it matters now.'}`,
+    `${lead ? buildEditorialWhyNow(lead, voiceProfile) : 'Explain why it matters now.'}`,
     '',
     '24-30s: Original angle + close',
     `${
@@ -2942,7 +3084,7 @@ export function buildXThread({
     '',
     `2. ${lead ? buildStorySummary(lead, voiceProfile) : 'Summarize what changed.'}`,
     '',
-    `3. ${lead?.whyItMatters ?? 'Explain why it matters now.'}`,
+    `3. ${lead ? buildEditorialWhyNow(lead, voiceProfile) : 'Explain why it matters now.'}`,
     '',
     `4. ${lead ? buildSuggestedAngle(lead, voiceProfile) : 'Add one original takeaway.'}`,
     '',

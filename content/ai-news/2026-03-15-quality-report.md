@@ -4,9 +4,9 @@ Voice: Creator
 
 ## Scorecard
 
-- Overall score: 88/100
+- Overall score: 84/100
 - Hook strength: 19/25
-- Originality: 25/25
+- Originality: 21/25
 - Channel fit: 25/25
 - CTA strength: 15/15
 - Redundancy control: 4/10
@@ -16,7 +16,6 @@ Voice: Creator
 - The lead subject line stays compact at 50 characters, which is mobile-friendly.
 - The suggested angle adds a real thesis beyond the headline.
 - The originality prompt is specific enough to force an actual takeaway, not just a rewrite.
-- The lead angle points to downstream consequences, which usually performs better than repeating the announcement.
 - Instagram carousel passes structure QA because first slide, original angle, and save/comment CTA are already present.
 - Instagram Reel passes structure QA because hook, body, and close are present.
 - LinkedIn carousel passes structure QA because cover, original take, and comment CTA are present.
@@ -29,6 +28,7 @@ Voice: Creator
 
 - The video hook is slightly long. Trim the first line so the promise lands faster.
 - The X opener needs a clearer audience payoff before posting.
+- The lead angle needs a stronger consequence or implication, not just summary language.
 - These assets reuse the same opening line: Instagram carousel cover, LinkedIn carousel cover; Instagram Reel hook, Talking-head hook. Rewrite at least one opener so the morning stack does not feel copy-pasted.
 - The same suggested angle appears across Instagram, LinkedIn, talking-head, and X drafts. Keep the thesis, but rewrite the phrasing per channel before publishing.
 
