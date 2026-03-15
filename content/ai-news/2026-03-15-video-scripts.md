@@ -40,13 +40,13 @@ Another AI story creators should not miss today is OpenAI plans to launch its So
 
 ## Video Script 3
 
-- Story: Claude A.I. Versus the Pentagon
-- Source: The New Yorker
+- Story: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
+- Source: TechCrunch
 - Format: 9:16 vertical, 15 to 45 seconds
 
 ### Script
 
-Another AI story creators should not miss today is Claude A.I. Versus the Pentagon. Claude A.I. Versus the Pentagon is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Ranked highly because it is very recent and keyword signals: Claude. Source: The New Yorker. Watch this one if you want the useful signal before the feed turns it into noise.
+Another AI story creators should not miss today is OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Source: TechCrunch. Watch this one if you want to know what this could slow down, block, or force companies to answer for.
 
 ### Production notes
 

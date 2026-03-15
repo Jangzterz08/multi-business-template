@@ -11,7 +11,7 @@ Preview text: OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift 
 CTA: Reply with the implication you think actually matters after the headline fades.
 
 ```text
-This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across The Information, Reuters, The New Yorker.
+This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across The Information, Reuters, TechCrunch.
 
 OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift. OpenAI Plans to Launch Sora Video AI in ChatGPT in Strategy Shift is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is keyword signals: launch, OpenAI, video.
 

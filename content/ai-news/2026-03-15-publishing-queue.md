@@ -21,7 +21,7 @@ Voice: Creator
    Reason: Use this next to extend the morning conversation without repeating the lead angle.
 
 5. Keep the third story ready as a reserve post if the day stays active.
-   Story: Claude A.I. Versus the Pentagon
+   Story: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
    Reason: Use this as a supporting or backup topic if you need another post later in the day.
 
 ## Daily rule

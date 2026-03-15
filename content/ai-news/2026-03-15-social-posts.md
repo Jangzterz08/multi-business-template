@@ -26,7 +26,17 @@ Recommended LinkedIn format: native carousel, video, or post with a clear point 
 
 ## Social Post 3
 
-AI story 3 worth your time today: Claude A.I. Versus the Pentagon
+AI story 3 worth your time today: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
+
+OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next. Ranked highly because it is keyword signals: OpenAI, Anthropic, Google. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+
+Source: TechCrunch
+Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
+Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.
+
+## Social Post 4
+
+AI story 4 worth your time today: Claude A.I. Versus the Pentagon
 
 Claude A.I. Versus the Pentagon is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Ranked highly because it is very recent and keyword signals: Claude. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 
@@ -34,22 +44,12 @@ Source: The New Yorker
 Link: https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTh4Q1FIcVh0YjZvNHpMN0NwS0VlY3RLbWpCa3V4YkZfVlRXQ2FYdXI2YmZmMTc3eGZDdzZzRTRGS0RQYlY1dDR5RWVNQm95eTE0aDBKeFdTYk8tRHJBOTBrSklmdndLd2lYdUVpdTdQOC1QdGZTY3FyazZKVjVWUUdrMFZLbkZQQVhpaWlMVnhJOEF5Znh0UUFCX19zVGRab1NxLVlwS2l1bVJicE5Z?oc=5
 Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.
 
-## Social Post 4
+## Social Post 5
 
-AI story 4 worth your time today: Anthropic doesn’t trust the Pentagon, and neither should you
+AI story 5 worth your time today: Anthropic doesn’t trust the Pentagon, and neither should you
 
 Anthropic doesn’t trust the Pentagon, and neither should you is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Ranked highly because it is recent and keyword signals: Anthropic, preferred-source. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 
 Source: The Verge
 Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxObEQzQ19fd0JyQUhXWTZXRmwtNFFmTDd6a2Z0LTJ3ckRtNERxZlZqenFpZlpremZlTW9ucl9BUlJLWmhWQjVMTFowb0F3ZnJGQ0VpeF9XaHV6dkRud0VkUTJjOUp0eWQ3MVQtakFtN3RuY3ZmYno0enAzLUhPY1dQWTkyc0YtMUVSWHpUN0cyYjl6eERtZkFrUVc1RlFRWW8?oc=5
-Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.
-
-## Social Post 5
-
-AI story 5 worth your time today: Meta Delays Rollout of New A.I. Model After Performance Concerns
-
-Meta Delays Rollout of New A.I. Model After Performance Concerns is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Ranked highly because it is recent and keyword signals: model, Meta. Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-
-Source: The New York Times
-Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
 Recommended LinkedIn format: native carousel, video, or post with a clear point of view and a clean CTA.
