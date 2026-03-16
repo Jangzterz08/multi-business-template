@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-15T22:04:58.835Z",
+  "updatedAt": "2026-03-16T00:36:53.729Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -67,6 +67,74 @@
         "status": "pending",
         "winningPlatform": "",
         "winningAngle": "product update",
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "generatedAt": "2026-03-16T00:36:53.729Z",
+      "voice": "creator",
+      "leadTitle": "Breakingviews - What happens if OpenAI or Anthropic fail?",
+      "leadSource": "Reuters",
+      "leadAngle": "industry shift",
+      "backupTitle": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
+      "backupSource": "TechCrunch",
+      "selectedStories": [
+        {
+          "title": "Breakingviews - What happens if OpenAI or Anthropic fail?",
+          "description": "Breakingviews - What happens if OpenAI or Anthropic fail? &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnJaSWxSdXJjQTYxRk9TRXUtaUczZkViQWF2Qlk4cnBhOGNjYng2b1RadzNlRTdWMW1DbkpQeEtkOEZPelpyQnZHdEdvWl9qV2VpeFFZV3kycFRCUF8zc0pWMDg4Mjc3eWt1Z1NkdUdad0pQel85Zzd4Nms3VEltdWlycEh1WnV4bi16c1YwMk5vWmx6NGNWY2pUakVaaTN6OEJR?oc=5",
+          "key": "breakingviews what happens if openai or anthropic fail::https://news.google.com/rss/articles/cbmiowfbvv95cuxpmnjaswxsdxjjqtyxrk9trxutauczzkviqwf2qlk4cnbhognjyng2b1radznlrtdwmw1dbkpqeetkoezpelpyqnzhdedvwl9qv2vpeffzv3kycfrcuf8zc0pwmdg4mjc3ewt1z1nkdudad0pqel85zzd4nms3veltdwlyceh1wnv4bi16c1ywmk5vwmx6ngnwy2puakvaatn6oejr"
+        },
+        {
+          "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
+          "description": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit &nbsp;&nbsp; TechCrunch",
+          "source": "TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5",
+          "key": "openai and google employees rush to anthropic s defense in dod lawsuit::https://news.google.com/rss/articles/cbmipwfbvv95cuxpaxk3mgi4skvvzmg0vkxwexqtwhlcafnmrzutuhpsbxbjtnh5dxp0sfnzq0jroxljc0hnu0ppdhrysegynuzuzm1ywgdfzs1pdnk4ctlgvujfluhwwxn0du10duzquw9pv1vvmlrlxzvhy1dknljldmfmdtk3ne1smu9vx2lfmv9tazzicffuvudrnvl3wdvbsnpjctg3sk91nmpmae1ubw"
+        },
+        {
+          "title": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery",
+          "description": "OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery &nbsp;&nbsp; Scientific American",
+          "source": "Scientific American",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR28zMW1zOUpkZVRuNXQ2TDFFaWlSVVhMYWhab3E1czQ3akxyOGV4YkxGMW1vVXVJV252N0x2MzR5Ty1TZ3ZuS0Y1cjNPU195d2gwVEFqbEZjSG8weU5lX2ZjZXhxZ1V3SGpSTUF5VkFJX2hNdkVGRkJMVTdGcWRTU2N1SXJCVjZEcEdYLTJTd0dBWGRmMUwyeDh2NEFGMlp6UjRaY0lnMEs3Q0hqSjI1ZGRlSjNuY0daWnc?oc=5",
+          "key": "openai and ginkgo bioworks show how ai can accelerate scientific discovery::https://news.google.com/rss/articles/cbmiugfbvv95cuxqr28zmw1zoupkzvrunxq2tdffawlsvvhmywhab3e1czq3akxyogv4ykxgmw1vvxvjv252n0x2mzr5ty1tz3zus0y1cjnpu195d2gwvefqbezjsg8weu5lx2zjzxhxz1v3sgpstuf5vkfjx2hndkvgrkjmvtdgcwrtu2n1sxjcvjzecedyltjtd0dbwgrmmuwyedh2nefgmlp6ujray0lnmes3q0hqsji1zgrlsjnuy0dawnc"
+        },
+        {
+          "title": "Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture",
+          "description": "Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture &nbsp;&nbsp; The Information",
+          "source": "The Information",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNno1dTNOVmpISGtjQjlXZ213OEdYNWRNOG0wVlFiM1VBaGZkWVVIODl5OURNSzF3NFVBcFhISy0wRnFiMk1VOWwyOG9IQ09XRlB3YUNCZld2Q1oxY05RNkdhVHFxZWd1QU1sRWtoMVl5bUs5SGxTZjJMSmpHdnhEbTJxRDItMUpjNjF4b0x0dkNXMTBGcVJKYlE3dXFGRHpPazdzXw?oc=5",
+          "key": "anthropic in talks with blackstone other pe firms to form ai consulting venture::https://news.google.com/rss/articles/cbmipafbvv95cuxqnno1dtnovmpisgtjqjlxz213oedynwrnog0wvlfim1vbagzkwvviodl5ournszf3nfvbcfhisy0wrnfimk1vowwyog9iq09xrlb3yunczld2q1oxy05rnkdhvhfxzwd1qu1srwtomvl5bus5sgxtzjjmsmphdnhebtjxrditmupjnjf4b0x0dknxmtbgcvjkyle3dxfgrhppazdzxw"
+        },
+        {
+          "title": "Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure",
+          "description": "Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure &nbsp;&nbsp; Microsoft Azure",
+          "source": "Microsoft Azure",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeUxBQlpvN3NxcWdMam5UMkE3RzNvRDlqRWxMVG5oVUF0bzh5X3gwdzROcjJxMEFvWkJZUlp5WmlkTTJHYWV6Y1dzcHlsSU8zNy1Yb2tnOHNkR0JndGtqcDYtTHpYc3RfMDdPeEdLb3JPSTN1b2RZaG5pV1BjRVdiUUZrSk1WSFE0ZHc0UHFUNFV1ZWlZRG1ZQ1JncGlfQ1BOYnNvOEVhdkxFOTM1V2VKTWRQcEtCTTRJSTNHX3JiY2tkbU5za2R3Zmp3V1hkUk9XbFFKczVZaGYtWWctZUdLekdLcmYxYW9l?oc=5",
+          "key": "introducing fireworks ai on microsoft foundry bringing high performance low latency open model inference to azure::https://news.google.com/rss/articles/cbmi6afbvv95cuxqeuxbqlpvn3nxcwdmam5umke3rznvrdlqrwxmvg5ovuf0bzh5x3gwdzrocjjxmefvwkjzulp5wmlkttjhywv6y1dzchlssu8zny1yb2tnohnkr0jndgtqcdytthpyc3rfmddpeedlb3jpstn1b2rzag5pv1bjrvdiuuzrsk1wsfe0zhc0uhfunfv1zwlzrg1zq1jncglfq1boynnvoevhdkxfotm1v2vktwrqcetcttrjstnhx3jiy2tkbu5za2r3zmp3v1hkuk9xbffkczvzagytwwctzudlekdlcmyxyw9l"
+        }
+      ],
+      "publishDecision": {
+        "recommendation": "Verify before publishing",
+        "score": 61,
+        "backupScore": 65,
+        "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "industry shift",
         "notes": ""
       }
     }

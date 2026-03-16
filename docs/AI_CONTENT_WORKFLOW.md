@@ -18,6 +18,7 @@ The recorder keeps the daily brief to five stories and now creates a full mornin
 - `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`: the one-file morning action brief
 - `content/ai-news/YYYY-MM-DD-publish-decision.md`: a lead-vs-backup recommendation with confidence scoring and what to do next
 - `content/ai-news/YYYY-MM-DD-performance-review.md`: a simple after-post checklist that tells you what to log into memory
+- `content/ai-news/YYYY-MM-DD-posting-tracker.md`: a simple checkbox tracker where you mark a topic as verified, posted, skipped, or saved for later per platform
 - `content/ai-news/YYYY-MM-DD-instagram-carousel.md`: an Instagram carousel outline from the lead story, plus alternate cover options
 - `content/ai-news/YYYY-MM-DD-instagram-reel.md`: an Instagram Reel pack from the lead story, plus alternate hooks and CTA options
 - `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`: a LinkedIn carousel outline built from the lead story, plus alternate cover options
@@ -56,11 +57,12 @@ Ranking is designed to reflect the niche:
 1. Let the workflow run in the morning
 2. Open the ready-to-post pack first if you want immediate copy-paste text
 3. Open the daily posting brief and publish decision report for direction
-4. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
-5. Pick one lead story for a short video or carousel, or switch to backup if the decision report says the lead is weak
-6. Turn the full top five into a newsletter or morning post
-7. Verify any surprising claim on the original article before publishing
-8. After posting, log any meaningful outcomes into the performance memory so future runs can learn from them
+4. Tick the posting tracker as soon as you verify a topic, post it, skip it, or save it for later
+5. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
+6. Pick one lead story for a short video or carousel, or switch to backup if the decision report says the lead is weak
+7. Turn the full top five into a newsletter or morning post
+8. Verify any surprising claim on the original article before publishing
+9. After posting, log any meaningful outcomes into the performance memory so future runs can learn from them
 
 ## Suggested repo settings
 

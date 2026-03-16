@@ -9,6 +9,7 @@ Generated digests land here.
 - `YYYY-MM-DD-daily-posting-brief.md`: one-file morning briefing with what to open and publish first
 - `YYYY-MM-DD-publish-decision.md`: lead-vs-backup recommendation with confidence scoring and next actions
 - `YYYY-MM-DD-performance-review.md`: after-post instructions for logging metrics and outcomes back into memory
+- `YYYY-MM-DD-posting-tracker.md`: simple checkbox tracker for whether each topic was verified, posted, skipped, or saved for later across platforms
 - `YYYY-MM-DD-instagram-carousel.md`: Instagram carousel outline, caption, and alternate cover options
 - `YYYY-MM-DD-instagram-reel.md`: Instagram Reel script, caption pack, alternate hooks, and CTA options
 - `YYYY-MM-DD-linkedin-carousel.md`: slide outline, caption, and alternate cover options for a LinkedIn carousel

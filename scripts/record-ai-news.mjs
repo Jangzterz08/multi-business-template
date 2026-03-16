@@ -2030,6 +2030,7 @@ function buildPerformanceReviewTemplate({
     '## Update after posting',
     '',
     '- Open content/ai-news/performance-memory.json and update today\'s metrics and operatorReview fields.',
+    `- Use content/ai-news/${dateSlug}-posting-tracker.md to tick off what was verified, posted, skipped, or saved for later.`,
     '- Fill only the fields you actually know. Leave the rest as null or pending.',
     '- The next morning run will reuse the completed entries as performance memory.',
     '',
@@ -2051,6 +2052,56 @@ function buildPerformanceReviewTemplate({
     '',
     `- ${insights.summary}`,
     '',
+  ].join('\n');
+}
+
+export function buildPostingTrackerTemplate({
+  generatedAt,
+  articles,
+  publishDecision = null,
+}) {
+  const dateSlug = generatedAt.slice(0, 10);
+  const lead = articles[0];
+
+  const storyBlocks = articles.map((article, index) => [
+    `## Story ${index + 1}: ${article.title}`,
+    '',
+    `Source: ${article.source}`,
+    `Link: ${article.link}`,
+    '',
+    '### Topic status',
+    '',
+    '- [ ] Not reviewed yet',
+    '- [ ] Verified',
+    '- [ ] Posted as lead',
+    '- [ ] Posted as backup',
+    '- [ ] Saved for later',
+    '- [ ] Skipped',
+    '',
+    '### Platform status',
+    '',
+    '- [ ] Newsletter',
+    '- [ ] Instagram Reel',
+    '- [ ] Instagram carousel',
+    '- [ ] LinkedIn',
+    '- [ ] X / thread',
+    '- [ ] Talking-head video',
+    '',
+    '### Notes',
+    '',
+    '- ',
+    '',
+  ].join('\n'));
+
+  return [
+    `# AI Posting Tracker for ${dateSlug}`,
+    '',
+    `Lead recommendation: ${publishDecision?.recommendation ?? 'Review the publish decision before posting.'}`,
+    `Lead story: ${lead?.title ?? 'No lead story available'}`,
+    '',
+    'Use this file like a checklist. Tick the boxes as soon as a topic is verified, posted, skipped, or saved for later.',
+    '',
+    ...storyBlocks,
   ].join('\n');
 }
 
@@ -2916,6 +2967,7 @@ export function buildDailyPostingBrief({
     '',
     `- Ready-to-post pack: content/ai-news/${dateSlug}-ready-to-post.md`,
     `- Publish decision: content/ai-news/${dateSlug}-publish-decision.md`,
+    `- Posting tracker: content/ai-news/${dateSlug}-posting-tracker.md`,
     `- Performance review: content/ai-news/${dateSlug}-performance-review.md`,
     `- Publishing queue: content/ai-news/${dateSlug}-publishing-queue.md`,
     `- Newsletter draft: content/ai-news/${dateSlug}-newsletter.md`,
@@ -3294,6 +3346,7 @@ export async function recordAiNews({
   const postingBriefPath = path.join(outputDir, `${dateSlug}-daily-posting-brief.md`);
   const publishDecisionPath = path.join(outputDir, `${dateSlug}-publish-decision.md`);
   const performanceReviewPath = path.join(outputDir, `${dateSlug}-performance-review.md`);
+  const postingTrackerPath = path.join(outputDir, `${dateSlug}-posting-tracker.md`);
   const instagramCarouselPath = path.join(outputDir, `${dateSlug}-instagram-carousel.md`);
   const instagramReelPath = path.join(outputDir, `${dateSlug}-instagram-reel.md`);
   const linkedinCarouselPath = path.join(outputDir, `${dateSlug}-linkedin-carousel.md`);
@@ -3324,6 +3377,7 @@ export async function recordAiNews({
     fs.writeFile(postingBriefPath, buildDailyPostingBrief(payload), 'utf8'),
     fs.writeFile(publishDecisionPath, buildPublishDecisionReport({ ...payload, performanceMemory: nextMemory, publishDecision }), 'utf8'),
     fs.writeFile(performanceReviewPath, buildPerformanceReviewTemplate({ ...payload, performanceMemory: nextMemory }), 'utf8'),
+    fs.writeFile(postingTrackerPath, buildPostingTrackerTemplate(payload), 'utf8'),
     fs.writeFile(instagramCarouselPath, buildInstagramCarousel(payload), 'utf8'),
     fs.writeFile(instagramReelPath, buildInstagramReel(payload), 'utf8'),
     fs.writeFile(linkedinCarouselPath, buildLinkedInCarouselOutline(payload), 'utf8'),
@@ -3364,6 +3418,7 @@ export async function recordAiNews({
     postingBriefPath,
     publishDecisionPath,
     performanceReviewPath,
+    postingTrackerPath,
     instagramCarouselPath,
     instagramReelPath,
     linkedinCarouselPath,
@@ -3389,7 +3444,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === currentFilePath) {
     .then(() => recordAiNews())
     .then((result) => {
       console.log(
-        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.readyToPostPath}, ${result.postingBriefPath}, ${result.publishDecisionPath}, ${result.performanceReviewPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, ${result.latestJsonPath}, and ${result.memoryPath}.`,
+        `Recorded ${result.articleCount} AI stories to ${result.markdownPath}, ${result.contentPlanPath}, ${result.newsletterPath}, ${result.readyToPostPath}, ${result.postingBriefPath}, ${result.publishDecisionPath}, ${result.performanceReviewPath}, ${result.postingTrackerPath}, ${result.instagramCarouselPath}, ${result.instagramReelPath}, ${result.linkedinCarouselPath}, ${result.talkingHeadPath}, ${result.xThreadPath}, ${result.publishingQueuePath}, ${result.qualityReportPath}, ${result.publishingChecklistPath}, ${result.videoScriptsPath}, ${result.socialPostsPath}, ${result.latestJsonPath}, and ${result.memoryPath}.`,
       );
       console.log(`Feed used: ${result.feedUrl}`);
       if (result.telegramNotificationSent) {

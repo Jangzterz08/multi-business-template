@@ -5,6 +5,7 @@ import {
   buildContentQualityReport,
   buildDailyPublishingQueue,
   buildDailyPostingBrief,
+  buildPostingTrackerTemplate,
   buildInstagramCarousel,
   buildInstagramReel,
   buildLinkedInCarouselOutline,
@@ -275,6 +276,7 @@ describe('record-ai-news helpers', () => {
     expect(brief).toContain('Ready-to-post pack: content/ai-news/2026-03-14-ready-to-post.md');
     expect(brief).toContain('Publish decision: content/ai-news/2026-03-14-publish-decision.md');
     expect(brief).toContain('Performance review: content/ai-news/2026-03-14-performance-review.md');
+    expect(brief).toContain('Posting tracker: content/ai-news/2026-03-14-posting-tracker.md');
     expect(brief).toContain('Instagram carousel: content/ai-news/2026-03-14-instagram-carousel.md');
     expect(brief).toContain('Publishing queue: content/ai-news/2026-03-14-publishing-queue.md');
     expect(brief).toContain('LinkedIn carousel: content/ai-news/2026-03-14-linkedin-carousel.md');
@@ -314,6 +316,30 @@ describe('record-ai-news helpers', () => {
     expect(posts).toContain('Voice: Founder');
     expect(posts).toContain('Recommended LinkedIn format: native document or video');
     expect(posts).toContain('## Social Post 3');
+  });
+
+  it('creates a posting tracker with per-story and per-platform checkboxes', () => {
+    const tracker = buildPostingTrackerTemplate({
+      generatedAt: '2026-03-14T10:00:00.000Z',
+      publishDecision: {
+        recommendation: 'Verify before publishing',
+      },
+      articles: [
+        {
+          title: 'OpenAI launches a new reasoning model',
+          link: 'https://example.com/openai-reasoning',
+          source: 'The Verge',
+        },
+      ],
+    });
+
+    expect(tracker).toContain('# AI Posting Tracker for 2026-03-14');
+    expect(tracker).toContain('Lead recommendation: Verify before publishing');
+    expect(tracker).toContain('## Story 1: OpenAI launches a new reasoning model');
+    expect(tracker).toContain('- [ ] Posted as lead');
+    expect(tracker).toContain('- [ ] Saved for later');
+    expect(tracker).toContain('- [ ] Instagram Reel');
+    expect(tracker).toContain('- [ ] Talking-head video');
   });
 
   it('creates a phone-friendly Telegram notification summary', () => {
