@@ -1,6 +1,6 @@
 # AI Content Workflow
 
-This workflow is tuned for AI news content, where freshness, trust, and fast repurposing matter more than volume.
+This workflow is tuned for AI news content, where freshness, trust, and easy manual selection matter more than volume.
 
 ## What the research points to
 
@@ -9,7 +9,35 @@ This workflow is tuned for AI news content, where freshness, trust, and fast rep
 - Trust and attribution matter, especially for AI topics where claims can move quickly and get overstated.
 - The same daily research should feed multiple formats: newsletter, short-form video, and social hooks.
 
-## How this repo applies that
+## Recommended simple workflow
+
+The default workflow is now:
+
+1. Scrape the top 5 to 10 AI stories each morning
+2. Append them to Google Sheets
+3. Review the list yourself
+4. Mark `Status`, `Picked`, or `Posted`
+5. Write your own post in your own voice
+
+The sheet uses these columns:
+
+- `Date`
+- `Rank`
+- `Title`
+- `Source`
+- `Published At`
+- `Link`
+- `Summary`
+- `Why It Matters`
+- `Category`
+- `Status`
+- `Picked`
+- `Posted`
+- `Notes`
+
+Google Sheets is the recommended path because it is faster to scan, filter, and mark up than a large daily content pack.
+
+## Optional detailed workflow
 
 The recorder keeps the daily brief to five stories and now creates a full morning output pack:
 
@@ -55,14 +83,12 @@ Ranking is designed to reflect the niche:
 ## Recommended morning routine
 
 1. Let the workflow run in the morning
-2. Open the ready-to-post pack first if you want immediate copy-paste text
-3. Open the daily posting brief and publish decision report for direction
-4. Tick the posting tracker as soon as you verify a topic, post it, skip it, or save it for later
-5. Tighten any weak hooks, repeated angles, or missing CTAs the QA report flags
-6. Pick one lead story for a short video or carousel, or switch to backup if the decision report says the lead is weak
-7. Turn the full top five into a newsletter or morning post
-8. Verify any surprising claim on the original article before publishing
-9. After posting, log any meaningful outcomes into the performance memory so future runs can learn from them
+2. Open the Google Sheet first
+3. Filter or sort the rows if needed
+4. Mark `Status`, `Picked`, or `Posted`
+5. Choose one or two stories and write your own post
+6. Verify any surprising claim on the original article before publishing
+7. Use the detailed markdown pack only if you want extra draft help that day
 
 ## Suggested repo settings
 
@@ -72,6 +98,10 @@ Set these in your local `.env` or GitHub Actions variables if needed:
 - `AI_NEWS_LIMIT`
 - `AI_NEWS_PREFERRED_SOURCES`
 - `AI_NEWS_MAX_PER_SOURCE`
+- `AI_NEWS_SHEET_ID`
+- `AI_NEWS_SHEET_NAME`
+- `AI_NEWS_GOOGLE_CLIENT_EMAIL`
+- `AI_NEWS_GOOGLE_PRIVATE_KEY`
 - `AI_NEWS_LANGUAGE`
 - `AI_NEWS_REGION`
 - `AI_NEWS_RECENT_STORY_WINDOW_DAYS`

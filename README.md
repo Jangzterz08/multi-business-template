@@ -34,6 +34,7 @@ Valid values: `education`, `restaurant`, `dental`, `salon`, `gym`
 - `npm run build` type-check + production build
 - `npm run preview` preview built app
 - `npm run news:record` fetch and save a top-5 AI news digest to `content/ai-news/`
+- `npm run news:sheet` fetch and append the top AI news stories into Google Sheets
 - `npm run lint` lint TypeScript/React files
 - `npm run typecheck` TypeScript checks only
 - `npm run test` run full test suite
@@ -92,15 +93,17 @@ Use optional `pageCopy` fields in a preset when the shared route language needs 
 
 ## AI news content workflow
 
-This repo includes a lightweight content workflow that records the top five AI news stories into `content/ai-news/`.
+This repo includes a simplified AI news workflow that scrapes the top AI stories into Google Sheets so you can pick the topic yourself and write your own post.
 
-- Local run: `npm run news:record`
+- Local run: `npm run news:sheet`
 - Scheduled run: `.github/workflows/ai-news-content.yml` every morning at `07:00 UTC`
+- Manual detailed pack: `npm run news:record`
+- Sheet columns: `Date`, `Rank`, `Title`, `Source`, `Published At`, `Link`, `Summary`, `Why It Matters`, `Category`, `Status`, `Picked`, `Posted`, `Notes`
+- The sync skips duplicate `date + link` rows, so rerunning it on the same day will not keep appending the same stories
 - Output files: `content/ai-news/latest.json`, `content/ai-news/performance-memory.json`, `content/ai-news/YYYY-MM-DD.md`, `content/ai-news/YYYY-MM-DD-content-plan.md`, `content/ai-news/YYYY-MM-DD-daily-posting-brief.md`, `content/ai-news/YYYY-MM-DD-publish-decision.md`, `content/ai-news/YYYY-MM-DD-performance-review.md`, `content/ai-news/YYYY-MM-DD-posting-tracker.md`, `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-ready-to-post.md`, `content/ai-news/YYYY-MM-DD-quality-report.md`, `content/ai-news/YYYY-MM-DD-publishing-queue.md`, `content/ai-news/YYYY-MM-DD-publishing-checklist.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, `content/ai-news/YYYY-MM-DD-x-thread.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md`
 
-The platform-specific lead-story files now include backup hooks and CTA variants, and the quality report includes auto-fix suggestions when it detects weak drafts.
-The ready-to-post pack now gives you copy-paste-ready titles, bodies, and CTAs for the main platforms, using editorial "why now" language instead of raw ranking jargon.
-The posting tracker gives you one markdown file with checkboxes so you can mark a topic as verified, posted, skipped, or saved for later across each platform.
+Google Sheets is now the recommended morning workflow. The detailed markdown pack still exists if you want the old draft-heavy flow manually.
+To use Google Sheets, create a sheet, share it with a Google service account, and set the sheet ID plus service-account credentials in your local `.env` or GitHub Actions.
 
 Optional environment variables for the recorder:
 
@@ -111,6 +114,10 @@ Optional environment variables for the recorder:
 - `AI_NEWS_LANGUAGE`: locale, default `en-US`
 - `AI_NEWS_REGION`: region, default `US`
 - `AI_NEWS_OUTPUT_DIR`: output folder, default `content/ai-news`
+- `AI_NEWS_SHEET_ID`: target Google Sheet ID for the simplified workflow
+- `AI_NEWS_SHEET_NAME`: tab name inside the Google Sheet, default `AI News`
+- `AI_NEWS_GOOGLE_CLIENT_EMAIL`: Google service account email used for Sheets API access
+- `AI_NEWS_GOOGLE_PRIVATE_KEY`: Google service account private key used for Sheets API access
 - `AI_NEWS_RECENT_STORY_WINDOW_DAYS`: how many recent days should penalize already-used stories, default `3`
 - `AI_NEWS_TOPIC_REPEAT_THRESHOLD`: title/topic similarity threshold for repeat-topic penalties, default `0.45`
 - `AI_CONTENT_MEMORY_FILE`: path to the persistent performance-memory JSON, default `content/ai-news/performance-memory.json`
@@ -121,7 +128,7 @@ Optional environment variables for the recorder:
 - `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
 - `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
 
-If Telegram is configured, each run also sends a short phone-friendly morning summary with the lead story, backup story, the publish decision, quick checks, direct file links, inline buttons, and a compact `Copy now` section for the newsletter title, newsletter body, reel hook, and a post caption. The Telegram links now open the ready-to-post pack first, and they now include direct links to the publish decision and performance review. In GitHub Actions, file links are inferred automatically from the repo context. Keep `AI_TELEGRAM_BOT_TOKEN` in GitHub Actions `Secrets` and the chat id or silent flag in `Variables`.
+For the simplified Sheets workflow, share the spreadsheet with `AI_NEWS_GOOGLE_CLIENT_EMAIL` as an editor. In GitHub Actions, store `AI_NEWS_GOOGLE_CLIENT_EMAIL` and `AI_NEWS_GOOGLE_PRIVATE_KEY` in `Secrets`, and store `AI_NEWS_SHEET_ID` and `AI_NEWS_SHEET_NAME` in `Variables`.
 
 The recorder now also penalizes stories used in the last few days and near-duplicate topics from different outlets, so the morning pack rotates more instead of repeating the same AI headline for a week.
 

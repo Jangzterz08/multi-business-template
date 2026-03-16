@@ -87,24 +87,17 @@ npm run dev
 npm run smoke
 ```
 
-## AI content recorder workflow
+## AI content workflow
 
-Use the built-in recorder when you want a reusable "top 5 AI news" content input without adding backend code.
+Use the simplified Google Sheets sync when you want a reusable "top 5-10 AI news" list without generating full drafts.
 
-1. Run `npm run news:record` locally, or let `.github/workflows/ai-news-content.yml` run every morning at `07:00 UTC`
-2. Open `content/ai-news/YYYY-MM-DD-ready-to-post.md` first when you want copy-paste-ready platform content
-3. Open `content/ai-news/YYYY-MM-DD-daily-posting-brief.md` for the one-file morning summary
-4. Review `content/ai-news/YYYY-MM-DD-publish-decision.md` to see whether the lead is strong enough to use or whether you should switch to the backup story
-5. Tick `content/ai-news/YYYY-MM-DD-posting-tracker.md` as you verify a topic, post it, skip it, or save it for later
-6. Review `content/ai-news/YYYY-MM-DD-quality-report.md` to catch weak hooks, weak CTAs, and repeated angles before posting, then use its auto-fix options if needed
-7. Open `content/ai-news/YYYY-MM-DD-publishing-queue.md` for the exact posting order
-8. Review the generated digest in `content/ai-news/YYYY-MM-DD.md`
-9. Start from `content/ai-news/YYYY-MM-DD-content-plan.md` when you want hooks, newsletter angles, and short-form scripts
-10. Use `content/ai-news/YYYY-MM-DD-instagram-carousel.md`, `content/ai-news/YYYY-MM-DD-instagram-reel.md`, `content/ai-news/YYYY-MM-DD-linkedin-carousel.md`, `content/ai-news/YYYY-MM-DD-talking-head-30s.md`, and `content/ai-news/YYYY-MM-DD-x-thread.md` for platform-specific finals, backup hooks, and CTA variants
-11. Use `content/ai-news/YYYY-MM-DD-newsletter.md`, `content/ai-news/YYYY-MM-DD-video-scripts.md`, and `content/ai-news/YYYY-MM-DD-social-posts.md` for publish-ready first drafts
-12. Review `content/ai-news/YYYY-MM-DD-publishing-checklist.md` before posting so you keep originality, hooks, and measurement tight
-13. After posting, use `content/ai-news/YYYY-MM-DD-performance-review.md` and `content/ai-news/performance-memory.json` to log outcomes that future runs can learn from
-14. Use `content/ai-news/latest.json` if you want to pipe the stories into another content step
+1. Create a Google Sheet and share it with your Google service account email as an editor
+2. Set `AI_NEWS_SHEET_ID`, `AI_NEWS_SHEET_NAME`, `AI_NEWS_GOOGLE_CLIENT_EMAIL`, and `AI_NEWS_GOOGLE_PRIVATE_KEY`
+3. Run `npm run news:sheet` locally, or let `.github/workflows/ai-news-content.yml` run every morning at `07:00 UTC`
+4. Open the sheet and sort or filter the rows by `Date`, `Category`, or `Source`
+5. Mark `Status`, `Picked`, `Posted`, and `Notes` manually as you decide what to publish
+
+If you still want the full draft-heavy output, the old recorder remains available with `npm run news:record`.
 
 If you want the shortest possible morning routine, use [docs/DAILY_OPERATOR_CHECKLIST.md](./DAILY_OPERATOR_CHECKLIST.md).
 
@@ -117,17 +110,15 @@ Optional environment variables:
 - `AI_NEWS_LANGUAGE`: feed locale, default `en-US`
 - `AI_NEWS_REGION`: feed region, default `US`
 - `AI_NEWS_OUTPUT_DIR`: where records are written, default `content/ai-news`
+- `AI_NEWS_SHEET_ID`: target Google Sheet ID
+- `AI_NEWS_SHEET_NAME`: target tab name, default `AI News`
+- `AI_NEWS_GOOGLE_CLIENT_EMAIL`: Google service account email
+- `AI_NEWS_GOOGLE_PRIVATE_KEY`: Google service account private key
 - `AI_NEWS_RECENT_STORY_WINDOW_DAYS`: recent-day window for repeat-story penalties, default `3`
 - `AI_NEWS_TOPIC_REPEAT_THRESHOLD`: overlap threshold for repeat-topic penalties, default `0.45`
 - `AI_CONTENT_MEMORY_FILE`: path to the persistent performance-memory JSON, default `content/ai-news/performance-memory.json`
 - `AI_CONTENT_VOICE`: `creator`, `operator`, `founder`, `educator`, or `newsroom`
-- `AI_TELEGRAM_BOT_TOKEN`: optional Telegram bot token for phone notifications
-- `AI_TELEGRAM_CHAT_ID`: optional Telegram chat id that receives the message
-- `AI_TELEGRAM_SILENT`: optional `true` or `false` for silent sends
-- `AI_TELEGRAM_REPO_URL`: optional override for GitHub file links in Telegram
-- `AI_TELEGRAM_REPO_BRANCH`: optional override for the branch used in Telegram file links
-
-If you configure Telegram, each run also sends a short phone-friendly morning message with direct file links, inline buttons, a publish decision summary, and a compact `Copy now` section for the first things you are likely to post from your phone. In GitHub Actions, store the bot token in `Secrets` and the chat id in `Variables`.
+Store `AI_NEWS_GOOGLE_CLIENT_EMAIL` and `AI_NEWS_GOOGLE_PRIVATE_KEY` in GitHub Actions `Secrets`, and keep `AI_NEWS_SHEET_ID` and `AI_NEWS_SHEET_NAME` in `Variables`.
 
 ## Common mistakes to avoid
 

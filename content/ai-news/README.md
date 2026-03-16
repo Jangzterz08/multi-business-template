@@ -1,6 +1,8 @@
 # AI News Records
 
-Generated digests land here.
+Generated digests land here when you run the optional detailed recorder workflow.
+
+The recommended daily workflow now uses Google Sheets via `npm run news:sheet`, so this folder is only needed when you want the full markdown pack.
 
 - `latest.json`: machine-readable snapshot of the newest run
 - `performance-memory.json`: persistent memory of completed-day results and reusable performance patterns
