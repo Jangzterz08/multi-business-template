@@ -2,15 +2,15 @@
 
 Voice: Creator
 
-Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
+Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
 
 ## Beat timing
 
 0-5s: Hook
-The biggest AI story this morning is Breakingviews - What happens if OpenAI or Anthropic fail?.
+The biggest AI story this morning is OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers.
 
 5-15s: What changed
-Breakingviews - What happens if OpenAI or Anthropic fail? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
+OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
 
 15-24s: Why it matters
 Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.
@@ -20,7 +20,7 @@ Suggested angle: ignore the surface headline and explain what decision, risk, or
 
 ## Alternate hooks
 
-1. The headline is Breakingviews - What happens if OpenAI or Anthropic fail?. The real story is what it changes.
+1. The headline is OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers. The real story is what it changes.
 2. Everyone will quote the headline. I care more about the shift in AI workflows.
 3. If you work in AI, this is the part of today's news worth paying attention to.
 

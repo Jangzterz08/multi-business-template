@@ -4,10 +4,10 @@ Voice: Creator
 
 ## Start here
 
-- Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
-- Lead source: Reuters
+- Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+- Lead source: WSJ
 - Publish decision: Verify before publishing
-- Confidence: 61/100
+- Confidence: 46/100
 - First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.
 - Original angle required: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 

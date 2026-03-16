@@ -20,70 +20,70 @@
 ## Lead story
 
 - Voice: Creator
-- Title: Breakingviews - What happens if OpenAI or Anthropic fail?
-- Source: Reuters
+- Title: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+- Source: WSJ
 - Positioning: Most people will repost the headline. This is the part of the story actually worth paying attention to.
 
 ## Newsletter package
 
-- Subject line 1: AI Brief 03-16: Breakingviews - What happens if O…
-- Subject line 2: 5 AI stories today: Reuters to TechCrunch
-- Intro: This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across Reuters, TechCrunch, Scientific American.
+- Subject line 1: AI Brief 03-16: OpenAI’s Bid to Allow X-rated Tal…
+- Subject line 2: 5 AI stories today: WSJ to Mashable
+- Intro: This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across WSJ, Mashable, Reuters.
 
 ## Short-form package
 
 - Recommended format: 9:16 vertical clips, about 15 to 45 seconds each.
 - Hook ideas:
-- The AI headline everyone will talk about today: Breakingviews - What happens if OpenAI or Anthropic fail?
-- AI creators should watch this one: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
-- AI creators should watch this one: OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery
+- The AI headline everyone will talk about today: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+- AI creators should watch this one: 'Use a gun': AI chatbots help people plan violence, report says
+- AI creators should watch this one: How the Anthropic-Pentagon dispute over AI safeguards escalated
 
 ## Story breakdowns
 
-### Story 1: Breakingviews - What happens if OpenAI or Anthropic fail?
+### Story 1: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+- Source: WSJ
+- Published: Mon, 16 Mar 2026 02:00:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is very recent and keyword signals: OpenAI.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is the biggest AI story this morning. OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers. Source: WSJ. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
+
+### Story 2: 'Use a gun': AI chatbots help people plan violence, report says
+- Source: Mashable
+- Published: Sun, 15 Mar 2026 22:37:53 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is very recent.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. 'Use a gun': AI chatbots help people plan violence, report says. Source: Mashable. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
+
+### Story 3: How the Anthropic-Pentagon dispute over AI safeguards escalated
 - Source: Reuters
-- Published: Wed, 11 Mar 2026 05:00:36 GMT
-- Angle: industry shift
-- Why it matters: Ranked highly because it is keyword signals: OpenAI, Anthropic, preferred-source.
-- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is the biggest AI story this morning. Breakingviews - What happens if OpenAI or Anthropic fail?. Source: Reuters. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
-
-### Story 2: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
-- Source: TechCrunch
-- Published: Mon, 09 Mar 2026 21:15:17 GMT
-- Angle: policy signal
-- Why it matters: Ranked highly because it is aging out and keyword signals: OpenAI, Anthropic, Google.
-- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. Source: TechCrunch. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a policy signal clip in a 15 to 45 second vertical video.
-
-### Story 3: OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery
-- Source: Scientific American
-- Published: Fri, 13 Mar 2026 11:30:00 GMT
-- Angle: industry shift
-- Why it matters: Ranked highly because it is recent and keyword signals: OpenAI.
-- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery. Source: Scientific American. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
-
-### Story 4: Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture
-- Source: The Information
-- Published: Thu, 12 Mar 2026 02:05:00 GMT
+- Published: Wed, 11 Mar 2026 20:35:20 GMT
 - Angle: industry shift
 - Why it matters: Ranked highly because it is keyword signals: Anthropic, preferred-source.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
-- Suggested short-form script: Here is another AI story you should not skip today. Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture. Source: The Information. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
+- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
+- Suggested short-form script: Here is another AI story you should not skip today. How the Anthropic-Pentagon dispute over AI safeguards escalated. Source: Reuters. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 5: Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure
-- Source: Microsoft Azure
-- Published: Wed, 11 Mar 2026 07:00:00 GMT
+### Story 4: Meta Delays Rollout of New A.I. Model After Performance Concerns
+- Source: The New York Times
+- Published: Thu, 12 Mar 2026 23:36:26 GMT
 - Angle: product update
-- Why it matters: Ranked highly because it is keyword signals: model, Microsoft.
+- Why it matters: Ranked highly because it is keyword signals: model, Meta.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is another AI story you should not skip today. Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure. Source: Microsoft Azure. Why now: product integrations matter when they move AI capability into tools people already use every day. Use this as a product update clip in a 15 to 45 second vertical video.
+- Hook: A delay can be more revealing than a launch in the current AI race.
+- Suggested short-form script: Here is another AI story you should not skip today. Meta Delays Rollout of New A.I. Model After Performance Concerns. Source: The New York Times. Why now: when a major lab delays a release, it changes the story around who is actually ready to ship. Use this as a product update clip in a 15 to 45 second vertical video.
+
+### Story 5: Inside OpenAI’s Race to Catch Up to Claude Code
+- Source: WIRED
+- Published: Wed, 11 Mar 2026 10:00:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is keyword signals: OpenAI, Claude.
+- Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. Inside OpenAI’s Race to Catch Up to Claude Code. Source: WIRED. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

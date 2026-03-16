@@ -5,27 +5,27 @@ Voice: Creator
 ## Recommendation
 
 - Decision: Verify before publishing
-- Lead score: 61/100
-- Backup score: 65/100
+- Lead score: 46/100
+- Backup score: 46/100
 - Summary: The lead is usable, but it needs verification or tightening before it becomes the main post.
 
 ## Lead review
 
-- Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
+- Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
 - Lead angle: industry shift
-- Strength: Reuters is treated as a trusted source for the morning stack.
-- Strength: The headline has enough AI-specific signal to support strong downstream content.
-- Risk: The story is aging out of the ideal morning-news window.
+- Strength: The story is still fresh enough for a morning-led publish.
+- Risk: WSJ is not on the trusted-source list, so the lead needs stronger verification.
+- Risk: The headline has thin keyword signal, which makes generic copy more likely.
 - Risk: The story still reads like a broad industry shift, which can lead to vague content if not tightened.
 
 ## Backup review
 
-- Backup story: OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
-- Backup angle: policy signal
-- Strength: TechCrunch is treated as a trusted source for the morning stack.
-- Strength: The headline has enough AI-specific signal to support strong downstream content.
-- Strength: policy signal stories are easier to explain clearly than broad industry-shift headlines.
-- Risk: The story is old for a morning news lead and may already feel stale.
+- Backup story: 'Use a gun': AI chatbots help people plan violence, report says
+- Backup angle: industry shift
+- Strength: The story is still fresh enough for a morning-led publish.
+- Risk: Mashable is not on the trusted-source list, so the lead needs stronger verification.
+- Risk: The headline has thin keyword signal, which makes generic copy more likely.
+- Risk: The story still reads like a broad industry shift, which can lead to vague content if not tightened.
 
 ## Performance memory
 

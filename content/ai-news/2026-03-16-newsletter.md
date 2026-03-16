@@ -1,8 +1,8 @@
 # AI Morning Newsletter Draft for 2026-03-16
 
-Subject line 1: AI Brief 03-16: Breakingviews - What happens if O…
-Subject line 2: 5 AI stories today: Reuters to TechCrunch
-Preview text: Breakingviews - What happens if OpenAI or Anthropic fail? leads today's AI brief, plus OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit.
+Subject line 1: AI Brief 03-16: OpenAI’s Bid to Allow X-rated Tal…
+Subject line 2: 5 AI stories today: WSJ to Mashable
+Preview text: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers leads today's AI brief, plus 'Use a gun': AI chatbots help people plan violence, report says.
 Voice: Creator
 
 ## Anti-flop notes
@@ -13,47 +13,47 @@ Voice: Creator
 
 ## Opening
 
-This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across Reuters, TechCrunch, Scientific American.
+This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across WSJ, Mashable, Reuters.
 
-## 1. Breakingviews - What happens if OpenAI or Anthropic fail?
+## 1. OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
 
-Start with Breakingviews - What happens if OpenAI or Anthropic fail?. Breakingviews - What happens if OpenAI or Anthropic fail? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: Reuters.
+Start with OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers. OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: WSJ.
+
+- Source: WSJ
+- Published: Mon, 16 Mar 2026 02:00:00 GMT
+- Link: https://news.google.com/rss/articles/CBMi9AJBVV95cUxQN3Z1ZVVxNF9QZ1R4QnNkUktOeWZ4VzdRYnU2Q3Jhc3lBaUwwSEtScWZ4dzBWUTV6Y2hQUk5nREllUENhNTJEeUl3S3R3X09rTExEeVFpR0V0ZnVDRVE3N2JSS2N4bUF3SFk4bEQzYzZpcXB3cHVkcXFVMEsyVWU0a3NZa290X2Y4V1pmb295b1JYaE04ZUcwUjQyaGhOZjRoS1B3SmMxQlp5NWVfLVBTT2dqTHlQS21QM2cxQThCdVpzUUxBN0hfWU40TFpzMmZ1akcxZEc5eXIwVVUyVGxkTVh2czBXS3N3NnRMTlFWT2hoQU51NmlIb2RqYXFoN0ZIdkRGbERTTUw0WTFrM3BYZGhyYjNLZ3pieE03ZVdvU0c3UWdVeUJGcVo2d3VGbW1IVlhmNGZfRWFwOERvby1nNUQ2Rmpqc1pBVEFPaWRpaWttVzFoQnpTLUpHU1V0TGNIYU1aZmpLYXdiQ3pDSWRJd0Z5NTI?oc=5
+
+## 2. 'Use a gun': AI chatbots help people plan violence, report says
+
+Then watch 'Use a gun': AI chatbots help people plan violence, report says. 'Use a gun': AI chatbots help people plan violence, report says is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: Mashable.
+
+- Source: Mashable
+- Published: Sun, 15 Mar 2026 22:37:53 GMT
+- Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5
+
+## 3. How the Anthropic-Pentagon dispute over AI safeguards escalated
+
+Then watch How the Anthropic-Pentagon dispute over AI safeguards escalated. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: Reuters.
 
 - Source: Reuters
-- Published: Wed, 11 Mar 2026 05:00:36 GMT
-- Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnJaSWxSdXJjQTYxRk9TRXUtaUczZkViQWF2Qlk4cnBhOGNjYng2b1RadzNlRTdWMW1DbkpQeEtkOEZPelpyQnZHdEdvWl9qV2VpeFFZV3kycFRCUF8zc0pWMDg4Mjc3eWt1Z1NkdUdad0pQel85Zzd4Nms3VEltdWlycEh1WnV4bi16c1YwMk5vWmx6NGNWY2pUakVaaTN6OEJR?oc=5
+- Published: Wed, 11 Mar 2026 20:35:20 GMT
+- Link: https://news.google.com/rss/articles/CBMiowFBVV95cUxPRzNqRG15QkR6TEtXajlQZ1ZBZUl6T1lIamI0UGhNU21GN0JYNWVLNEF4QlVPUHRSamdwaXVYMXRXeHF0Um5jejJmcmpjMnd4dXh0b2xTUGRlbHZ4Nm5LRTFvbzJWZWVQUmhjZUNFNXBXNnR6VE03dkJGZmE4alRXT3I0Rm8zUkZUaXZCeGdLREltX2s3MERoUlY0TUdtOUo5aWtV?oc=5
 
-## 2. OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit
+## 4. Meta Delays Rollout of New A.I. Model After Performance Concerns
 
-Then watch OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit. The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Source: TechCrunch.
+Then watch Meta Delays Rollout of New A.I. Model After Performance Concerns. A delayed model matters because the market rewards reliable shipping and product readiness, not just ambitious benchmark narratives. Why now: when a major lab delays a release, it changes the story around who is actually ready to ship. Source: The New York Times.
 
-- Source: TechCrunch
-- Published: Mon, 09 Mar 2026 21:15:17 GMT
-- Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXk3MGI4SkVvZmg0VkxWeXQtWHlCaFNmRzUtUHpSbXBjTnh5dXp0SFNzQ0JROXljc0hnU0pPdHRYSEgyNUZUZm1YWGdFZS1pdnk4cTlGVUJFLUhWWXN0dU10dUZqUW9pV1VVMlRlXzVHY1dKNlJLdmFMdTk3NE1sMU9VX2lfMV9TazZIcFFUVUdRNVl3WDVBSnpJcTg3Sk91NmpMaE1Ubw?oc=5
+- Source: The New York Times
+- Published: Thu, 12 Mar 2026 23:36:26 GMT
+- Link: https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5
 
-## 3. OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery
+## 5. Inside OpenAI’s Race to Catch Up to Claude Code
 
-Then watch OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery. OpenAI and Ginkgo Bioworks show how AI can accelerate scientific discovery is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: Scientific American.
+Then watch Inside OpenAI’s Race to Catch Up to Claude Code. Inside OpenAI’s Race to Catch Up to Claude Code is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: WIRED.
 
-- Source: Scientific American
-- Published: Fri, 13 Mar 2026 11:30:00 GMT
-- Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxQR28zMW1zOUpkZVRuNXQ2TDFFaWlSVVhMYWhab3E1czQ3akxyOGV4YkxGMW1vVXVJV252N0x2MzR5Ty1TZ3ZuS0Y1cjNPU195d2gwVEFqbEZjSG8weU5lX2ZjZXhxZ1V3SGpSTUF5VkFJX2hNdkVGRkJMVTdGcWRTU2N1SXJCVjZEcEdYLTJTd0dBWGRmMUwyeDh2NEFGMlp6UjRaY0lnMEs3Q0hqSjI1ZGRlSjNuY0daWnc?oc=5
-
-## 4. Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture
-
-Then watch Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture. Anthropic in Talks With Blackstone, Other PE Firms to Form AI Consulting Venture is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Source: The Information.
-
-- Source: The Information
-- Published: Thu, 12 Mar 2026 02:05:00 GMT
-- Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxQNno1dTNOVmpISGtjQjlXZ213OEdYNWRNOG0wVlFiM1VBaGZkWVVIODl5OURNSzF3NFVBcFhISy0wRnFiMk1VOWwyOG9IQ09XRlB3YUNCZld2Q1oxY05RNkdhVHFxZWd1QU1sRWtoMVl5bUs5SGxTZjJMSmpHdnhEbTJxRDItMUpjNjF4b0x0dkNXMTBGcVJKYlE3dXFGRHpPazdzXw?oc=5
-
-## 5. Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure
-
-Then watch Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure. Introducing Fireworks AI on Microsoft Foundry: Bringing high performance, low latency open model inference to Azure is not just a feature drop. It points to which AI workflow just got easier, faster, or harder to ignore. Why now: product integrations matter when they move AI capability into tools people already use every day. Source: Microsoft Azure.
-
-- Source: Microsoft Azure
-- Published: Wed, 11 Mar 2026 07:00:00 GMT
-- Link: https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeUxBQlpvN3NxcWdMam5UMkE3RzNvRDlqRWxMVG5oVUF0bzh5X3gwdzROcjJxMEFvWkJZUlp5WmlkTTJHYWV6Y1dzcHlsSU8zNy1Yb2tnOHNkR0JndGtqcDYtTHpYc3RfMDdPeEdLb3JPSTN1b2RZaG5pV1BjRVdiUUZrSk1WSFE0ZHc0UHFUNFV1ZWlZRG1ZQ1JncGlfQ1BOYnNvOEVhdkxFOTM1V2VKTWRQcEtCTTRJSTNHX3JiY2tkbU5za2R3Zmp3V1hkUk9XbFFKczVZaGYtWWctZUdLekdLcmYxYW9l?oc=5
+- Source: WIRED
+- Published: Wed, 11 Mar 2026 10:00:00 GMT
+- Link: https://news.google.com/rss/articles/CBMiakFVX3lxTFBpOTh1ZXc0Z2U0QnM2eHZUa3ZrTWR1UFBrMlptRkJKdlQ3MDZ3ZldpazBaYU1HUHJUOFZTaVh4bXI2RTVIZ3BwY0RxZGdaSkdMcnAzRDV0dUdCUjVrek9wWDlwS2YzRm1ZNWc?oc=5
 
 ## Closing
 

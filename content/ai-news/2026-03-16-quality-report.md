@@ -48,10 +48,10 @@ Voice: Creator
 - LinkedIn carousel cover option 1: The AI headline everyone will repost today
 - LinkedIn carousel cover option 2: The real change behind this move in AI workflows
 - LinkedIn carousel cover option 3: What this AI story actually means for operators
-- Instagram Reel hook option 1: Breakingviews - What happens if OpenAI or Anthropic fail? is the headline. Here is the part that matters.
+- Instagram Reel hook option 1: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers is the headline. Here is the part that matters.
 - Instagram Reel hook option 2: This is what the headline changes for AI workflows.
 - Instagram Reel hook option 3: Most people will repost this. Here is the actual signal.
-- Talking-head hook option 1: The headline is Breakingviews - What happens if OpenAI or Anthropic fail?. The real story is what it changes.
+- Talking-head hook option 1: The headline is OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers. The real story is what it changes.
 - Talking-head hook option 2: Everyone will quote the headline. I care more about the shift in AI workflows.
 - Talking-head hook option 3: If you work in AI, this is the part of today's news worth paying attention to.
 

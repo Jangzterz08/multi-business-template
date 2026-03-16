@@ -22,6 +22,6 @@ Voice: Creator
 
 ## Today's lead
 
-- Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
-- Source: Reuters
+- Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+- Source: WSJ
 - Originality reminder: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.

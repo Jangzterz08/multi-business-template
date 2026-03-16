@@ -2,13 +2,13 @@
 
 Voice: Creator
 
-Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
-Source: Reuters
+Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+Source: WSJ
 
 ## Carousel slides
 
-1. Hook slide: Breakingviews - What happens if OpenAI or Anthropic fail?
-2. Why it matters: Breakingviews - What happens if OpenAI or Anthropic fail? is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
+1. Hook slide: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
+2. Why it matters: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers is the kind of headline that looks broad until you map what it changes for builders, buyers, or distribution.
 3. What changed: Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world.
 4. Original angle: Suggested angle: ignore the surface headline and explain what decision, risk, or opportunity actually changed today.
 5. Save-worthy takeaway: explain what people should watch, test, or do next.

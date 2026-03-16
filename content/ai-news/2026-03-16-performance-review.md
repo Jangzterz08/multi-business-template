@@ -1,6 +1,6 @@
 # AI Performance Review for 2026-03-16
 
-Lead story: Breakingviews - What happens if OpenAI or Anthropic fail?
+Lead story: OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers
 
 ## Update after posting
 
