@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-16T07:59:35.261Z",
+  "updatedAt": "2026-03-17T07:44:26.761Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -121,6 +121,74 @@
         "score": 46,
         "backupScore": 46,
         "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "industry shift",
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "generatedAt": "2026-03-17T07:44:26.761Z",
+      "voice": "creator",
+      "leadTitle": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development",
+      "leadSource": "NVIDIA Newsroom",
+      "leadAngle": "industry shift",
+      "backupTitle": "OpenAI to cut back on side projects to focus on core business, WSJ reports",
+      "backupSource": "Reuters",
+      "selectedStories": [
+        {
+          "title": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development",
+          "description": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development &nbsp;&nbsp; NVIDIA Newsroom",
+          "source": "NVIDIA Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPV0lHY0tEdHp2QmZkWDM2WEVRNzZRYzdramE1YjE4bHhiNXQ2RGRUUXZJYWphYzRyRGxDdGZqNUp1eV9VVkRYbC0wUGQzNkdUZll1MzBndWI0WmpJVzVhOURwYVVpd1l6c21uZUtVY2wtWUxLbHd3NTZTUVRhLXliSWFzSWtEYTd0X2dCUWJWOVpNLXE2XzJXMEJyVkM4R3gxTXdkS3BfV0REUGZhS2JieGJUa3hDdjRlWWFNNWRkNmp5SDlvYXlVQXNkLTRYeWh2OGxmaEk5SWwwMmlMRVlmbXcxcTdlMXlEZmZjOGNCVWpPY0tmTENZaw?oc=5",
+          "key": "nvidia announces open physical ai data factory blueprint to accelerate robotics vision ai agents and autonomous vehicle development::https://news.google.com/rss/articles/cbmi-afbvv95cuxpv0lhy0tedhp2qmzkwdm2wevrnzzryzdrame1yje4bhhinxq2rgruuxzjywphyzryrgxddgzqnup1ev9vvkrybc0wugqznkduzll1mzbndwi0wmpjvzvhourwyvvpd1l6c21uzutvy2wtwuxlbhd3ntztuvrhlxliswfzswteytd0x2dcuwjwovpnlxe2xzjxmejyvkm4r3gxtxdks3bfv0reugzhs2jiegjua3hddjrlwwfnnwrknmp5sdlvyxlvqxnkltryewh2ogxmaek5swwwmmlmrvlmbxcxctdlmxlezmzjogncvwppy0tmtenzaw"
+        },
+        {
+          "title": "OpenAI to cut back on side projects to focus on core business, WSJ reports",
+          "description": "OpenAI to cut back on side projects to focus on core business, WSJ reports &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMVlOZ2JHU1J1Q1VYQllvU1kzd1c3ZU1USm5xZDZvNTh6OUxjU3c1UUZZUXZ6Ync0Z29XOWZaZGs2cEhURmNCdzB6Zy03SUxhR2gwZjRBZ0UyRWJVUzZHNXpMVkdJTk1yUTV0YXZvUG56UHZGNG43RVRaYzhYb1QtcklWQjhzZHEyb0xIeHJBRkNheWJYZUVaR3pBM1YtZkdaRVlvbVpBZEJEZw?oc=5",
+          "key": "openai to cut back on side projects to focus on core business wsj reports::https://news.google.com/rss/articles/cbmiqgfbvv95cuxnmvloz2jhu1j1q1vyqllvu1kzd1c3zu1usm5xzdzvnth6ouxju3c1uuzzuxz6ync0z29xowzazgs2cehurmncdzb6zy03suxhr2gwzjrbz0uyrwjvuzzhnxpmvkdjtk1yutv0yxzvug56uhzgng43rvrayzhyb1qtcklwqjhzzheyb0xiehjbrknhewjyzuvar3pbm1ytzkdarvlvbvpbzejezw"
+        },
+        {
+          "title": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
+          "description": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China &nbsp;&nbsp; WSJ",
+          "source": "WSJ",
+          "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNbTF2bzFQc3NtSnBYRFl0ZG1oMndVM3d6aTVYd0ZBUlNvNVJaazY5WTkzMHZXTTZVaE9qS29ENExUbFF1Mmoxbl9VMDVsaVRXODFmc0FucG14WUVqak9PNEVPVWtDZGFYVHpaamNiVl8xTUx2M3JwakM5dURxcGdYZ3M3c3pJZmlBWXBLVm1VSnZOaXJNc3ltUC1kLXZFT19CWWpsYlRBdnVJQVJGOG9jUFVRNUZqRXRfMXQ3NHhwVi1oZFVCRFo5a3MtQUpNbFAxbXhHUy1Rdi1JeUt6Y1ZIcFpaV0hlNDU0c3N1SEduamZRQ0Y1OXY0N0czMmltdWNEV3BmZnZOY0N1T0p2VHFYSWYzSG1VNDQ5cjREdFlrbE5qWVB2UEljc0Q5Nm1QaEY2UlJZSm54M0hMOEw0bUpmZ0FiUnpKZFJjdjFVVnVCRE9XTDRvZmwtNE5HN09xNndnTmtoeHZwNUFUYTFIUXpWUXJyT0laUmI5QlI4anhzdUM4RE9TSlo2T2IwbDZYQmUxTS1BdHBiSVZrdk1ESGJmUWNSZV9HdGNkdFpsaTByakxUSG5vdnd2YXdRUzU?oc=5",
+          "key": "exclusive nvidia backed ai startup to spend billions on korea data center to combat china::https://news.google.com/rss/articles/cbmivanbvv95cuxnbtf2bzfqc3ntsnbyrfl0zg1omndvm3d6atvyd0zbulnvnvjaazy5wtkzmhzxttzvae9qs29enexubff1mmoxbl9vmdvsavrxodfmc0fucg14wuvqak9pnevpvwtdzgfyvhpaamnivl8xtux2m3jwakm5durxcgdyz3m3c3pjzmlbwxblvm1vsnzoaxjnc3ltuc1klxzft19cwwpsylrbdnvjqvjgog9jufvrnuzqrxrfmxq3nhhwvi1ozfvcrfo5a3mtqupnbfaxbxhhuy1rdi1jeut6y1zicfpav0hlndu0c3n1seduamzrq0y1oxy0n0czmmltdwnev3bmznzoy0n1t0p2vhfyswyzsg1vndq5cjredflrbe5qwvb2ueljc0q5nm1qaey2uljzsm54m0hmoew0bupmz0fiunpkzfjjdjfvvnvcre9xtdrvzmwtne5hn09xnndntmtoehzwnufuytfiuxpwuxjyt0laumi5qli4anhzdum4re9tslo2t2iwbdzyqmuxts1bdhbisvzrdk1esgjmuwnszv9hdgnkdfpsatbyakxusg5vdnd2yxdruzu"
+        },
+        {
+          "title": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
+          "description": "AI firm Anthropic seeks weapons expert to stop users from 'misuse' &nbsp;&nbsp; BBC",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90R0lhMGY2S0V4MFY3UWdJc19UTncwYl8tR3prS3pkemJSdGxvcU5FaUhZUzRwbHdleURJenR6OHJZQlRTNEtrUkJvLS1WR2k5R1NhbGRYTW9kQQ?oc=5",
+          "key": "ai firm anthropic seeks weapons expert to stop users from misuse::https://news.google.com/rss/articles/cbmiwkfvx3lxte90r0lhmgy2s0v4mfy3uwdjc19utncwyl8tr3prs3pkemjsdgxvcu5fauhzuzrwbhdleurjenr6ohjzqlrtnetrukjvls1wr2k5r1nhbgrytw9kqq"
+        },
+        {
+          "title": "Giving you more transparency and control over your Gemini API costs",
+          "description": "Giving you more transparency and control over your Gemini API costs &nbsp;&nbsp; blog.google",
+          "source": "blog.google",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdFSFFvZ1c3djBwNWpWZWRxVlhsTUlSYXE3a1BGOUdQbWc3dGdTSmdGWFd2cXRHRkdheDdvenpGTk84QXk5UUxpb1BCTUV0Z1BQQWdJcXpELWNaYzJYLUdCb2dia2luLXM3RnczRUQtS3F1RTNfOGNYN3BFOTFURUkzSGpQNVpKZkJHRkVNZ0plcFpYVnZfN05MUlRqaTRzamNn?oc=5",
+          "key": "giving you more transparency and control over your gemini api costs::https://news.google.com/rss/articles/cbmiowfbvv95cuxpredfsffvz1c3djbwnwpwzwrxvlhstulsyxe3a1bgoudqbwc3dgdtsmdgwfd2cxrhrkdheddvenpgtk84qxk5uuxpb1bctuv0z1bqqwdjcxpelwnayzjyludcb2dia2lulxm3rnczruqts3f1rtnfognyn3bfotfurukzsgpqnvpkzkjhrkvnz0plcfpyvnzfn05mulrqatrzamnn"
+        }
+      ],
+      "publishDecision": {
+        "recommendation": "Switch to backup",
+        "score": 57,
+        "backupScore": 73,
+        "summary": "OpenAI to cut back on side projects to focus on core business, WSJ reports looks like the stronger lead today."
       },
       "metrics": {
         "newsletterClicks": null,

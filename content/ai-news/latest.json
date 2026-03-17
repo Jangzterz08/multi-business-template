@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T07:59:35.261Z",
+  "generatedAt": "2026-03-17T07:44:26.761Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,98 +14,102 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers",
-      "rawTitle": "OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers - WSJ",
-      "description": "OpenAI’s Bid to Allow X-rated Talk Is Freaking Out Its Own Advisers &nbsp;&nbsp; WSJ",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQN3Z1ZVVxNF9QZ1R4QnNkUktOeWZ4VzdRYnU2Q3Jhc3lBaUwwSEtScWZ4dzBWUTV6Y2hQUk5nREllUENhNTJEeUl3S3R3X09rTExEeVFpR0V0ZnVDRVE3N2JSS2N4bUF3SFk4bEQzYzZpcXB3cHVkcXFVMEsyVWU0a3NZa290X2Y4V1pmb295b1JYaE04ZUcwUjQyaGhOZjRoS1B3SmMxQlp5NWVfLVBTT2dqTHlQS21QM2cxQThCdVpzUUxBN0hfWU40TFpzMmZ1akcxZEc5eXIwVVUyVGxkTVh2czBXS3N3NnRMTlFWT2hoQU51NmlIb2RqYXFoN0ZIdkRGbERTTUw0WTFrM3BYZGhyYjNLZ3pieE03ZVdvU0c3UWdVeUJGcVo2d3VGbW1IVlhmNGZfRWFwOERvby1nNUQ2Rmpqc1pBVEFPaWRpaWttVzFoQnpTLUpHU1V0TGNIYU1aZmpLYXdiQ3pDSWRJd0Z5NTI?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:00:00 GMT",
-      "score": 42,
-      "ageHours": 5.993128055555555,
+      "title": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development",
+      "rawTitle": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development - NVIDIA Newsroom",
+      "description": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development &nbsp;&nbsp; NVIDIA Newsroom",
+      "source": "NVIDIA Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPV0lHY0tEdHp2QmZkWDM2WEVRNzZRYzdramE1YjE4bHhiNXQ2RGRUUXZJYWphYzRyRGxDdGZqNUp1eV9VVkRYbC0wUGQzNkdUZll1MzBndWI0WmpJVzVhOURwYVVpd1l6c21uZUtVY2wtWUxLbHd3NTZTUVRhLXliSWFzSWtEYTd0X2dCUWJWOVpNLXE2XzJXMEJyVkM4R3gxTXdkS3BfV0REUGZhS2JieGJUa3hDdjRlWWFNNWRkNmp5SDlvYXlVQXNkLTRYeWh2OGxmaEk5SWwwMmlMRVlmbXcxcTdlMXlEZmZjOGNCVWpPY0tmTENZaw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 20:43:34 GMT",
+      "score": 54,
+      "ageHours": 11.014655833333334,
       "matchedLabels": [
-        "OpenAI"
+        "agents",
+        "NVIDIA",
+        "robotics"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents, NVIDIA, robotics."
     },
     {
-      "title": "'Use a gun': AI chatbots help people plan violence, report says",
-      "rawTitle": "'Use a gun': AI chatbots help people plan violence, report says - Mashable",
-      "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
-      "source": "Mashable",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 22:37:53 GMT",
-      "score": 35,
-      "ageHours": 9.361739166666666,
-      "matchedLabels": [],
-      "whyItMatters": "Ranked highly because it is very recent."
-    },
-    {
-      "title": "How the Anthropic-Pentagon dispute over AI safeguards escalated",
-      "rawTitle": "How the Anthropic-Pentagon dispute over AI safeguards escalated - Reuters",
-      "description": "How the Anthropic-Pentagon dispute over AI safeguards escalated &nbsp;&nbsp; Reuters",
+      "title": "OpenAI to cut back on side projects to focus on core business, WSJ reports",
+      "rawTitle": "OpenAI to cut back on side projects to focus on core business, WSJ reports - Reuters",
+      "description": "OpenAI to cut back on side projects to focus on core business, WSJ reports &nbsp;&nbsp; Reuters",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRzNqRG15QkR6TEtXajlQZ1ZBZUl6T1lIamI0UGhNU21GN0JYNWVLNEF4QlVPUHRSamdwaXVYMXRXeHF0Um5jejJmcmpjMnd4dXh0b2xTUGRlbHZ4Nm5LRTFvbzJWZWVQUmhjZUNFNXBXNnR6VE03dkJGZmE4alRXT3I0Rm8zUkZUaXZCeGdLREltX2s3MERoUlY0TUdtOUo5aWtV?oc=5",
-      "pubDate": "Wed, 11 Mar 2026 20:35:20 GMT",
-      "score": 19,
-      "ageHours": 107.40423916666667,
-      "matchedLabels": [
-        "Anthropic",
-        "preferred-source"
-      ],
-      "whyItMatters": "Ranked highly because it is keyword signals: Anthropic, preferred-source."
-    },
-    {
-      "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
-      "rawTitle": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
-      "description": "Meta Delays Rollout of New A.I. Model After Performance Concerns &nbsp;&nbsp; The New York Times",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
-      "pubDate": "Thu, 12 Mar 2026 23:36:26 GMT",
-      "score": 15,
-      "ageHours": 80.38590583333334,
-      "matchedLabels": [
-        "model",
-        "Meta"
-      ],
-      "whyItMatters": "Ranked highly because it is keyword signals: model, Meta."
-    },
-    {
-      "title": "Inside OpenAI’s Race to Catch Up to Claude Code",
-      "rawTitle": "Inside OpenAI’s Race to Catch Up to Claude Code - WIRED",
-      "description": "Inside OpenAI’s Race to Catch Up to Claude Code &nbsp;&nbsp; WIRED",
-      "source": "WIRED",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpOTh1ZXc0Z2U0QnM2eHZUa3ZrTWR1UFBrMlptRkJKdlQ3MDZ3ZldpazBaYU1HUHJUOFZTaVh4bXI2RTVIZ3BwY0RxZGdaSkdMcnAzRDV0dUdCUjVrek9wWDlwS2YzRm1ZNWc?oc=5",
-      "pubDate": "Wed, 11 Mar 2026 10:00:00 GMT",
-      "score": 14,
-      "ageHours": 117.99312805555556,
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMVlOZ2JHU1J1Q1VYQllvU1kzd1c3ZU1USm5xZDZvNTh6OUxjU3c1UUZZUXZ6Ync0Z29XOWZaZGs2cEhURmNCdzB6Zy03SUxhR2gwZjRBZ0UyRWJVUzZHNXpMVkdJTk1yUTV0YXZvUG56UHZGNG43RVRaYzhYb1QtcklWQjhzZHEyb0xIeHJBRkNheWJYZUVaR3pBM1YtZkdaRVlvbVpBZEJEZw?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 00:00:00 GMT",
+      "score": 54,
+      "ageHours": 7.740766944444444,
       "matchedLabels": [
         "OpenAI",
-        "Claude"
+        "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is keyword signals: OpenAI, Claude."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
+    },
+    {
+      "title": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
+      "rawTitle": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China - WSJ",
+      "description": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China &nbsp;&nbsp; WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNbTF2bzFQc3NtSnBYRFl0ZG1oMndVM3d6aTVYd0ZBUlNvNVJaazY5WTkzMHZXTTZVaE9qS29ENExUbFF1Mmoxbl9VMDVsaVRXODFmc0FucG14WUVqak9PNEVPVWtDZGFYVHpaamNiVl8xTUx2M3JwakM5dURxcGdYZ3M3c3pJZmlBWXBLVm1VSnZOaXJNc3ltUC1kLXZFT19CWWpsYlRBdnVJQVJGOG9jUFVRNUZqRXRfMXQ3NHhwVi1oZFVCRFo5a3MtQUpNbFAxbXhHUy1Rdi1JeUt6Y1ZIcFpaV0hlNDU0c3N1SEduamZRQ0Y1OXY0N0czMmltdWNEV3BmZnZOY0N1T0p2VHFYSWYzSG1VNDQ5cjREdFlrbE5qWVB2UEljc0Q5Nm1QaEY2UlJZSm54M0hMOEw0bUpmZ0FiUnpKZFJjdjFVVnVCRE9XTDRvZmwtNE5HN09xNndnTmtoeHZwNUFUYTFIUXpWUXJyT0laUmI5QlI4anhzdUM4RE9TSlo2T2IwbDZYQmUxTS1BdHBiSVZrdk1ESGJmUWNSZV9HdGNkdFpsaTByakxUSG5vdnd2YXdRUzU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 21:00:00 GMT",
+      "score": 46,
+      "ageHours": 10.740766944444445,
+      "matchedLabels": [
+        "NVIDIA",
+        "startup"
+      ],
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: NVIDIA, startup."
+    },
+    {
+      "title": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
+      "rawTitle": "AI firm Anthropic seeks weapons expert to stop users from 'misuse' - BBC",
+      "description": "AI firm Anthropic seeks weapons expert to stop users from 'misuse' &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90R0lhMGY2S0V4MFY3UWdJc19UTncwYl8tR3prS3pkemJSdGxvcU5FaUhZUzRwbHdleURJenR6OHJZQlRTNEtrUkJvLS1WR2k5R1NhbGRYTW9kQQ?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 00:08:32 GMT",
+      "score": 42,
+      "ageHours": 7.598544722222222,
+      "matchedLabels": [
+        "Anthropic"
+      ],
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
+    },
+    {
+      "title": "Giving you more transparency and control over your Gemini API costs",
+      "rawTitle": "Giving you more transparency and control over your Gemini API costs - blog.google",
+      "description": "Giving you more transparency and control over your Gemini API costs &nbsp;&nbsp; blog.google",
+      "source": "blog.google",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdFSFFvZ1c3djBwNWpWZWRxVlhsTUlSYXE3a1BGOUdQbWc3dGdTSmdGWFd2cXRHRkdheDdvenpGTk84QXk5UUxpb1BCTUV0Z1BQQWdJcXpELWNaYzJYLUdCb2dia2luLXM3RnczRUQtS3F1RTNfOGNYN3BFOTFURUkzSGpQNVpKZkJHRkVNZ0plcFpYVnZfN05MUlRqaTRzamNn?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 16:08:17 GMT",
+      "score": 41,
+      "ageHours": 15.602711388888888,
+      "matchedLabels": [
+        "Gemini",
+        "Google"
+      ],
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Gemini, Google."
     }
   ],
   "publishDecision": {
-    "recommendation": "Verify before publishing",
-    "summary": "The lead is usable, but it needs verification or tightening before it becomes the main post.",
-    "leadScore": 46,
-    "backupScore": 46,
+    "recommendation": "Switch to backup",
+    "summary": "OpenAI to cut back on side projects to focus on core business, WSJ reports looks like the stronger lead today.",
+    "leadScore": 57,
+    "backupScore": 73,
     "leadAngle": "industry shift",
     "backupAngle": "industry shift",
     "leadStrengths": [
-      "The story is still fresh enough for a morning-led publish."
+      "The story is still fresh enough for a morning-led publish.",
+      "The headline has enough AI-specific signal to support strong downstream content."
     ],
     "leadRisks": [
-      "WSJ is not on the trusted-source list, so the lead needs stronger verification.",
-      "The headline has thin keyword signal, which makes generic copy more likely.",
+      "NVIDIA Newsroom is not on the trusted-source list, so the lead needs stronger verification.",
       "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
     ],
     "backupStrengths": [
-      "The story is still fresh enough for a morning-led publish."
+      "Reuters is treated as a trusted source for the morning stack.",
+      "The story is still fresh enough for a morning-led publish.",
+      "The story has multiple AI-specific signals, not just one loose keyword."
     ],
     "backupRisks": [
-      "Mashable is not on the trusted-source list, so the lead needs stronger verification.",
-      "The headline has thin keyword signal, which makes generic copy more likely.",
       "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
     ]
   },
