@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T07:44:26.761Z",
+  "generatedAt": "2026-03-18T07:42:57.202Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,30 +14,29 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development",
-      "rawTitle": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development - NVIDIA Newsroom",
-      "description": "NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development &nbsp;&nbsp; NVIDIA Newsroom",
-      "source": "NVIDIA Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPV0lHY0tEdHp2QmZkWDM2WEVRNzZRYzdramE1YjE4bHhiNXQ2RGRUUXZJYWphYzRyRGxDdGZqNUp1eV9VVkRYbC0wUGQzNkdUZll1MzBndWI0WmpJVzVhOURwYVVpd1l6c21uZUtVY2wtWUxLbHd3NTZTUVRhLXliSWFzSWtEYTd0X2dCUWJWOVpNLXE2XzJXMEJyVkM4R3gxTXdkS3BfV0REUGZhS2JieGJUa3hDdjRlWWFNNWRkNmp5SDlvYXlVQXNkLTRYeWh2OGxmaEk5SWwwMmlMRVlmbXcxcTdlMXlEZmZjOGNCVWpPY0tmTENZaw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 20:43:34 GMT",
-      "score": 54,
-      "ageHours": 11.014655833333334,
+      "title": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan",
+      "rawTitle": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan - The Guardian",
+      "description": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan &nbsp;&nbsp; The Guardian",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOUlxb1Zoam9HY2ZDRjNFYUxiOVFiYUE0VXNhcHR1X21DcWdnaXhRRXlWMHNnSWVaZm5GWG9SY3QtdW1rdXZ4bHhQa3lCUEk4SVhDcjZLeVNDbjFUaFVORjkwOEdrc3V4d1EwQWJjUmhKT0xvS2VyZFd0cEtnX0Jqc3R6TWxJazVJNHhZc2N4VHhsZ2U1c2JRZ3RmTVdtcGlJNDg4MDdNQVdxRVlHeXlIbQ?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 20:49:00 GMT",
+      "score": 51,
+      "ageHours": 10.899222777777778,
       "matchedLabels": [
-        "agents",
-        "NVIDIA",
-        "robotics"
+        "model",
+        "Claude"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents, NVIDIA, robotics."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: model, Claude."
     },
     {
-      "title": "OpenAI to cut back on side projects to focus on core business, WSJ reports",
-      "rawTitle": "OpenAI to cut back on side projects to focus on core business, WSJ reports - Reuters",
-      "description": "OpenAI to cut back on side projects to focus on core business, WSJ reports &nbsp;&nbsp; Reuters",
+      "title": "OpenAI to sell AI to US agencies through Amazon cloud unit",
+      "rawTitle": "OpenAI to sell AI to US agencies through Amazon cloud unit - Reuters",
+      "description": "OpenAI to sell AI to US agencies through Amazon cloud unit &nbsp;&nbsp; Reuters",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMVlOZ2JHU1J1Q1VYQllvU1kzd1c3ZU1USm5xZDZvNTh6OUxjU3c1UUZZUXZ6Ync0Z29XOWZaZGs2cEhURmNCdzB6Zy03SUxhR2gwZjRBZ0UyRWJVUzZHNXpMVkdJTk1yUTV0YXZvUG56UHZGNG43RVRaYzhYb1QtcklWQjhzZHEyb0xIeHJBRkNheWJYZUVaR3pBM1YtZkdaRVlvbVpBZEJEZw?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 00:00:00 GMT",
-      "score": 54,
-      "ageHours": 7.740766944444444,
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUc0dXdFRWFQOF9vUVZrVERpM3E1eW5JQTVSdWM1dnRTdVIwcmVpMUZadlY2bTJIdVZkUWV3S2RRbjBQdUtsYXdQaUhEQmFfSndvU1RlbEU3dmNDYllWbGNoOE8yZlZNdW92X0dIaVRrSU1UYnlLTXU4X002WF8xTXViOUg4Y3EyZHJ2UVpwa21QbXE5S0szTk5ydHlEbHQ0ZDczbzFXSl81bENsT0RFM2R1TEM0MUE4SDBzOUktM0tsaTNpWnBSOGgzYTRmdw?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 13:12:41 GMT",
+      "score": 47,
+      "ageHours": 18.504500555555556,
       "matchedLabels": [
         "OpenAI",
         "preferred-source"
@@ -45,64 +44,64 @@
       "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
     },
     {
-      "title": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China",
-      "rawTitle": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China - WSJ",
-      "description": "Exclusive | Nvidia-Backed AI Startup to Spend Billions on Korea Data Center to Combat China &nbsp;&nbsp; WSJ",
-      "source": "WSJ",
-      "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxNbTF2bzFQc3NtSnBYRFl0ZG1oMndVM3d6aTVYd0ZBUlNvNVJaazY5WTkzMHZXTTZVaE9qS29ENExUbFF1Mmoxbl9VMDVsaVRXODFmc0FucG14WUVqak9PNEVPVWtDZGFYVHpaamNiVl8xTUx2M3JwakM5dURxcGdYZ3M3c3pJZmlBWXBLVm1VSnZOaXJNc3ltUC1kLXZFT19CWWpsYlRBdnVJQVJGOG9jUFVRNUZqRXRfMXQ3NHhwVi1oZFVCRFo5a3MtQUpNbFAxbXhHUy1Rdi1JeUt6Y1ZIcFpaV0hlNDU0c3N1SEduamZRQ0Y1OXY0N0czMmltdWNEV3BmZnZOY0N1T0p2VHFYSWYzSG1VNDQ5cjREdFlrbE5qWVB2UEljc0Q5Nm1QaEY2UlJZSm54M0hMOEw0bUpmZ0FiUnpKZFJjdjFVVnVCRE9XTDRvZmwtNE5HN09xNndnTmtoeHZwNUFUYTFIUXpWUXJyT0laUmI5QlI4anhzdUM4RE9TSlo2T2IwbDZYQmUxTS1BdHBiSVZrdk1ESGJmUWNSZV9HdGNkdFpsaTByakxUSG5vdnd2YXdRUzU?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 21:00:00 GMT",
-      "score": 46,
-      "ageHours": 10.740766944444445,
+      "title": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts",
+      "rawTitle": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts - The Information",
+      "description": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts &nbsp;&nbsp; The Information",
+      "source": "The Information",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjNoaGJUakVubFlVT29ZQzZnNmFPYTNCU2ZlT0MxQWxrUDB4S1dMOGVDeENTZDlTYUdYSWdaTHBHbFJmLVI3ejF4Q0FYQS1PM0dYS1RfNUR3LXptT0ZVaUtsZ0ZqaG1VNUJsM002bV9KRFJhYUY3NVkzVlVta0licGZqNUtpOWUzSHNqdTNBTklkTkhobC1rMA?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 13:00:00 GMT",
+      "score": 47,
+      "ageHours": 18.715889444444443,
       "matchedLabels": [
-        "NVIDIA",
-        "startup"
+        "OpenAI",
+        "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: NVIDIA, startup."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
     },
     {
-      "title": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
-      "rawTitle": "AI firm Anthropic seeks weapons expert to stop users from 'misuse' - BBC",
-      "description": "AI firm Anthropic seeks weapons expert to stop users from 'misuse' &nbsp;&nbsp; BBC",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90R0lhMGY2S0V4MFY3UWdJc19UTncwYl8tR3prS3pkemJSdGxvcU5FaUhZUzRwbHdleURJenR6OHJZQlRTNEtrUkJvLS1WR2k5R1NhbGRYTW9kQQ?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 00:08:32 GMT",
-      "score": 42,
-      "ageHours": 7.598544722222222,
+      "title": "OpenAI expands government footprint with AWS deal, report says",
+      "rawTitle": "OpenAI expands government footprint with AWS deal, report says - TechCrunch",
+      "description": "OpenAI expands government footprint with AWS deal, report says &nbsp;&nbsp; TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFJaMGV4Z1o5OGdiMVdVajZySlRyOG81MVMxQjhqWmxQUVRxazFMVF9sX05HcW5LWHNEOGV0XzE1U2VDTVp5T1RmZU1VZk00b0NyYnJwSkdkejVtZHgtclFObDkwdmFwNnhoV09QYmNTREZ6SXM1TW5vdjNsZWU0ZXFOWjVsNktOWnQ5eA?oc=5",
+      "pubDate": "Tue, 17 Mar 2026 15:37:03 GMT",
+      "score": 47,
+      "ageHours": 16.098389444444443,
       "matchedLabels": [
-        "Anthropic"
+        "OpenAI",
+        "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
     },
     {
-      "title": "Giving you more transparency and control over your Gemini API costs",
-      "rawTitle": "Giving you more transparency and control over your Gemini API costs - blog.google",
-      "description": "Giving you more transparency and control over your Gemini API costs &nbsp;&nbsp; blog.google",
-      "source": "blog.google",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREdFSFFvZ1c3djBwNWpWZWRxVlhsTUlSYXE3a1BGOUdQbWc3dGdTSmdGWFd2cXRHRkdheDdvenpGTk84QXk5UUxpb1BCTUV0Z1BQQWdJcXpELWNaYzJYLUdCb2dia2luLXM3RnczRUQtS3F1RTNfOGNYN3BFOTFURUkzSGpQNVpKZkJHRkVNZ0plcFpYVnZfN05MUlRqaTRzamNn?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 16:08:17 GMT",
-      "score": 41,
-      "ageHours": 15.602711388888888,
+      "title": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About",
+      "rawTitle": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About - SaaStr",
+      "description": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About &nbsp;&nbsp; SaaStr",
+      "source": "SaaStr",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUFhMUxEQW9jaklvemVXb0JLbGkzTWc3b2pEbDVHaGRxeUlRSWp4eGUxYUFlb2RGYTZMTHE4YTA2QWFwY3RodzNveUtmWUNRVm9kRldBb240OTVzVTJ3UEZtaEdaMS1KMldibUFjdDI4dURrRU5SYlE0ejVjdTQxMzhqM1J6clpYSGhSSzVRZGU3NFBNS1BvcEhPLWZIbnBiNzRUejNR?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 00:12:08 GMT",
+      "score": 43,
+      "ageHours": 7.513667222222222,
       "matchedLabels": [
-        "Gemini",
-        "Google"
+        "agents"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Gemini, Google."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents."
     }
   ],
   "publishDecision": {
     "recommendation": "Switch to backup",
-    "summary": "OpenAI to cut back on side projects to focus on core business, WSJ reports looks like the stronger lead today.",
-    "leadScore": 57,
+    "summary": "OpenAI to sell AI to US agencies through Amazon cloud unit looks like the stronger lead today.",
+    "leadScore": 63,
     "backupScore": 73,
-    "leadAngle": "industry shift",
+    "leadAngle": "product update",
     "backupAngle": "industry shift",
     "leadStrengths": [
       "The story is still fresh enough for a morning-led publish.",
-      "The headline has enough AI-specific signal to support strong downstream content."
+      "The story has multiple AI-specific signals, not just one loose keyword.",
+      "product update stories are easier to explain clearly than broad industry-shift headlines."
     ],
     "leadRisks": [
-      "NVIDIA Newsroom is not on the trusted-source list, so the lead needs stronger verification.",
-      "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
+      "The Guardian is not on the trusted-source list, so the lead needs stronger verification."
     ],
     "backupStrengths": [
       "Reuters is treated as a trusted source for the morning stack.",
