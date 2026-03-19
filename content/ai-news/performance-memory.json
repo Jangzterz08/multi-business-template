@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-18T07:42:57.202Z",
+  "updatedAt": "2026-03-19T07:38:14.488Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -271,6 +271,74 @@
         "status": "pending",
         "winningPlatform": "",
         "winningAngle": "product update",
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "generatedAt": "2026-03-19T07:38:14.488Z",
+      "voice": "creator",
+      "leadTitle": "Anthropic turns the tables on OpenAI in critical revenue category",
+      "leadSource": "Axios",
+      "leadAngle": "industry shift",
+      "backupTitle": "Trump administration defends Anthropic blacklisting in US court",
+      "backupSource": "Reuters",
+      "selectedStories": [
+        {
+          "title": "Anthropic turns the tables on OpenAI in critical revenue category",
+          "description": "Anthropic turns the tables on OpenAI in critical revenue category &nbsp;&nbsp; Axios",
+          "source": "Axios",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ta2Z4dnJJTGl6M0lTZjI3NTdkbGRtY3B6YzJpNlp5Rmp5TGsxR3JhcnlQNkFqVlpvcVpRZjRPSWVEN18tZ2ZMTEc5R0dWMUVfY29HeHV5WlI3X2hOZXVVd2R4WFpTRG42RGtNTldwVWxzWGs2LUplYW1oWQ?oc=5",
+          "key": "anthropic turns the tables on openai in critical revenue category::https://news.google.com/rss/articles/cbmie0fvx3lxte5ta2z4dnjjtgl6m0ltzji3ntdkbgrty3b6yzjpnlp5rmp5tgsxr3jhcnlqnkfqvlpvcvprzjrpswven18tz2zmtec5r0dwmuvfy29hehv5wli3x2hozxvvd2r4wfptrg42rgtntldwvwxzwgs2luplyw1owq"
+        },
+        {
+          "title": "Trump administration defends Anthropic blacklisting in US court",
+          "description": "Trump administration defends Anthropic blacklisting in US court &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUZ3RTlDbVRVOUV5WEllRzdxUG9vZEVCOEFtMF85SnlRUFJVMTFzSHdTWXY0WGo2SFgwVjlXdEptemw5cEdCWGY1amF5NmgzTEFldTdWVDZDUTA3dGgxLVJTRWdTdm5VanJnZGtETElwb1RsMW9XanBxcGR0X25aVjh6bjg4eFRjNTVsTk5wY0hTZ1F6MEt3Y0gtdnRqc0hZd3JpdDVYaWJfTDA1QXgxY2tDQQ?oc=5",
+          "key": "trump administration defends anthropic blacklisting in us court::https://news.google.com/rss/articles/cbmiswfbvv95cuxoouz3rtldbvrvouv5wellrzdxug9vzevcoeftmf85snlrufjvmtfzshdtwxy0wgo2sfgwvjlxdeptemw5cedcwgy1amf5nmgztefldtdwvdzduta3dggxlvjtrwdtdm5vanjnzgtetelwb1rsmw9xanbxcgr0x25avjh6bjg4efrjntvstk5wy0htz1f6met3y0gtdnrqc0hzd3jpddvyawjftda1qxgxy2tdqq"
+        },
+        {
+          "title": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User",
+          "description": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User &nbsp;&nbsp; Snowflake",
+          "source": "Snowflake",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWU40akd6R3ZOSmktNDNJR3UySldSRHFsX0hPT0JzaU9aLTVITWhjTW5jeEhYUDJTVU93ejVLUm9YbjBnUjRvd3FlT3o2dkp3bEViV1Uwdk1qdFB0M1RxTXl2U1Zab290eWstYVVnb0RZVTMzNUx5Y1NVc0xMWHdIUl9BbTBoSmppTnZDU1plbWcxSnRRSXB0Vm9GeE1UZWdyeFhsMkYweXJJMW5tR0xNLUMzZkxUMHF3enZ1WmRCSzhuWG8zeG5TakREbXYxTTVl?oc=5",
+          "key": "snowflake launches project snowwork bringing outcome driven ai to every business user::https://news.google.com/rss/articles/cbmi0afbvv95cuxowu40akd6r3zosmktndnjr3uysldsrhfsx0hpt0jzau9altvitwhjtw5jeehyudjtvu93ejvlum9ybjbnujrvd3flt3o2dkp3beviv1uwdk1qdfb0m1rxtxl2u1zab290ewstyvvnb0rzvtmznux5y1nvc0xmwhdiul9bbtbosmpptnzdu1plbwcxsnrrsxb0vm9gee1uzwdyefhsmkywexjjmw5tr0xnlumzzkxumhf3enz1wmrcszhuwg8zeg5takrebxyxttvl"
+        },
+        {
+          "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
+          "description": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal &nbsp;&nbsp; WIRED",
+          "source": "WIRED",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMC05MExiVXJDMEtRcUVpeUhYRHVHLXBpOWpmUzV5MmlIV3FxbUNZMlZRYVloWm5yMHI5Z1c5QzdWdG1qelkzMl9PM1VVdWVrc0lyUVZwVElseFdTd1F1dVB6TEFOLVZVcFJlYktDaHk3Z3FJSHBZX0NrLWtfMjgwY2w2bWpRQlNmWDhF?oc=5",
+          "key": "why walmart and openai are shaking up their agentic shopping deal::https://news.google.com/rss/articles/cbmiiwfbvv95cuxnmc05mexivxjdmetrcuvpeuhyrhvhlxbpowpmuzv5mmliv3fxbunzmlzryvlowm5ymhi5z1c5qzdwdg1qelkzml9pm1vvdwvrc0lyuvzwvelsefdtd1f1dvb6tefolvzvcfjlyktdahk3z3fjshbzx0nrlwtfmjgwy2w2bwprqlnmwdhf"
+        },
+        {
+          "title": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic",
+          "description": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic &nbsp;&nbsp; The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0d1bm1pa1gwS3ZkbWc0N2lzbnViUFRzR2FkbVVON0dLNXdSX1hhZ19acUJhMExjODB6ejhYb2x5Y1lReXI3Q2Nra3p1OThWXzZ5UzlLcm5fUmV6R0VYckFkSkx2dTlkaFdwNUJrdWFwWHF2dm5WMDNjbXc2Q2VOTU4yNUNXa1VKNDdsOQ?oc=5",
+          "key": "silicon valley musters behind the scenes support for anthropic::https://news.google.com/rss/articles/cbmijafbvv95cuxqz0d1bm1pa1gws3zkbwc0n2lzbnviufrzr2fkbvvon0dlnxdsx1hhz19acujhmexjodb6ejhyb2x5y1lrexi3q2nra3p1othwxzz5uzllcm5fumv6r0vyckfkskx2dtlkafdwnujrdwfwwhf2dm5wmdnjbxc2q2votu4ynunxa1vknddsoq"
+        }
+      ],
+      "publishDecision": {
+        "recommendation": "Switch to backup",
+        "score": 53,
+        "backupScore": 77,
+        "summary": "Trump administration defends Anthropic blacklisting in US court looks like the stronger lead today."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "industry shift",
         "notes": ""
       }
     }

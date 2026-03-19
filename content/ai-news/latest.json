@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T07:42:57.202Z",
+  "generatedAt": "2026-03-19T07:38:14.488Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,103 +14,100 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan",
-      "rawTitle": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan - The Guardian",
-      "description": "Could a stressed-out AI model help us win the battle against big tech? Let me ask Claude | Coco Khan &nbsp;&nbsp; The Guardian",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOUlxb1Zoam9HY2ZDRjNFYUxiOVFiYUE0VXNhcHR1X21DcWdnaXhRRXlWMHNnSWVaZm5GWG9SY3QtdW1rdXZ4bHhQa3lCUEk4SVhDcjZLeVNDbjFUaFVORjkwOEdrc3V4d1EwQWJjUmhKT0xvS2VyZFd0cEtnX0Jqc3R6TWxJazVJNHhZc2N4VHhsZ2U1c2JRZ3RmTVdtcGlJNDg4MDdNQVdxRVlHeXlIbQ?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 20:49:00 GMT",
-      "score": 51,
-      "ageHours": 10.899222777777778,
+      "title": "Anthropic turns the tables on OpenAI in critical revenue category",
+      "rawTitle": "Anthropic turns the tables on OpenAI in critical revenue category - Axios",
+      "description": "Anthropic turns the tables on OpenAI in critical revenue category &nbsp;&nbsp; Axios",
+      "source": "Axios",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ta2Z4dnJJTGl6M0lTZjI3NTdkbGRtY3B6YzJpNlp5Rmp5TGsxR3JhcnlQNkFqVlpvcVpRZjRPSWVEN18tZ2ZMTEc5R0dWMUVfY29HeHV5WlI3X2hOZXVVd2R4WFpTRG42RGtNTldwVWxzWGs2LUplYW1oWQ?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 13:54:08 GMT",
+      "score": 42,
+      "ageHours": 17.735135555555555,
       "matchedLabels": [
-        "model",
-        "Claude"
+        "OpenAI",
+        "Anthropic"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: model, Claude."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, Anthropic."
     },
     {
-      "title": "OpenAI to sell AI to US agencies through Amazon cloud unit",
-      "rawTitle": "OpenAI to sell AI to US agencies through Amazon cloud unit - Reuters",
-      "description": "OpenAI to sell AI to US agencies through Amazon cloud unit &nbsp;&nbsp; Reuters",
+      "title": "Trump administration defends Anthropic blacklisting in US court",
+      "rawTitle": "Trump administration defends Anthropic blacklisting in US court - Reuters",
+      "description": "Trump administration defends Anthropic blacklisting in US court &nbsp;&nbsp; Reuters",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUc0dXdFRWFQOF9vUVZrVERpM3E1eW5JQTVSdWM1dnRTdVIwcmVpMUZadlY2bTJIdVZkUWV3S2RRbjBQdUtsYXdQaUhEQmFfSndvU1RlbEU3dmNDYllWbGNoOE8yZlZNdW92X0dIaVRrSU1UYnlLTXU4X002WF8xTXViOUg4Y3EyZHJ2UVpwa21QbXE5S0szTk5ydHlEbHQ0ZDczbzFXSl81bENsT0RFM2R1TEM0MUE4SDBzOUktM0tsaTNpWnBSOGgzYTRmdw?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 13:12:41 GMT",
-      "score": 47,
-      "ageHours": 18.504500555555556,
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUZ3RTlDbVRVOUV5WEllRzdxUG9vZEVCOEFtMF85SnlRUFJVMTFzSHdTWXY0WGo2SFgwVjlXdEptemw5cEdCWGY1amF5NmgzTEFldTdWVDZDUTA3dGgxLVJTRWdTdm5VanJnZGtETElwb1RsMW9XanBxcGR0X25aVjh6bjg4eFRjNTVsTk5wY0hTZ1F6MEt3Y0gtdnRqc0hZd3JpdDVYaWJfTDA1QXgxY2tDQQ?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 00:42:00 GMT",
+      "score": 39,
+      "ageHours": 30.937357777777777,
       "matchedLabels": [
-        "OpenAI",
+        "Anthropic",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
     },
     {
-      "title": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts",
-      "rawTitle": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts - The Information",
-      "description": "OpenAI Clinches AWS Deal in Bid to Win Government Contracts &nbsp;&nbsp; The Information",
-      "source": "The Information",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjNoaGJUakVubFlVT29ZQzZnNmFPYTNCU2ZlT0MxQWxrUDB4S1dMOGVDeENTZDlTYUdYSWdaTHBHbFJmLVI3ejF4Q0FYQS1PM0dYS1RfNUR3LXptT0ZVaUtsZ0ZqaG1VNUJsM002bV9KRFJhYUY3NVkzVlVta0licGZqNUtpOWUzSHNqdTNBTklkTkhobC1rMA?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 13:00:00 GMT",
-      "score": 47,
-      "ageHours": 18.715889444444443,
+      "title": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User",
+      "rawTitle": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User - Snowflake",
+      "description": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User &nbsp;&nbsp; Snowflake",
+      "source": "Snowflake",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWU40akd6R3ZOSmktNDNJR3UySldSRHFsX0hPT0JzaU9aLTVITWhjTW5jeEhYUDJTVU93ejVLUm9YbjBnUjRvd3FlT3o2dkp3bEViV1Uwdk1qdFB0M1RxTXl2U1Zab290eWstYVVnb0RZVTMzNUx5Y1NVc0xMWHdIUl9BbTBoSmppTnZDU1plbWcxSnRRSXB0Vm9GeE1UZWdyeFhsMkYweXJJMW5tR0xNLUMzZkxUMHF3enZ1WmRCSzhuWG8zeG5TakREbXYxTTVl?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 18:03:13 GMT",
+      "score": 38,
+      "ageHours": 13.583746666666666,
       "matchedLabels": [
-        "OpenAI",
-        "preferred-source"
+        "launch"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: launch."
     },
     {
-      "title": "OpenAI expands government footprint with AWS deal, report says",
-      "rawTitle": "OpenAI expands government footprint with AWS deal, report says - TechCrunch",
-      "description": "OpenAI expands government footprint with AWS deal, report says &nbsp;&nbsp; TechCrunch",
-      "source": "TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFJaMGV4Z1o5OGdiMVdVajZySlRyOG81MVMxQjhqWmxQUVRxazFMVF9sX05HcW5LWHNEOGV0XzE1U2VDTVp5T1RmZU1VZk00b0NyYnJwSkdkejVtZHgtclFObDkwdmFwNnhoV09QYmNTREZ6SXM1TW5vdjNsZWU0ZXFOWjVsNktOWnQ5eA?oc=5",
-      "pubDate": "Tue, 17 Mar 2026 15:37:03 GMT",
-      "score": 47,
-      "ageHours": 16.098389444444443,
+      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
+      "rawTitle": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal - WIRED",
+      "description": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal &nbsp;&nbsp; WIRED",
+      "source": "WIRED",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMC05MExiVXJDMEtRcUVpeUhYRHVHLXBpOWpmUzV5MmlIV3FxbUNZMlZRYVloWm5yMHI5Z1c5QzdWdG1qelkzMl9PM1VVdWVrc0lyUVZwVElseFdTd1F1dVB6TEFOLVZVcFJlYktDaHk3Z3FJSHBZX0NrLWtfMjgwY2w2bWpRQlNmWDhF?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 18:01:00 GMT",
+      "score": 35,
+      "ageHours": 13.62069111111111,
       "matchedLabels": [
-        "OpenAI",
-        "preferred-source"
+        "OpenAI"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI."
     },
     {
-      "title": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About",
-      "rawTitle": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About - SaaStr",
-      "description": "We Have 30 AI Agents in Production. Here Are the Top 5 Issues No One Talks About &nbsp;&nbsp; SaaStr",
-      "source": "SaaStr",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUFhMUxEQW9jaklvemVXb0JLbGkzTWc3b2pEbDVHaGRxeUlRSWp4eGUxYUFlb2RGYTZMTHE4YTA2QWFwY3RodzNveUtmWUNRVm9kRldBb240OTVzVTJ3UEZtaEdaMS1KMldibUFjdDI4dURrRU5SYlE0ejVjdTQxMzhqM1J6clpYSGhSSzVRZGU3NFBNS1BvcEhPLWZIbnBiNzRUejNR?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 00:12:08 GMT",
-      "score": 43,
-      "ageHours": 7.513667222222222,
+      "title": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic",
+      "rawTitle": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic - The New York Times",
+      "description": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic &nbsp;&nbsp; The New York Times",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0d1bm1pa1gwS3ZkbWc0N2lzbnViUFRzR2FkbVVON0dLNXdSX1hhZ19acUJhMExjODB6ejhYb2x5Y1lReXI3Q2Nra3p1OThWXzZ5UzlLcm5fUmV6R0VYckFkSkx2dTlkaFdwNUJrdWFwWHF2dm5WMDNjbXc2Q2VOTU4yNUNXa1VKNDdsOQ?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 19:17:18 GMT",
+      "score": 35,
+      "ageHours": 12.349024444444444,
       "matchedLabels": [
-        "agents"
+        "Anthropic"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
     }
   ],
   "publishDecision": {
     "recommendation": "Switch to backup",
-    "summary": "OpenAI to sell AI to US agencies through Amazon cloud unit looks like the stronger lead today.",
-    "leadScore": 63,
-    "backupScore": 73,
-    "leadAngle": "product update",
-    "backupAngle": "industry shift",
+    "summary": "Trump administration defends Anthropic blacklisting in US court looks like the stronger lead today.",
+    "leadScore": 53,
+    "backupScore": 77,
+    "leadAngle": "industry shift",
+    "backupAngle": "policy signal",
     "leadStrengths": [
-      "The story is still fresh enough for a morning-led publish.",
-      "The story has multiple AI-specific signals, not just one loose keyword.",
-      "product update stories are easier to explain clearly than broad industry-shift headlines."
-    ],
-    "leadRisks": [
-      "The Guardian is not on the trusted-source list, so the lead needs stronger verification."
-    ],
-    "backupStrengths": [
-      "Reuters is treated as a trusted source for the morning stack.",
       "The story is still fresh enough for a morning-led publish.",
       "The story has multiple AI-specific signals, not just one loose keyword."
     ],
-    "backupRisks": [
+    "leadRisks": [
+      "Axios is not on the trusted-source list, so the lead needs stronger verification.",
       "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
-    ]
+    ],
+    "backupStrengths": [
+      "Reuters is treated as a trusted source for the morning stack.",
+      "The story is recent enough to stay usable today.",
+      "The story has multiple AI-specific signals, not just one loose keyword.",
+      "policy signal stories are easier to explain clearly than broad industry-shift headlines."
+    ],
+    "backupRisks": []
   },
   "performanceMemorySummary": "No completed performance history yet. Using editorial heuristics for now."
 }
