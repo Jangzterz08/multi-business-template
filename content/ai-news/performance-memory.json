@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-19T07:38:14.488Z",
+  "updatedAt": "2026-03-20T07:37:20.279Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -325,6 +325,74 @@
         "score": 53,
         "backupScore": 77,
         "summary": "Trump administration defends Anthropic blacklisting in US court looks like the stronger lead today."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "industry shift",
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "generatedAt": "2026-03-20T07:37:20.279Z",
+      "voice": "creator",
+      "leadTitle": "OpenAI to buy Python toolmaker Astral to take on Anthropic",
+      "leadSource": "Reuters",
+      "leadAngle": "industry shift",
+      "backupTitle": "OpenAI is planning a desktop ‘superapp’",
+      "backupSource": "The Verge",
+      "selectedStories": [
+        {
+          "title": "OpenAI to buy Python toolmaker Astral to take on Anthropic",
+          "description": "OpenAI to buy Python toolmaker Astral to take on Anthropic &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTNzQ1R6MDVNVnR0Y3V0eThTZDJRZXdsVm5VU1lyVmQ1RktIVUU5R3RDSl9OMGozSlVYa3REVDR0d2o2eDNCZ0ttZHVYUHIySHBlOFpBLTdWN2k4dm1MNzMwb09GN2dNenA3eXoza2FKVC1UbmFmMWZjRG4tX2Q1OXhaUW11QzVpRWVSWFM5U2VFMnlKZWNtMkM0UkE?oc=5",
+          "key": "openai to buy python toolmaker astral to take on anthropic::https://news.google.com/rss/articles/cbminafbvv95cuxpstnzq1r6mdvnvnr0y3v0ethtzdjrzxdsvm5vu1lyvmq1rktivuu5r3rdsl9omgozslvya3revdr0d2o2edncz0ttzhvyuhiyshblofpbltdwn2k4dm1mnzmwb09gn2dnena3exoza2fkvc1ubmfmmwzjrg4tx2q1oxhauw11qzvprwvswfm5u2vfmnlkzwntmkm0uke"
+        },
+        {
+          "title": "OpenAI is planning a desktop ‘superapp’",
+          "description": "OpenAI is planning a desktop ‘superapp’ &nbsp;&nbsp; The Verge",
+          "source": "The Verge",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjg5Z3BPaGRMZm5FenFsX3ZQMGRVdEZLS0k0ZzJsSlFBd3FZQmtQZGoxUV90dTVBVXhBbktwc29LS3dHNHE1SFJOVjdXSUIwV29FSWRJLU5XUVpQcVhHZzVma1g0bmNvV3FleFZ0QUNNZVEyYXBkTEduZXJXM1p1cjUtVjJoamROazk0VUR1X19KUi1TUHdPU0Y5OUN6WUZtQWpQUw?oc=5",
+          "key": "openai is planning a desktop superapp::https://news.google.com/rss/articles/cbmipafbvv95cuxqwjg5z3bpagrmzm5fenfsx3zqmgrvdezls0k0zzjsslfbd3fzqmtqzgoxuv90dtvbvxhbbktwc29ls3dhnhe1sfjovjdxsuiwv29fswrjlu5xuvpqcvhhzzvma1g0bmnvv3flefz0qunnzveyyxbkteduzxjxm1p1cjutvjjoamroazk0vur1x19kui1tuhdpu0y5oun6wuztqwpquw"
+        },
+        {
+          "title": "Exclusive | OpenAI Plans Launch of Desktop ‘Superapp’ to Refocus, Simplify User Experience",
+          "description": "Exclusive | OpenAI Plans Launch of Desktop ‘Superapp’ to Refocus, Simplify User Experience &nbsp;&nbsp; WSJ",
+          "source": "WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiswNBVV95cUxPUWpJa1ppQ2hBRUlqSkRiVm9EUE1XTnhyMTRKV3lTLTB4YkhCMjRnZi1OZlRUQ0EzTmVHYjc0OEMtSlpBOF9LS1Y1SGVHUXNzYzBRbWpNYmpTV3V2SXpKeUVFWDgwalpOLUZGZVVNRkRGY0p6ZEtNRXZ5aVJlRWJPXzF6MGsxc0dXMlU0dVZGYkxQcnlzV0NGUmlibnVrOUJ0VWRUOTNUZ3UwVzg0am0tOTJ2U21FUUVLRlZka0xMQmpqYU5qNm1SOENBdXg5R01IbWxGaGcweENzN2laYUtHTVU4MmtQU0tyRWt0aElOQnRkalNSVFNaS0J2NWJzeG5jQjh0S19wck1hdldBNjQ2TndWUVBBWTQ2bXFjUmEtWUppU0l6Vi1TajJrR0tPSjF2SVd6NW41SkJ0R01IZmlFSU9yWmJGNGlKclBtbzY1R3d3a0t0Y2haS0FNRm9BbF9XQUNKR1ZtWU1aTklYQXJ4XzFzTy05YUxoZ1ZrVVF5N2YxUzBJWWUzSTkxTFNYVVkzNHRGZTA3Tk1QMFNPUEV5cFdFUEdiSnM1ZkVJYUVuTEZEUGs?oc=5",
+          "key": "exclusive openai plans launch of desktop superapp to refocus simplify user experience::https://news.google.com/rss/articles/cbmiswnbvv95cuxpuwpja1ppq2hbrulqskrivm9eue1xtnhymtrkv3ltltb4ykhcmjrnzi1ozlruq0eztmvhyjc0oemtslpbof9ls1y1sgvhuxnzyzbrbwpnymptv3v2sxpkeuvfwdgwalpoluzgzvvnrkrgy0p6zetnrxz5avjlrwjpxzf6mgsxc0dxmlu0dvzgykxqcnlzv0ngumlibnvrouj0vwruotnuz3uwvzg0am0totj2u21fuuvlrlzka0xmqmpqyu5qnm1soenbdxg5r01ibwxgagcweenzn2layuthtvu4mmtqu0tyrwt0aeloqnrkalnsvfnas0j2nwjzeg5jqjh0s19wck1hdldbnjq2tndwuvbbwtq2bxfjumetwuppu0l6vi1tajjrr0tpsjf2svd6nw41skj0r01izmlfsu9ywmjgnglkclbtbzy1r3d3a0t0y2has0fnrm9bbf9xqunkr1ztwu1atklyqxj4xzfzty05yuxoz1zrvvf5n2yxuzbjwwuzstkxtfnyvvkznhrgzta3tk1qmfnpuev5cfdfuedisnm1zkvjyuvutezeugs"
+        },
+        {
+          "title": "Google Begins Testing Gemini Mac App to Match ChatGPT and Claude",
+          "description": "Google Begins Testing Gemini Mac App to Match ChatGPT and Claude &nbsp;&nbsp; Bloomberg.com",
+          "source": "Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlA2V2VpYXRMVS1SYkN6a2FGSGxFSzZ0MTcyVVh2LWhhOEFXRFNoY1ZTemVLSl9IbTNoYS0wYlJoY3NudUN5S2htNnNwc0RBalBWM29ic0c1NldjZk5MNGdJUXl2UlRlQUpEckJ3ekxURnFsMEdlaWFyNGE4aFJ2VXcweVFsUGh5aDJUaXE5a3RWaVNrVnVRTXN1SEx0X2sxRVBPb242LTNOUDBaUi05SGJ1emhrQQ?oc=5",
+          "key": "google begins testing gemini mac app to match chatgpt and claude::https://news.google.com/rss/articles/cbmitgfbvv95cuxpqla2v2vpyxrmvs1sykn6a2fgsgxfszz0mtcyvvh2lwhhoefxrfnoy1ztemvlsl9ibtnoys0wyljoy3nudun5s2htnnnwc0rbalbwm29ic0c1nldjzk5mngdjuxl2ulrlqupeckj3ekxurnfsmedlawfynge4afj2vxcwevfsugh5adjuaxe5a3rwavnrvnvrtxn1sex0x2sxrvbpb242ltnoudbaui05sgj1emhrqq"
+        },
+        {
+          "title": "Meta is having trouble with rogue AI agents",
+          "description": "Meta is having trouble with rogue AI agents &nbsp;&nbsp; TechCrunch",
+          "source": "TechCrunch",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3VqSTlFUEFLSzBpY0dQSWhmenJFNXpUYUxOTFlQdFRZbGVobmR4RHB6aVV1QWR2WXBDMy0wU0Rlb203OV9rWVc3WHl3OU41dXV5bnJXMXhPek5xdFh6UjZRQzcwY1phdHBYS1p4MDZtX0w0Um52OF9yajduY0dRX3pUdHg?oc=5",
+          "key": "meta is having trouble with rogue ai agents::https://news.google.com/rss/articles/cbmihafbvv95cuxnx3vqstlfueflszbpy0dqswhmenjfnxpuyuxotflqdfrzbgvobmr4rhb6avv1qwr2wxbdmy0wu0rlb203ov9rwvc3whl3ou41dxv5bnjxmxhpek5xdfh6ujzrqzcwy1phdhbys1p4mdztx0w0um52of9yajduy0drx3pudhg"
+        }
+      ],
+      "publishDecision": {
+        "recommendation": "Publish with verification",
+        "score": 77,
+        "backupScore": 73,
+        "summary": "The lead can work, but verify the source and angle before posting it first."
       },
       "metrics": {
         "newsletterClicks": null,

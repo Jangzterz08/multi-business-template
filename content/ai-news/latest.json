@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T07:38:14.488Z",
+  "generatedAt": "2026-03-20T07:37:20.279Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,100 +14,107 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "Anthropic turns the tables on OpenAI in critical revenue category",
-      "rawTitle": "Anthropic turns the tables on OpenAI in critical revenue category - Axios",
-      "description": "Anthropic turns the tables on OpenAI in critical revenue category &nbsp;&nbsp; Axios",
-      "source": "Axios",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Ta2Z4dnJJTGl6M0lTZjI3NTdkbGRtY3B6YzJpNlp5Rmp5TGsxR3JhcnlQNkFqVlpvcVpRZjRPSWVEN18tZ2ZMTEc5R0dWMUVfY29HeHV5WlI3X2hOZXVVd2R4WFpTRG42RGtNTldwVWxzWGs2LUplYW1oWQ?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 13:54:08 GMT",
-      "score": 42,
-      "ageHours": 17.735135555555555,
+      "title": "OpenAI to buy Python toolmaker Astral to take on Anthropic",
+      "rawTitle": "OpenAI to buy Python toolmaker Astral to take on Anthropic - Reuters",
+      "description": "OpenAI to buy Python toolmaker Astral to take on Anthropic &nbsp;&nbsp; Reuters",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTNzQ1R6MDVNVnR0Y3V0eThTZDJRZXdsVm5VU1lyVmQ1RktIVUU5R3RDSl9OMGozSlVYa3REVDR0d2o2eDNCZ0ttZHVYUHIySHBlOFpBLTdWN2k4dm1MNzMwb09GN2dNenA3eXoza2FKVC1UbmFmMWZjRG4tX2Q1OXhaUW11QzVpRWVSWFM5U2VFMnlKZWNtMkM0UkE?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 14:16:10 GMT",
+      "score": 54,
+      "ageHours": 17.352855277777778,
       "matchedLabels": [
         "OpenAI",
-        "Anthropic"
-      ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, Anthropic."
-    },
-    {
-      "title": "Trump administration defends Anthropic blacklisting in US court",
-      "rawTitle": "Trump administration defends Anthropic blacklisting in US court - Reuters",
-      "description": "Trump administration defends Anthropic blacklisting in US court &nbsp;&nbsp; Reuters",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUZ3RTlDbVRVOUV5WEllRzdxUG9vZEVCOEFtMF85SnlRUFJVMTFzSHdTWXY0WGo2SFgwVjlXdEptemw5cEdCWGY1amF5NmgzTEFldTdWVDZDUTA3dGgxLVJTRWdTdm5VanJnZGtETElwb1RsMW9XanBxcGR0X25aVjh6bjg4eFRjNTVsTk5wY0hTZ1F6MEt3Y0gtdnRqc0hZd3JpdDVYaWJfTDA1QXgxY2tDQQ?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 00:42:00 GMT",
-      "score": 39,
-      "ageHours": 30.937357777777777,
-      "matchedLabels": [
         "Anthropic",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, Anthropic, preferred-source."
     },
     {
-      "title": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User",
-      "rawTitle": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User - Snowflake",
-      "description": "Snowflake Launches Project SnowWork, Bringing Outcome-Driven AI to Every Business User &nbsp;&nbsp; Snowflake",
-      "source": "Snowflake",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWU40akd6R3ZOSmktNDNJR3UySldSRHFsX0hPT0JzaU9aLTVITWhjTW5jeEhYUDJTVU93ejVLUm9YbjBnUjRvd3FlT3o2dkp3bEViV1Uwdk1qdFB0M1RxTXl2U1Zab290eWstYVVnb0RZVTMzNUx5Y1NVc0xMWHdIUl9BbTBoSmppTnZDU1plbWcxSnRRSXB0Vm9GeE1UZWdyeFhsMkYweXJJMW5tR0xNLUMzZkxUMHF3enZ1WmRCSzhuWG8zeG5TakREbXYxTTVl?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 18:03:13 GMT",
-      "score": 38,
-      "ageHours": 13.583746666666666,
+      "title": "OpenAI is planning a desktop ‘superapp’",
+      "rawTitle": "OpenAI is planning a desktop ‘superapp’ - The Verge",
+      "description": "OpenAI is planning a desktop ‘superapp’ &nbsp;&nbsp; The Verge",
+      "source": "The Verge",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjg5Z3BPaGRMZm5FenFsX3ZQMGRVdEZLS0k0ZzJsSlFBd3FZQmtQZGoxUV90dTVBVXhBbktwc29LS3dHNHE1SFJOVjdXSUIwV29FSWRJLU5XUVpQcVhHZzVma1g0bmNvV3FleFZ0QUNNZVEyYXBkTEduZXJXM1p1cjUtVjJoamROazk0VUR1X19KUi1TUHdPU0Y5OUN6WUZtQWpQUw?oc=5",
+      "pubDate": "Fri, 20 Mar 2026 00:09:00 GMT",
+      "score": 54,
+      "ageHours": 7.472299722222222,
       "matchedLabels": [
-        "launch"
+        "OpenAI",
+        "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: launch."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
     },
     {
-      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
-      "rawTitle": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal - WIRED",
-      "description": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal &nbsp;&nbsp; WIRED",
-      "source": "WIRED",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMC05MExiVXJDMEtRcUVpeUhYRHVHLXBpOWpmUzV5MmlIV3FxbUNZMlZRYVloWm5yMHI5Z1c5QzdWdG1qelkzMl9PM1VVdWVrc0lyUVZwVElseFdTd1F1dVB6TEFOLVZVcFJlYktDaHk3Z3FJSHBZX0NrLWtfMjgwY2w2bWpRQlNmWDhF?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 18:01:00 GMT",
-      "score": 35,
-      "ageHours": 13.62069111111111,
+      "title": "Exclusive | OpenAI Plans Launch of Desktop ‘Superapp’ to Refocus, Simplify User Experience",
+      "rawTitle": "Exclusive | OpenAI Plans Launch of Desktop ‘Superapp’ to Refocus, Simplify User Experience - WSJ",
+      "description": "Exclusive | OpenAI Plans Launch of Desktop ‘Superapp’ to Refocus, Simplify User Experience &nbsp;&nbsp; WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiswNBVV95cUxPUWpJa1ppQ2hBRUlqSkRiVm9EUE1XTnhyMTRKV3lTLTB4YkhCMjRnZi1OZlRUQ0EzTmVHYjc0OEMtSlpBOF9LS1Y1SGVHUXNzYzBRbWpNYmpTV3V2SXpKeUVFWDgwalpOLUZGZVVNRkRGY0p6ZEtNRXZ5aVJlRWJPXzF6MGsxc0dXMlU0dVZGYkxQcnlzV0NGUmlibnVrOUJ0VWRUOTNUZ3UwVzg0am0tOTJ2U21FUUVLRlZka0xMQmpqYU5qNm1SOENBdXg5R01IbWxGaGcweENzN2laYUtHTVU4MmtQU0tyRWt0aElOQnRkalNSVFNaS0J2NWJzeG5jQjh0S19wck1hdldBNjQ2TndWUVBBWTQ2bXFjUmEtWUppU0l6Vi1TajJrR0tPSjF2SVd6NW41SkJ0R01IZmlFSU9yWmJGNGlKclBtbzY1R3d3a0t0Y2haS0FNRm9BbF9XQUNKR1ZtWU1aTklYQXJ4XzFzTy05YUxoZ1ZrVVF5N2YxUzBJWWUzSTkxTFNYVVkzNHRGZTA3Tk1QMFNPUEV5cFdFUEdiSnM1ZkVJYUVuTEZEUGs?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 23:31:00 GMT",
+      "score": 52,
+      "ageHours": 8.105633055555556,
       "matchedLabels": [
+        "launch",
         "OpenAI"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: launch, OpenAI."
     },
     {
-      "title": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic",
-      "rawTitle": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic - The New York Times",
-      "description": "Silicon Valley Musters Behind-the-Scenes Support for Anthropic &nbsp;&nbsp; The New York Times",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0d1bm1pa1gwS3ZkbWc0N2lzbnViUFRzR2FkbVVON0dLNXdSX1hhZ19acUJhMExjODB6ejhYb2x5Y1lReXI3Q2Nra3p1OThWXzZ5UzlLcm5fUmV6R0VYckFkSkx2dTlkaFdwNUJrdWFwWHF2dm5WMDNjbXc2Q2VOTU4yNUNXa1VKNDdsOQ?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 19:17:18 GMT",
-      "score": 35,
-      "ageHours": 12.349024444444444,
+      "title": "Google Begins Testing Gemini Mac App to Match ChatGPT and Claude",
+      "rawTitle": "Google Begins Testing Gemini Mac App to Match ChatGPT and Claude - Bloomberg.com",
+      "description": "Google Begins Testing Gemini Mac App to Match ChatGPT and Claude &nbsp;&nbsp; Bloomberg.com",
+      "source": "Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlA2V2VpYXRMVS1SYkN6a2FGSGxFSzZ0MTcyVVh2LWhhOEFXRFNoY1ZTemVLSl9IbTNoYS0wYlJoY3NudUN5S2htNnNwc0RBalBWM29ic0c1NldjZk5MNGdJUXl2UlRlQUpEckJ3ekxURnFsMEdlaWFyNGE4aFJ2VXcweVFsUGh5aDJUaXE5a3RWaVNrVnVRTXN1SEx0X2sxRVBPb242LTNOUDBaUi05SGJ1emhrQQ?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 19:18:00 GMT",
+      "score": 48,
+      "ageHours": 12.322299722222223,
       "matchedLabels": [
-        "Anthropic"
+        "Gemini",
+        "Claude",
+        "Google"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Gemini, Claude, Google."
+    },
+    {
+      "title": "Meta is having trouble with rogue AI agents",
+      "rawTitle": "Meta is having trouble with rogue AI agents - TechCrunch",
+      "description": "Meta is having trouble with rogue AI agents &nbsp;&nbsp; TechCrunch",
+      "source": "TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3VqSTlFUEFLSzBpY0dQSWhmenJFNXpUYUxOTFlQdFRZbGVobmR4RHB6aVV1QWR2WXBDMy0wU0Rlb203OV9rWVc3WHl3OU41dXV5bnJXMXhPek5xdFh6UjZRQzcwY1phdHBYS1p4MDZtX0w0Um52OF9yajduY0dRX3pUdHg?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 23:42:46 GMT",
+      "score": 46,
+      "ageHours": 31.909521944444446,
+      "matchedLabels": [
+        "agents",
+        "Meta",
+        "preferred-source"
+      ],
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: agents, Meta, preferred-source."
     }
   ],
   "publishDecision": {
-    "recommendation": "Switch to backup",
-    "summary": "Trump administration defends Anthropic blacklisting in US court looks like the stronger lead today.",
-    "leadScore": 53,
-    "backupScore": 77,
+    "recommendation": "Publish with verification",
+    "summary": "The lead can work, but verify the source and angle before posting it first.",
+    "leadScore": 77,
+    "backupScore": 73,
     "leadAngle": "industry shift",
-    "backupAngle": "policy signal",
+    "backupAngle": "industry shift",
     "leadStrengths": [
+      "Reuters is treated as a trusted source for the morning stack.",
       "The story is still fresh enough for a morning-led publish.",
-      "The story has multiple AI-specific signals, not just one loose keyword."
+      "The headline has enough AI-specific signal to support strong downstream content."
     ],
     "leadRisks": [
-      "Axios is not on the trusted-source list, so the lead needs stronger verification.",
       "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
     ],
     "backupStrengths": [
-      "Reuters is treated as a trusted source for the morning stack.",
-      "The story is recent enough to stay usable today.",
-      "The story has multiple AI-specific signals, not just one loose keyword.",
-      "policy signal stories are easier to explain clearly than broad industry-shift headlines."
+      "The Verge is treated as a trusted source for the morning stack.",
+      "The story is still fresh enough for a morning-led publish.",
+      "The story has multiple AI-specific signals, not just one loose keyword."
     ],
-    "backupRisks": []
+    "backupRisks": [
+      "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
+    ]
   },
   "performanceMemorySummary": "No completed performance history yet. Using editorial heuristics for now."
 }
