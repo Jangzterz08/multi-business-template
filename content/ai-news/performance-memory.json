@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-21T08:55:41.632Z",
+  "updatedAt": "2026-03-21T08:57:51.544Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -412,55 +412,55 @@
     },
     {
       "date": "2026-03-21",
-      "generatedAt": "2026-03-21T08:55:41.632Z",
+      "generatedAt": "2026-03-21T08:57:51.544Z",
       "voice": "creator",
-      "leadTitle": "Trump releases AI policy for Congress to pre-empt state rules",
+      "leadTitle": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy",
       "leadSource": "Reuters",
-      "leadAngle": "policy signal",
-      "backupTitle": "OpenAI is throwing everything into building a fully automated researcher",
-      "backupSource": "MIT Technology Review",
+      "leadAngle": "industry shift",
+      "backupTitle": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers",
+      "backupSource": "The Information",
       "selectedStories": [
         {
-          "title": "Trump releases AI policy for Congress to pre-empt state rules",
-          "description": "Trump releases AI policy for Congress to pre-empt state rules &nbsp;&nbsp; Reuters",
+          "title": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy",
+          "description": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy &nbsp;&nbsp; Reuters",
           "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWZpamJCdk1QQVpCa2xwRmxsUDBVZk91Q1pybV9kSHE1WTR2WTRlNEdxRHN4UlVULWEzR3NyQjZGaks1V2N1RXhSTzNZcG83SGtHa0pCR0dyWktGWUJMdVlpeVRYOE9WYTYwNjNPcTR1UFJDTUozaWxIazVQY2llcXFXcDdueVdMTEd4TGhrdXU?oc=5",
-          "key": "trump releases ai policy for congress to pre empt state rules::https://news.google.com/rss/articles/cbmikafbvv95cuxncwzpamjcdk1qqvpca2xwrmxsudbvzk91q1pybv9kshe1wtr2wtrlnedxrhn4ulvulwezr3nyqjzgaks1v2n1rxhstznzcg83sgtha0pcr0dywktgwujmdvlpevryoe9wytywnjnpctr1ufjdtuozawxiazvqy2llcxfxcdduevdmted4tghrdxu"
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFJrV0xVbWxrMEFfNDlOYUFlUG1HU29peWJjZkotck9jQkw5VHJPRmxpY2NlUV9YUnVFMEszMHYyVllsdEFwVkk5aF9pdkpHMi0yY1ZhbHBWNmZ3R3RIM0xRTG9rMzdqQVpCa1ZPbEpXS1BxZmlhc2RGbkxELTJkRUV1OUlVWDNKdzdfc0RGQlFmLXM2UHNsYUNMYU1IejVCSEhZSk1HajBNc2J0YkVZWHExMk9RcV8taFFONC1oUVZoYXM?oc=5",
+          "key": "hegseth wants pentagon to dump anthropic s claude but military users say it s not so easy::https://news.google.com/rss/articles/cbmiwwfbvv95cuxosfjrv0xvbwxrmeffndloyuflug1hu29pewjjzkotck9jqkw5vhjprmxpy2nluv9yunvfmeszmhyyvllsdefwvkk5af9pdkphmi0yy1zhbhbwnmz3r3rim0xrtg9rmzdqqvpca1zpbepxs1bxzmlhc2rgbkxeltjkruv1oulvwdnkdzdfc0rgqlfmlxm2uhnsyunmyu1iejvcsehzsk1hajbnc2j0ykvzwhexmk9rcv8taffonc1ouvzoyxm"
         },
         {
-          "title": "OpenAI is throwing everything into building a fully automated researcher",
-          "description": "OpenAI is throwing everything into building a fully automated researcher &nbsp;&nbsp; MIT Technology Review",
-          "source": "MIT Technology Review",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaktiMXBZbHU1WWV0YUw1c3A1RlloQTJXVGd0eEdQTzA4ZUF2YmZzODFtLWhMU0dKXzkxUXFPOXgwalF1bTlmM3Z6d3JhRzdpeDlZZVRRdWFBeHhTd0dfSUhCUWgwcHVDZkctSVlLZEVjLXdzLW02THh2Mi1DM25SbmFTSlNJOFhTOE9XSERHcFRFbUJfSGFSUDhDSFdrZm43S3FIUnRxVjAtaVpQUVZ6dHVaaWpzMDhFS1haakZ6T1BrU3PSAcgBQVVfeXFMUHl0ZFNoeFlESVdmZHJzTmkzWHQxYmxKbV9KazY3NHpZdGtvMFk5c0VVUExCMU82MmpTX1p3RHJjTDR2VlRBZ01tS0R3TWFBYXV3RDdXLXh4N3FWX1hXWnQ4OEpmcW13NWhybktWdXRFRUxfUldNSGlROEVKTHpwUlhMZHFMTEhJT0dTT1NITEFtV2c5QmR5a3VMaDFMY2Z0LXlCclFWS21DWGxmNjBxaWNsYWZVeGxyRm9Zd1NFUm1hVmxPVTdCVVg?oc=5",
-          "key": "openai is throwing everything into building a fully automated researcher::https://news.google.com/rss/articles/cbmiwwfbvv95cuxnaktimxbzbhu1wwv0yuw1c3a1rlloqtjxvgd0eedqtza4zuf2ymzzodftlwhmu0dkxzkxuxfpoxgwalf1btlmm3z6d3jhrzdpedlzzvrrdwfbehhtd0dfsuhcuwgwchvdzkctsvllzevjlxdzlw02thh2mi1dm25sbmftslnjofhtoe9xserhcfrfbujfsgfsudhdsfdrzm43s3fiunrxvjatavpquvz6dhvaawpzmdhfs1haakz6t1bru3psacgbqvvfexfmuhl0zfnoeflesvdmzhjztmkzwhqxymxkbv9kazy3nhpzdgtvmfk5c0vvuexcmu82mmptx1p3rhjjtdr2vlrbz01ts0r3twfbyxv3rddxlxh4n3fwx1hxwnq4oepmcw13nwhybktwdxrfruxfuldnsglroevkthpwulhmzhfmtehjt0dtt1niteftv2c5qmr5a3vmadfmy2z0lxlcclfws21dwgxmnjbxawnsywzvegxyrm9zd1nfum1hvmxpvtdcvvg"
+          "title": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers",
+          "description": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers &nbsp;&nbsp; The Information",
+          "source": "The Information",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGgzdlNpOHYyY1pFbzRsZDZuU2k5d0pYbEVDbUN0OGdPT2ZnWjJqbnFocHhmVEVJTEUyWFk5TGkzMllKU0oxSHd5ZlQ5TGx5a2NmNjJvQ3dXS2MyZ1BXME44WEQ2UWFZaHJrMUE4eWlrU3JaRUhKU3ZtZHZhT0VZYkUteEJkaDhyM0RsTWRYNWVYWHNRNmdSSWZyOXhxOEQ4emdiZHhxLXE1Wnd5R3dn?oc=5",
+          "key": "early anthropic investor develops a grid for ai servers::https://news.google.com/rss/articles/cbmirwfbvv95cuxqnggzdlnpohyyy1pfbzrszdzuu2k5d0pybevdbun0ogdpt2znwjjqbnfochhmvevjteuywfk5tgkzmllku0oxshd5zlq5tgx5a2nmnjjvq3dxs2myz1bxme44weq2uwfzahjrmue4ewlru3jaruhku3ztzhzht0vzykuteejkadhym0rstwrynwvywhnrnmdsswzyoxhxoeq4emdizhhxlxe1wnd5r3dn"
         },
         {
-          "title": "White House releases Trump's national AI plan and framework",
-          "description": "White House releases Trump's national AI plan and framework &nbsp;&nbsp; Axios",
-          "source": "Axios",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83TUdNMTgzVFdRT0F4dE45M2gwb0g1M0lOV21VTE5KbUc0dHEydjBRQlU5bWM5NHo2Z0hsd2R2RU81Rm1VUm1rUkU5cWhMTFE3UG1pdy1hZjdIaHhlQ0VRc2JKelhtV2tSd2Vrc1o3d01xbnhMZUJJ?oc=5",
-          "key": "white house releases trump s national ai plan and framework::https://news.google.com/rss/articles/cbmid0fvx3lxte83tudnmtgzvfdrt0f4de45m2gwb0g1m0lov21vte5kbuc0dheydjbrqlu5bwm5nho2z0hsd2r2ru81rm1vum1ruku5cwhmtfe3ug1pdy1hzjdiahhlq0vrc2jkelhtv2tsd2vrc1o3d01xbnhmzujj"
+          "title": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned",
+          "description": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned &nbsp;&nbsp; WIRED",
+          "source": "WIRED",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQamVhc3FtSndxRHV4a0k0VVZKMjJWaVJObl9UV2VYTWlTTXBwSC1YaEswM2NYLVdzSXJHWWRTejRLSFJYaUVfTnp0am9LYm9lTHo4Rm5kbkNtaGFQSlB0WDNKYllpODNfMUdITU5qVGRCcW1NZy1BaVkybF9XcU04b3lWZWxJdS1oOWNpb1lMX1VDU1dpZGIyOUpJV1VyXzFZSjV3?oc=5",
+          "key": "my ai agent cofounder conquered linkedin then it got banned::https://news.google.com/rss/articles/cbmiowfbvv95cuxqamvhc3ftsndxrhv4a0k0vvzkmjjwavjobl9uv2vytwlttxbwsc1yaeswm2nylvdzsxjhwwrtejrlsfjyauvftnp0am9lym9ltho4rm5kbkntagfqslb0wdnkyllpodnfmuditu5qvgrccw1nzy1bavkybf9xcu04b3lwzwxjds1oownpb1lmx1vdu1dpzgiyoupjv1vyxzfzsjv3"
         },
         {
-          "title": "White House releases AI policy blueprint for Congress",
-          "description": "White House releases AI policy blueprint for Congress &nbsp;&nbsp; Politico",
-          "source": "Politico",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDUtN3VFS0RjZGtKR2J2bUU0cmk3QlFuOVZoWXpsNXo4ZnZ3UGpobnFWZmVrdEthUGJLN21nNVFmU2ZsZXZsbDhNZktJVkxPRTlhNWZsWW1lWG82V3VyX1I2THJzbTA4YjNDRWFGUHJlYVV1Mk5IMzd3Zk51NE9tZFNzWmJPLTRyWExsVTNydE1kMWc0cmhRb2E4b19zeXFSQ2x5cFB3?oc=5",
-          "key": "white house releases ai policy blueprint for congress::https://news.google.com/rss/articles/cbmipgfbvv95cuxnedutn3vfs0rjzgtkr2j2buu0cmk3qlfuovzowxpsnxo4znz3ugpobnfwzmvrdethugjln21nnvfmu2zszxzsbdhnzktjvkxprtlhnwzsww1lwg82v3vyx1i2thjzbta4yjndrwfguhjlyvv1mk5imzd3zk51ne9tzfnzwmjpltrywexsvtnyde1kmwc0cmhrb2e4b19zexfsq2x5cfb3"
+          "title": "Who's most optimistic about AI — and who isn't, according to Anthropic",
+          "description": "Who's most optimistic about AI — and who isn't, according to Anthropic &nbsp;&nbsp; CNBC",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdGlMbXpMSWJvMVk3RWNxREJ2ZWpPb2FCSnlKX1VkM0xqUEFlMGJGS1ZmSl85RzlQNzM0MGx1Y3htelpMYl9tYlB6ZEpZS3I4a081aWp4bGk4WE1saUhSY3ZVdEIzaUVpR0hpV2VlampyUFpyOUlJWHloZ1g0NzVJMkVMaW55ellLUTEtSGJSWmU1X2PSAZgBQVVfeXFMTmpwenNXRjNDR01SLVMzd3B1VGYxY1lXa29MR2t3aXBzVWQ0cklWUmxUQjIwaE5LVkwtdmhyanlWb19zUWdic0t0a0RxSjVtLXgyel9LTno5eWFxbzJBalFrN2MtekczNTZnUldRTVZabUdmV19nUmI3N1VnMF91MEp6NEtxWUVoQWJ0ZVhUUDNDcmE3YUMyUWE?oc=5",
+          "key": "who s most optimistic about ai and who isn t according to anthropic::https://news.google.com/rss/articles/cbmikwfbvv95cuxndglmbxpmswjvmvk3rwnxrej2zwppb2fcsnlkx1vkm0xqueflmgjgs1zmsl85rzlqnzm0mgx1y3htelpmyl9tylb6zepzs3i4a081awp4bgk4we1sauhsy3zvdeizauvpr0hpv2vlampyufpyouljwhloz1g0nzvjmkvmaw55elllutetsgjswmu1x2psazgbqvvfexfmtmpwennxrjndr01slvmzd3b1vgyxy1lxa29mr2t3axbzvwq0cklwumxuqjiwae5lvkwtdmhyanlwb19zuwdic0t0a0rxsjvtlxgyel9ltno5ewfxbzjbalfrn2mtekczntznuldrtvzabudmv19numi3n1vnmf91mep6netxwuvoqwj0zvhuudndcme3yumyuwe"
         },
         {
-          "title": "White House releases AI legislation framework",
-          "description": "White House releases AI legislation framework &nbsp;&nbsp; NBC News",
-          "source": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
-          "key": "white house releases ai legislation framework::https://news.google.com/rss/articles/cbmiuafbvv95cuxqzfznovvkrdhvt0jrd0owownix1ytu1zbtju4txlprglnvxhsrg9hyw1ezlfkmwm1a1jzahngznoyq25wmg5jbw1iu0dvqucwegprndluskfuvxmtse5sslvsu3lkneh1rvbsx0hsnhvzntzgzmz5alhwsnzwbfexbjm2mwj5ynmxyw1srfu3yvnvquxpavfcvfliwjlvwddmejvkmvjmnjhqb2nwvdldytb0eflnr3dy"
+          "title": "'Use a gun': AI chatbots help people plan violence, report says",
+          "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
+          "source": "Mashable",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
+          "key": "use a gun ai chatbots help people plan violence report says::https://news.google.com/rss/articles/cbmiiwfbvv95cuxqy1rnq0zydlzvofbtm3llmjzglvrmdxftwwrotgx5qtrpzw1uqzlrow9sulfmrehkc3rsx0dwzm1oqvutqu5iql9nwjfqelzomehrv1jtqvbtq084ujjezxa1txc5mzexsdfzt0d5cnlqr09vql9ybtiwcletrezwedayb2zndvq2yxzv"
         }
       ],
       "publishDecision": {
-        "recommendation": "Publish lead",
-        "score": 83,
-        "backupScore": 83,
-        "summary": "The lead is strong enough to publish as the main story."
+        "recommendation": "Publish with verification",
+        "score": 71,
+        "backupScore": 67,
+        "summary": "The lead can work, but verify the source and angle before posting it first."
       },
       "metrics": {
         "newsletterClicks": null,

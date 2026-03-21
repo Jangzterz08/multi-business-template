@@ -20,70 +20,70 @@
 ## Lead story
 
 - Voice: Creator
-- Title: Trump releases AI policy for Congress to pre-empt state rules
+- Title: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 - Source: Reuters
-- Positioning: This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.
+- Positioning: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
 
 ## Newsletter package
 
-- Subject line 1: AI Brief 03-21: Trump releases AI policy for Cong…
-- Subject line 2: 5 AI stories today: Reuters to MIT Technology Rev…
-- Intro: This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across Reuters, MIT Technology Review, Axios.
+- Subject line 1: AI Brief 03-21: Hegseth wants Pentagon to dump An…
+- Subject line 2: 5 AI stories today: Reuters to The Information
+- Intro: This morning's AI brief is for people who want the useful signal fast: what changed, what matters, and what to do with it before the feed moves on. This edition is curated across Reuters, The Information, WIRED.
 
 ## Short-form package
 
 - Recommended format: 9:16 vertical clips, about 15 to 45 seconds each.
 - Hook ideas:
-- The AI headline everyone will talk about today: Trump releases AI policy for Congress to pre-empt state rules
-- AI creators should watch this one: OpenAI is throwing everything into building a fully automated researcher
-- AI creators should watch this one: White House releases Trump's national AI plan and framework
+- The AI headline everyone will talk about today: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
+- AI creators should watch this one: Early Anthropic Investor Develops a ‘Grid’ for AI Servers
+- AI creators should watch this one: My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned
 
 ## Story breakdowns
 
-### Story 1: Trump releases AI policy for Congress to pre-empt state rules
+### Story 1: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 - Source: Reuters
-- Published: Fri, 20 Mar 2026 12:28:29 GMT
-- Angle: policy signal
-- Why it matters: Ranked highly because it is very recent and keyword signals: release, preferred-source.
+- Published: Thu, 19 Mar 2026 10:02:21 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is recent and keyword signals: Anthropic, Claude, preferred-source.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.
-- Suggested short-form script: Here is the biggest AI story this morning. Trump releases AI policy for Congress to pre-empt state rules. Source: Reuters. Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend. Use this as a policy signal clip in a 15 to 45 second vertical video.
+- Hook: This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public.
+- Suggested short-form script: Here is the biggest AI story this morning. Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy. Source: Reuters. Why now: frontier AI companies are being pushed to explain where they will and will not work with governments. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 2: OpenAI is throwing everything into building a fully automated researcher
-- Source: MIT Technology Review
-- Published: Fri, 20 Mar 2026 11:57:16 GMT
-- Angle: research milestone
-- Why it matters: Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source.
+### Story 2: Early Anthropic Investor Develops a ‘Grid’ for AI Servers
+- Source: The Information
+- Published: Thu, 19 Mar 2026 17:54:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is recent and keyword signals: Anthropic, preferred-source.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is the research story to watch because these capability shifts usually hit products faster than most people expect.
-- Suggested short-form script: Here is another AI story you should not skip today. OpenAI is throwing everything into building a fully automated researcher. Source: MIT Technology Review. Why now: research stories matter when they point to capability that can soon show up in products, not just papers. Use this as a research milestone clip in a 15 to 45 second vertical video.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. Early Anthropic Investor Develops a ‘Grid’ for AI Servers. Source: The Information. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 3: White House releases Trump's national AI plan and framework
-- Source: Axios
-- Published: Sat, 21 Mar 2026 01:26:16 GMT
-- Angle: product update
-- Why it matters: Ranked highly because it is very recent and keyword signals: release.
+### Story 3: My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned
+- Source: WIRED
+- Published: Fri, 20 Mar 2026 10:00:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is very recent and keyword signals: agents.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is another AI story you should not skip today. White House releases Trump's national AI plan and framework. Source: Axios. Why now: product integrations matter when they move AI capability into tools people already use every day. Use this as a product update clip in a 15 to 45 second vertical video.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned. Source: WIRED. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 4: White House releases AI policy blueprint for Congress
-- Source: Politico
-- Published: Fri, 20 Mar 2026 12:40:13 GMT
-- Angle: policy signal
-- Why it matters: Ranked highly because it is very recent and keyword signals: release.
+### Story 4: Who's most optimistic about AI — and who isn't, according to Anthropic
+- Source: CNBC
+- Published: Fri, 20 Mar 2026 10:15:00 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is very recent and keyword signals: Anthropic.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This reads like a policy headline, but the real story is what it could slow down, block, or force into the open.
-- Suggested short-form script: Here is another AI story you should not skip today. White House releases AI policy blueprint for Congress. Source: Politico. Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend. Use this as a policy signal clip in a 15 to 45 second vertical video.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. Who's most optimistic about AI — and who isn't, according to Anthropic. Source: CNBC. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
-### Story 5: White House releases AI legislation framework
-- Source: NBC News
-- Published: Fri, 20 Mar 2026 13:34:47 GMT
-- Angle: product update
-- Why it matters: Ranked highly because it is very recent and keyword signals: release.
+### Story 5: 'Use a gun': AI chatbots help people plan violence, report says
+- Source: Mashable
+- Published: Sat, 21 Mar 2026 00:49:39 GMT
+- Angle: industry shift
+- Why it matters: Ranked highly because it is very recent.
 - Original take to add: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
-- Hook: This is not just another feature headline. It is the product shift worth paying attention to before everyone copies the summary.
-- Suggested short-form script: Here is another AI story you should not skip today. White House releases AI legislation framework. Source: NBC News. Why now: product integrations matter when they move AI capability into tools people already use every day. Use this as a product update clip in a 15 to 45 second vertical video.
+- Hook: Most people will repost the headline. This is the part of the story actually worth paying attention to.
+- Suggested short-form script: Here is another AI story you should not skip today. 'Use a gun': AI chatbots help people plan violence, report says. Source: Mashable. Why now: broad AI headlines only matter if they change workflow, risk, or advantage in the real world. Use this as a industry shift clip in a 15 to 45 second vertical video.
 
 ## Verification checklist
 

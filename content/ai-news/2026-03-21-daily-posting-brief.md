@@ -4,10 +4,10 @@ Voice: Creator
 
 ## Start here
 
-- Lead story: Trump releases AI policy for Congress to pre-empt state rules
+- Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 - Lead source: Reuters
-- Publish decision: Publish lead
-- Confidence: 83/100
+- Publish decision: Publish with verification
+- Confidence: 71/100
 - First move: Publish the newsletter lead, then the short-form video, then the LinkedIn post.
 - Original angle required: Add one sharp takeaway that turns the story into a decision, warning, or opportunity for the audience.
 

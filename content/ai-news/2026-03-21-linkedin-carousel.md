@@ -2,26 +2,26 @@
 
 Voice: Creator
 
-Lead story: Trump releases AI policy for Congress to pre-empt state rules
+Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 Source: Reuters
 
 ## Slide outline
 
-1. Cover: Trump releases AI policy for Congress to pre-empt state rules
-2. Why this matters: Trump releases AI policy for Congress to pre-empt state rules is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next.
-3. What changed: Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend.
-4. Original take: Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.
+1. Cover: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
+2. Why this matters: The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand.
+3. What changed: Why now: frontier AI companies are being pushed to explain where they will and will not work with governments.
+4. Original take: Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.
 5. So what: explain who should care and what they should watch next.
 6. CTA: ask a simple opinion question to invite comments.
 
 ## Caption
 
-This reads like a policy headline, but the real story is what it could slow down, block, or force into the open. Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.
+This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public. Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.
 
 ## Cover options
 
 1. The AI headline everyone will repost today
-2. The real change behind this move in AI product risk
+2. The real change behind this move in AI workflows
 3. What this AI story actually means for operators
 
 ## Format notes

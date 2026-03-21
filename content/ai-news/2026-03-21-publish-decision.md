@@ -4,28 +4,28 @@ Voice: Creator
 
 ## Recommendation
 
-- Decision: Publish lead
-- Lead score: 83/100
-- Backup score: 83/100
-- Summary: The lead is strong enough to publish as the main story.
+- Decision: Publish with verification
+- Lead score: 71/100
+- Backup score: 67/100
+- Summary: The lead can work, but verify the source and angle before posting it first.
 
 ## Lead review
 
-- Lead story: Trump releases AI policy for Congress to pre-empt state rules
-- Lead angle: policy signal
+- Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
+- Lead angle: industry shift
 - Strength: Reuters is treated as a trusted source for the morning stack.
-- Strength: The story is still fresh enough for a morning-led publish.
-- Strength: The story has multiple AI-specific signals, not just one loose keyword.
-- Strength: policy signal stories are easier to explain clearly than broad industry-shift headlines.
+- Strength: The story is recent enough to stay usable today.
+- Strength: The headline has enough AI-specific signal to support strong downstream content.
+- Risk: The story still reads like a broad industry shift, which can lead to vague content if not tightened.
 
 ## Backup review
 
-- Backup story: OpenAI is throwing everything into building a fully automated researcher
-- Backup angle: research milestone
-- Strength: MIT Technology Review is treated as a trusted source for the morning stack.
-- Strength: The story is still fresh enough for a morning-led publish.
+- Backup story: Early Anthropic Investor Develops a ‘Grid’ for AI Servers
+- Backup angle: industry shift
+- Strength: The Information is treated as a trusted source for the morning stack.
+- Strength: The story is recent enough to stay usable today.
 - Strength: The story has multiple AI-specific signals, not just one loose keyword.
-- Strength: research milestone stories are easier to explain clearly than broad industry-shift headlines.
+- Risk: The story still reads like a broad industry shift, which can lead to vague content if not tightened.
 
 ## Performance memory
 

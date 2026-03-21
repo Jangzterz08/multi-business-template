@@ -1,6 +1,6 @@
 # AI Performance Review for 2026-03-21
 
-Lead story: Trump releases AI policy for Congress to pre-empt state rules
+Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 
 ## Update after posting
 

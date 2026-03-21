@@ -2,26 +2,26 @@
 
 Voice: Creator
 
-Lead story: Trump releases AI policy for Congress to pre-empt state rules
+Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 Source: Reuters
 
 ## Carousel slides
 
-1. Hook slide: Trump releases AI policy for Congress to pre-empt state rules
-2. Why it matters: Trump releases AI policy for Congress to pre-empt state rules is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next.
-3. What changed: Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend.
-4. Original angle: Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.
+1. Hook slide: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
+2. Why it matters: The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand.
+3. What changed: Why now: frontier AI companies are being pushed to explain where they will and will not work with governments.
+4. Original angle: Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.
 5. Save-worthy takeaway: explain what people should watch, test, or do next.
 6. CTA: ask people to comment with their take or save the post for later.
 
 ## Caption
 
-This reads like a policy headline, but the real story is what it could slow down, block, or force into the open. Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.
+This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public. Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.
 
 ## Cover options
 
 1. Most people will miss what this AI story changes
-2. The headline is not the point. The shift in AI product risk is.
+2. The headline is not the point. The shift in AI workflows is.
 3. What this AI headline actually changes next
 
 ## Format notes

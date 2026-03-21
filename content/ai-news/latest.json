@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T08:55:41.632Z",
+  "generatedAt": "2026-03-21T08:57:51.544Z",
   "query": "AI OR \"artificial intelligence\" OR ChatGPT OR OpenAI OR Anthropic OR Gemini when:7d",
   "feedUrl": "https://news.google.com/rss/search?q=AI+OR+%22artificial+intelligence%22+OR+ChatGPT+OR+OpenAI+OR+Anthropic+OR+Gemini+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
   "articleCount": 5,
@@ -14,99 +14,100 @@
   "maxPerSource": 1,
   "articles": [
     {
-      "title": "Trump releases AI policy for Congress to pre-empt state rules",
-      "rawTitle": "Trump releases AI policy for Congress to pre-empt state rules - Reuters",
-      "description": "Trump releases AI policy for Congress to pre-empt state rules &nbsp;&nbsp; Reuters",
+      "title": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy",
+      "rawTitle": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy - Reuters",
+      "description": "Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy &nbsp;&nbsp; Reuters",
       "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWZpamJCdk1QQVpCa2xwRmxsUDBVZk91Q1pybV9kSHE1WTR2WTRlNEdxRHN4UlVULWEzR3NyQjZGaks1V2N1RXhSTzNZcG83SGtHa0pCR0dyWktGWUJMdVlpeVRYOE9WYTYwNjNPcTR1UFJDTUozaWxIazVQY2llcXFXcDdueVdMTEd4TGhrdXU?oc=5",
-      "pubDate": "Fri, 20 Mar 2026 12:28:29 GMT",
-      "score": 49,
-      "ageHours": 20.453508888888887,
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSFJrV0xVbWxrMEFfNDlOYUFlUG1HU29peWJjZkotck9jQkw5VHJPRmxpY2NlUV9YUnVFMEszMHYyVllsdEFwVkk5aF9pdkpHMi0yY1ZhbHBWNmZ3R3RIM0xRTG9rMzdqQVpCa1ZPbEpXS1BxZmlhc2RGbkxELTJkRUV1OUlVWDNKdzdfc0RGQlFmLXM2UHNsYUNMYU1IejVCSEhZSk1HajBNc2J0YkVZWHExMk9RcV8taFFONC1oUVZoYXM?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 10:02:21 GMT",
+      "score": 46,
+      "ageHours": 46.92515111111111,
       "matchedLabels": [
-        "release",
+        "Anthropic",
+        "Claude",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: release, preferred-source."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, Claude, preferred-source."
     },
     {
-      "title": "OpenAI is throwing everything into building a fully automated researcher",
-      "rawTitle": "OpenAI is throwing everything into building a fully automated researcher - MIT Technology Review",
-      "description": "OpenAI is throwing everything into building a fully automated researcher &nbsp;&nbsp; MIT Technology Review",
-      "source": "MIT Technology Review",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaktiMXBZbHU1WWV0YUw1c3A1RlloQTJXVGd0eEdQTzA4ZUF2YmZzODFtLWhMU0dKXzkxUXFPOXgwalF1bTlmM3Z6d3JhRzdpeDlZZVRRdWFBeHhTd0dfSUhCUWgwcHVDZkctSVlLZEVjLXdzLW02THh2Mi1DM25SbmFTSlNJOFhTOE9XSERHcFRFbUJfSGFSUDhDSFdrZm43S3FIUnRxVjAtaVpQUVZ6dHVaaWpzMDhFS1haakZ6T1BrU3PSAcgBQVVfeXFMUHl0ZFNoeFlESVdmZHJzTmkzWHQxYmxKbV9KazY3NHpZdGtvMFk5c0VVUExCMU82MmpTX1p3RHJjTDR2VlRBZ01tS0R3TWFBYXV3RDdXLXh4N3FWX1hXWnQ4OEpmcW13NWhybktWdXRFRUxfUldNSGlROEVKTHpwUlhMZHFMTEhJT0dTT1NITEFtV2c5QmR5a3VMaDFMY2Z0LXlCclFWS21DWGxmNjBxaWNsYWZVeGxyRm9Zd1NFUm1hVmxPVTdCVVg?oc=5",
-      "pubDate": "Fri, 20 Mar 2026 11:57:16 GMT",
-      "score": 47,
-      "ageHours": 20.973786666666665,
+      "title": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers",
+      "rawTitle": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers - The Information",
+      "description": "Early Anthropic Investor Develops a ‘Grid’ for AI Servers &nbsp;&nbsp; The Information",
+      "source": "The Information",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGgzdlNpOHYyY1pFbzRsZDZuU2k5d0pYbEVDbUN0OGdPT2ZnWjJqbnFocHhmVEVJTEUyWFk5TGkzMllKU0oxSHd5ZlQ5TGx5a2NmNjJvQ3dXS2MyZ1BXME44WEQ2UWFZaHJrMUE4eWlrU3JaRUhKU3ZtZHZhT0VZYkUteEJkaDhyM0RsTWRYNWVYWHNRNmdSSWZyOXhxOEQ4emdiZHhxLXE1Wnd5R3dn?oc=5",
+      "pubDate": "Thu, 19 Mar 2026 17:54:00 GMT",
+      "score": 39,
+      "ageHours": 39.06431777777778,
       "matchedLabels": [
-        "OpenAI",
+        "Anthropic",
         "preferred-source"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: OpenAI, preferred-source."
+      "whyItMatters": "Ranked highly because it is recent and keyword signals: Anthropic, preferred-source."
     },
     {
-      "title": "White House releases Trump's national AI plan and framework",
-      "rawTitle": "White House releases Trump's national AI plan and framework - Axios",
-      "description": "White House releases Trump's national AI plan and framework &nbsp;&nbsp; Axios",
-      "source": "Axios",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83TUdNMTgzVFdRT0F4dE45M2gwb0g1M0lOV21VTE5KbUc0dHEydjBRQlU5bWM5NHo2Z0hsd2R2RU81Rm1VUm1rUkU5cWhMTFE3UG1pdy1hZjdIaHhlQ0VRc2JKelhtV2tSd2Vrc1o3d01xbnhMZUJJ?oc=5",
-      "pubDate": "Sat, 21 Mar 2026 01:26:16 GMT",
-      "score": 44,
-      "ageHours": 7.490453333333333,
+      "title": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned",
+      "rawTitle": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned - WIRED",
+      "description": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned &nbsp;&nbsp; WIRED",
+      "source": "WIRED",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQamVhc3FtSndxRHV4a0k0VVZKMjJWaVJObl9UV2VYTWlTTXBwSC1YaEswM2NYLVdzSXJHWWRTejRLSFJYaUVfTnp0am9LYm9lTHo4Rm5kbkNtaGFQSlB0WDNKYllpODNfMUdITU5qVGRCcW1NZy1BaVkybF9XcU04b3lWZWxJdS1oOWNpb1lMX1VDU1dpZGIyOUpJV1VyXzFZSjV3?oc=5",
+      "pubDate": "Fri, 20 Mar 2026 10:00:00 GMT",
+      "score": 36,
+      "ageHours": 22.96431777777778,
       "matchedLabels": [
-        "release"
+        "agents"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: release."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: agents."
     },
     {
-      "title": "White House releases AI policy blueprint for Congress",
-      "rawTitle": "White House releases AI policy blueprint for Congress - Politico",
-      "description": "White House releases AI policy blueprint for Congress &nbsp;&nbsp; Politico",
-      "source": "Politico",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDUtN3VFS0RjZGtKR2J2bUU0cmk3QlFuOVZoWXpsNXo4ZnZ3UGpobnFWZmVrdEthUGJLN21nNVFmU2ZsZXZsbDhNZktJVkxPRTlhNWZsWW1lWG82V3VyX1I2THJzbTA4YjNDRWFGUHJlYVV1Mk5IMzd3Zk51NE9tZFNzWmJPLTRyWExsVTNydE1kMWc0cmhRb2E4b19zeXFSQ2x5cFB3?oc=5",
-      "pubDate": "Fri, 20 Mar 2026 12:40:13 GMT",
-      "score": 37,
-      "ageHours": 20.257953333333333,
+      "title": "Who's most optimistic about AI — and who isn't, according to Anthropic",
+      "rawTitle": "Who's most optimistic about AI — and who isn't, according to Anthropic - CNBC",
+      "description": "Who's most optimistic about AI — and who isn't, according to Anthropic &nbsp;&nbsp; CNBC",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdGlMbXpMSWJvMVk3RWNxREJ2ZWpPb2FCSnlKX1VkM0xqUEFlMGJGS1ZmSl85RzlQNzM0MGx1Y3htelpMYl9tYlB6ZEpZS3I4a081aWp4bGk4WE1saUhSY3ZVdEIzaUVpR0hpV2VlampyUFpyOUlJWHloZ1g0NzVJMkVMaW55ellLUTEtSGJSWmU1X2PSAZgBQVVfeXFMTmpwenNXRjNDR01SLVMzd3B1VGYxY1lXa29MR2t3aXBzVWQ0cklWUmxUQjIwaE5LVkwtdmhyanlWb19zUWdic0t0a0RxSjVtLXgyel9LTno5eWFxbzJBalFrN2MtekczNTZnUldRTVZabUdmV19nUmI3N1VnMF91MEp6NEtxWUVoQWJ0ZVhUUDNDcmE3YUMyUWE?oc=5",
+      "pubDate": "Fri, 20 Mar 2026 10:15:00 GMT",
+      "score": 35,
+      "ageHours": 22.71431777777778,
       "matchedLabels": [
-        "release"
+        "Anthropic"
       ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: release."
+      "whyItMatters": "Ranked highly because it is very recent and keyword signals: Anthropic."
     },
     {
-      "title": "White House releases AI legislation framework",
-      "rawTitle": "White House releases AI legislation framework - NBC News",
-      "description": "White House releases AI legislation framework &nbsp;&nbsp; NBC News",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
-      "pubDate": "Fri, 20 Mar 2026 13:34:47 GMT",
-      "score": 37,
-      "ageHours": 19.34850888888889,
-      "matchedLabels": [
-        "release"
-      ],
-      "whyItMatters": "Ranked highly because it is very recent and keyword signals: release."
+      "title": "'Use a gun': AI chatbots help people plan violence, report says",
+      "rawTitle": "'Use a gun': AI chatbots help people plan violence, report says - Mashable",
+      "description": "'Use a gun': AI chatbots help people plan violence, report says &nbsp;&nbsp; Mashable",
+      "source": "Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY1RNQ0ZydlZVOFBTM3lLMjZGLVRmdXFtWWROTGx5QTRPZW1UQzlrOW9SUlFmREhKc3RSX0dwZm1oQVUtQU5iQl9nWjFqelZOMEhRV1JTQVBTQ084UjJEZXA1TXc5MzExSDFzT0d5cnlQR09VQl9ybTIwclEtREZWeDAyb2ZndVQ2YXZv?oc=5",
+      "pubDate": "Sat, 21 Mar 2026 00:49:39 GMT",
+      "score": 35,
+      "ageHours": 8.136817777777777,
+      "matchedLabels": [],
+      "whyItMatters": "Ranked highly because it is very recent."
     }
   ],
   "publishDecision": {
-    "recommendation": "Publish lead",
-    "summary": "The lead is strong enough to publish as the main story.",
-    "leadScore": 83,
-    "backupScore": 83,
-    "leadAngle": "policy signal",
-    "backupAngle": "research milestone",
+    "recommendation": "Publish with verification",
+    "summary": "The lead can work, but verify the source and angle before posting it first.",
+    "leadScore": 71,
+    "backupScore": 67,
+    "leadAngle": "industry shift",
+    "backupAngle": "industry shift",
     "leadStrengths": [
       "Reuters is treated as a trusted source for the morning stack.",
-      "The story is still fresh enough for a morning-led publish.",
-      "The story has multiple AI-specific signals, not just one loose keyword.",
-      "policy signal stories are easier to explain clearly than broad industry-shift headlines."
+      "The story is recent enough to stay usable today.",
+      "The headline has enough AI-specific signal to support strong downstream content."
     ],
-    "leadRisks": [],
+    "leadRisks": [
+      "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
+    ],
     "backupStrengths": [
-      "MIT Technology Review is treated as a trusted source for the morning stack.",
-      "The story is still fresh enough for a morning-led publish.",
-      "The story has multiple AI-specific signals, not just one loose keyword.",
-      "research milestone stories are easier to explain clearly than broad industry-shift headlines."
+      "The Information is treated as a trusted source for the morning stack.",
+      "The story is recent enough to stay usable today.",
+      "The story has multiple AI-specific signals, not just one loose keyword."
     ],
-    "backupRisks": []
+    "backupRisks": [
+      "The story still reads like a broad industry shift, which can lead to vague content if not tightened."
+    ]
   },
   "performanceMemorySummary": "No completed performance history yet. Using editorial heuristics for now."
 }

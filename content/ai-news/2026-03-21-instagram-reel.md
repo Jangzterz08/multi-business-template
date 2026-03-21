@@ -2,29 +2,29 @@
 
 Voice: Creator
 
-Lead story: Trump releases AI policy for Congress to pre-empt state rules
+Lead story: Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy
 
 ## Reel script
 
-Hook: The biggest AI story this morning is Trump releases AI policy for Congress to pre-empt state rules.
-Body: Trump releases AI policy for Congress to pre-empt state rules is the kind of policy story that quietly changes what AI teams can launch, promise, or risk next.
-Why it matters: Why now: policy pressure matters when it starts changing what companies can ship, promise, or defend.
-Close: Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud. Save this, share it with someone shipping AI products, and comment if more labs will have to draw a line publicly.
+Hook: The biggest AI story this morning is Hegseth wants Pentagon to dump Anthropic's Claude, but military users say it's not so easy.
+Body: The real issue here is not just one contract or one headline. It is what military work does to product positioning, trust, and future government demand.
+Why it matters: Why now: frontier AI companies are being pushed to explain where they will and will not work with governments.
+Close: Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy. Save this if you care about AI workflows, and tell me what part of the story people still are not seeing.
 
 ## Caption
 
-This reads like a policy headline, but the real story is what it could slow down, block, or force into the open. Suggested angle: this matters when it starts changing launch speed, legal exposure, trust with users, or what companies have to say out loud.
+This is not just a Pentagon headline. It is about where AI labs draw their military red lines in public. Suggested angle: the red line is the story. Once labs define military boundaries in public, policy becomes part of product strategy.
 
 ## Alternate hooks
 
-1. Trump releases AI policy for Congress to pre-empt state rules is the headline. Here is the part that matters.
-2. This is what the headline changes for AI product risk.
+1. Hegseth wants Pentagon to dump Anthropic's Claude, but military users s… is the headline. Here is the part that matters.
+2. This is what the headline changes for AI workflows.
 3. Most people will repost this. Here is the actual signal.
 
 ## CTA options
 
-1. Save this, share it with someone shipping AI products, and comment if more labs will have to draw a line publicly.
-2. Share this with someone tracking AI product risk, then tell me what part of the story people are underestimating.
+1. Save this if you care about AI workflows, and tell me what part of the story people still are not seeing.
+2. Share this with someone tracking AI workflows, then tell me what part of the story people are underestimating.
 3. Follow for the next AI story that changes workflow, not just headlines.
 
 ## Reel notes
