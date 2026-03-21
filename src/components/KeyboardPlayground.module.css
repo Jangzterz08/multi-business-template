@@ -1,0 +1,940 @@
+.playground {
+  display: grid;
+  gap: 1.2rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, #fbfdff, #f2f6ff 54%, #eef4ff);
+}
+
+.playgroundDark {
+  background: linear-gradient(180deg, #060d19, #0d1729 58%, #101b31);
+  color: #f2f7ff;
+}
+
+.playgroundFullscreen {
+  min-height: 100dvh;
+  border-radius: 0;
+}
+
+.playgroundKidMode {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  width: 100vw;
+  height: 100dvh;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #fdfefe 0%, #f1f6ff 52%, #edf2ff 100%);
+}
+
+.playgroundKidMode.playgroundDark {
+  background: linear-gradient(180deg, #040913 0%, #091120 52%, #0b1527 100%);
+}
+
+.copy {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 64ch;
+}
+
+.copyKidMode {
+  gap: 0.25rem;
+  max-width: 72ch;
+}
+
+.copyKidMode h2 {
+  font-size: clamp(1.9rem, 4.4vw, 3.3rem);
+}
+
+.copyKidMode p {
+  max-width: 58ch;
+}
+
+.controlBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.controlBarKidMode {
+  position: absolute;
+  top: clamp(0.75rem, 1.8vw, 1rem);
+  right: clamp(0.75rem, 1.8vw, 1rem);
+  justify-self: end;
+  z-index: 5;
+  width: auto;
+  max-width: 100%;
+  padding: 0.35rem;
+  gap: 0.45rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 16px 30px rgba(54, 84, 143, 0.14);
+  backdrop-filter: blur(12px);
+}
+
+.playgroundDark .controlBarKidMode {
+  background: rgba(16, 28, 56, 0.84);
+  box-shadow: 0 18px 34px rgba(1, 8, 21, 0.34);
+}
+
+.controlButton {
+  border: 1px solid var(--color-outline);
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 0.65rem 0.95rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.controlButton:hover,
+.controlButton:focus-visible {
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--color-surface-alt) 86%, white);
+  box-shadow: 0 14px 28px rgba(51, 81, 139, 0.12);
+  outline: none;
+}
+
+.playgroundDark .controlButton {
+  border-color: rgba(145, 171, 222, 0.26);
+  background: rgba(20, 35, 67, 0.9);
+  color: #f3f7ff;
+}
+
+.playgroundDark .controlButton:hover,
+.playgroundDark .controlButton:focus-visible {
+  background: rgba(34, 53, 96, 0.96);
+}
+
+.controlButtonKidMode {
+  min-width: 0;
+  padding: 0.58rem 0.78rem;
+  font-size: 0.83rem;
+}
+
+.primaryModeButton {
+  border: 0;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-strong));
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.7rem 1.1rem;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 16px 28px rgba(255, 128, 86, 0.24);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.primaryModeButton:hover,
+.primaryModeButton:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px rgba(255, 128, 86, 0.3);
+  outline: none;
+}
+
+.kidBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffb74b, #ff7d58);
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.playgroundDark .kidBadge {
+  background: linear-gradient(135deg, #ffb24e, #ff6d5a);
+}
+
+.exitGateButton {
+  position: relative;
+  display: grid;
+  gap: 0.08rem;
+  overflow: hidden;
+  border: 1px solid #ffb892;
+  background: #fff6ee;
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.exitGateButton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 184, 107, 0.8), rgba(255, 118, 92, 0.86));
+  transform-origin: left center;
+  transform: scaleX(0);
+  z-index: 0;
+}
+
+.exitGateButton strong,
+.exitGateButton small {
+  position: relative;
+  z-index: 1;
+}
+
+.exitGateButton small {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.playgroundDark .exitGateButton {
+  border-color: rgba(255, 183, 139, 0.34);
+  background: rgba(32, 25, 26, 0.88);
+  color: #fff7f1;
+}
+
+.playgroundDark .exitGateButton small {
+  color: rgba(255, 232, 216, 0.76);
+}
+
+.exitGateArmed::before {
+  animation: holdFill 1800ms linear forwards;
+}
+
+.volumeControl {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  border: 1px solid var(--color-outline);
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 0.55rem 0.85rem;
+  font-weight: 700;
+}
+
+.volumeControl input {
+  width: 8rem;
+  accent-color: var(--color-accent-strong);
+}
+
+.stage {
+  position: relative;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 1.35rem;
+  border-radius: calc(var(--radius-lg) + 4px);
+  border: 1px solid rgba(215, 225, 245, 0.8);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(243, 247, 255, 0.94));
+  min-height: 26rem;
+}
+
+.stageCalm {
+  background: linear-gradient(180deg, rgba(249, 252, 255, 0.92), rgba(244, 247, 255, 0.98));
+}
+
+.stageDark {
+  border-color: rgba(82, 102, 142, 0.26);
+  background: linear-gradient(180deg, rgba(9, 16, 30, 0.96), rgba(11, 18, 32, 0.98));
+}
+
+.stageKidMode {
+  min-height: 0;
+  height: 100%;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.playgroundDark .stageKidMode {
+  background: transparent;
+}
+
+.stageBackdrop {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.ambientOrb {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(6px);
+  opacity: 0.9;
+}
+
+.ambientOrbOne {
+  top: 8%;
+  left: 8%;
+  width: clamp(9rem, 16vw, 15rem);
+  height: clamp(9rem, 16vw, 15rem);
+  background: radial-gradient(circle, rgba(255, 180, 88, 0.28), transparent 68%);
+}
+
+.ambientOrbTwo {
+  right: 10%;
+  top: 18%;
+  width: clamp(10rem, 18vw, 17rem);
+  height: clamp(10rem, 18vw, 17rem);
+  background: radial-gradient(circle, rgba(91, 186, 255, 0.24), transparent 68%);
+}
+
+.ambientOrbThree {
+  left: 30%;
+  bottom: 10%;
+  width: clamp(11rem, 20vw, 18rem);
+  height: clamp(11rem, 20vw, 18rem);
+  background: radial-gradient(circle, rgba(255, 115, 173, 0.16), transparent 70%);
+}
+
+.playgroundDark .ambientOrbOne {
+  background: radial-gradient(circle, rgba(255, 181, 78, 0.16), transparent 68%);
+}
+
+.playgroundDark .ambientOrbTwo {
+  background: radial-gradient(circle, rgba(112, 187, 255, 0.16), transparent 68%);
+}
+
+.playgroundDark .ambientOrbThree {
+  background: radial-gradient(circle, rgba(171, 141, 255, 0.14), transparent 70%);
+}
+
+.stageTopRow {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(16rem, 21rem) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.mascotCard,
+.noteTrailPanel {
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 18px 36px rgba(71, 113, 192, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.mascotCard {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1rem;
+}
+
+.mascotBadge,
+.trailLabel,
+.streakPill {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.mascotBadge {
+  padding: 0.38rem 0.7rem;
+  background: linear-gradient(135deg, rgba(255, 205, 87, 0.92), rgba(255, 147, 94, 0.96));
+  color: #6a3219;
+}
+
+.mascotRow {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.mascotOrb {
+  display: grid;
+  place-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.94), transparent 28%),
+    linear-gradient(135deg, #ffcf57, #ff8f5a);
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 900;
+  box-shadow: 0 16px 26px rgba(255, 143, 90, 0.24);
+}
+
+.mascotCopy {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.mascotCopy strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--color-text);
+}
+
+.mascotCopy p {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.streakRow {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.streakPill {
+  padding: 0.38rem 0.7rem;
+  background: color-mix(in srgb, var(--color-accent) 18%, white);
+  color: var(--color-text);
+}
+
+.streakMeter {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: rgba(217, 229, 248, 0.72);
+}
+
+.streakMeterFill {
+  display: block;
+  height: 100%;
+  width: var(--streak-fill);
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--color-accent), #ffd45f, #76d9ff);
+  transition: width 220ms ease;
+}
+
+.guardOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2rem);
+  background: rgba(21, 36, 73, 0.36);
+  backdrop-filter: blur(14px);
+}
+
+.guardCard {
+  width: min(100%, 34rem);
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  border-radius: 1.8rem;
+  background:
+    radial-gradient(circle at top left, rgba(255, 218, 115, 0.32), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 250, 255, 0.98));
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  box-shadow: 0 32px 60px rgba(40, 67, 116, 0.24);
+}
+
+.guardBadge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  padding: 0.42rem 0.75rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffd257, #ff9560);
+  color: #673218;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.guardTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.55rem, 2.5vw, 2rem);
+  color: var(--color-text);
+}
+
+.guardText {
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.guardActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.playgroundDark .guardOverlay {
+  background: rgba(4, 10, 22, 0.55);
+}
+
+.playgroundDark .guardCard {
+  background:
+    radial-gradient(circle at top left, rgba(255, 185, 81, 0.18), transparent 30%),
+    linear-gradient(180deg, rgba(18, 29, 55, 0.98), rgba(14, 23, 43, 0.98));
+  border-color: rgba(145, 171, 222, 0.18);
+}
+
+.playgroundDark .guardTitle {
+  color: #f3f7ff;
+}
+
+.playgroundDark .guardText {
+  color: rgba(226, 235, 251, 0.78);
+}
+
+.sky {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.burst {
+  position: absolute;
+  left: var(--burst-left);
+  top: var(--burst-top);
+  width: var(--burst-size);
+  height: var(--burst-size);
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.98), transparent 24%),
+    color-mix(in srgb, var(--burst-accent) 80%, white);
+  color: #ffffff;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.42),
+    0 20px 36px color-mix(in srgb, var(--burst-accent) 24%, transparent);
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(var(--burst-rotation)) scale(0.45);
+}
+
+.burstActive {
+  filter: saturate(1.04);
+}
+
+.ambientPrompt {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  gap: 0.55rem;
+  text-align: center;
+}
+
+.ambientPrompt strong {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  color: var(--color-text);
+}
+
+.ambientPrompt p {
+  max-width: 38rem;
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.playgroundDark .ambientPrompt strong {
+  color: #f4f8ff;
+}
+
+.playgroundDark .ambientPrompt p {
+  color: rgba(225, 234, 248, 0.76);
+}
+
+.stageFooter {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 0.45rem;
+  align-self: end;
+}
+
+.stagePulse,
+.stageMessage,
+.trailLine {
+  margin: 0;
+  text-align: center;
+}
+
+.stagePulse {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  color: var(--color-text);
+}
+
+.stageMessage,
+.trailLine {
+  color: var(--color-text-muted);
+}
+
+.trailLine {
+  font-size: 0.95rem;
+}
+
+.playgroundDark .stagePulse {
+  color: #f4f8ff;
+}
+
+.playgroundDark .stageMessage,
+.playgroundDark .trailLine {
+  color: rgba(225, 234, 248, 0.76);
+}
+
+.starterCard {
+  position: relative;
+  z-index: 1;
+  justify-self: start;
+  display: grid;
+  gap: 0.35rem;
+  max-width: 22rem;
+  padding: 1rem 1.1rem;
+  border-radius: 1.4rem;
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  box-shadow: 0 16px 36px rgba(71, 113, 192, 0.12);
+}
+
+.starterCard strong {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+}
+
+.starterCard p {
+  margin: 0;
+}
+
+.noteTrailPanel {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.trailLabel {
+  padding: 0.36rem 0.68rem;
+  background: color-mix(in srgb, var(--color-surface-alt) 88%, white);
+  color: var(--color-text);
+}
+
+.noteTrail {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  min-height: 3.8rem;
+}
+
+.noteTrailKidMode {
+  min-height: 4.4rem;
+  gap: 0.75rem;
+}
+
+.noteTrailHint {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.noteChip {
+  display: grid;
+  gap: 0.08rem;
+  min-width: 7rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--note-accent) 18%, white);
+  border: 1px solid color-mix(in srgb, var(--note-accent) 40%, white);
+  box-shadow: 0 12px 24px color-mix(in srgb, var(--note-accent) 12%, transparent);
+}
+
+.noteChip strong {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.noteChip small {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
+.padGrid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+  align-self: end;
+  margin-top: auto;
+}
+
+.padGridKidMode {
+  height: 100%;
+  align-self: stretch;
+  margin-top: 0;
+  gap: clamp(0.7rem, 1vw, 1rem);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.pad {
+  display: grid;
+  gap: 0.35rem;
+  min-height: 8.7rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: calc(var(--radius-lg) + 2px);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--pad-accent) 88%, white), color-mix(in srgb, var(--pad-accent) 56%, white)),
+    var(--pad-accent);
+  color: white;
+  text-align: left;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.34),
+    0 18px 34px color-mix(in srgb, var(--pad-accent) 28%, transparent);
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    filter 160ms ease;
+}
+
+.pad:hover,
+.pad:focus-visible {
+  transform: translateY(-3px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 22px 40px color-mix(in srgb, var(--pad-accent) 35%, transparent);
+  filter: saturate(1.08);
+  outline: none;
+}
+
+.padKidMode {
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  padding: 0;
+  align-content: center;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.padKidMode .padLabel,
+.padKidMode .padHint {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.padPulse {
+  width: clamp(3.5rem, 6vw, 5.6rem);
+  height: clamp(3.5rem, 6vw, 5.6rem);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.94), transparent 24%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.04));
+  box-shadow:
+    0 0 0 0.85rem rgba(255, 255, 255, 0.12),
+    0 22px 34px rgba(9, 24, 57, 0.16);
+}
+
+.playgroundDark .padPulse {
+  box-shadow:
+    0 0 0 0.85rem rgba(255, 255, 255, 0.08),
+    0 28px 46px rgba(0, 0, 0, 0.34);
+}
+
+.padActive {
+  transform: translateY(4px) scale(0.985);
+  box-shadow:
+    inset 0 4px 10px rgba(15, 31, 61, 0.16),
+    0 8px 18px color-mix(in srgb, var(--pad-accent) 24%, transparent);
+}
+
+.padLabel {
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 2vw, 2rem);
+  line-height: 1;
+}
+
+.padHint {
+  max-width: 14ch;
+  font-size: 0.96rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.helperRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.helperRowHidden {
+  display: none;
+}
+
+.helperText,
+.keyboardHint,
+.shortcutHint {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.keyboardHint,
+.shortcutHint {
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-surface-alt) 86%, white);
+  border: 1px solid var(--color-outline);
+}
+
+.liveStatus {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.liveStatusHidden {
+  display: none;
+}
+
+.playgroundDark .helperText,
+.playgroundDark .keyboardHint,
+.playgroundDark .shortcutHint,
+.playgroundDark .liveStatus,
+.playgroundDark .noteTrailHint,
+.playgroundDark .mascotCopy p,
+.playgroundDark .trailLabel,
+.playgroundDark .streakPill {
+  color: rgba(231, 238, 250, 0.86);
+}
+
+.playgroundDark .keyboardHint,
+.playgroundDark .shortcutHint,
+.playgroundDark .trailLabel,
+.playgroundDark .streakPill,
+.playgroundDark .noteChip,
+.playgroundDark .mascotCard,
+.playgroundDark .noteTrailPanel,
+.playgroundDark .starterCard {
+  background: rgba(21, 34, 65, 0.82);
+  border-color: rgba(145, 171, 222, 0.18);
+}
+
+.playgroundDark .noteChip strong,
+.playgroundDark .mascotCopy strong,
+.playgroundDark .starterCard strong {
+  color: #f4f8ff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .burst {
+    animation: bubbleUp 850ms ease-out forwards;
+  }
+}
+
+@keyframes bubbleUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--burst-rotation)) scale(0.45);
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -140%) rotate(calc(var(--burst-rotation) + 8deg)) scale(1.05);
+  }
+}
+
+@keyframes holdFill {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 920px) {
+  .stageTopRow {
+    grid-template-columns: 1fr;
+  }
+
+  .padGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pad {
+    min-height: 7.2rem;
+  }
+
+  .controlBarKidMode {
+    width: auto;
+    justify-self: stretch;
+    border-radius: 1.3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .stage {
+    min-height: 20rem;
+    padding: 0.9rem;
+  }
+
+  .guardActions {
+    display: grid;
+  }
+
+  .mascotRow {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .padGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .volumeControl {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .padGridKidMode {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .padKidMode {
+    min-height: 8.4rem;
+  }
+}

@@ -18,7 +18,6 @@ type Notice =
 const initialForm: LeadPayload = {
   name: '',
   email: '',
-  phone: '',
   service: '',
   message: '',
   consent: false
@@ -32,6 +31,22 @@ export function ContactForm({ preset }: ContactFormProps) {
   const formCopy = preset.pageCopy?.form;
 
   const serviceOptions = useMemo(() => preset.services.map((service) => service.name), [preset.services]);
+  const validationCopy = useMemo<LeadFieldErrors>(
+    () => ({
+      name: formCopy?.nameError,
+      email: formCopy?.emailError,
+      service: formCopy?.serviceError,
+      message: formCopy?.messageError,
+      consent: formCopy?.consentError
+    }),
+    [
+      formCopy?.consentError,
+      formCopy?.emailError,
+      formCopy?.messageError,
+      formCopy?.nameError,
+      formCopy?.serviceError
+    ]
+  );
 
   function updateField<K extends keyof LeadPayload>(field: K, value: LeadPayload[K]) {
     setForm((current) => ({
@@ -48,7 +63,7 @@ export function ContactForm({ preset }: ContactFormProps) {
       return;
     }
 
-    if (target.name === 'name' || target.name === 'email' || target.name === 'phone' || target.name === 'service' || target.name === 'message') {
+    if (target.name === 'name' || target.name === 'email' || target.name === 'service' || target.name === 'message') {
       updateField(target.name, target.value);
     }
   }
@@ -57,10 +72,13 @@ export function ContactForm({ preset }: ContactFormProps) {
     event.preventDefault();
     setNotice({ tone: 'idle', text: '' });
 
-    const validation = validateLead(form);
+    const validation = validateLead(form, validationCopy);
     if (hasLeadErrors(validation)) {
       setErrors(validation);
-      setNotice({ tone: 'error', text: 'Please review the highlighted fields and try again.' });
+      setNotice({
+        tone: 'error',
+        text: formCopy?.reviewErrorMessage ?? 'Please review the highlighted fields and try again.'
+      });
       return;
     }
 
@@ -90,12 +108,6 @@ export function ContactForm({ preset }: ContactFormProps) {
           {formCopy?.emailLabel ?? 'Email'}
           <input name="email" type="email" value={form.email} onChange={handleChange} autoComplete="email" />
           {errors.email ? <span className={styles.error}>{errors.email}</span> : null}
-        </label>
-
-        <label>
-          {formCopy?.phoneLabel ?? 'Phone'}
-          <input name="phone" value={form.phone} onChange={handleChange} autoComplete="tel" />
-          {errors.phone ? <span className={styles.error}>{errors.phone}</span> : null}
         </label>
 
         <label>

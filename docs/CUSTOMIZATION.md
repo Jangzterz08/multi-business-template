@@ -2,6 +2,8 @@
 
 This template is designed so buyers can edit one preset config file and avoid component rewrites.
 
+Use Node 22 LTS before running the shared Vite/Vitest scripts in this repo. The current toolchain can hang under Node 24 on macOS instead of failing clearly.
+
 ## Primary edit surface
 
 Preset files:
@@ -16,10 +18,13 @@ Preset files:
 
 - Header brand: `brand.mark`, `businessName`, `tagline`
 - Hero block: `hero.title`, `hero.subtitle`, `hero.primaryCta`, `hero.secondaryCta`
+- Optional interactive home section: `homeExperience.*`
+- Optional full-site translations: `locales.<lang>.*`
 - Services page/cards: `services[]`
 - About page: `about.headline`, `about.story`, `about.values`, `about.founder`, `about.yearsInBusiness`
 - Testimonials: `testimonials[]`
 - Contact card/hours: `contact.*`
+- Leave `contact.phone` and `contact.phoneLink` blank when a preset should be email-only on the shared website chrome and contact page
 - Optional shared route copy overrides: `pageCopy.*`
 - SEO tags: `seo.title`, `seo.description`, `seo.keywords`
 - Theme: `designTokens`
@@ -31,9 +36,12 @@ Preset files:
 2. Replace business copy and service list
 3. Replace contact details and hours
 4. Add `pageCopy` overrides if the default route copy does not fit your business type
-5. Pick or configure form provider
-6. Tune token colors/typography
-7. Preview locally and run smoke tests
+5. Add `homeExperience` if the preset needs the shared keyboard-play section on `/`
+6. Pick or configure form provider
+7. Tune token colors/typography
+8. Preview locally and run smoke tests
+
+If you keep this repo in GitHub, leave `.github/workflows/verify-template.yml` enabled so every pull request re-runs the same Node 22 release gate used for packaging.
 
 ## Branding and token edits
 
@@ -59,12 +67,23 @@ Edit `services` array in preset config:
 
 Use `pageCopy` only when you need to change the language used by the shared pages without forking components.
 
+- `homeExperience`: shared interactive section rendered below the hero when present
+- Shared keyboard-play presets can also trigger immersive kid mode with a parent hold-to-exit gate
+- The shared keyboard playground also includes built-in delight feedback such as floating key bubbles, streak feedback, and recent-key trails
+- Parent-safe keyboard presets can lock kid mode behind fullscreen recovery so losing fullscreen shows a parent-only guard instead of the site
+- `homeExperience.locales`: optional per-locale overrides for title, description, helper text, keyboard hint, and bubble palette labels/hints
+- `locales.<lang>`: optional whole-site preset overrides for hero/about/services/testimonials/contact/form-provider strings
+- Fullscreen kid mode can collapse into a graphics-first one-screen layout with a clean light/dark background and floating character bubbles while keeping parent controls in a compact dock
+- Locale and site-theme switches can live in the header chrome so fullscreen play stays focused on sound and parent controls only
+- Header locale/theme choices persist per preset in `localStorage` unless a buyer removes that shared behavior
+- `pageCopy.navigation`: optional nav labels used by the shared header links
 - `pageCopy.home.metrics`: custom metric cards on `/`
 - `pageCopy.home.featuredTitle` / `featuredDescription`: section above the first cards
 - `pageCopy.services.*`: route heading and the "How it works" list
 - `pageCopy.about.*`: supporting narrative and side-card headings
 - `pageCopy.contact.*`: contact page headings and descriptions
 - `pageCopy.form.*`: input labels, placeholders, consent text, and submit button labels
+- The shared contact form now collects `name`, `email`, `service`, `message`, and `consent` by default
 
 ## Motion and accessibility
 
@@ -83,6 +102,7 @@ VITE_PRESET=education
 Then run:
 
 ```bash
+nvm use 22
 npm run dev
 npm run smoke
 ```
@@ -124,6 +144,7 @@ Store `AI_NEWS_GOOGLE_CLIENT_EMAIL` and `AI_NEWS_GOOGLE_PRIVATE_KEY` in GitHub A
 
 - Deleting required fields from `PresetConfig`
 - Forgetting to update `pageCopy` when repurposing the template for a non-service business
+- Forgetting to update `homeExperience` when repurposing the education preset or another app-style preset
 - Using invalid route paths outside `/, /services, /about, /contact`
 - Setting form provider without endpoint/credentials
 - Forgetting to update `src/presets/index.ts` when adding a new preset

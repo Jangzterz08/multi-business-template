@@ -58,6 +58,32 @@ export interface HeroMetric {
   label: string;
 }
 
+export interface HomeExperiencePad {
+  label: string;
+  hint: string;
+  accent: string;
+}
+
+export type HomeExperienceLocale = 'en' | 'it';
+
+export interface HomeExperienceLocalizedCopy {
+  title?: string;
+  description?: string;
+  helperText?: string;
+  keyboardHint?: string;
+  pads?: HomeExperiencePad[];
+}
+
+export interface HomeExperienceConfig {
+  type: 'keyboard-playground';
+  title: string;
+  description: string;
+  helperText: string;
+  keyboardHint: string;
+  pads: HomeExperiencePad[];
+  locales?: Partial<Record<HomeExperienceLocale, HomeExperienceLocalizedCopy>>;
+}
+
 export interface AboutContent {
   headline: string;
   story: string;
@@ -79,6 +105,13 @@ export interface HomePageCopy {
   featuredCtaLabel?: string;
   testimonialsTitle?: string;
   testimonialsDescription?: string;
+}
+
+export interface NavigationCopy {
+  home?: string;
+  services?: string;
+  about?: string;
+  contact?: string;
 }
 
 export interface ServicesPageCopy {
@@ -111,7 +144,6 @@ export interface ContactPageCopy {
 export interface FormCopy {
   nameLabel?: string;
   emailLabel?: string;
-  phoneLabel?: string;
   serviceLabel?: string;
   servicePlaceholder?: string;
   messageLabel?: string;
@@ -119,9 +151,16 @@ export interface FormCopy {
   consentLabel?: string;
   submitLabel?: string;
   submittingLabel?: string;
+  reviewErrorMessage?: string;
+  nameError?: string;
+  emailError?: string;
+  serviceError?: string;
+  messageError?: string;
+  consentError?: string;
 }
 
 export interface PresetPageCopy {
+  navigation?: NavigationCopy;
   home?: HomePageCopy;
   services?: ServicesPageCopy;
   about?: AboutPageCopy;
@@ -151,12 +190,26 @@ export type FormProviderConfig =
       headers?: Record<string, string>;
     } & SharedFormProviderFields);
 
+export interface PresetLocalization {
+  businessName?: string;
+  tagline?: string;
+  brand?: Partial<BrandInfo>;
+  hero?: Partial<HeroContent>;
+  about?: Partial<AboutContent>;
+  services?: ServiceItem[];
+  testimonials?: Testimonial[];
+  contact?: Partial<ContactInfo>;
+  formProvider?: SharedFormProviderFields;
+  pageCopy?: PresetPageCopy;
+}
+
 export interface PresetConfig {
   id: string;
   businessName: string;
   tagline: string;
   brand: BrandInfo;
   hero: HeroContent;
+  homeExperience?: HomeExperienceConfig;
   about: AboutContent;
   services: ServiceItem[];
   testimonials: Testimonial[];
@@ -165,4 +218,5 @@ export interface PresetConfig {
   designTokens: DesignTokens;
   formProvider: FormProviderConfig;
   pageCopy?: PresetPageCopy;
+  locales?: Partial<Record<HomeExperienceLocale, PresetLocalization>>;
 }

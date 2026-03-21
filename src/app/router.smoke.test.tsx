@@ -3,6 +3,8 @@ import { MemoryRouter } from 'react-router-dom';
 import { AppRoutes } from './AppRoutes';
 import { AppShell } from './AppShell';
 import { PresetProvider } from './PresetContext';
+import { routerFuture } from './routerFuture';
+import { SitePreferencesProvider } from './SitePreferencesContext';
 import { getPresetConfig, presetKeys } from '../presets';
 import { applyDesignTokens } from '../theme/applyDesignTokens';
 import type { RoutePath } from '../types/preset';
@@ -23,16 +25,22 @@ describe('route smoke tests', () => {
 
         render(
           <PresetProvider preset={preset}>
-            <MemoryRouter initialEntries={[expected.path]}>
-              <AppShell>
-                <AppRoutes />
-              </AppShell>
-            </MemoryRouter>
+            <SitePreferencesProvider preset={preset}>
+              <MemoryRouter initialEntries={[expected.path]} future={routerFuture}>
+                <AppShell>
+                  <AppRoutes />
+                </AppShell>
+              </MemoryRouter>
+            </SitePreferencesProvider>
           </PresetProvider>
         );
 
         expect(screen.getByTestId(expected.testId)).toBeInTheDocument();
         expect(screen.getAllByRole('heading', { level: 1 }).length).toBeGreaterThan(0);
+
+        if (expected.path === '/contact') {
+          expect(document.querySelector('input[name="phone"]')).toBeNull();
+        }
       });
     }
   }
