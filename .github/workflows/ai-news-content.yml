@@ -1,4 +1,4 @@
-name: AI News Content Recorder
+name: AI News Sheet Sync
 
 on:
   workflow_dispatch:
@@ -6,11 +6,8 @@ on:
     # Runs every morning at 07:00 UTC.
     - cron: '0 7 * * *'
 
-permissions:
-  contents: write
-
 jobs:
-  record-ai-news:
+  sync-ai-news-sheet:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,31 +17,22 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Record top AI news stories
+      - name: Sync top AI news stories to Google Sheets
         env:
           AI_NEWS_LIMIT: ${{ vars.AI_NEWS_LIMIT }}
           AI_NEWS_QUERY: ${{ vars.AI_NEWS_QUERY }}
           AI_NEWS_LANGUAGE: ${{ vars.AI_NEWS_LANGUAGE }}
           AI_NEWS_REGION: ${{ vars.AI_NEWS_REGION }}
-          AI_TELEGRAM_BOT_TOKEN: ${{ secrets.AI_TELEGRAM_BOT_TOKEN }}
-          AI_TELEGRAM_CHAT_ID: ${{ vars.AI_TELEGRAM_CHAT_ID }}
-          AI_TELEGRAM_SILENT: ${{ vars.AI_TELEGRAM_SILENT }}
-        run: npm run news:record
-
-      - name: Commit digest changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/ai-news
-          if git diff --cached --quiet; then
-            echo "No AI news updates to commit."
-            exit 0
-          fi
-          git commit -m "Add AI news digest for $(date -u +%F)"
-          git push
+          AI_NEWS_PREFERRED_SOURCES: ${{ vars.AI_NEWS_PREFERRED_SOURCES }}
+          AI_NEWS_MAX_PER_SOURCE: ${{ vars.AI_NEWS_MAX_PER_SOURCE }}
+          AI_NEWS_SHEET_ID: ${{ vars.AI_NEWS_SHEET_ID }}
+          AI_NEWS_SHEET_NAME: ${{ vars.AI_NEWS_SHEET_NAME }}
+          AI_NEWS_GOOGLE_CLIENT_EMAIL: ${{ secrets.AI_NEWS_GOOGLE_CLIENT_EMAIL }}
+          AI_NEWS_GOOGLE_PRIVATE_KEY: ${{ secrets.AI_NEWS_GOOGLE_PRIVATE_KEY }}
+        run: npm run news:sheet

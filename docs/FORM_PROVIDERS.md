@@ -2,7 +2,7 @@
 
 Contact form submissions run through a provider adapter selected in each preset config.
 
-Field labels, placeholders, and submit button text can be customized from `preset.pageCopy.form`.
+Field labels, placeholders, submit button text, and validation messages can be customized from `preset.pageCopy.form`.
 
 ## Supported adapters
 
@@ -79,7 +79,6 @@ Frontend validation checks:
 
 - Name
 - Email format
-- Phone format
 - Option selection
 - Message length
 - Consent checkbox
@@ -101,9 +100,11 @@ Preset-level `successMessage` / `errorMessage` can override adapter defaults.
 3. Submit invalid input and confirm field errors
 4. Disable endpoint/keys and verify graceful error copy
 5. Check keyboard navigation/focus behavior
+6. If you customized copy, confirm localized validation messages still match the visible fields
 
 ## Troubleshooting
 
 - `not configured` errors: missing endpoint or API credentials
 - network errors: endpoint unreachable or CORS misconfiguration
 - provider rejects request: verify IDs, template fields, and environment values
+- EmailJS templates: if you previously expected a `phone` variable, remove it or make it optional because the shared form no longer submits that field

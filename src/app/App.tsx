@@ -3,8 +3,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './AppRoutes';
 import { AppShell } from './AppShell';
 import { PresetProvider } from './PresetContext';
+import { routerFuture } from './routerFuture';
+import { SitePreferencesProvider } from './SitePreferencesContext';
 import { getPresetConfig } from '../presets';
-import { applyDesignTokens } from '../theme/applyDesignTokens';
 
 function ensureMeta(name: string): HTMLMetaElement {
   const existing = document.querySelector(`meta[name="${name}"]`);
@@ -22,7 +23,6 @@ export function App() {
   const preset = useMemo(() => getPresetConfig(import.meta.env.VITE_PRESET), []);
 
   useEffect(() => {
-    applyDesignTokens(preset);
     document.title = preset.seo.title;
 
     const description = ensureMeta('description');
@@ -34,11 +34,13 @@ export function App() {
 
   return (
     <PresetProvider preset={preset}>
-      <BrowserRouter>
-        <AppShell>
-          <AppRoutes />
-        </AppShell>
-      </BrowserRouter>
+      <SitePreferencesProvider preset={preset}>
+        <BrowserRouter future={routerFuture}>
+          <AppShell>
+            <AppRoutes />
+          </AppShell>
+        </BrowserRouter>
+      </SitePreferencesProvider>
     </PresetProvider>
   );
 }

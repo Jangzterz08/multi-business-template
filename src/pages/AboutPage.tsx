@@ -1,9 +1,9 @@
 import type { CSSProperties } from 'react';
-import { usePreset } from '../app/usePreset';
+import { useLocalizedPreset } from '../app/useLocalizedPreset';
 import styles from './Page.module.css';
 
 export function AboutPage() {
-  const preset = usePreset();
+  const preset = useLocalizedPreset();
   const aboutCopy = preset.pageCopy?.about;
   const featureParagraphs =
     aboutCopy?.featureParagraphs && aboutCopy.featureParagraphs.length > 0

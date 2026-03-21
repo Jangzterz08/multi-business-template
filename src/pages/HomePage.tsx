@@ -1,14 +1,18 @@
 import type { CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
+import { KeyboardPlayground } from '../components/KeyboardPlayground';
 import { ServiceGrid } from '../components/ServiceGrid';
 import { TestimonialGrid } from '../components/TestimonialGrid';
-import { usePreset } from '../app/usePreset';
+import { useLocalizedPreset } from '../app/useLocalizedPreset';
+import { useSitePreferences } from '../app/SitePreferencesContext';
 import { RestaurantHome } from './RestaurantHome';
 import styles from './Page.module.css';
 
 export function HomePage() {
-  const preset = usePreset();
+  const preset = useLocalizedPreset();
+  const { locale, themeMode } = useSitePreferences();
   const homeCopy = preset.pageCopy?.home;
+  const homeExperience = preset.homeExperience;
   const metrics =
     homeCopy?.metrics && homeCopy.metrics.length > 0
       ? homeCopy.metrics
@@ -48,9 +52,13 @@ export function HomePage() {
         </div>
       </section>
 
+      {homeExperience ? (
+        <KeyboardPlayground experience={homeExperience} locale={locale} visualMode={themeMode} />
+      ) : null}
+
       <section
         className={`${styles.section} panel motionReveal`}
-        style={{ '--reveal-delay': '90ms' } as CSSProperties}
+        style={{ '--reveal-delay': homeExperience ? '150ms' : '90ms' } as CSSProperties}
       >
         <div className={styles.sectionHeading}>
           <h2>{homeCopy?.featuredTitle ?? 'Featured offers'}</h2>
@@ -64,7 +72,7 @@ export function HomePage() {
 
       <section
         className={`${styles.section} panel motionReveal`}
-        style={{ '--reveal-delay': '150ms' } as CSSProperties}
+        style={{ '--reveal-delay': homeExperience ? '210ms' : '150ms' } as CSSProperties}
       >
         <div className={styles.sectionHeading}>
           <h2>{homeCopy?.testimonialsTitle ?? 'What people say'}</h2>

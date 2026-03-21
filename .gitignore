@@ -7,3 +7,6 @@ coverage
 *.log
 .playwright-cli
 .Rhistory
+output
+tmp
+progress.md

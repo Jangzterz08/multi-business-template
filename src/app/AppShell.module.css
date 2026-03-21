@@ -5,6 +5,11 @@
   backdrop-filter: blur(8px);
   background: color-mix(in srgb, var(--color-bg) 84%, white);
   border-bottom: 1px solid var(--color-outline);
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease,
+    background 220ms ease,
+    border-color 220ms ease;
 }
 
 :global(:root[data-preset='restaurant']) .header {
@@ -129,38 +134,87 @@
   background: linear-gradient(140deg, #ff9f45, #ff6b57);
 }
 
-.callPill {
-  border: 1px solid color-mix(in srgb, var(--color-accent) 42%, transparent);
-  background: color-mix(in srgb, var(--color-accent) 10%, white);
-  color: var(--color-accent-strong);
-  padding: 0.48rem 0.85rem;
+.headerControls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.themeToggle,
+.languageOption {
+  border: 1px solid var(--color-outline);
   border-radius: 999px;
-  font-weight: 700;
-  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--color-text);
+  padding: 0.5rem 0.85rem;
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
 }
 
-:global(:root[data-preset='restaurant']) .callPill {
-  border-color: #fe7244;
-  background: linear-gradient(140deg, #ff6335, #d44832);
+.themeToggle:hover,
+.themeToggle:focus-visible,
+.languageOption:hover,
+.languageOption:focus-visible {
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.themeToggle {
+  min-width: 5rem;
+}
+
+.languageSwitch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-outline);
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.languageOption {
+  min-width: 3rem;
+  border-color: transparent;
+  background: transparent;
+  color: var(--color-text-muted);
+}
+
+.languageOptionActive {
+  background: linear-gradient(140deg, var(--color-accent), var(--color-accent-strong));
   color: #fff;
-}
-
-:global(:root[data-preset='education']) .callPill {
-  border-color: #ffd4a6;
-  background: #fff1dd;
-  color: #e35d4d;
 }
 
 .main {
   padding: clamp(1.15rem, 2.3vw, 2.1rem) 0 4rem;
   display: grid;
   gap: 1.4rem;
+  transition:
+    width 220ms ease,
+    max-width 220ms ease,
+    margin 220ms ease,
+    padding 220ms ease,
+    gap 220ms ease;
 }
 
 .footer {
   border-top: 1px solid var(--color-outline);
   margin-top: 2rem;
   padding: 1.2rem 0 2.2rem;
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease,
+    max-height 220ms ease,
+    margin 220ms ease,
+    padding 220ms ease,
+    border-color 220ms ease;
 }
 
 :global(:root[data-preset='restaurant']) .footer {
@@ -171,6 +225,39 @@
 :global(:root[data-preset='education']) .footer {
   border-top-color: #dce8fb;
   background: rgba(255, 255, 255, 0.52);
+}
+
+:global(:root[data-site-theme='dark']) .header {
+  background: rgba(7, 14, 27, 0.9);
+  border-bottom-color: rgba(62, 81, 115, 0.56);
+}
+
+:global(:root[data-site-theme='dark']) .nav {
+  background: rgba(15, 26, 45, 0.88);
+  border-color: rgba(62, 81, 115, 0.6);
+}
+
+:global(:root[data-site-theme='dark']) .navLink {
+  color: rgba(219, 229, 245, 0.8);
+}
+
+:global(:root[data-site-theme='dark']) .themeToggle,
+:global(:root[data-site-theme='dark']) .languageSwitch {
+  background: rgba(15, 26, 45, 0.88);
+  border-color: rgba(62, 81, 115, 0.6);
+}
+
+:global(:root[data-site-theme='dark']) .themeToggle {
+  color: #f4f8ff;
+}
+
+:global(:root[data-site-theme='dark']) .languageOption {
+  color: rgba(203, 218, 241, 0.76);
+}
+
+:global(:root[data-site-theme='dark']) .footer {
+  background: rgba(8, 14, 27, 0.72);
+  border-top-color: rgba(62, 81, 115, 0.42);
 }
 
 .footerInner {
@@ -210,6 +297,31 @@
   color: #d9e0ee;
 }
 
+:global(:root[data-play-mode='kid']) .header {
+  opacity: 0;
+  transform: translateY(-110%);
+  pointer-events: none;
+}
+
+:global(:root[data-play-mode='kid']) .main {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+:global(:root[data-play-mode='kid']) .footer {
+  opacity: 0;
+  transform: translateY(110%);
+  pointer-events: none;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 0;
+  padding: 0;
+  border-top-color: transparent;
+}
+
 @media (max-width: 920px) {
   .headerInner {
     flex-wrap: wrap;
@@ -222,8 +334,9 @@
     justify-content: space-between;
   }
 
-  .callPill {
-    margin-left: auto;
+  .headerControls {
+    width: 100%;
+    justify-content: flex-end;
   }
 }
 

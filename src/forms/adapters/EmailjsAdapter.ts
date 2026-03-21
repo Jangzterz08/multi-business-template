@@ -32,7 +32,6 @@ export class EmailjsAdapter implements FormAdapter {
           template_params: {
             from_name: payload.name,
             reply_to: payload.email,
-            phone: payload.phone,
             service: payload.service,
             message: payload.message,
             consent: payload.consent ? 'Yes' : 'No'

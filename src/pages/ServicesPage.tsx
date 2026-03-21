@@ -1,11 +1,11 @@
 import type { CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
 import { ServiceGrid } from '../components/ServiceGrid';
-import { usePreset } from '../app/usePreset';
+import { useLocalizedPreset } from '../app/useLocalizedPreset';
 import styles from './Page.module.css';
 
 export function ServicesPage() {
-  const preset = usePreset();
+  const preset = useLocalizedPreset();
   const servicesCopy = preset.pageCopy?.services;
   const journeySteps =
     servicesCopy?.journeySteps && servicesCopy.journeySteps.length > 0

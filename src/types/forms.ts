@@ -1,7 +1,6 @@
 export interface LeadPayload {
   name: string;
   email: string;
-  phone: string;
   service: string;
   message: string;
   consent: boolean;
@@ -10,7 +9,6 @@ export interface LeadPayload {
 export interface LeadFieldErrors {
   name?: string;
   email?: string;
-  phone?: string;
   service?: string;
   message?: string;
   consent?: string;

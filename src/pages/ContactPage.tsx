@@ -1,11 +1,12 @@
 import type { CSSProperties } from 'react';
 import { ContactForm } from '../components/ContactForm';
-import { usePreset } from '../app/usePreset';
+import { useLocalizedPreset } from '../app/useLocalizedPreset';
 import styles from './Page.module.css';
 
 export function ContactPage() {
-  const preset = usePreset();
+  const preset = useLocalizedPreset();
   const contactCopy = preset.pageCopy?.contact;
+  const hasPhoneContact = Boolean(preset.contact.phone && preset.contact.phoneLink);
 
   return (
     <>
@@ -32,9 +33,11 @@ export function ContactPage() {
             <p>
               <a href={`mailto:${preset.contact.email}`}>{preset.contact.email}</a>
             </p>
-            <p>
-              <a href={`tel:${preset.contact.phoneLink}`}>{preset.contact.phone}</a>
-            </p>
+            {hasPhoneContact ? (
+              <p>
+                <a href={`tel:${preset.contact.phoneLink}`}>{preset.contact.phone}</a>
+              </p>
+            ) : null}
           </div>
 
           <div className={styles.listCard}>

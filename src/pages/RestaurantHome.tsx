@@ -17,6 +17,8 @@ const foodImages = {
 };
 
 export function RestaurantHome({ preset }: RestaurantHomeProps) {
+  const hasPhoneContact = Boolean(preset.contact.phone && preset.contact.phoneLink);
+
   return (
     <>
       <section data-testid="route-home" className={`${styles.hero} motionReveal`}>
@@ -128,9 +130,11 @@ export function RestaurantHome({ preset }: RestaurantHomeProps) {
           <div className={styles.contactCard}>
             <h3>Reservation Desk</h3>
             <ul>
-              <li>
-                <strong>Phone:</strong> <a href={`tel:${preset.contact.phoneLink}`}>{preset.contact.phone}</a>
-              </li>
+              {hasPhoneContact ? (
+                <li>
+                  <strong>Phone:</strong> <a href={`tel:${preset.contact.phoneLink}`}>{preset.contact.phone}</a>
+                </li>
+              ) : null}
               <li>
                 <strong>Email:</strong> <a href={`mailto:${preset.contact.email}`}>{preset.contact.email}</a>
               </li>

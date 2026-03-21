@@ -8,10 +8,17 @@ Commercial-ready website template built with React + Vite + TypeScript.
 - Five presets: `education`, `restaurant` (Italian), `dental`, `salon`, `gym`
 - Four routes for every preset: `/`, `/services`, `/about`, `/contact`
 - Centralized preset config files for content + theming
+- Optional shared home experience config for interactive app-style presets
+- Education preset includes a full-keyboard kid mode with fullscreen lock, parent-only recovery/exit controls, one-screen graphics-first play, header-level dark/light theme and Italian switches, and floating key bubbles instead of tap pads
+- The header `EN/IT` switch now localizes the full education preset website, not just the playground
+- Site language and theme selections now persist per preset after reloads
+- Education preset playground now centers on a clean stage background where pressed characters rise as bubbles
 - Pluggable contact form adapters: Formspree, EmailJS, Custom endpoint
 - Marketplace-focused docs and release checklists
 
 ## Quick start
+
+Use Node 22 LTS for local development and release checks. In this repo's current toolchain, Node 24 can cause Vite/Vitest startup hangs on macOS.
 
 ```bash
 npm install
@@ -29,16 +36,22 @@ Valid values: `education`, `restaurant`, `dental`, `salon`, `gym`
 
 ## Scripts
 
+- `npm run preflight:node` fail fast when the shell is not using Node 22 LTS
 - `npm run dev` local development
-- `npm run dev:education` preview the kids education preset
-- `npm run build` type-check + production build
+- `npm run dev:education` preview the kids keyboard music preset
+- `npm run build` production build only
 - `npm run preview` preview built app
 - `npm run news:record` fetch and save a top-5 AI news digest to `content/ai-news/`
 - `npm run news:sheet` fetch and append the top AI news stories into Google Sheets
-- `npm run lint` lint TypeScript/React files
-- `npm run typecheck` TypeScript checks only
+- `npm run lint` lint TypeScript/React files through the direct local ESLint entrypoint
+- `npm run typecheck` TypeScript checks for app files only
 - `npm run test` run full test suite
 - `npm run smoke` run route smoke tests only
+
+GitHub Actions:
+
+- `.github/workflows/verify-template.yml` runs the full Node 22 verification gate on pull requests, pushes to `main`, and manual dispatch
+- `.github/workflows/ai-news-content.yml` also uses Node 22 so the scheduled sheet sync matches the repo runtime contract
 
 ## Environment variables
 
@@ -72,8 +85,9 @@ See `.env.example`:
 
 1. Copy one preset folder under `src/presets/`
 2. Update `config.ts` fields, optional `pageCopy`, and `designTokens`
-3. Register new preset in `src/presets/index.ts`
-4. Run `npm run smoke` and confirm all route tests pass
+3. Add optional `homeExperience` when the preset needs the shared keyboard-play section on `/`
+4. Register new preset in `src/presets/index.ts`
+5. Switch to Node 22 LTS, then run `npm run smoke` and confirm all route tests pass
 
 ## Form provider selection
 
@@ -85,6 +99,15 @@ See [docs/FORM_PROVIDERS.md](docs/FORM_PROVIDERS.md) for setup details.
 
 Use optional `pageCopy` fields in a preset when the shared route language needs to fit a different business model.
 
+- `homeExperience`: optional interactive hero-following section for app/product presets
+- Interactive presets can include immersive kid-mode behavior inside the shared home experience
+- Keyboard-play experiences can expose delight-layer UI like floating key bubbles, recent-key trails, streak feedback, and mascot copy without forking the shared component
+- Parent-safe play modes can require fullscreen and remove easy single-key admin shortcuts so ordinary keys stay playable
+- `homeExperience.locales`: optional localized playground copy and bubble palette labels for bilingual interactive presets
+- `locales`: optional full-site preset translations for shared nav labels, hero/about/services/contact copy, testimonials, form copy, and localized form-provider messages
+- `pageCopy.navigation`: optional route labels for the shared header nav
+- Site theme and locale preferences are stored per preset in `localStorage`, so returning visitors keep their last `EN/IT` and `Light/Dark` choice
+- Leave `contact.phone` and `contact.phoneLink` blank if that preset should hide phone links from the shared footer and contact surfaces
 - `pageCopy.home`: hero metrics and home section headings
 - `pageCopy.services`: route badge, title, intro, process steps, CTA label
 - `pageCopy.about`: supporting section heading, paragraphs, and side-card labels

@@ -1,13 +1,15 @@
-import type { RoutePath } from '../types/preset';
+import type { NavigationCopy, RoutePath } from '../types/preset';
 
 export interface NavRoute {
   path: RoutePath;
   label: string;
 }
 
-export const NAV_ROUTES: NavRoute[] = [
-  { path: '/', label: 'Home' },
-  { path: '/services', label: 'Services' },
-  { path: '/about', label: 'About' },
-  { path: '/contact', label: 'Contact' }
-];
+export function getNavRoutes(copy?: NavigationCopy): NavRoute[] {
+  return [
+    { path: '/', label: copy?.home ?? 'Home' },
+    { path: '/services', label: copy?.services ?? 'Services' },
+    { path: '/about', label: copy?.about ?? 'About' },
+    { path: '/contact', label: copy?.contact ?? 'Contact' }
+  ];
+}

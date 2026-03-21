@@ -59,6 +59,13 @@ body {
     linear-gradient(180deg, #fff3d8 0 28%, #f7fbff 100%);
 }
 
+:root[data-site-theme='dark'] body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(88, 151, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 85% 14%, rgba(255, 170, 92, 0.1), transparent 28%),
+    linear-gradient(180deg, #07101d 0%, #0a1525 45%, #0d192b 100%);
+}
+
 img {
   max-width: 100%;
 }
@@ -94,6 +101,12 @@ a {
   text-transform: uppercase;
   padding: 0.45rem 0.75rem;
   font-weight: 700;
+}
+
+:root[data-site-theme='dark'] .pill {
+  background: color-mix(in srgb, var(--color-accent) 18%, rgba(15, 26, 45, 0.92));
+  border-color: color-mix(in srgb, var(--color-accent) 38%, rgba(15, 26, 45, 0.92));
+  color: #f7fbff;
 }
 
 .button {
@@ -138,6 +151,12 @@ a {
   border-color: #ffd4a6;
 }
 
+:root[data-site-theme='dark'] .buttonSecondary {
+  background: rgba(15, 26, 45, 0.88);
+  border-color: var(--color-outline);
+  color: var(--color-text);
+}
+
 .sectionGrid {
   display: grid;
   gap: var(--space-4);
@@ -167,6 +186,10 @@ h3 {
 p {
   margin: 0;
   color: var(--color-text-muted);
+}
+
+:root[data-site-theme='dark'] .panel {
+  background: color-mix(in srgb, var(--color-surface) 92%, #09111f);
 }
 
 ul {
