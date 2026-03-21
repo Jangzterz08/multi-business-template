@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-20T07:37:20.279Z",
+  "updatedAt": "2026-03-21T08:55:41.632Z",
   "history": [
     {
       "date": "2026-03-15",
@@ -407,6 +407,74 @@
         "status": "pending",
         "winningPlatform": "",
         "winningAngle": "industry shift",
+        "notes": ""
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "generatedAt": "2026-03-21T08:55:41.632Z",
+      "voice": "creator",
+      "leadTitle": "Trump releases AI policy for Congress to pre-empt state rules",
+      "leadSource": "Reuters",
+      "leadAngle": "policy signal",
+      "backupTitle": "OpenAI is throwing everything into building a fully automated researcher",
+      "backupSource": "MIT Technology Review",
+      "selectedStories": [
+        {
+          "title": "Trump releases AI policy for Congress to pre-empt state rules",
+          "description": "Trump releases AI policy for Congress to pre-empt state rules &nbsp;&nbsp; Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWZpamJCdk1QQVpCa2xwRmxsUDBVZk91Q1pybV9kSHE1WTR2WTRlNEdxRHN4UlVULWEzR3NyQjZGaks1V2N1RXhSTzNZcG83SGtHa0pCR0dyWktGWUJMdVlpeVRYOE9WYTYwNjNPcTR1UFJDTUozaWxIazVQY2llcXFXcDdueVdMTEd4TGhrdXU?oc=5",
+          "key": "trump releases ai policy for congress to pre empt state rules::https://news.google.com/rss/articles/cbmikafbvv95cuxncwzpamjcdk1qqvpca2xwrmxsudbvzk91q1pybv9kshe1wtr2wtrlnedxrhn4ulvulwezr3nyqjzgaks1v2n1rxhstznzcg83sgtha0pcr0dywktgwujmdvlpevryoe9wytywnjnpctr1ufjdtuozawxiazvqy2llcxfxcdduevdmted4tghrdxu"
+        },
+        {
+          "title": "OpenAI is throwing everything into building a fully automated researcher",
+          "description": "OpenAI is throwing everything into building a fully automated researcher &nbsp;&nbsp; MIT Technology Review",
+          "source": "MIT Technology Review",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaktiMXBZbHU1WWV0YUw1c3A1RlloQTJXVGd0eEdQTzA4ZUF2YmZzODFtLWhMU0dKXzkxUXFPOXgwalF1bTlmM3Z6d3JhRzdpeDlZZVRRdWFBeHhTd0dfSUhCUWgwcHVDZkctSVlLZEVjLXdzLW02THh2Mi1DM25SbmFTSlNJOFhTOE9XSERHcFRFbUJfSGFSUDhDSFdrZm43S3FIUnRxVjAtaVpQUVZ6dHVaaWpzMDhFS1haakZ6T1BrU3PSAcgBQVVfeXFMUHl0ZFNoeFlESVdmZHJzTmkzWHQxYmxKbV9KazY3NHpZdGtvMFk5c0VVUExCMU82MmpTX1p3RHJjTDR2VlRBZ01tS0R3TWFBYXV3RDdXLXh4N3FWX1hXWnQ4OEpmcW13NWhybktWdXRFRUxfUldNSGlROEVKTHpwUlhMZHFMTEhJT0dTT1NITEFtV2c5QmR5a3VMaDFMY2Z0LXlCclFWS21DWGxmNjBxaWNsYWZVeGxyRm9Zd1NFUm1hVmxPVTdCVVg?oc=5",
+          "key": "openai is throwing everything into building a fully automated researcher::https://news.google.com/rss/articles/cbmiwwfbvv95cuxnaktimxbzbhu1wwv0yuw1c3a1rlloqtjxvgd0eedqtza4zuf2ymzzodftlwhmu0dkxzkxuxfpoxgwalf1btlmm3z6d3jhrzdpedlzzvrrdwfbehhtd0dfsuhcuwgwchvdzkctsvllzevjlxdzlw02thh2mi1dm25sbmftslnjofhtoe9xserhcfrfbujfsgfsudhdsfdrzm43s3fiunrxvjatavpquvz6dhvaawpzmdhfs1haakz6t1bru3psacgbqvvfexfmuhl0zfnoeflesvdmzhjztmkzwhqxymxkbv9kazy3nhpzdgtvmfk5c0vvuexcmu82mmptx1p3rhjjtdr2vlrbz01ts0r3twfbyxv3rddxlxh4n3fwx1hxwnq4oepmcw13nwhybktwdxrfruxfuldnsglroevkthpwulhmzhfmtehjt0dtt1niteftv2c5qmr5a3vmadfmy2z0lxlcclfws21dwgxmnjbxawnsywzvegxyrm9zd1nfum1hvmxpvtdcvvg"
+        },
+        {
+          "title": "White House releases Trump's national AI plan and framework",
+          "description": "White House releases Trump's national AI plan and framework &nbsp;&nbsp; Axios",
+          "source": "Axios",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83TUdNMTgzVFdRT0F4dE45M2gwb0g1M0lOV21VTE5KbUc0dHEydjBRQlU5bWM5NHo2Z0hsd2R2RU81Rm1VUm1rUkU5cWhMTFE3UG1pdy1hZjdIaHhlQ0VRc2JKelhtV2tSd2Vrc1o3d01xbnhMZUJJ?oc=5",
+          "key": "white house releases trump s national ai plan and framework::https://news.google.com/rss/articles/cbmid0fvx3lxte83tudnmtgzvfdrt0f4de45m2gwb0g1m0lov21vte5kbuc0dheydjbrqlu5bwm5nho2z0hsd2r2ru81rm1vum1ruku5cwhmtfe3ug1pdy1hzjdiahhlq0vrc2jkelhtv2tsd2vrc1o3d01xbnhmzujj"
+        },
+        {
+          "title": "White House releases AI policy blueprint for Congress",
+          "description": "White House releases AI policy blueprint for Congress &nbsp;&nbsp; Politico",
+          "source": "Politico",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDUtN3VFS0RjZGtKR2J2bUU0cmk3QlFuOVZoWXpsNXo4ZnZ3UGpobnFWZmVrdEthUGJLN21nNVFmU2ZsZXZsbDhNZktJVkxPRTlhNWZsWW1lWG82V3VyX1I2THJzbTA4YjNDRWFGUHJlYVV1Mk5IMzd3Zk51NE9tZFNzWmJPLTRyWExsVTNydE1kMWc0cmhRb2E4b19zeXFSQ2x5cFB3?oc=5",
+          "key": "white house releases ai policy blueprint for congress::https://news.google.com/rss/articles/cbmipgfbvv95cuxnedutn3vfs0rjzgtkr2j2buu0cmk3qlfuovzowxpsnxo4znz3ugpobnfwzmvrdethugjln21nnvfmu2zszxzsbdhnzktjvkxprtlhnwzsww1lwg82v3vyx1i2thjzbta4yjndrwfguhjlyvv1mk5imzd3zk51ne9tzfnzwmjpltrywexsvtnyde1kmwc0cmhrb2e4b19zexfsq2x5cfb3"
+        },
+        {
+          "title": "White House releases AI legislation framework",
+          "description": "White House releases AI legislation framework &nbsp;&nbsp; NBC News",
+          "source": "NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
+          "key": "white house releases ai legislation framework::https://news.google.com/rss/articles/cbmiuafbvv95cuxqzfznovvkrdhvt0jrd0owownix1ytu1zbtju4txlprglnvxhsrg9hyw1ezlfkmwm1a1jzahngznoyq25wmg5jbw1iu0dvqucwegprndluskfuvxmtse5sslvsu3lkneh1rvbsx0hsnhvzntzgzmz5alhwsnzwbfexbjm2mwj5ynmxyw1srfu3yvnvquxpavfcvfliwjlvwddmejvkmvjmnjhqb2nwvdldytb0eflnr3dy"
+        }
+      ],
+      "publishDecision": {
+        "recommendation": "Publish lead",
+        "score": 83,
+        "backupScore": 83,
+        "summary": "The lead is strong enough to publish as the main story."
+      },
+      "metrics": {
+        "newsletterClicks": null,
+        "newsletterReplies": null,
+        "reelHoldRate3s": null,
+        "reelCompletionRate": null,
+        "instagramSaves": null,
+        "linkedinComments": null,
+        "xBookmarks": null
+      },
+      "operatorReview": {
+        "status": "pending",
+        "winningPlatform": "",
+        "winningAngle": "policy signal",
         "notes": ""
       }
     }
